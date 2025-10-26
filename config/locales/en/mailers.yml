@@ -1,129 +1,129 @@
 en:
   mailers:
-    title: "Open Government"
-    no_reply: "This message was sent from an email address that does not accept replies."
+    title: "รัฐบาลเปิด"
+    no_reply: "ข้อความนี้ส่งมาจากที่อยู่อีเมลที่ไม่รับการตอบกลับ"
     already_confirmed:
-      info: "We've received a request to send you instructions to confirm your account. However, your account is already confirmed, so there's no need to do so again."
-      new_password: "If you've forgotten your password, you can reset it at the following link:"
-      subject: Your account is already confirmed
+      info: "เราได้รับคำขอส่งคำแนะนำเพื่อยืนยันบัญชีของคุณ แต่บัญชีของคุณยืนยันแล้ว จึงไม่จำเป็นต้องส่งซ้ำ"
+      new_password: "หากคุณลืมรหัสผ่าน คุณสามารถรีเซ็ตได้ที่ลิงก์ต่อไปนี้:"
+      subject: "บัญชีของคุณยืนยันเรียบร้อยแล้ว"
     comment:
-      hi: Hi
-      new_comment_by: There is a new comment from <strong>%{commenter}</strong>
-      subject: Someone has commented on your %{commentable}
-      title: New comment
+      hi: "สวัสดี"
+      new_comment_by: "มีความคิดเห็นใหม่จาก **%{commenter}**"
+      subject: "มีคนแสดงความคิดเห็นบน %{commentable} ของคุณ"
+      title: "ความคิดเห็นใหม่"
     config:
-      notifications_link: Notifications
-      unsubscribe_text: 'To unsubscribe from these emails, visit %{notifications} and uncheck "%{notification}".'
+      notifications_link: "การแจ้งเตือน"
+      unsubscribe_text: 'หากต้องการยกเลิกการรับอีเมลเหล่านี้ ไปที่ %{notifications} แล้วยกเลิกการเลือก "%{notification}"'
     email_verification:
-      click_here_to_verify: this link
-      instructions_2: This email will verify your account with <b>%{document_type} %{document_number}</b>. If these don't belong to you, please don't click on the previous link and ignore this email.
-      instructions: To complete the verification of your user account you must click %{verification_link}.
-      subject: Confirm your email
-      thanks: Thank you very much.
-      title: "Confirm your email"
-      text: "Confirm your account using the following link."
+      click_here_to_verify: "ลิงก์นี้"
+      instructions_2: "อีเมลฉบับนี้จะยืนยันบัญชีของคุณด้วย **%{document_type} %{document_number}** หากข้อมูลนี้ไม่ใช่ของคุณ กรุณาไม่คลิกและละเลยอีเมลนี้"
+      instructions: "เพื่อยืนยันบัญชีของคุณ กรุณาคลิก %{verification_link}"
+      subject: "ยืนยันอีเมลของคุณ"
+      thanks: "ขอขอบคุณอย่างยิ่ง"
+      title: "ยืนยันอีเมลของคุณ"
+      text: "ยืนยันบัญชีของคุณโดยใช้ลิงก์ต่อไปนี้"
     reply:
-      hi: Hi
-      new_reply_by: There is a new response from <strong>%{commenter}</strong> to your comment on
-      subject: Someone has responded to your comment
-      title: New response to your comment
+      hi: "สวัสดี"
+      new_reply_by: "มีการตอบกลับใหม่จาก **%{commenter}** ต่อความเห็นของคุณ"
+      subject: "มีคนตอบกลับความเห็นของคุณ"
+      title: "การตอบกลับใหม่ต่อความเห็นของคุณ"
     proposal_notification_digest:
-      info: "Here are the new notifications that have been published by authors of the proposals that you have supported in %{org_name}."
-      title: "Proposal notifications in %{org_name}"
-      share: Share proposal
-      comment: Comment proposal
-      unsubscribe_text: "If you don't want to receive any proposal notifications, visit %{notifications} and uncheck 'Receive a summary of proposal notifications'."
-      unfollow: "Visit this proposal and unfollow it to stop receiving notifications."
+      info: "นี่คือการแจ้งเตือนใหม่ที่เผยแพร่โดยผู้เขียนข้อเสนอที่คุณสนับสนุนใน %{org_name}"
+      title: "การแจ้งเตือนข้อเสนอใน %{org_name}"
+      share: แชร์ข้อเสนอ
+      comment: แสดงความคิดเห็นข้อเสนอ
+      unsubscribe_text: "หากคุณไม่ต้องการรับการแจ้งเตือนข้อเสนอใด ๆ โปรดไปที่ %{notifications} และยกเลิกการเลือก 'รับสรุปการแจ้งเตือนข้อเสนอ'"
+      unfollow: "เยี่ยมชมข้อเสนอนี้และเลิกติดตามเพื่อหยุดรับการแจ้งเตือน"
     direct_message_for_receiver:
-      subject: "You have received a new private message"
-      reply: Reply to %{sender}
-      unsubscribe_text: "If you don't want to receive direct messages, visit %{notifications} and uncheck 'Receive emails about direct messages'."
+      subject: "คุณได้รับข้อความส่วนตัวใหม่"
+      reply: ตอบกลับ %{sender}
+      unsubscribe_text: "หากคุณไม่ต้องการรับข้อความส่วนตัว โปรดไปที่ %{notifications} และยกเลิกการเลือก 'รับอีเมลเกี่ยวกับข้อความส่วนตัว'"
     direct_message_for_sender:
-      subject: "You have sent a new private message"
-      title: "You have sent a new private message"
-      text: "You have sent a new private message to <strong>%{receiver}</strong> with the content:"
+      subject: "คุณส่งข้อความส่วนตัวใหม่"
+      title: "คุณส่งข้อความส่วนตัวใหม่"
+      text: "คุณส่งข้อความส่วนตัวใหม่ถึง **%{receiver}** ด้วยเนื้อหา:"
     user_invite:
-      ignore: "If you have not requested this invitation don't worry, you can ignore this email."
-      text: "Thank you for applying to join %{org}! In seconds you can start to participate, just fill the form below:"
-      thanks: "Thank you very much."
-      title: "Welcome to %{org}"
-      button: Complete registration
-      subject: "Invitation to %{org_name}"
+      ignore: "หากคุณไม่ต้องการคำเชิญนี้ ไม่ต้องกังวล คุณสามารถละเลยอีเมลนี้ได้"
+      text: "ขอบคุณที่สมัครเข้าร่วม %{org}! ในไม่กี่วินาที คุณก็สามารถเริ่มเข้าร่วมได้ เพียงกรอกแบบฟอร์มด้านล่างนี้:"
+      thanks: "ขอบคุณมาก"
+      title: "ยินดีต้อนรับสู่ %{org}"
+      button: ลงทะเบียนให้เสร็จสมบูรณ์
+      subject: "คำเชิญเข้าร่วม %{org_name}"
     budget_investment_created:
-      subject: "Thank you for creating an investment!"
-      title: "Thank you for creating an investment!"
-      intro: "Hi <strong>%{author}</strong>,"
-      text: "Thank you for creating your investment <strong>%{investment}</strong> for Participatory Budgets <strong>%{budget}</strong>."
-      follow: "We will inform you about how the process progresses, which you can also follow on <strong>%{link}</strong>."
-      follow_link: "Participatory Budgets"
-      sincerely: "Sincerely,"
-      share: "Share your project"
+      subject: "ขอบคุณที่สร้างการลงทุน!"
+      title: "ขอบคุณที่สร้างการลงทุน!"
+      intro: "สวัสดี **%{author}**,"
+      text: "ขอบคุณที่สร้างการลงทุน **%{investment}** สำหรับงบประมาณแบบมีส่วนร่วม **%{budget}**"
+      follow: "เราจะแจ้งให้คุณทราบว่ากระบวนการมีความคืบหน้าอย่างไร ซึ่งคุณสามารถติดตามได้ที่ **%{link}** ด้วย"
+      follow_link: "งบประมาณแบบมีส่วนร่วม"
+      sincerely: "ขอแสดงความนับถือ"
+      share: "แชร์โครงการของคุณ"
     budget_investment_unfeasible:
-      title: "Your investment project has been marked as unfeasible"
-      hi: "Dear user,"
-      new: "For all these, we invite you to elaborate a <strong>new investment</strong> that adjusts to the conditions of this process. You can do it following this link: %{url}."
-      new_href: "new investment project"
-      sincerely: "Sincerely"
-      sorry: "Sorry for the inconvenience and we again thank you for your invaluable participation."
-      subject: "Your investment project '%{code}' has been marked as unfeasible"
+      title: "โครงการลงทุนของคุณถูกทำเครื่องหมายว่าไม่สามารถทำได้"
+      hi: "เรียน ผู้ใช้,"
+      new: "สำหรับทั้งหมดนี้ เราขอเชิญคุณสร้าง **การลงทุนใหม่** ที่ปรับให้เข้ากับเงื่อนไขของกระบวนการนี้ คุณสามารถทำได้ตามลิงก์นี้: %{url}"
+      new_href: "โครงการลงทุนใหม่"
+      sincerely: "ขอแสดงความนับถือ"
+      sorry: "ขออภัยในความไม่สะดวก และเราขอขอบคุณอีกครั้งสำหรับการมีส่วนร่วมอันล้ำค่าของคุณ"
+      subject: "โครงการลงทุนของคุณ '%{code}' ถูกทำเครื่องหมายว่าไม่สามารถทำได้"
     budget_investment_selected:
-      subject: "Your investment project '%{code}' has been selected"
-      title: "Your investment project has been selected"
-      hi: "Dear user,"
-      share: "Start to get votes, share your investment project on social networks. Share is essential to make it a reality."
-      share_button: "Share your investment project"
-      thanks: "Thank you again for participating."
-      sincerely: "Sincerely"
+      subject: "โครงการลงทุนของคุณ '%{code}' ถูกเลือกแล้ว"
+      title: "โครงการลงทุนของคุณถูกเลือกแล้ว"
+      hi: "เรียน ผู้ใช้,"
+      share: "เริ่มรับคะแนนโหวต แชร์โครงการลงทุนของคุณบนเครือข่ายสังคม การแชร์เป็นสิ่งสำคัญที่จะทำให้โครงการเป็นจริง"
+      share_button: "แชร์โครงการลงทุนของคุณ"
+      thanks: "ขอบคุณอีกครั้งสำหรับการเข้าร่วม"
+      sincerely: "ขอแสดงความนับถือ"
     budget_investment_unselected:
-      subject: "Your investment project '%{code}' has not been selected"
-      title: "Your investment project has not been selected"
-      hi: "Dear user,"
-      thanks: "Thank you again for participating."
-      sincerely: "Sincerely"
+      subject: "โครงการลงทุนของคุณ '%{code}' ไม่ถูกเลือก"
+      title: "โครงการลงทุนของคุณไม่ถูกเลือก"
+      hi: "เรียน ผู้ใช้,"
+      thanks: "ขอบคุณอีกครั้งสำหรับการเข้าร่วม"
+      sincerely: "ขอแสดงความนับถือ"
     evaluation_comment:
-      subject: "New evaluation comment"
-      title: New evaluation comment for %{investment}
-      hi: Hi
-      new_comment_by: There is a new evaluation comment from <strong>%{commenter}</strong> to the budget investment %{investment}
+      subject: "ความคิดเห็นการประเมินใหม่"
+      title: ความคิดเห็นการประเมินใหม่สำหรับ %{investment}
+      hi: สวัสดี
+      new_comment_by: มีความคิดเห็นการประเมินใหม่จาก **%{commenter}** สำหรับการลงทุนด้านงบประมาณ %{investment}
       commenter_info: "%{commenter}, %{time}:"
     machine_learning_error:
-      link: "Visit Machine Learning panel"
-      subject: "Machine Learning - An error has occurred running the script"
-      text: "An error has occurred running the Machine Learning script."
-      title: "Machine Learning script"
+      link: "เยี่ยมชมแผง Machine Learning"
+      subject: "Machine Learning - เกิดข้อผิดพลาดในการรันสคริปต์"
+      text: "เกิดข้อผิดพลาดในการรันสคริปต์ Machine Learning"
+      title: "สคริปต์ Machine Learning"
     machine_learning_success:
-      link: "Visit Machine Learning panel"
-      subject: "Machine Learning - Content has been generated successfully"
-      text: "Content has been generated successfully."
-      title: "Machine Learning script"
+      link: "เยี่ยมชมแผง Machine Learning"
+      subject: "Machine Learning - สร้างเนื้อหาสำเร็จแล้ว"
+      text: "สร้างเนื้อหาสำเร็จแล้ว"
+      title: "สคริปต์ Machine Learning"
     new_actions_notification_on_create:
-      subject: "Your draft citizen proposal is created"
-      hi: "Hi %{name}!"
-      introduction: "Your %{title} proposal has been successfully created."
-      text_1: "Take advantage that your proposal is not public yet and get ready to contact a lot of people."
-      text_2: "When you are ready publish your citizen proposal from this <a href='%{link}'>link</a>."
-      text_3: "We know that creating a proposal with a hook and getting the necessary support can seem complicated. But don't worry because we are going to help you!"
-      text_4: "You have a tool that will be your new best ally: The Citizen Proposals panel."
-      list_1: "Enter every day in the panel of your proposal to use the tips and resources that we will share with you."
-      list_2: "These tips, actions and resources will give you ideas and also practical solutions to get more support and a wider community. Dont forget them!"
-      list_3: "As you gain more support, you will unlock new and better resources. At the moment, you have an e-mail template to send massively to all your contacts, a poster to print, among other features and rewards that you will discover. Dont stop adding support and we will not stop rewarding and helping you!"
-      list_4: "You have %{max_month} months since you publish the proposal to get %{max_votes} support and your proposal can become a reality. But the first days are the most important. It is a challenge. Get ready!"
-      text_5: "And for you to start with all the motivation,"
-      text_6: "here you have several resources and a whole list of tips that will come to you every day to prepare the broadcast!"
-      dashboard_button: "Go ahead, discover them!"
+      subject: "สร้างฉบับร่างข้อเสนอของพลเมืองของคุณแล้ว"
+      hi: "สวัสดี %{name}!"
+      introduction: "ข้อเสนอ %{title} ของคุณถูกสร้างสำเร็จแล้ว"
+      text_1: "ใช้ประโยชน์ที่ข้อเสนอของคุณยังไม่เป็นสาธารณะและเตรียมพร้อมที่จะติดต่อผู้คนจำนวนมาก"
+      text_2: "เมื่อคุณพร้อม ให้เผยแพร่ข้อเสนอของพลเมืองของคุณจาก <a href='%{link}'>ลิงก์นี้</a>"
+      text_3: "เราทราบดีว่าการสร้างข้อเสนอที่น่าสนใจและการได้รับการสนับสนุนที่จำเป็นอาจดูซับซ้อน แต่ไม่ต้องกังวลเพราะเราจะช่วยคุณ!"
+      text_4: "คุณมีเครื่องมือที่จะเป็นพันธมิตรที่ดีที่สุดคนใหม่ของคุณ: แผงข้อเสนอของพลเมือง"
+      list_1: "เข้าสู่แผงข้อเสนอของคุณทุกวันเพื่อใช้เคล็ดลับและทรัพยากรที่เราจะแบ่งปันกับคุณ"
+      list_2: "เคล็ดลับ การดำเนินการ และทรัพยากรเหล่านี้จะให้แนวคิดและแนวทางแก้ไขที่เป็นประโยชน์เพื่อให้ได้รับการสนับสนุนมากขึ้นและชุมชนที่กว้างขึ้น อย่าลืมมัน!"
+      list_3: "เมื่อคุณได้รับการสนับสนุนมากขึ้น คุณจะปลดล็อกทรัพยากรใหม่และดีกว่า ในขณะนี้ คุณมีเทมเพลตอีเมลเพื่อส่งถึงผู้ติดต่อทั้งหมดของคุณ โปสเตอร์สำหรับพิมพ์ และคุณสมบัติและรางวัลอื่น ๆ ที่คุณจะค้นพบ อย่าหยุดเพิ่มการสนับสนุน และเราจะไม่หยุดให้รางวัลและช่วยเหลือคุณ!"
+      list_4: "คุณมีเวลา %{max_month} เดือนนับตั้งแต่คุณเผยแพร่ข้อเสนอเพื่อรับการสนับสนุน %{max_votes} และข้อเสนอของคุณสามารถกลายเป็นจริงได้ แต่วันแรก ๆ เป็นวันที่สำคัญที่สุด นี่คือความท้าทาย เตรียมพร้อม!"
+      text_5: "และเพื่อให้คุณเริ่มต้นด้วยแรงจูงใจทั้งหมด"
+      text_6: "ที่นี่คุณมีทรัพยากรหลายอย่างและรายการเคล็ดลับทั้งหมดที่จะมาถึงคุณทุกวันเพื่อเตรียมการเผยแพร่!"
+      dashboard_button: "ไปเลย ค้นพบมัน!"
     new_actions_notification_on_published:
-      subject: "Your citizen proposal is already published. Don't stop spreading!"
-      hi: "Congratulations %{name}! Your proposal %{title} has been created successfully."
-      text_1: "And now, go for your first 100 supports!"
-      text_2: "Why 100?"
-      text_3: "Our experience tells us that the first day is fundamental. Because in addition to having the energy to launch something new, being a newly published proposal, you will have the important visibility of being among the new proposals highlighted."
-      text_4: "Get 100 supports on the first day, and you will have a first community to back you up."
-      text_5: "That is why we challenge you to get it, but not without a lot of help!"
-      text_6: "Remember that in your Proposal Panel you have new resources available and recommendations for dissemination actions."
-      list_1: "Come in every day to see your progress and use the tips and resources we will share with you. They are ideas and also practical solutions to get the support you need."
-      list_2: "As you get more support, you will unlock new and better resources. Do not stop adding support and we will not stop rewarding and helping you!"
-      text_7: "And for you to start at full speed..."
-      text_8: "Here is a great resource at your disposal!"
-      text_9: "You will also find this new recommended dissemination action..."
-      text_10: "You sure have more resources to use!"
-      dashboard_button: "Go ahead, discover them!"
+      subject: "ข้อเสนอของพลเมืองของคุณเผยแพร่แล้ว อย่าหยุดเผยแพร่!"
+      hi: "ขอแสดงความยินดี %{name}! ข้อเสนอ %{title} ของคุณถูกสร้างสำเร็จแล้ว"
+      text_1: "และตอนนี้ ไปรับการสนับสนุน 100 รายการแรกของคุณ!"
+      text_2: "ทำไมต้อง 100?"
+      text_3: "ประสบการณ์ของเราบอกเราว่าวันแรกเป็นสิ่งสำคัญ เพราะนอกจากการมีพลังงานในการเปิดตัวสิ่งใหม่แล้ว ในฐานะข้อเสนอที่เพิ่งเผยแพร่ คุณจะมีการมองเห็นที่สำคัญในการเป็นหนึ่งในข้อเสนอใหม่ที่ถูกเน้น"
+      text_4: "รับการสนับสนุน 100 รายการในวันแรก และคุณจะมีชุมชนแรกที่สนับสนุนคุณ"
+      text_5: "นั่นเป็นเหตุผลที่เราท้าทายให้คุณได้รับมัน แต่ไม่ใช่โดยไม่มีความช่วยเหลือมากมาย!"
+      text_6: "จำไว้ว่าในแผงข้อเสนอของคุณ คุณมีทรัพยากรใหม่ ๆ และคำแนะนำสำหรับการดำเนินการเผยแพร่"
+      list_1: "เข้ามาทุกวันเพื่อดูความคืบหน้าของคุณและใช้เคล็ดลับและทรัพยากรที่เราจะแบ่งปันกับคุณ พวกเขาเป็นแนวคิดและแนวทางแก้ไขที่เป็นประโยชน์เพื่อให้ได้รับการสนับสนุนที่คุณต้องการ"
+      list_2: "เมื่อคุณได้รับการสนับสนุนมากขึ้น คุณจะปลดล็อกทรัพยากรใหม่และดีกว่า อย่าหยุดเพิ่มการสนับสนุน และเราจะไม่หยุดให้รางวัลและช่วยเหลือคุณ!"
+      text_7: "และเพื่อให้คุณเริ่มต้นด้วยความเร็วเต็มที่..."
+      text_8: "นี่คือทรัพยากรที่ยอดเยี่ยมที่คุณสามารถใช้ได้!"
+      text_9: "คุณจะพบการดำเนินการเผยแพร่ที่แนะนำใหม่นี้ด้วย..."
+      text_10: "คุณแน่ใจว่ามีทรัพยากรอื่น ๆ ให้ใช้!"
+      dashboard_button: "ไปเลย ค้นพบมัน!"

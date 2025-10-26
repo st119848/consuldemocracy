@@ -2,21 +2,21 @@ en:
   helpers:
     page_entries_info:
       entry:
-        one: Entry
-        other: Entries
-        zero: Entries
+        one: รายการ
+        other: รายการ
+        zero: รายการ
       more_pages:
-        display_entries: Displaying <strong>%{first}&nbsp;-&nbsp;%{last}</strong> of <strong>%{total} %{entry_name}</strong>
+        display_entries: กำลังแสดง <strong>%{first}&nbsp;-&nbsp;%{last}</strong> จาก <strong>%{total} %{entry_name}</strong>
       one_page:
         display_entries:
-          one: There is <strong>1 %{entry_name}</strong>
-          other: There are <strong>%{count} %{entry_name}</strong>
-          zero: "%{entry_name} cannot be found"
+          one: มี <strong>1 %{entry_name}</strong>
+          other: มี <strong>%{count} %{entry_name}</strong>
+          zero: "ไม่พบ %{entry_name}"
   views:
     pagination:
-      current: You're on page
-      first: First
-      last: Last
-      next: Next
-      previous: Previous
+      current: คุณอยู่ในหน้า
+      first: หน้าแรก
+      last: หน้าสุดท้าย
+      next: ถัดไป
+      previous: ก่อนหน้า
       truncate: "&hellip;"

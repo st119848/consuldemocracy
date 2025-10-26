@@ -1,83 +1,83 @@
 en:
   pages:
     census_terms:
-      title: "Terms and conditions of access of the Census"
-      description: "Information page on the terms and conditions of access of the Census."
+      title: "ข้อกำหนดและเงื่อนไขการเข้าถึงข้อมูลสำมะโน"
+      description: "หน้าข้อมูลเกี่ยวกับข้อกำหนดและเงื่อนไขการเข้าถึงข้อมูลสำมะโน"
     conditions:
-      title: Terms and conditions of use
-      subtitle: LEGAL NOTICE ON THE CONDITIONS OF USE, PRIVACY AND PROTECTION OF PERSONAL DATA OF THE OPEN GOVERNMENT PORTAL
-      description: Information page on the conditions of use, privacy and protection of personal data.
+      title: "ข้อกำหนดและเงื่อนไขการใช้งาน"
+      subtitle: "ข้อกำหนดทางกฎหมายเกี่ยวกับการใช้งาน ความเป็นส่วนตัว และการคุ้มครองข้อมูลส่วนบุคคลของพอร์ทัลรัฐบาลเปิด"
+      description: "หน้าข้อมูลเกี่ยวกับข้อกำหนดการใช้งาน ความเป็นส่วนตัว และการคุ้มครองข้อมูลส่วนบุคคล"
     help:
-      title: "%{org} is a platform for citizen participation"
-      guide: "This guide explains what each of the %{org} sections are for and how they work."
+      title: "%{org} คือแพลตฟอร์มสำหรับการมีส่วนร่วมของประชาชน"
+      guide: "คู่มือนี้อธิบายว่าแต่ละส่วนของ %{org} มีไว้เพื่ออะไรและทำงานอย่างไร"
       menu:
-        debates: "Debates"
-        proposals: "Proposals"
-        budgets: "Participatory budgets"
-        polls: "Polls"
-        other: "Other information of interest"
-        processes: "Processes"
+        debates: "การอภิปราย"
+        proposals: "ข้อเสนอ"
+        budgets: "งบประมาณมีส่วนร่วม"
+        polls: "แบบสำรวจ"
+        other: "ข้อมูลอื่นที่น่าสนใจ"
+        processes: "กระบวนการ"
       debates:
-        title: "Debates"
-        description: "In the %{link} section you can present and share your opinion with other people on issues of concern to you related to the city. It is also a place to generate ideas that through the other sections of %{org} lead to concrete actions by the City Council."
-        link: "citizen debates"
-        feature: "You can open debates, comment and evaluate them with the <strong>I agree</strong> or <strong>I don't agree</strong>. For that you have to %{link}."
-        feature_link: "register in %{org}"
-        image_alt: "Buttons to rate the debates"
-        figcaption: '"I agree" and "I disagree" buttons to rate the debates.'
+        title: "การอภิปราย"
+        description: "ในส่วน %{link} คุณสามารถนำเสนอและแลกเปลี่ยนความคิดเห็นกับผู้อื่นเกี่ยวกับประเด็นที่คุณสนใจเกี่ยวกับเมือง นอกจากนี้ยังเป็นที่สร้างไอเดียที่ผ่านส่วนอื่น ๆ ของ %{org} ไปสู่การปฏิบัติของสภาเมือง"
+        link: "การอภิปรายของประชาชน"
+        feature: "คุณสามารถเปิดการอภิปราย แสดงความคิดเห็น และประเมินด้วยปุ่ม <strong>เห็นด้วย</strong> หรือ <strong>ไม่เห็นด้วย</strong> โดยต้อง %{link}"
+        feature_link: "ลงทะเบียนใน %{org}"
+        image_alt: "ปุ่มให้คะแนนการอภิปราย"
+        figcaption: 'ปุ่ม "เห็นด้วย" และ "ไม่เห็นด้วย" เพื่อให้คะแนนการอภิปราย.'
       proposals:
-        title: "Proposals"
-        description: "In the %{link} section you can make proposals for the City Council to carry them out. The proposals require support, and if they reach sufficient support, they are put to a public vote. The proposals approved in these citizens' votes are accepted by the City Council and carried out."
-        link: "citizen proposals"
-        image_alt: "Button to support a proposal"
-        figcaption: 'Button to "Support" a proposal.'
+        title: "ข้อเสนอ"
+        description: "ในส่วน %{link} คุณสามารถเสนอแนวคิดให้สภาเมืองดำเนินการ ข้อเสนอจะต้องได้รับการสนับสนุน และหากได้รับการสนับสนุนเพียงพอ จะนำไปสู่การลงคะแนนสาธารณะ ข้อเสนอที่ผ่านการลงคะแนนของประชาชนจะถูกสภาเมืองยอมรับและนำไปปฏิบัติ"
+        link: "ข้อเสนอของประชาชน"
+        image_alt: "ปุ่มสนับสนุนข้อเสนอ"
+        figcaption: 'ปุ่ม "สนับสนุน" สำหรับข้อเสนอ.'
       budgets:
-        title: "Participatory Budgeting"
-        description: "The %{link} section helps people make a direct decision on what part of the municipal budget is spent on."
-        link: "participative budgets"
-        image_alt: "Different phases of a participatory budget"
-        figcaption: '"Support" and "Voting" phases of participatory budgets.'
+        title: "งบประมาณแบบมีส่วนร่วม"
+        description: "ส่วน %{link} ช่วยให้ประชาชนตัดสินใจโดยตรงเกี่ยวกับการใช้งบประมาณส่วนหนึ่งของเทศบาล"
+        link: "งบประมาณมีส่วนร่วม"
+        image_alt: "ขั้นตอนต่าง ๆ ของงบประมาณมีส่วนร่วม"
+        figcaption: 'ขั้นตอน "สนับสนุน" และ "ลงคะแนน" ของงบประมาณมีส่วนร่วม.'
       polls:
-        title: "Polls"
-        description: "The %{link} section is activated each time a proposal reaches 1% support and goes to the vote or when the City Council proposes an issue for people to decide on."
-        link: "polls"
-        feature_1: "To participate in the voting you have to %{link} and verify your account."
-        feature_1_link: "register in %{org_name}"
+        title: "แบบสำรวจ"
+        description: "ส่วน %{link} จะถูกเปิดใช้งานเมื่อข้อเสนอได้รับการสนับสนุน 1% และเข้าสู่การลงคะแนน หรือเมื่อสภาเมืองเสนอประเด็นให้ประชาชนตัดสินใจ"
+        link: "แบบสำรวจ"
+        feature_1: "เพื่อมีส่วนร่วมในการลงคะแนน คุณต้อง %{link} และยืนยันบัญชี"
+        feature_1_link: "ลงทะเบียนใน %{org_name}"
       processes:
-        title: "Processes"
-        description: "In the %{link} section, citizens participate in the drafting and modification of regulations affecting the city and can give their opinion on municipal policies in previous debates."
-        link: "processes"
-        feature: "To participate in the processes you have to %{link} and verify your account."
-        feature_link: "register in %{org_name}"
+        title: "กระบวนการ"
+        description: "ในส่วน %{link} ประชาชนมีส่วนร่วมในการร่างและแก้ไขข้อบังคับที่มีผลต่อเมือง และสามารถแสดงความคิดเห็นเกี่ยวกับนโยบายเทศบาลจากการอภิปรายก่อนหน้า"
+        link: "กระบวนการ"
+        feature: "เพื่อมีส่วนร่วมในกระบวนการ คุณต้อง %{link} และยืนยันบัญชี"
+        feature_link: "ลงทะเบียนใน %{org_name}"
       faq:
-        title: "Technical problems?"
-        description: "Read the FAQs and solve your questions."
-        button: "View frequently asked questions"
+        title: "ปัญหาทางเทคนิค?"
+        description: "อ่านคำถามที่พบบ่อยเพื่อแก้ไขปัญหาของคุณ"
+        button: "ดูคำถามที่พบบ่อย"
         page:
-          title: "Frequently Asked Questions"
-          description: "Use this page to resolve the common FAQs to the users of site."
+          title: "คำถามที่พบบ่อย"
+          description: "ใช้หน้านี้เพื่อแก้ไขคำถามที่พบบ่อยของผู้ใช้เว็บไซต์"
       other:
-        title: "Other information of interest"
-        how_to_use: "Use %{org_name} in your city"
-        sdg: "Sustainable Development Goals help"
+        title: "ข้อมูลอื่นที่น่าสนใจ"
+        how_to_use: "ใช้ %{org_name} ในเมืองของคุณ"
+        sdg: "ความช่วยเหลือเกี่ยวกับเป้าหมายการพัฒนาที่ยั่งยืน"
       how_to_use:
         text: |-
-          Use it in your local government or help us to improve it, it is free software.
+          ใช้งานได้กับหน่วยงานท้องถิ่นของคุณ หรือช่วยเราปรับปรุงมันได้ มันเป็นซอฟต์แวร์เสรี
 
-          This Open Government Portal uses the [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), that means in simple words that anyone can use the code freely, copy it, see it in detail, modify it and redistribute it to the world with the modifications they want (allowing others to do the same). Because we think culture is better and richer when it is released.
+          พอร์ทัลรัฐบาลเปิดนี้ใช้แอป [CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') ซึ่งเป็นซอฟต์แวร์เสรี ภายใต้ [สิทธิ์ใช้งาน AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu') ซึ่งหมายความว่าใครก็สามารถใช้ รัน ดู แก้ไข และแจกจ่ายซอฟต์แวร์พร้อมการดัดแปลงของตนได้
 
-          If you are a programmer, you can see the code and help us to improve it at [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          หากคุณเป็นนักพัฒนา คุณสามารถดูซอร์สและช่วยปรับปรุงได้ที่ [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github')
       titles:
         how_to_use: Use it in your local government
     privacy:
-      title: Privacy Policy
-      subtitle: "Information page on privacy"
+      title: "นโยบายความเป็นส่วนตัว"
+      subtitle: "หน้าข้อมูลเกี่ยวกับความเป็นส่วนตัว"
     accessibility:
-      title: Accessibility
+      title: "การเข้าถึง"
       description: |-
-        Web accessibility refers to the possibility of access to the web and its contents by all people, regardless of the disabilities (physical, intellectual or technical) that may arise or from those that derive from the context of use (technological or environmental) .
+        การเข้าถึงเว็บหมายถึงความสามารถในการเข้าถึงเว็บและเนื้อหาโดยทุกคน ไม่ว่าจะมีความบกพร่องทางร่างกาย สติปัญญา หรือทางเทคนิค หรือข้อจำกัดจากสภาพแวดล้อม
 
-        When websites are designed with accessibility in mind, all users can access content in equal conditions, for example:
+        เมื่อเว็บไซต์ออกแบบโดยคำนึงถึงการเข้าถึง ผู้ใช้ทุกคนจะสามารถเข้าถึงเนื้อหาในสภาพที่เท่าเทียมกัน เช่น:
       examples:
         - Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
         - When videos have subtitles, users with hearing difficulties can fully understand them.
@@ -147,9 +147,9 @@ en:
         title: Compatibility with standards and visual design
         description: 'All pages of this website comply with the <strong>Accessibility Guidelines</strong> or General Principles of Accessible Design established by the Working Group <abbr title="Web Accessibility Initiative" lang="en">WAI</abbr> belonging to W3C.'
     titles:
-      help: "What is %{org}? - Citizen participation"
+      help: "%{org} คืออะไร? - การมีส่วนร่วมของพลเมือง"
     verify:
-      info: "To verify your account introduce your access data:"
-      info_code: "Now introduce the code you received in letter:"
-      submit: Verify my account
-      title: Verify your account
+      info: "เพื่อยืนยันบัญชี ให้กรอกข้อมูลการเข้าถึงของคุณ:"
+      info_code: "ตอนนี้กรอกรหัสที่คุณได้รับทางจดหมาย:"
+      submit: "ยืนยันบัญชีของฉัน"
+      title: "ยืนยันบัญชีของคุณ"

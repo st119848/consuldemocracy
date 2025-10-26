@@ -2,129 +2,129 @@ en:
   management:
     account:
       menu:
-        reset_password_email: Reset password via email
-        reset_password_manually: Reset password manually
+        reset_password_email: รีเซ็ตรหัสผ่านผ่านอีเมล
+        reset_password_manually: รีเซ็ตรหัสผ่านด้วยตนเอง
       alert:
-        unverified_user: No verified user logged in yet
+        unverified_user: ยังไม่มีผู้ใช้ที่ได้รับการยืนยันเข้าสู่ระบบ
       show:
-        title: User account
+        title: บัญชีผู้ใช้
       edit:
-        title: "Edit user account: Reset password"
-        back: Back
+        title: "แก้ไขบัญชีผู้ใช้: รีเซ็ตรหัสผ่าน"
+        back: กลับ
         password:
-          password: Password
-          send_email: Send reset password email
-          reset_email_send: Email correctly sent.
-          reseted: Password reseted successfully
-          random: Generate random password
-          save: Save password
-          show: Show password
-          print: Print password
-          print_help: You will be able to print the password when it is saved.
+          password: รหัสผ่าน
+          send_email: ส่งอีเมลรีเซ็ตรหัสผ่าน
+          reset_email_send: ส่งอีเมลเรียบร้อยแล้ว
+          reseted: รีเซ็ตรหัสผ่านสำเร็จแล้ว
+          random: สร้างรหัสผ่านแบบสุ่ม
+          save: บันทึกรหัสผ่าน
+          show: แสดงรหัสผ่าน
+          print: พิมพ์รหัสผ่าน
+          print_help: คุณจะสามารถพิมพ์รหัสผ่านได้เมื่อบันทึกแล้ว
     account_info:
-      change_user: Change user
-      document_number_label: "Document number:"
-      document_type_label: "Document type:"
-      email_label: "Email:"
-      identified_label: "Identified as:"
-      username_label: "Username:"
-    check: Check document
+      change_user: เปลี่ยนผู้ใช้
+      document_number_label: "หมายเลขเอกสาร:"
+      document_type_label: "ประเภทเอกสาร:"
+      email_label: "อีเมล:"
+      identified_label: "ระบุเป็น:"
+      username_label: "ชื่อผู้ใช้:"
+    check: ตรวจสอบเอกสาร
     dashboard:
       index:
-        title: Management
-        info: Here you can manage users through all actions listed in the left menu.
+        title: การจัดการ
+        info: ที่นี่คุณสามารถจัดการผู้ใช้ผ่านการดำเนินการทั้งหมดที่แสดงในเมนูด้านซ้าย
     document_verifications:
-      already_verified: This user account is already verified.
-      has_no_account: In order to create an account, go to %{link} and click in <b>"Register"</b> in the upper-left part of the screen.
+      already_verified: บัญชีผู้ใช้นี้ได้รับการยืนยันแล้ว
+      has_no_account: หากต้องการสร้างบัญชี โปรดไปที่ %{link} และคลิกที่ **"ลงทะเบียน"** ที่ส่วนบนซ้ายของหน้าจอ
       link: CONSUL DEMOCRACY
-      in_census_has_following_permissions: "This user can participate in the website with the following permissions:"
-      not_in_census: This document is not registered.
-      not_in_census_info: "Citizens not in the Census can participate in the website with the following permissions:"
-      please_check_account_data: Please check that the account data above are correct.
-      title: User management
-      under_age: "You don't have the required age to verify your account."
-      verify: Verify
-    date_of_birth: Date of birth
+      in_census_has_following_permissions: "ผู้ใช้นี้สามารถเข้าร่วมเว็บไซต์ด้วยสิทธิ์ดังต่อไปนี้:"
+      not_in_census: เอกสารนี้ไม่ได้ลงทะเบียน
+      not_in_census_info: "พลเมืองที่ไม่ได้อยู่ในสำมะโนสามารถเข้าร่วมเว็บไซต์ด้วยสิทธิ์ดังต่อไปนี้:"
+      please_check_account_data: โปรดตรวจสอบว่าข้อมูลบัญชีข้างต้นถูกต้อง
+      title: การจัดการผู้ใช้
+      under_age: "คุณมีอายุไม่ถึงเกณฑ์ที่กำหนดในการยืนยันบัญชีของคุณ"
+      verify: ยืนยัน
+    date_of_birth: วันเกิด
     email_verifications:
-      already_verified: This user account is already verified.
-      choose_options: "Please choose one of the following options:"
-      document_found_in_census: This document was found in the census, but it has no user account associated to it.
-      document_mismatch: "This email belongs to a user which already has an associated id: %{document_number}(%{document_type})"
-      email_sent_instructions: In order to completely verify this user, it is necessary that the user clicks on a link which we have sent to the email address above. This step is needed in order to confirm that the address belongs to him.
-      if_existing_account: If the person has already a user account created in the website,
-      if_no_existing_account: If this person has not created an account yet
-      introduce_email: "Please introduce the email used on the account:"
-      send_email: Send verification email
+      already_verified: บัญชีผู้ใช้นี้ได้รับการยืนยันแล้ว
+      choose_options: "โปรดเลือกหนึ่งในตัวเลือกต่อไปนี้:"
+      document_found_in_census: พบเอกสารนี้ในสำมะโน แต่ไม่มีบัญชีผู้ใช้ที่เกี่ยวข้อง
+      document_mismatch: "อีเมลนี้เป็นของผู้ใช้ที่มี ID ที่เกี่ยวข้องอยู่แล้ว: %{document_number}(%{document_type})"
+      email_sent_instructions: ในการยืนยันผู้ใช้นี้อย่างสมบูรณ์ จำเป็นที่ผู้ใช้จะต้องคลิกที่ลิงก์ที่เราส่งไปยังที่อยู่อีเมลข้างต้น ขั้นตอนนี้จำเป็นเพื่อยืนยันว่าที่อยู่นั้นเป็นของเขา
+      if_existing_account: หากบุคคลนั้นมีบัญชีผู้ใช้ที่สร้างไว้แล้วในเว็บไซต์
+      if_no_existing_account: หากบุคคลนี้ยังไม่ได้สร้างบัญชี
+      introduce_email: "โปรดใส่ที่อยู่อีเมลที่ใช้ในบัญชี:"
+      send_email: ส่งอีเมลยืนยัน
     menu:
-      create_proposal: Create proposal
-      print_proposals: Print proposals
-      support_proposals: Support proposals
-      create_budget_investment: Create budget investment
-      print_budget_investments: Print budget investments
-      support_budget_investments: Support budget investments
-      users: Users management
-      user_invites: Send invitations
-      select_user: Select user
+      create_proposal: สร้างข้อเสนอ
+      print_proposals: พิมพ์ข้อเสนอ
+      support_proposals: สนับสนุนข้อเสนอ
+      create_budget_investment: สร้างการลงทุนด้านงบประมาณ
+      print_budget_investments: พิมพ์การลงทุนด้านงบประมาณ
+      support_budget_investments: สนับสนุนการลงทุนด้านงบประมาณ
+      users: การจัดการผู้ใช้
+      user_invites: ส่งคำเชิญ
+      select_user: เลือกผู้ใช้
     print:
-      proposals_info: Create your proposal on http://url.consul
-      proposals_title: "Proposals:"
-      budget_investments_info: Participate at http://url.consul
-    print_info: Print this info
+      proposals_info: สร้างข้อเสนอของคุณบน http://url.consul
+      proposals_title: "ข้อเสนอ:"
+      budget_investments_info: มีส่วนร่วมที่ http://url.consul
+    print_info: พิมพ์ข้อมูลนี้
     proposals:
       alert:
-        unverified_user: User is not verified
-      create_proposal: Create proposal
+        unverified_user: ผู้ใช้ไม่ได้รับการยืนยัน
+      create_proposal: สร้างข้อเสนอ
       print:
-        print_button: Print
+        print_button: พิมพ์
       index:
-        title: Support proposals
+        title: สนับสนุนข้อเสนอ
     budgets:
-      create_new_investment: Create budget investment
-      print_investments: Print budget investments
-      support_investments: Support budget investments
-      table_name: Name
-      table_phase: Phase
-      table_actions: Actions
-      no_budgets: There are no active participatory budgets.
+      create_new_investment: สร้างการลงทุนด้านงบประมาณ
+      print_investments: พิมพ์การลงทุนด้านงบประมาณ
+      support_investments: สนับสนุนการลงทุนด้านงบประมาณ
+      table_name: ชื่อ
+      table_phase: ระยะ
+      table_actions: การดำเนินการ
+      no_budgets: ไม่มีงบประมาณแบบมีส่วนร่วมที่ใช้งานอยู่
     budget_investments:
       alert:
-        unverified_user: User is not verified
-      create: Create a budget investment
-      edit: Edit budget investment
+        unverified_user: ผู้ใช้ไม่ได้รับการยืนยัน
+      create: สร้างการลงทุนด้านงบประมาณ
+      edit: แก้ไขการลงทุนด้านงบประมาณ
       filters:
-        heading: Concept
-        unfeasible: Unfeasible investment
+        heading: แนวคิด
+        unfeasible: การลงทุนที่เป็นไปไม่ได้
       print:
-        print_button: Print
+        print_button: พิมพ์
       search:
-        label: "Search investments"
+        label: "ค้นหาการลงทุน"
       search_results:
-        one: " containing the term '%{search_term}'"
-        other: " containing the term '%{search_term}'"
+        one: " ที่มีคำว่า '%{search_term}'"
+        other: " ที่มีคำว่า '%{search_term}'"
     sessions:
-      need_managed_user: To perform this action you must select a user
-      signed_out: Signed out successfully.
-      signed_out_managed_user: User session signed out successfully.
-    username_label: Username
+      need_managed_user: ในการดำเนินการนี้ คุณต้องเลือกผู้ใช้
+      signed_out: ออกจากระบบสำเร็จแล้ว
+      signed_out_managed_user: ออกจากระบบของผู้ใช้ที่จัดการสำเร็จแล้ว
+    username_label: ชื่อผู้ใช้
     users:
-      create_user: Create a new account
-      create_user_info: We will create an account with the following data
-      create_user_submit: Create user
-      create_user_success: We have sent an email to the email address <b>%{email}</b> in order to verify that it belongs to this user. It contains a link they have to click. Then they will have to set their access password before being able to log in to the website
-      autogenerated_password: "Autogenerated password is <b>%{password}</b>, you can change it in the 'My account' section of the web"
-      email_optional_label: Email (optional)
-      erased_notice: User account deleted.
-      erased_by_manager: "Deleted by manager: %{manager}"
-      erase_account_link: Delete user
-      erase_account_confirm: Are you sure you want to erase the account? This action can not be undone
-      erase_warning: This action can not be undone. Please make sure you want to erase this account.
-      erase_submit: Delete account
+      create_user: สร้างบัญชีใหม่
+      create_user_info: เราจะสร้างบัญชีด้วยข้อมูลต่อไปนี้
+      create_user_submit: สร้างผู้ใช้
+      create_user_success: เราได้ส่งอีเมลไปยังที่อยู่อีเมล **%{email}** เพื่อยืนยันว่าเป็นของผู้นี้แล้ว อีเมลดังกล่าวมีลิงก์ที่พวกเขาต้องคลิก จากนั้นพวกเขาจะต้องตั้งรหัสผ่านก่อนที่จะเข้าสู่ระบบเว็บไซต์ได้
+      autogenerated_password: "รหัสผ่านที่สร้างโดยอัตโนมัติคือ **%{password}** คุณสามารถเปลี่ยนได้ในส่วน 'บัญชีของฉัน' ของเว็บไซต์"
+      email_optional_label: อีเมล (ทางเลือก)
+      erased_notice: ลบบัญชีผู้ใช้แล้ว
+      erased_by_manager: "ถูกลบโดยผู้จัดการ: %{manager}"
+      erase_account_link: ลบผู้ใช้
+      erase_account_confirm: คุณแน่ใจหรือไม่ว่าต้องการลบบัญชี? การดำเนินการนี้ไม่สามารถยกเลิกได้
+      erase_warning: การดำเนินการนี้ไม่สามารถยกเลิกได้ โปรดตรวจสอบให้แน่ใจว่าคุณต้องการลบบัญชีนี้
+      erase_submit: ลบบัญชี
     user_invites:
       new:
-        label: Emails
-        info: "Enter the emails separated by commas (',')"
-        submit: Send invitations
-        title: Send invitations
+        label: อีเมล
+        info: "ใส่ที่อยู่อีเมลคั่นด้วยเครื่องหมายจุลภาค (',')"
+        submit: ส่งคำเชิญ
+        title: ส่งคำเชิญ
       create:
-        success: <strong>%{count} invitations</strong> have been sent.
-        title: Send invitations
+        success: <strong>%{count} คำเชิญถูกส่งแล้ว</strong> 
+        title: ส่งคำเชิญ

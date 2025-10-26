@@ -1,1825 +1,1824 @@
 en:
   admin:
     header:
-      title: Administration
+      title: การบริหาร
     actions:
-      actions: Actions
-      block_author: "Block author"
-      confirm_action: "Are you sure? %{action} \"%{name}\""
-      confirm_delete: "Are you sure? This action will delete \"%{name}\" and can't be undone."
-      confirm_hide: Confirm moderation
-      delete: "Delete"
-      hide: Hide
+      actions: การดำเนินการ
+      block_author: "บล็อกผู้เขียน"
+      confirm_action: "คุณแน่ใจหรือไม่? %{action} \"%{name}\""
+      confirm_delete: "คุณแน่ใจหรือไม่? การดำเนินการนี้จะลบ \"%{name}\" และไม่สามารถยกเลิกได้"
+      confirm_hide: ยืนยันการกลั่นกรอง
+      delete: "ลบ"
+      hide: ซ่อน
       label: "%{action} %{name}"
-      restore: Restore
-      mark_featured: Featured
-      unmark_featured: Unmark featured
-      edit: Edit
-      configure: Configure
-      select: Select
-      show_to_valuators: "Show %{name} to valuators"
+      restore: กู้คืน
+      mark_featured: แนะนำ
+      unmark_featured: ยกเลิกการแนะนำ
+      edit: แก้ไข
+      configure: กำหนดค่า
+      select: เลือก
+      show_to_valuators: "แสดง %{name} แก่ผู้ประเมินค่า"
     officing_booth:
-      title: "You are officing the booth located at %{booth}. If this is not correct, do not continue and call the help phone number. Thank you."
+      title: "คุณกำลังปฏิบัติหน้าที่ในบูธที่ตั้งอยู่ที่ %{booth} หากไม่ถูกต้อง โปรดอย่าดำเนินการต่อและโทรศัพท์แจ้งเบอร์โทรศัพท์ช่วยเหลือ ขอบคุณ"
     banners:
       index:
-        title: Banners
-        create: Create banner
+        title: แบนเนอร์
+        create: สร้างแบนเนอร์
         filters:
-          all: All
-          with_active: Active
-          with_inactive: Inactive
-        preview: Preview
+          all: ทั้งหมด
+          with_active: ใช้งานอยู่
+          with_inactive: ไม่ใช้งาน
+        preview: ดูตัวอย่าง
       banner:
-        sections_label: Sections where it will appear
+        sections_label: ส่วนที่จะปรากฏ
         sections:
-          homepage: Homepage
-          debates: Debates
-          proposals: Proposals
-          budgets: Participatory budgeting
-          help_page: Help page
+          homepage: หน้าแรก
+          debates: การอภิปราย
+          proposals: ข้อเสนอ
+          budgets: การจัดทำงบประมาณแบบมีส่วนร่วม
+          help_page: หน้าช่วยเหลือ
           sdg: SDG
-      create:
-        notice: "Banner created successfully"
-      destroy:
-        notice: "Banner deleted successfully"
-      edit:
-        editing: Edit banner
-        form:
-          submit_button: Save changes
-      new:
-        creating: Create banner
-      update:
-        notice: "Banner updated successfully"
+        create:
+          notice: "สร้างแบนเนอร์สำเร็จแล้ว"
+        destroy:
+          notice: "ลบแบนเนอร์สำเร็จแล้ว"
+        edit:
+          editing: แก้ไขแบนเนอร์
+          form:
+            submit_button: บันทึกการเปลี่ยนแปลง
+        new:
+          creating: สร้างแบนเนอร์
+        update:
+          notice: "อัปเดตแบนเนอร์สำเร็จแล้ว"
     activity:
       show:
-        action: Action
+        action: การดำเนินการ
         actions:
-          block: Blocked
-          hide: Hidden
-          restore: Restored
-        by: Moderated by
-        content: Content
-        filter: Show
+          block: ถูกบล็อก
+          hide: ถูกซ่อน
+          restore: ถูกกู้คืน
+        by: กลั่นกรองโดย
+        content: เนื้อหา
+        filter: แสดง
         filters:
-          all: All
-          on_comments: Comments
-          on_debates: Debates
-          on_proposals: Proposals
-          on_users: Users
-          on_system_emails: System emails
-        title: Moderator activity
-        type: Type
-        no_activity: There are no moderators activity.
+          all: ทั้งหมด
+          on_comments: ความคิดเห็น
+          on_debates: การอภิปราย
+          on_proposals: ข้อเสนอ
+          on_users: ผู้ใช้
+          on_system_emails: อีเมลระบบ
+        title: กิจกรรมการกลั่นกรอง
+        type: ประเภท
+        no_activity: ไม่มีกิจกรรมการกลั่นกรอง
     budgets:
       actions:
-        ballots: "Create booths"
+        ballots: "สร้างบูธ"
         confirm:
-          ballots: "Are you sure? This action is only necessary if you're going to use physical booths during the final voting phase. Citizens will still be able to vote via web with or without physical booths."
-          destroy: "Are you sure? This will delete the budget and all its associated groups and headings. This action cannot be undone."
+          ballots: "คุณแน่ใจหรือไม่? การดำเนินการนี้จำเป็นเฉพาะเมื่อคุณจะใช้บูธจริงในระหว่างขั้นตอนการลงคะแนนสุดท้ายเท่านั้น พลเมืองยังคงสามารถโหวตผ่านเว็บได้โดยมีหรือไม่มีบูธจริง"
+          destroy: "คุณแน่ใจหรือไม่? การดำเนินการนี้จะลบงบประมาณและกลุ่มและหัวข้อที่เกี่ยวข้องทั้งหมด การดำเนินการนี้ไม่สามารถยกเลิกได้"
         descriptions:
-          ballots: "This will let you manage physical ballots. Only use this option if you're going to use physical booths to collect ballots during the final voting phase."
-          calculate_winners: 'After calculating the results, only administrators will be able to access them. They will be public when the project reaches the "%{phase}" phase <strong>if the option "Show results" is enabled</strong> when editing the budget.'
-          destroy: "This will delete the budget and all its associated groups and headings. This action cannot be undone."
-        edit: "Edit budget"
-        preview: "Preview"
-        preview_results: "Preview results"
+          ballots: "การดำเนินการนี้จะช่วยให้คุณจัดการบัตรลงคะแนนจริงได้ ใช้ตัวเลือกนี้ก็ต่อเมื่อคุณจะใช้บูธจริงเพื่อรวบรวมบัตรลงคะแนนในระหว่างขั้นตอนการลงคะแนนสุดท้ายเท่านั้น"
+          calculate_winners: 'หลังจากคำนวณผลลัพธ์แล้ว เฉพาะผู้ดูแลระบบเท่านั้นที่จะสามารถเข้าถึงได้ ผลลัพธ์จะเผยแพร่ต่อสาธารณะเมื่อโครงการถึงขั้นตอน "%{phase}" <strong>หากเปิดใช้งานตัวเลือก "แสดงผลลัพธ์"</strong> เมื่อแก้ไขงบประมาณ'
+          destroy: "การดำเนินการนี้จะลบงบประมาณและกลุ่มและหัวข้อที่เกี่ยวข้องทั้งหมด การดำเนินการนี้ไม่สามารถยกเลิกได้"
+        edit: "แก้ไขงบประมาณ"
+        preview: "ดูตัวอย่าง"
+        preview_results: "ดูตัวอย่างผลลัพธ์"
       index:
-        title: Participatory budgets
-        new_link: Create new budget
-        filter: Filter
+        title: งบประมาณแบบมีส่วนร่วม
+        new_link: สร้างงบประมาณใหม่
+        filter: ตัวกรอง
         filters:
-          all: All
-          open: Open
-          finished: Finished
-        budget_investments: Investment projects
-        table_budget_type: "Type"
-        table_completed: Completed
-        table_draft: "Draft"
-        table_duration: "Duration"
-        table_name: Name
-        table_phase: Phase
+          all: ทั้งหมด
+          open: เปิดอยู่
+          finished: เสร็จสิ้น
+        budget_investments: โครงการลงทุน
+        table_budget_type: "ประเภท"
+        table_completed: เสร็จสมบูรณ์
+        table_draft: "ฉบับร่าง"
+        table_duration: "ระยะเวลา"
+        table_name: ชื่อ
+        table_phase: ระยะ
         table_phase_progress: "(%{current_phase_number}/%{total_phases})"
-        type_multiple: "Multiple headings"
-        type_pending: "Pending: No headings yet"
-        type_single: "Single heading"
-        admin_ballots: Ballots
-        no_budgets: "There are no budgets."
+        type_multiple: "หลายหัวข้อ"
+        type_pending: "รอดำเนินการ: ยังไม่มีหัวข้อ"
+        type_single: "หัวข้อเดียว"
+        admin_ballots: บัตรลงคะแนน
+        no_budgets: "ไม่มีงบประมาณ"
       create:
-        notice: New participatory budget created successfully!
+        notice: สร้างงบประมาณแบบมีส่วนร่วมใหม่สำเร็จแล้ว!
       update:
-        notice: Participatory budget updated successfully
+        notice: อัปเดตงบประมาณแบบมีส่วนร่วมสำเร็จแล้ว
       publish:
-        notice: "Participatory budget published successfully"
+        notice: "เผยแพร่งบประมาณแบบมีส่วนร่วมสำเร็จแล้ว"
       edit:
-        title: Edit Participatory budget
-        drafting: "This participatory budget is in draft mode, only administrators can see it in the public site. Once it's published it cannot be changed to draft mode again."
-        publish: "Publish budget"
-        delete: Delete budget
-        phase: Phase
-        phases_caption: "Phases"
-        phases_table_help_text: "The configuration of these phases is used for information purposes only. Its function is to define the phases information displayed on the public page of the participatory budget."
-        duration: "Duration"
-        enabled: Enabled
-        actions: Actions
-        enable_phase: "Enable %{phase} phase"
-        active: Active
-        blank_dates: Dates are blank
+        title: แก้ไขงบประมาณแบบมีส่วนร่วม
+        drafting: "งบประมาณแบบมีส่วนร่วมนี้อยู่ในโหมดร่าง มีเพียงผู้ดูแลระบบเท่านั้นที่สามารถเห็นได้ในเว็บไซต์สาธารณะ เมื่อเผยแพร่แล้วจะไม่สามารถเปลี่ยนกลับเป็นโหมดร่างได้อีก"
+        publish: "เผยแพร่งบประมาณ"
+        delete: ลบงบประมาณ
+        phase: ระยะ
+        phases_caption: "ระยะ"
+        phases_table_help_text: "การกำหนดค่าของระยะเหล่านี้ใช้สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น ฟังก์ชันของมันคือการกำหนดข้อมูลระยะที่แสดงบนหน้าสาธารณะของงบประมาณแบบมีส่วนร่วม"
+        duration: "ระยะเวลา"
+        enabled: เปิดใช้งาน
+        actions: การดำเนินการ
+        enable_phase: "เปิดใช้งานระยะ %{phase}"
+        active: ใช้งานอยู่
+        blank_dates: วันที่ว่างเปล่า
         administrators:
-          zero: "Select administrators"
-          one: "1 administrator selected"
-          other: "%{count} administrators selected"
+          zero: "เลือกผู้ดูแลระบบ"
+          one: "เลือกผู้ดูแลระบบ 1 คน"
+          other: "เลือกผู้ดูแลระบบ %{count} คน"
         valuators:
-          zero: "Select valuators"
-          one: "1 valuator selected"
-          other: "%{count} valuators selected"
-        empty_administrators: "There are no administrators"
-        empty_valuators: "There are no valuators"
-        name_description: "This is the name of the participatory budget used on the header and cards whenever it is active"
-        image_description: "If an image is uploaded it will be used as the banner on top of this participatory budget, otherwise the default color for budgets will be used."
-        main_call_to_action: "Main call to action (optional)"
-        main_call_to_action_description: "This link will appear on main banner of this participatory budget and encourages your user to perform a specific action like creating a proposal, voting for existing ones, or learn more about the process."
+          zero: "เลือกผู้ประเมินค่า"
+          one: "เลือกผู้ประเมินค่า 1 คน"
+          other: "เลือกผู้ประเมินค่า %{count} คน"
+        empty_administrators: "ไม่มีผู้ดูแลระบบ"
+        empty_valuators: "ไม่มีผู้ประเมินค่า"
+        name_description: "นี่คือชื่อของงบประมาณแบบมีส่วนร่วมที่ใช้บนส่วนหัวและการ์ดเมื่อใดก็ตามที่เปิดใช้งาน"
+        image_description: "หากอัปโหลดรูปภาพ จะถูกใช้เป็นแบนเนอร์ด้านบนของงบประมาณแบบมีส่วนร่วมนี้ มิฉะนั้นจะใช้สีเริ่มต้นสำหรับงบประมาณ"
+        main_call_to_action: "คำกระตุ้นการตัดสินใจหลัก (ทางเลือก)"
+        main_call_to_action_description: "ลิงก์นี้จะปรากฏบนแบนเนอร์หลักของงบประมาณแบบมีส่วนร่วมนี้ และสนับสนุนให้ผู้ใช้ดำเนินการเฉพาะ เช่น การสร้างข้อเสนอ การโหวตข้อเสนอที่มีอยู่ หรือเรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการ"
         info:
-          budget_settings: "General participatory budget settings"
-          staff_settings: "Administrators and Valuators assigned to the budget"
-        hide_money: "Hide money"
-        hide_money_help_text: "If this option is checked, all fields showing the amount of money will be hidden throughout the process."
+          budget_settings: "การตั้งค่าทั่วไปของงบประมาณแบบมีส่วนร่วม"
+          staff_settings: "ผู้ดูแลระบบและผู้ประเมินค่าที่ได้รับมอบหมายให้ดูแลงบประมาณ"
+        hide_money: "ซ่อนจำนวนเงิน"
+        hide_money_help_text: "หากเลือกตัวเลือกนี้ ช่องทั้งหมดที่แสดงจำนวนเงินจะถูกซ่อนตลอดกระบวนการ"
       destroy:
-        success_notice: Budget deleted successfully
-        unable_notice: You cannot delete a budget that has associated investments
-        unable_notice_polls: You cannot delete a budget that has an associated poll
+        success_notice: ลบงบประมาณสำเร็จแล้ว
+        unable_notice: คุณไม่สามารถลบงบประมาณที่มีการลงทุนที่เกี่ยวข้องได้
+        unable_notice_polls: คุณไม่สามารถลบงบประมาณที่มีแบบสำรวจที่เกี่ยวข้องได้
       new:
-        title_multiple: New multiple headings budget
-        title_single: New single heading budget
+        title_multiple: งบประมาณหลายหัวข้อใหม่
+        title_single: งบประมาณหัวข้อเดียวใหม่
       help:
-        budgets: "Participatory budgets allow citizens to propose and decide directly how to spend part of the budget, with monitoring and rigorous evaluation of proposals by the institution."
+        budgets: "งบประมาณแบบมีส่วนร่วมช่วยให้พลเมืองสามารถเสนอและตัดสินใจโดยตรงว่าจะใช้จ่ายงบประมาณส่วนใด โดยมีการติดตามและประเมินข้อเสนออย่างเข้มงวดโดยสถาบัน"
         groups:
-          multiple: "Groups are meant to organize headings. After a group is created and it contains headings, it's possible to determine in how many headings a user can vote per group."
-          single: "Groups are meant to organize headings, since this budget will only contain one heading, the same name can be used because it will not appear anywhere. You can just continue with the next step."
+          multiple: "กลุ่มมีไว้สำหรับจัดระเบียบหัวข้อ หลังจากสร้างกลุ่มและมีหัวข้อแล้ว เป็นไปได้ที่จะกำหนดว่าผู้ใช้สามารถโหวตได้กี่หัวข้อต่อกลุ่ม"
+          single: "กลุ่มมีไว้สำหรับจัดระเบียบหัวข้อ เนื่องจากงบประมาณนี้จะมีเพียงหัวข้อเดียว จึงสามารถใช้ชื่อเดียวกันได้เนื่องจากจะไม่ปรากฏที่ใด คุณสามารถดำเนินการต่อในขั้นตอนถัดไปได้"
         headings:
-          multiple: "Headings are meant to divide the money of the participatory budget. Here you can add headings for this group and assign the amount of money that will be used for each heading."
-          single: "Headings are meant to divide the money of the participatory budget. Since this budget will only contain one heading, this is the place where you stablish the money that will be spent in this participaroty budget."
-        phases: "Participatory budgets have different phases. Here you can enable or disable phases and also customize each individual phase. The configuration of these phases is used for information purposes only and will be displayed on the public page of the participatory budget."
+          multiple: "หัวข้อมีไว้สำหรับแบ่งจำนวนเงินของงบประมาณแบบมีส่วนร่วม ที่นี่คุณสามารถเพิ่มหัวข้อสำหรับกลุ่มนี้และกำหนดจำนวนเงินที่จะใช้สำหรับแต่ละหัวข้อ"
+          single: "หัวข้อมีไว้สำหรับแบ่งจำนวนเงินของงบประมาณแบบมีส่วนร่วม เนื่องจากงบประมาณนี้จะมีเพียงหัวข้อเดียว นี่คือที่ที่คุณกำหนดจำนวนเงินที่จะใช้จ่ายในงบประมาณแบบมีส่วนร่วมนี้"
+        phases: "งบประมาณแบบมีส่วนร่วมมีหลายระยะ ที่นี่คุณสามารถเปิดหรือปิดระยะต่าง ๆ และปรับแต่งแต่ละระยะได้ การกำหนดค่าของระยะเหล่านี้ใช้สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น และจะแสดงบนหน้าสาธารณะของงบประมาณแบบมีส่วนร่วม"
       show:
-        add_group: "Add group"
-        add_heading: "Add heading"
-        groups_and_headings: "Heading groups"
-        headings_caption: "Headings in %{group}"
+        add_group: "เพิ่มกลุ่ม"
+        add_heading: "เพิ่มหัวข้อ"
+        groups_and_headings: "กลุ่มหัวข้อ"
+        headings_caption: "หัวข้อใน %{group}"
       winners:
-        calculate: Calculate Winner Investments
-        calculated: Winners being calculated, it may take a minute.
-        recalculate: Recalculate Winner Investments
+        calculate: คำนวณโครงการลงทุนที่ชนะ
+        calculated: กำลังคำนวณผู้ชนะ อาจใช้เวลาสักครู่
+        recalculate: คำนวณโครงการลงทุนที่ชนะซ้ำ
       ballots:
-        feature_disabled: 'The feature <strong>Polls</strong> must be enabled to create booths. You can enable it from the <a href="%{link}">settings configuration</a> page.'
+        feature_disabled: 'คุณลักษณะ <strong>แบบสำรวจ</strong> ต้องเปิดใช้งานเพื่อสร้างบูธ คุณสามารถเปิดใช้งานได้จากหน้า <a href="%{link}">การตั้งค่า</a>'
     budget_groups:
-      name: "Name"
-      headings_name: "Headings"
-      headings_manage: "Headings"
-      no_groups: "There are no groups."
+      name: "ชื่อ"
+      headings_name: "หัวข้อ"
+      headings_manage: "จัดการหัวข้อ"
+      no_groups: "ไม่มีกลุ่ม"
       amount:
-        one: "There is 1 group"
-        other: "There are %{count} groups"
+        one: "มี 1 กลุ่ม"
+        other: "มี %{count} กลุ่ม"
       create:
-        notice: "Group created successfully!"
+        notice: "สร้างกลุ่มสำเร็จแล้ว!"
       update:
-        notice: "Group updated successfully"
+        notice: "อัปเดตกลุ่มสำเร็จแล้ว"
       destroy:
-        success_notice: "Group deleted successfully"
-        unable_notice: "You cannot delete a Group that has associated headings"
+        success_notice: "ลบกลุ่มสำเร็จแล้ว"
+        unable_notice: "คุณไม่สามารถลบกลุ่มที่มีหัวข้อที่เกี่ยวข้องได้"
       form:
-        create: "Create new group"
-        edit: "Edit group"
-        max_votable_headings_info: "Only applies to the selecting projects phase. During the voting projects phase users can only vote in one heading per group."
-        submit: "Save group"
+        create: "สร้างกลุ่มใหม่"
+        edit: "แก้ไขกลุ่ม"
+        max_votable_headings_info: "ใช้ได้เฉพาะกับขั้นตอนการเลือกโครงการเท่านั้น ในระหว่างขั้นตอนการโหวตโครงการ ผู้ใช้สามารถโหวตได้เพียงหัวข้อเดียวต่อกลุ่ม"
+        submit: "บันทึกกลุ่ม"
       index:
-        new_button: "Add new group"
+        new_button: "เพิ่มกลุ่มใหม่"
     budget_headings:
-      no_headings: "There are no headings in the <strong>%{group}</strong> group."
+      no_headings: "ไม่มีหัวข้อในกลุ่ม <strong>%{group}</strong>"
       create:
-        notice: "Heading created successfully!"
+        notice: "สร้างหัวข้อสำเร็จแล้ว!"
       update:
-        notice: "Heading updated successfully"
+        notice: "อัปเดตหัวข้อสำเร็จแล้ว"
       destroy:
-        success_notice: "Heading deleted successfully"
-        unable_notice: "You cannot delete a Heading that has associated investments"
+        success_notice: "ลบหัวข้อสำเร็จแล้ว"
+        unable_notice: "คุณไม่สามารถลบหัวข้อที่มีการลงทุนที่เกี่ยวข้องได้"
       form:
-        geozone_info: "When a heading is associated with a geozone, the geozone will appear on this budget's map if the geozone includes GeoJSON data."
-        max_ballot_lines_info: 'Maximum number of projects a user can vote on this heading during the "Voting projects" phase. Only for budgets using approval voting.'
-        population_info: "Budget Heading population field is used for Statistic purposes at the end of the Budget to show for each Heading that represents an area with population what percentage voted. The field is optional so you can leave it empty if it doesn't apply."
-        coordinates_info: "If latitude and longitude are provided, the investments page for this heading will include a map. This map will be centered using those coordinates."
-        content_blocks_info: "If allow content block is checked, you will be able to create custom content related to this heading from the section Site content > Custom content blocks. This content will appear on the investments page for this heading."
-        create: "Create new heading"
-        edit: "Edit heading"
-        submit: "Save heading"
+        geozone_info: "เมื่อหัวข้อเชื่อมโยงกับเขตภูมิศาสตร์ เขตภูมิศาสตร์จะปรากฏบนแผนที่ของงบประมาณนี้ หากเขตภูมิศาสตร์นั้นมีข้อมูล GeoJSON"
+        max_ballot_lines_info: 'จำนวนโครงการสูงสุดที่ผู้ใช้สามารถโหวตได้ในหัวข้อนี้ระหว่างขั้นตอน "การโหวตโครงการ" เฉพาะสำหรับงบประมาณที่ใช้การโหวตแบบเห็นชอบเท่านั้น'
+        population_info: "ช่องข้อมูลประชากรของหัวข้องบประมาณใช้สำหรับวัตถุประสงค์ทางสถิติเมื่อสิ้นสุดงบประมาณเพื่อแสดงว่าแต่ละหัวข้อที่แสดงถึงพื้นที่ที่มีประชากรลงคะแนนกี่เปอร์เซ็นต์ ช่องนี้เป็นทางเลือก ดังนั้นคุณสามารถเว้นว่างไว้ได้หากไม่เกี่ยวข้อง"
+        coordinates_info: "หากมีการระบุละติจูดและลองจิจูด หน้าการลงทุนสำหรับหัวข้อนี้จะมีแผนที่ แผนที่นี้จะถูกจัดให้อยู่ตรงกลางโดยใช้พิกัดเหล่านั้น"
+        content_blocks_info: "หากเลือกอนุญาตบล็อกเนื้อหา คุณจะสามารถสร้างเนื้อหาที่กำหนดเองที่เกี่ยวข้องกับหัวข้อนี้ได้จากส่วน เนื้อหาเว็บไซต์ > บล็อกเนื้อหาที่กำหนดเอง เนื้อหานี้จะปรากฏบนหน้าการลงทุนสำหรับหัวข้อนี้"
+        create: "สร้างหัวข้อใหม่"
+        edit: "แก้ไขหัวข้อ"
+        submit: "บันทึกหัวข้อ"
       group_switcher:
-        currently_showing: "Showing headings from the <strong>%{group}</strong> group."
-        the_other_group: "Manage headings from the %{group} group."
+        currently_showing: "กำลังแสดงหัวข้อจากกลุ่ม <strong>%{group}</strong>"
+        the_other_group: "จัดการหัวข้อจากกลุ่ม %{group}"
       index:
-        back: "Go back to groups"
-        new_button: "Add new heading"
-        title: "%{budget} / %{group} headings"
+        back: "กลับไปที่กลุ่ม"
+        new_button: "เพิ่มหัวข้อใหม่"
+        title: "%{budget} / หัวข้อ %{group}"
     budget_phases:
       edit:
-        title: "Edit phase"
-        dates_help_text: "For information purposes only"
-        description_help_text: This text will appear in the header when the phase is active
-        duration: "Phase's duration"
-        duration_description: "These fields are used for information purposes only and <strong>do not trigger an automatic update of the active phase.</strong> In order to update it, edit the budget and select the active phase."
-        enabled_help_text: This phase will be public in the budget's phases timeline.
-        image_description: "If an image is uploaded it will be displayed next to the description of this phase."
-        main_call_to_action: "Main call to action (optional)"
-        main_call_to_action_description: "This link will appear on main banner of this participatory budget when this phase is enabled and encourages your user to perform a specific action like creating a proposal, voting for existing ones, or learn more about the process."
-        name_help_text: "This is the title of the phase users will read on the header whenever this phase is active."
-        save_changes: Save changes
+        title: "แก้ไขระยะ"
+        dates_help_text: "สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น"
+        description_help_text: ข้อความนี้จะปรากฏในส่วนหัวเมื่อระยะใช้งานอยู่
+        duration: "ระยะเวลาของระยะ"
+        duration_description: "ช่องเหล่านี้ใช้สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น และ **ไม่กระตุ้นการอัปเดตระยะที่ใช้งานอยู่โดยอัตโนมัติ** ในการอัปเดต โปรดแก้ไขงบประมาณและเลือกระยะที่ใช้งานอยู่"
+        enabled_help_text: ระยะนี้จะเผยแพร่ต่อสาธารณะในไทม์ไลน์ระยะของงบประมาณ
+        image_description: "หากอัปโหลดรูปภาพ รูปภาพจะแสดงถัดจากคำอธิบายของระยะนี้"
+        main_call_to_action: "คำกระตุ้นการตัดสินใจหลัก (ทางเลือก)"
+        main_call_to_action_description: "ลิงก์นี้จะปรากฏบนแบนเนอร์หลักของงบประมาณแบบมีส่วนร่วมนี้เมื่อเปิดใช้งานระยะนี้ และสนับสนุนให้ผู้ใช้ดำเนินการเฉพาะ เช่น การสร้างข้อเสนอ การโหวตข้อเสนอที่มีอยู่ หรือเรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการ"
+        name_help_text: "นี่คือชื่อของระยะที่ผู้ใช้จะอ่านบนส่วนหัวเมื่อใดก็ตามที่ระยะนี้ใช้งานอยู่"
+        save_changes: บันทึกการเปลี่ยนแปลง
       index:
-        title: "%{budget} phases"
+        title: "ระยะ %{budget}"
     budget_investments:
       index:
         basic_filters:
-          valuator_or_group: Valuator or group
-          title_or_id: Title or ID
-        heading_filter_all: All headings
-        administrator_filter_all: All administrators
-        valuator_filter_all: All valuators
-        tags_filter_all: All tags
-        advanced_filters: Advanced filters
+          valuator_or_group: ผู้ประเมินค่าหรือกลุ่ม
+          title_or_id: ชื่อหรือ ID
+        heading_filter_all: หัวข้อทั้งหมด
+        administrator_filter_all: ผู้ดูแลระบบทั้งหมด
+        valuator_filter_all: ผู้ประเมินค่าทั้งหมด
+        tags_filter_all: แท็กทั้งหมด
+        advanced_filters: ตัวกรองขั้นสูง
         filters:
-          all: All
-          without_admin: Without assigned admin
-          without_valuator: Without assigned valuator
-          under_valuation: Under valuation
-          valuation_finished: Valuation finished
-          feasible: Feasible
-          selected: Selected
-          undecided: Undecided
-          unfeasible: Unfeasible
-          min_total_supports: Minimum supports
-          max_total_supports: Maximum supports
-          winners: Winners
-          one_filter: "Current applied filters: <b><em>%{filter}</em></b>"
-          two_filters: "Current applied filters: <b><em>%{filter}, %{advanced_filters}</em></b>"
+          all: ทั้งหมด
+          without_admin: ไม่มีผู้ดูแลระบบที่ได้รับมอบหมาย
+          without_valuator: ไม่มีผู้ประเมินค่าที่ได้รับมอบหมาย
+          under_valuation: อยู่ระหว่างการประเมินค่า
+          valuation_finished: การประเมินค่าเสร็จสิ้นแล้ว
+          feasible: เป็นไปได้
+          selected: ถูกเลือก
+          undecided: ยังไม่ตัดสินใจ
+          unfeasible: เป็นไปไม่ได้
+          min_total_supports: การสนับสนุนขั้นต่ำ
+          max_total_supports: การสนับสนุนสูงสุด
+          winners: ผู้ชนะ
+          one_filter: "ตัวกรองที่ใช้ในปัจจุบัน: <b><em>%{filter}</em></b>"
+          two_filters: "ตัวกรองที่ใช้ในปัจจุบัน: <b><em>%{filter}, %{advanced_filters}</em></b>"
         buttons:
-          filter: Filter
-        download_current_selection: "Download current selection"
-        no_budget_investments: "There are no investment projects."
-        title: Investment projects
-        columns: Columns
-        assigned_admin: Assigned administrator
-        no_admin_assigned: No admin assigned
-        no_valuators_assigned: No valuators assigned
+          filter: ตัวกรอง
+        download_current_selection: "ดาวน์โหลดสิ่งที่เลือกในปัจจุบัน"
+        no_budget_investments: "ไม่มีโครงการลงทุน"
+        title: โครงการลงทุน
+        columns: คอลัมน์
+        assigned_admin: ผู้ดูแลระบบที่ได้รับมอบหมาย
+        no_admin_assigned: ไม่มีผู้ดูแลระบบที่ได้รับมอบหมาย
+        no_valuators_assigned: ไม่มีผู้ประเมินค่าที่ได้รับมอบหมาย
         feasibility:
-          feasible: "Feasible"
-          unfeasible: "Unfeasible"
-          undecided: "Undecided"
-        selected: "Selected"
+          feasible: "เป็นไปได้"
+          unfeasible: "เป็นไปไม่ได้"
+          undecided: "ยังไม่ตัดสินใจ"
+        selected: "ถูกเลือก"
         list:
           id: ID
-          title: Title
-          supports: Supports
-          admin: Administrator
-          valuator: Valuator
-          valuation_group: Valuation Group
-          geozone: Scope of operation
-          feasibility: Feasibility
-          valuation_finished: Val. Fin.
-          selected: Selected
-          visible_to_valuators: Show to valuators
-          author_username: Author username
-          incompatible: Incompatible
-          price: Price
-          author: Author
-        cannot_calculate_winners: The budget has to stay on phase "%{phase}" in order to calculate winners projects
-        see_results: "See results"
-        milestone_tags_filter_all: "All milestone tags"
+          title: ชื่อเรื่อง
+          supports: การสนับสนุน
+          admin: ผู้ดูแลระบบ
+          valuator: ผู้ประเมินค่า
+          valuation_group: กลุ่มผู้ประเมินค่า
+          geozone: ขอบเขตการดำเนินงาน
+          feasibility: ความเป็นไปได้
+          valuation_finished: ประเมินเสร็จสิ้น
+          selected: ถูกเลือก
+          visible_to_valuators: แสดงต่อผู้ประเมินค่า
+          author_username: ชื่อผู้ใช้ของผู้เขียน
+          incompatible: ไม่เข้ากัน
+          price: ราคา
+          author: ผู้เขียน
+        cannot_calculate_winners: งบประมาณต้องอยู่ในระยะ "%{phase}" เพื่อคำนวณโครงการที่ชนะ
+        see_results: "ดูผลลัพธ์"
+        milestone_tags_filter_all: "แท็กเหตุการณ์สำคัญทั้งหมด"
       show:
-        assigned_admin: Assigned administrator
-        assigned_valuators: Assigned valuators
-        classification: Classification
-        info: "%{budget_name} - Group: %{group_name} - Investment project %{id}"
-        edit: Edit
-        edit_classification: Edit classification
-        by: By
-        sent: Sent
-        group: Group
-        heading: Heading
-        dossier: Dossier
-        edit_dossier: Edit dossier
-        tags: Tags
-        undefined: Undefined
+        assigned_admin: ผู้ดูแลระบบที่ได้รับมอบหมาย
+        assigned_valuators: ผู้ประเมินค่าที่ได้รับมอบหมาย
+        classification: การจำแนก
+        info: "%{budget_name} - กลุ่ม: %{group_name} - โครงการลงทุน %{id}"
+        edit: แก้ไข
+        edit_classification: แก้ไขการจำแนก
+        by: โดย
+        sent: ถูกส่งแล้ว
+        group: กลุ่ม
+        heading: หัวข้อ
+        dossier: แฟ้มข้อมูล
+        edit_dossier: แก้ไขแฟ้มข้อมูล
+        tags: แท็ก
+        undefined: ไม่ได้กำหนด
         compatibility:
-          title: Compatibility
-          "true": Incompatible
-          "false": Compatible
+          title: ความเข้ากันได้
+          "true": ไม่เข้ากัน
+          "false": เข้ากันได้
         selection:
-          title: Selection
+          title: การเลือก
         winner:
-          title: Winner
-          "true": "Yes"
-          "false": "No"
-        valuator_groups: "Valuator Groups"
-        preview: Investment preview
+          title: ผู้ชนะ
+          "true": "ใช่"
+          "false": "ไม่"
+        valuator_groups: "กลุ่มผู้ประเมินค่า"
+        preview: ดูตัวอย่างการลงทุน
       edit:
-        classification: Classification
-        compatibility: Compatibility
-        selection: Selection
-        assigned_valuators: Valuators
-        select_heading: Select heading
-        submit_button: Update
-        user_tags: User assigned tags
-        tags_placeholder: "Write the tags you want separated by commas (,)"
-        undefined: Undefined
-      search_unfeasible: Search unfeasible
+        classification: การจำแนก
+        compatibility: ความเข้ากันได้
+        selection: การเลือก
+        assigned_valuators: ผู้ประเมินค่า
+        select_heading: เลือกหัวข้อ
+        submit_button: อัปเดต
+        user_tags: แท็กที่ผู้ใช้กำหนด
+        tags_placeholder: "เขียนแท็กที่คุณต้องการคั่นด้วยเครื่องหมายจุลภาค (,)"
+        undefined: ไม่ได้กำหนด
+      search_unfeasible: ค้นหาสิ่งที่เป็นไปไม่ได้
     budgets_wizard:
       creation_timeline:
-        budget: Budget
-        groups: Groups
-        headings: Headings
-        phases: Phases
+        budget: งบประมาณ
+        groups: กลุ่ม
+        headings: หัวข้อ
+        phases: ระยะ
       budgets:
-        continue: "Continue to groups"
+        continue: "ดำเนินการต่อเพื่อกลุ่ม"
       groups:
-        back: "Go back to edit budget"
-        continue: "Continue to headings"
+        back: "กลับไปแก้ไขงบประมาณ"
+        continue: "ดำเนินการต่อเพื่อหัวข้อ"
       headings:
-        continue: "Continue to phases"
+        continue: "ดำเนินการต่อเพื่อระยะ"
         single:
-          back: "Go back to edit group"
+          back: "กลับไปแก้ไขกลุ่ม"
       heading_mode:
         multiple:
-          description: "Create a process with multiple groups, districts or topics. You have something like several bags of money. For example, 25,000€ for \"North District\", 30,000€ for \"Center District\", 28,000€ for \"South District\" and the whole city. Or for several themes like sport, culture or health."
-          link: "Create multiple headings budget"
-          title: "<strong>Multiple headings</strong> budget"
+          description: "สร้างกระบวนการที่มีหลายกลุ่ม เขต หรือหัวข้อ คุณมีสิ่งที่คล้ายกับถุงเงินหลายใบ ตัวอย่างเช่น 25,000 ยูโรสำหรับ \"เขตเหนือ\", 30,000 ยูโรสำหรับ \"เขตกลาง\", 28,000 ยูโรสำหรับ \"เขตใต้\" และทั้งเมือง หรือสำหรับหลายหัวข้อ เช่น กีฬา วัฒนธรรม หรือสุขภาพ"
+          link: "สร้างงบประมาณหลายหัวข้อ"
+          title: "งบประมาณ <strong>หลายหัวข้อ</strong>"
         single:
-          description: "Create a process with a group, district or topic. You have something like a bag of money. For example, 25,000€ for the district, or 10,000€ for culture."
-          link: "Create single heading budget"
-          title: "<strong>Single heading</strong> budget"
-        title: "Participatory budget type"
+          description: "สร้างกระบวนการที่มีกลุ่ม เขต หรือหัวข้อเดียว คุณมีสิ่งที่คล้ายกับถุงเงินใบเดียว ตัวอย่างเช่น 25,000 ยูโรสำหรับเขต หรือ 10,000 ยูโรสำหรับวัฒนธรรม"
+          link: "สร้างงบประมาณหัวข้อเดียว"
+          title: "งบประมาณ <strong>หัวข้อเดียว</strong>"
+        title: "ประเภทงบประมาณแบบมีส่วนร่วม"
       phases:
-        continue: "Finish"
+        continue: "เสร็จสิ้น"
         multiple:
-          back: "Go back to headings"
+          back: "กลับไปที่หัวข้อ"
         single:
-          back: "Go back to edit heading"
+          back: "กลับไปแก้ไขหัวข้อ"
     milestones:
       index:
         table_id: "ID"
-        table_title: "Title"
-        table_description: "Description"
-        table_publication_date: "Publication date"
-        table_status: Status
-        table_actions: "Actions"
-        no_milestones: "Don't have defined milestones"
-        image: "Image"
-        show_image: "Show image"
-        documents: "Documents"
-        milestone: Milestone
-        new_milestone: Create new milestone
-        milestone_tags: Milestone Tags
+        table_title: "ชื่อเรื่อง"
+        table_description: "คำอธิบาย"
+        table_publication_date: "วันที่เผยแพร่"
+        table_status: สถานะ
+        table_actions: "การดำเนินการ"
+        no_milestones: "ไม่มีเหตุการณ์สำคัญที่กำหนดไว้"
+        image: "รูปภาพ"
+        show_image: "แสดงรูปภาพ"
+        documents: "เอกสาร"
+        milestone: เหตุการณ์สำคัญ
+        new_milestone: สร้างเหตุการณ์สำคัญใหม่
+        milestone_tags: แท็กเหตุการณ์สำคัญ
       form:
-        admin_statuses: Manage statuses
-        no_statuses_defined: There are no defined statuses yet
+        admin_statuses: จัดการสถานะ
+        no_statuses_defined: ยังไม่มีสถานะที่กำหนดไว้
       new:
-        creating: Create milestone
+        creating: สร้างเหตุการณ์สำคัญ
       edit:
-        title: Edit milestone
+        title: แก้ไขเหตุการณ์สำคัญ
       create:
-        notice: New milestone created successfully!
+        notice: สร้างเหตุการณ์สำคัญใหม่สำเร็จแล้ว!
       update:
-        notice: Milestone updated successfully
+        notice: อัปเดตเหตุการณ์สำคัญสำเร็จแล้ว
       delete:
-        notice: Milestone successfully deleted
+        notice: ลบเหตุการณ์สำคัญสำเร็จแล้ว
     statuses:
       index:
-        title: Milestone statuses
-        empty_statuses: There are no milestone statuses created
-        new_status: Create new milestone status
-        table_name: Name
-        table_description: Description
-        table_actions: Actions
+        title: สถานะเหตุการณ์สำคัญ
+        empty_statuses: ไม่มีสถานะเหตุการณ์สำคัญที่สร้างขึ้น
+        new_status: สร้างสถานะเหตุการณ์สำคัญใหม่
+        table_name: ชื่อ
+        table_description: คำอธิบาย
+        table_actions: การดำเนินการ
       edit:
-        title: Edit milestone status
+        title: แก้ไขสถานะเหตุการณ์สำคัญ
       update:
-        notice: Milestone status updated successfully
+        notice: อัปเดตสถานะเหตุการณ์สำคัญสำเร็จแล้ว
       new:
-        title: Create milestone status
+        title: สร้างสถานะเหตุการณ์สำคัญ
       create:
-        notice: Milestone status created successfully
+        notice: สร้างสถานะเหตุการณ์สำคัญสำเร็จแล้ว
       delete:
-        notice: Milestone status deleted successfully
+        notice: ลบสถานะเหตุการณ์สำคัญสำเร็จแล้ว
     progress_bars:
-      manage: "Manage progress bars"
+      manage: "จัดการแถบความคืบหน้า"
       index:
-        title: "Progress bars"
-        no_progress_bars: "There are no progress bars"
-        new_progress_bar: "Create new progress bar"
-        primary: "Primary progress bar"
+        title: "แถบความคืบหน้า"
+        no_progress_bars: "ไม่มีแถบความคืบหน้า"
+        new_progress_bar: "สร้างแถบความคืบหน้าใหม่"
+        primary: "แถบความคืบหน้าหลัก"
         table_id: "ID"
-        table_kind: "Type"
-        table_title: "Title"
-        table_percentage: "Current progress"
+        table_kind: "ประเภท"
+        table_title: "ชื่อเรื่อง"
+        table_percentage: "ความคืบหน้าปัจจุบัน"
       new:
-        creating: "Create progress bar"
+        creating: "สร้างแถบความคืบหน้า"
       edit:
         title:
-          primary: "Edit primary progress bar"
-          secondary: "Edit progress bar %{title}"
+          primary: "แก้ไขแถบความคืบหน้าหลัก"
+          secondary: "แก้ไขแถบความคืบหน้า %{title}"
       create:
-        notice: "Progress bar created successfully!"
+        notice: "สร้างแถบความคืบหน้าสำเร็จแล้ว!"
       update:
-        notice: "Progress bar updated successfully"
+        notice: "อัปเดตแถบความคืบหน้าสำเร็จแล้ว"
       delete:
-        notice: "Progress bar deleted successfully"
+        notice: "ลบแถบความคืบหน้าสำเร็จแล้ว"
     comments:
       index:
         id: "ID"
-        content: "Content"
-        author: "Author"
-        commentable_type: "Type"
-        title: Comments
-        no_comments: There are no comments.
-        table_link: "Link"
+        content: "เนื้อหา"
+        author: "ผู้เขียน"
+        commentable_type: "ประเภท"
+        title: ความคิดเห็น
+        no_comments: ไม่มี
+        table_link: "ลิงก์"
     hidden_comments:
       index:
-        filter: Filter
+        filter: ตัวกรอง
         filters:
-          all: All
-          with_confirmed_hide: Confirmed
-          without_confirmed_hide: Pending
-        hidden_debate: Hidden debate
-        hidden_proposal: Hidden proposal
-        title: Hidden comments
-        no_hidden_comments: There are no hidden comments.
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        hidden_debate: การอภิปรายที่ถูกซ่อน
+        hidden_proposal: ข้อเสนอที่ถูกซ่อน
+        title: ความคิดเห็นที่ถูกซ่อน
+        no_hidden_comments: ไม่มีความคิดเห็นที่ถูกซ่อน
     dashboard:
       index:
-        back: Go back to %{org}
-        title: Administration
-        description: Welcome to the %{org} admin panel.
+        back: กลับไปที่ %{org}
+        title: การบริหาร
+        description: ยินดีต้อนรับสู่แผงผู้ดูแลระบบ %{org}
         info: |-
-          <p>This is the place where you, as an administrator, implement and oversee the citizen participation process in your city or region.</p>
+          <p>ที่นี่คือสถานที่ที่คุณในฐานะผู้ดูแลระบบจะดำเนินการและกำกับดูแลกระบวนการมีส่วนร่วมของพลเมืองในเมืองหรือภูมิภาคของคุณ</p>
 
-          <p>You are now one of hundreds of governments and municipalities worldwide that are using the CONSUL DEMOCRACY platform to put citizen participation into practice. Congratulations!</p>
+          <p>ตอนนี้คุณเป็นหนึ่งในรัฐบาลและเทศบาลหลายร้อยแห่งทั่วโลกที่กำลังใช้แพลตฟอร์ม CONSUL DEMOCRACY เพื่อนำการมีส่วนร่วมของพลเมืองไปปฏิบัติ ขอแสดงความยินดีด้วย!</p>
 
-          <p>The CONSUL DEMOCRACY Foundation is at the heart of the global user community. We'd like to ask you to get in touch so we get a grasp of who's using the software and see how we might assist with implementation or use. We can't wait to welcome you to the community.</p>
+          <p>มูลนิธิ CONSUL DEMOCRACY เป็นหัวใจของชุมชนผู้ใช้ทั่วโลก เราขอให้คุณติดต่อเราเพื่อที่เราจะเข้าใจว่าใครใช้ซอฟต์แวร์และดูว่าเราจะสามารถช่วยเหลือในการนำไปใช้หรือการใช้งานได้อย่างไร เราแทบรอไม่ไหวที่จะต้อนรับคุณเข้าสู่ชุมชน</p>
 
-          <p>Happy administrating!</p>
+          <p>ขอให้บริหารอย่างมีความสุข!</p>
 
-          <p>Greetings from the CONSUL DEMOCRACY Foundation team.</p>
+          <p>คำทักทายจากทีมงานมูลนิธิ CONSUL DEMOCRACY</p>
       actions:
         index:
-          description: "When users create proposals they can access a dashboard of their proposal, where you can propose resources and recommendations to get support for their idea."
-          create: Create resource or action
-          active: 'Yes'
-          inactive: 'No'
-          title: Resources and actions
-          action_title: Title
-          action_type: Type
-          required_supports: Required supports
-          day_offset: Required days
-          action_active: Active
-          order: Order
-          published_proposal: Published proposal
+          description: "เมื่อผู้ใช้สร้างข้อเสนอ พวกเขาสามารถเข้าถึงแดชบอร์ดของข้อเสนอได้ ซึ่งคุณสามารถเสนอทรัพยากรและคำแนะนำเพื่อรับการสนับสนุนสำหรับแนวคิดของพวกเขา"
+          create: สร้างทรัพยากรหรือการดำเนินการ
+          active: 'ใช่'
+          inactive: 'ไม่'
+          title: ทรัพยากรและการดำเนินการ
+          action_title: ชื่อเรื่อง
+          action_type: ประเภท
+          required_supports: การสนับสนุนที่จำเป็น
+          day_offset: วันที่จำเป็น
+          action_active: ใช้งานอยู่
+          order: ลำดับ
+          published_proposal: ข้อเสนอที่เผยแพร่แล้ว
           default:
-            email: Email
-            polls: Polls
-            poster: Poster
+            email: อีเมล
+            polls: แบบสำรวจ
+            poster: โปสเตอร์
         new:
-          creating: New action for the proposals dashboard
-          back: Back to list
+          creating: การดำเนินการใหม่สำหรับแดชบอร์ดข้อเสนอ
+          back: กลับไปที่รายการ
         create:
-          notice: Action created successfully
+          notice: สร้างการดำเนินการสำเร็จแล้ว
         edit:
-          editing: Edit action for the proposals dashboard
-          back: Back to list
+          editing: แก้ไขการดำเนินการสำหรับแดชบอร์ดข้อเสนอ
+          back: กลับไปที่รายการ
         delete:
-          success: Action successfully deleted
+          success: ลบการดำเนินการสำเร็จแล้ว
         form:
-          submit_button: Save
-          help_text: Enter 0 so that this value is not taken into account
-          published_proposal_help_text: Mark this checkbox to create the action only for published proposals
-      administrator_tasks:
-        index:
-          description: "Resources published in the dashboard of proposals may include a button to be requested to administrators. User requests are shown below."
-          title: Resources requested
-          solve: Solve
-          no_records: There are no resources requested
-          source: Source
-          resource: Requested resource
-          filter: Filter
-          filters:
-            pending: Pending
-            done: Solved
-        edit:
-          back: Back to pending tasks list
-          solving: Solve pending task
-        form:
-          solve: Mark as solved
-          proposal: Proposal
-          request: Requested resource
-        update:
-          success: The task has been marked as solved.
+          submit_button: บันทึก
+          help_text: ใส่ 0 เพื่อไม่ให้คำนึงถึงค่านั้น
+          published_proposal_help_text: ทำเครื่องหมายที่ช่องนี้เพื่อสร้างการดำเนินการสำหรับข้อเสนอที่เผยแพร่แล้วเท่านั้น
+        administrator_tasks:
+          index:
+            description: "ทรัพยากรที่เผยแพร่ในแดชบอร์ดของข้อเสนออาจมีปุ่มให้ร้องขอไปยังผู้ดูแลระบบ คำขอของผู้ใช้จะแสดงอยู่ด้านล่าง"
+            title: ทรัพยากรที่ร้องขอ
+            solve: แก้ไข
+            no_records: ไม่มีบันทึกการร้องขอทรัพยากร
+            source: แหล่งที่มา
+            resource: ทรัพยากรที่ร้องขอ
+            filter: ตัวกรอง
+            filters:
+              pending: รอดำเนินการ
+              done: แก้ไขแล้ว
+          edit:
+            back: กลับไปที่รายการงานที่รอดำเนินการ
+            solving: แก้ไขงานที่รอดำเนินการ
+          form:
+            solve: ทำเครื่องหมายว่าแก้ไขแล้ว
+            proposal: ข้อเสนอ
+            request: ทรัพยากรที่ร้องขอ
+          update:
+            success: งานถูกทำเครื่องหมายว่าแก้ไขแล้ว
     debates:
       index:
         id: ID
-        author: Author
-        title: Debates
-        no_debates: There are no debates.
+        author: ผู้เขียน
+        title: การอภิปราย
+        no_debates: ไม่มี
     hidden_debates:
       index:
-        filter: Filter
+        filter: ตัวกรอง
         filters:
-          all: All
-          with_confirmed_hide: Confirmed
-          without_confirmed_hide: Pending
-        title: Hidden debates
-        no_hidden_debates: There are no hidden debates.
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: การอภิปรายที่ถูกซ่อน
+        no_hidden_debates: ไม่มีการอภิปรายที่ถูกซ่อน
     documents:
       new:
-        title: "Upload a document"
-        submit_button: "Upload"
+        title: "อัปโหลดเอกสาร"
+        submit_button: "อัปโหลด"
       index:
-        new_link: "Add new document"
-        no_documents: "There are no documents."
-        title: "Documents"
-        format: "Format"
-        size: "Size"
+        new_link: "เพิ่มเอกสารใหม่"
+        no_documents: "ไม่มีเอกสาร"
+        title: "เอกสาร"
+        format: "รูปแบบ"
+        size: "ขนาด"
       create:
-        success_notice: "Document uploaded successfully"
-        unable_notice: "Invalid document"
+        success_notice: "อัปโหลดเอกสารสำเร็จแล้ว"
+        unable_notice: "เอกสารไม่ถูกต้อง"
       destroy:
-        success_notice: "Document deleted successfully"
+        success_notice: "ลบเอกสารสำเร็จแล้ว"
     hidden_users:
       index:
-        filter: Filter
+        filter: ตัวกรอง
         filters:
-          all: All
-          with_confirmed_hide: Confirmed
-          without_confirmed_hide: Pending
-        title: Hidden users
-        user: User
-        no_hidden_users: There are no hidden users.
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: ผู้ใช้ที่ถูกซ่อน
+        user: ผู้ใช้
+        no_hidden_users: ไม่มีผู้ใช้ที่ถูกซ่อน
       show:
-        email: "Email:"
-        hidden_at: "Hidden at:"
-        registered_at: "Registered at:"
-        title: Activity of user (%{user})
+        email: "อีเมล:"
+        hidden_at: "ซ่อนเมื่อ:"
+        registered_at: "ลงทะเบียนเมื่อ:"
+        title: กิจกรรมของผู้ใช้ (%{user})
     hidden_budget_investments:
       index:
-        filter: Filter
+        filter: ตัวกรอง
         filters:
-          all: All
-          with_confirmed_hide: Confirmed
-          without_confirmed_hide: Pending
-        title: Hidden budgets investments
-        no_hidden_budget_investments: There are no hidden budget investments
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: การลงทุนด้านงบประมาณที่ถูกซ่อน
+        no_hidden_budget_investments: ไม่มีการลงทุนด้านงบประมาณที่ถูกซ่อน
     legislation:
       processes:
         create:
-          notice: 'Process created successfully. <a href="%{link}">Click to visit</a>'
-          error: Process couldn't be created
+          notice: 'สร้างกระบวนการสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+          error: ไม่สามารถสร้างกระบวนการได้
         update:
-          notice: 'Process updated successfully. <a href="%{link}">Click to visit</a>'
-          error: Process couldn't be updated
+          notice: 'อัปเดตกระบวนการสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+          error: ไม่สามารถอัปเดตกระบวนการได้
         destroy:
-          notice: Process deleted successfully
+          notice: ลบกระบวนการสำเร็จแล้ว
         edit:
-          back: Back
-          submit_button: Save changes
+          back: กลับ
+          submit_button: บันทึกการเปลี่ยนแปลง
         form:
-          enabled: Enabled
-          process: Process
-          debate_phase: Debate phase
-          draft_phase: Draft phase
-          draft_phase_description: If this phase is active, the process won't be listed on processes index. Allow to preview the process and create content before the start.
-          allegations_phase: Comments phase
-          proposals_phase: Proposals phase
-          use_markdown: Use Markdown to format the text
-          homepage_description: Here you can explain the content of the process
-          banner_title: Header colors
+          enabled: เปิดใช้งาน
+          process: กระบวนการ
+          debate_phase: ระยะการอภิปราย
+          draft_phase: ระยะฉบับร่าง
+          draft_phase_description: หากระยะนี้ใช้งานอยู่ กระบวนการจะไม่แสดงในดัชนีกระบวนการ อนุญาตให้ดูตัวอย่างกระบวนการและสร้างเนื้อหาก่อนเริ่ม
+          allegations_phase: ระยะความคิดเห็น
+          proposals_phase: ระยะข้อเสนอ
+          use_markdown: ใช้ Markdown เพื่อจัดรูปแบบข้อความ
+          homepage_description: ที่นี่คุณสามารถอธิบายเนื้อหาของกระบวนการได้
+          banner_title: สีส่วนหัว
         index:
-          create: New process
-          title: Collaborative legislation
+          create: กระบวนการใหม่
+          title: กฎหมายร่วมกัน
           filters:
-            active: Active
-            all: All
+            active: ใช้งานอยู่
+            all: ทั้งหมด
         new:
-          back: Back
-          title: Create new collaborative legislation process
-          submit_button: Create process
+          back: กลับ
+          title: สร้างกระบวนการกฎหมายร่วมกันใหม่
+          submit_button: สร้างกระบวนการ
         proposals:
           orders:
-            id: "Sort by ID"
-            title: "Sort by title"
-            supports: "Sort by total supports"
+            id: "เรียงตาม ID"
+            title: "เรียงตามชื่อเรื่อง"
+            supports: "เรียงตามการสนับสนุนทั้งหมด"
         process:
-          title: Process
-          comments: Comments
-          status: Status
-          start_date: Start date
-          end_date: End date
-          status_open: Open
-          status_closed: Closed
-          status_planned: Planned
+          title: กระบวนการ
+          comments: ความคิดเห็น
+          status: สถานะ
+          start_date: วันที่เริ่มต้น
+          end_date: วันที่สิ้นสุด
+          status_open: เปิดอยู่
+          status_closed: ปิดแล้ว
+          status_planned: วางแผน
         subnav:
-          info: Information
-          homepage: Homepage
-          draft_versions: Drafting
-          questions: Debate
-          proposals: Proposals
-          milestones: Following
-      homepage:
-        edit:
-          title: Configure your process homepage
-      proposals:
-        index:
-          title: Proposals
-          back: Back
-          id: Id
-          supports: Total supports
-        form:
-          custom_categories: Categories
-          custom_categories_description: Categories that users can select creating the proposal. Max 160 characteres.
-          custom_categories_placeholder: Enter the tags you would like to use, separated by commas (,) and between quotes ("")
-      draft_versions:
-        create:
-          notice: 'Draft created successfully. <a href="%{link}">Click to visit</a>'
-          error: Draft couldn't be created
-        update:
-          notice: 'Draft updated successfully. <a href="%{link}">Click to visit</a>'
-          error: Draft couldn't be updated
-        destroy:
-          notice: Draft deleted successfully
-        edit:
-          back: Back
-          submit_button: Save changes
-          warning: You've edited the text, don't forget to click on Save to permanently save the changes.
-          markdown_changes_message: "You've edited the text without saving it. Do you confirm to leave the page?"
-        form:
-          title: 'Editing <span class="strong">%{draft_version_title}</span> from the process <span class="strong">%{process_title}</span>'
-          launch_text_editor: Launch text editor
-          close_text_editor: Close text editor
-          use_markdown: Use Markdown to format the text
-          hints:
-            final_version: This version will be published as Final Result for this process. Comments won't be allowed in this version.
-            status:
-              draft: You can preview as admin, no one else can see it
-              published: Visible for everybody
-          changelog_placeholder: Add the main changes from the previous version
-        index:
-          title: Draft versions
-          create: Create version
-          preview: Preview
-        new:
-          back: Back
-          title: Create new version
-          submit_button: Create version
-        table:
-          title: Title
-          created_at: Created at
-          comments: Comments
-          final_version: Final version
-          status: Status
-      questions:
-        create:
-          notice: 'Question created successfully. <a href="%{link}">Click to visit</a>'
-          error: Question couldn't be created
-        update:
-          notice: 'Question updated successfully. <a href="%{link}">Click to visit</a>'
-          error: Question couldn't be updated
-        destroy:
-          notice: Question deleted successfully
-        edit:
-          back: Back
-          title: "Edit “%{question_title}”"
-          submit_button: Save changes
-        form:
-          add_option: Add option
-          value_placeholder: Add a closed answer
-          question_options: "Possible answers (optional, by default open answers)"
-        index:
-          back: Back
-          title: Questions associated to this process
-          create: Create question
-        new:
-          back: Back
-          title: Create new question
-          submit_button: Create question
-        table:
-          title: Title
-          question_options: Question options
-          answers_count: Answers count
-          comments_count: Comments count
-        question_option_fields:
-          remove_option: Remove option
-      milestones:
-        index:
-          title: Following
+          info: ข้อมูล
+          homepage: หน้าแรก
+          draft_versions: การร่าง
+          questions: การอภิปราย
+          proposals: ข้อเสนอ
+          milestones: การติดตาม
+        homepage:
+          edit:
+            title: กำหนดค่าหน้าแรกของกระบวนการของคุณ
+        proposals:
+          index:
+            title: ข้อเสนอ
+            back: กลับ
+            id: Id
+            supports: การสนับสนุนทั้งหมด
+          form:
+            custom_categories: หมวดหมู่
+            custom_categories_description: หมวดหมู่ที่ผู้ใช้สามารถเลือกสร้างข้อเสนอได้ สูงสุด 160 ตัวอักษร
+            custom_categories_placeholder: ใส่แท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (,) และอยู่ระหว่างเครื่องหมายอัญประกาศคู่ ("")
+        draft_versions:
+          create:
+            notice: 'สร้างฉบับร่างสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถสร้างฉบับร่างได้
+          update:
+            notice: 'อัปเดตฉบับร่างสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถอัปเดตฉบับร่างได้
+          destroy:
+            notice: ลบฉบับร่างสำเร็จแล้ว
+          edit:
+            back: กลับ
+            submit_button: บันทึกการเปลี่ยนแปลง
+            warning: คุณแก้ไขข้อความแล้ว อย่าลืมคลิกที่บันทึกเพื่อบันทึกการเปลี่ยนแปลงอย่างถาวร
+            markdown_changes_message: "คุณแก้ไขข้อความโดยไม่ได้บันทึก คุณยืนยันที่จะออกจากหน้านี้หรือไม่?"
+          form:
+            title: 'กำลังแก้ไข <span class="strong">%{draft_version_title}</span> จากกระบวนการ <span class="strong">%{process_title}</span>'
+            launch_text_editor: เปิดตัวแก้ไขข้อความ
+            close_text_editor: ปิดตัวแก้ไขข้อความ
+            use_markdown: ใช้ Markdown เพื่อจัดรูปแบบข้อความ
+            hints:
+              final_version: ฉบับนี้จะถูกเผยแพร่เป็นผลลัพธ์สุดท้ายสำหรับกระบวนการนี้ ไม่อนุญาตให้แสดงความคิดเห็นในฉบับนี้
+              status:
+                draft: คุณสามารถดูตัวอย่างในฐานะผู้ดูแลระบบได้ ไม่มีใครสามารถเห็นได้
+                published: เผยแพร่แล้ว ผู้ใช้ทุกคนสามารถมองเห็นได้
+            changelog_placeholder: เพิ่มการเปลี่ยนแปลงหลักจากเวอร์ชันก่อนหน้า
+          index:
+            title: ฉบับร่าง
+            create: สร้างฉบับ
+            preview: ดูตัวอย่าง
+          new:
+            back: กลับ
+            title: สร้างฉบับใหม่
+            submit_button: สร้างฉบับ
+          table:
+            title: ชื่อเรื่อง
+            created_at: สร้างเมื่อ
+            comments: ความคิดเห็น
+            final_version: ฉบับสุดท้าย
+            status: สถานะ
+        questions:
+          create:
+            notice: 'สร้างคำถามสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถสร้างคำถามได้
+          update:
+            notice: 'อัปเดตคำถามสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถอัปเดตคำถามได้
+          destroy:
+            notice: ลบคำถามสำเร็จแล้ว
+          edit:
+            back: กลับ
+            title: "แก้ไข “%{question_title}”"
+            submit_button: บันทึกการเปลี่ยนแปลง
+          form:
+            add_option: เพิ่มตัวเลือก
+            value_placeholder: เพิ่มคำตอบแบบปิด
+            question_options: "ตัวเลือกคำตอบ (ทางเลือก ตามค่าเริ่มต้นคือคำตอบแบบเปิด)"
+          index:
+            back: กลับ
+            title: คำถามที่เกี่ยวข้องกับกระบวนการนี้
+            create: สร้างคำถาม
+          new:
+            back: กลับ
+            title: สร้างคำถามใหม่
+            submit_button: สร้างคำถาม
+          table:
+            title: ชื่อเรื่อง
+            question_options: ตัวเลือกคำถาม
+            answers_count: จำนวนคำตอบ
+            comments_count: จำนวนความคิดเห็น
+          question_option_fields:
+            remove_option: ลบตัวเลือก
+          milestones:
+            index:
+              title: การติดตาม
     locales:
-      default_help_text: "This is the default language of the application, and changing it will <strong>affect every user</strong> visiting the website for the first time."
-      enabled_help_text: The default language, selected above, will be included automatically.
+      default_help_text: "นี่คือภาษาเริ่มต้นของแอปพลิเคชัน และการเปลี่ยนแปลงจะมี **ผลกระทบต่อผู้ใช้ทุกคน** ที่เยี่ยมชมเว็บไซต์เป็นครั้งแรก"
+      enabled_help_text: ภาษาเริ่มต้นที่เลือกไว้ด้านบน จะถูกรวมโดยอัตโนมัติ
       update:
-        notice: Languages updated successfully
+        notice: อัปเดตภาษาสำเร็จแล้ว
     managers:
       index:
-        title: Managers
-        no_managers: There are no managers.
+        title: ผู้จัดการ
+        no_managers: ไม่มีผู้จัดการ
       manager:
-        add: Add
+        add: เพิ่ม
       search:
-        title: "Managers: User search"
+        title: "ผู้จัดการ: ค้นหาผู้ใช้"
     sdg_managers:
       index:
-        no_sdg_managers: There are no users.
+        no_sdg_managers: ไม่มีผู้ใช้
     sdg/managers:
       sdg/manager:
-        add: Add
+        add: เพิ่ม
     menu:
-      activity: Moderator activity
-      admin: Admin menu
-      banner: Banners
-      proposals: Proposals
-      proposals_topics: Proposals topics
-      budgets: Participatory budgets
-      geozones: Geozones
-      locales: Languages
-      hidden_comments: Hidden comments
-      hidden_debates: Hidden debates
-      hidden_proposals: Hidden proposals
-      hidden_budget_investments: Hidden budget investments
-      hidden_proposal_notifications: Hidden proposal notifications
-      hidden_users: Hidden users
-      administrators: Administrators
-      managers: Managers
-      sdg_managers: SDG Managers
-      moderators: Moderators
-      messaging_users: Messages to users
-      newsletters: Newsletters
-      admin_notifications: Notifications
-      system_emails: System Emails
-      emails_download: Emails download
-      valuators: Valuators
-      poll_officers: Poll officers
-      polls: Polls
-      poll_booths: Booths location
-      poll_booth_assignments: Booths Assignments
-      poll_shifts: Shifts Assignments
-      officials: Officials
-      organizations: Organisations
-      settings: Global settings
-      stats: Statistics
-      signature_sheets: Signature Sheets
+      activity: กิจกรรมการกลั่นกรอง
+      admin: เมนูผู้ดูแลระบบ
+      banner: แบนเนอร์
+      proposals: ข้อเสนอ
+      proposals_topics: หัวข้อข้อเสนอ
+      budgets: งบประมาณแบบมีส่วนร่วม
+      geozones: เขตภูมิศาสตร์
+      locales: ภาษา
+      hidden_comments: ความคิดเห็นที่ถูกซ่อน
+      hidden_debates: การอภิปรายที่ถูกซ่อน
+      hidden_proposals: ข้อเสนอที่ถูกซ่อน
+      hidden_budget_investments: การลงทุนด้านงบประมาณที่ถูกซ่อน
+      hidden_proposal_notifications: การแจ้งเตือนข้อเสนอที่ถูกซ่อน
+      hidden_users: ผู้ใช้ที่ถูกซ่อน
+      administrators: ผู้ดูแลระบบ
+      managers: ผู้จัดการ
+      sdg_managers: ผู้จัดการ SDG
+      moderators: ผู้กลั่นกรอง
+      messaging_users: ข้อความถึงผู้ใช้
+      newsletters: จดหมายข่าว
+      admin_notifications: การแจ้งเตือน
+      system_emails: อีเมลระบบ
+      emails_download: ดาวน์โหลดอีเมล
+      valuators: ผู้ประเมินค่า
+      poll_officers: เจ้าหน้าที่เลือกตั้ง
+      poll_booths: ที่ตั้งบูธ
+      poll_booth_assignments: การมอบหมายบูธ
+      poll_shifts: การมอบหมายกะ
+      officials: เจ้าหน้าที่
+      organizations: องค์กร
+      settings: การตั้งค่าทั่วโลก
+      stats: สถิติ
+      signature_sheets: ใบลงชื่อ
       site_customization:
-        documents: Custom documents
-        homepage: Homepage
-        pages: Custom pages
-        images: Custom images
-        content_blocks: Custom content blocks
-        information_texts: Custom information texts
+        documents: เอกสารที่กำหนดเอง
+        homepage: หน้าแรก
+        pages: หน้าที่กำหนดเอง
+        images: รูปภาพที่กำหนดเอง
+        content_blocks: บล็อกเนื้อหาที่กำหนดเอง
+        information_texts: ข้อความข้อมูลที่กำหนดเอง
         information_texts_menu:
-          basic: "Basic customization"
-          debates: "Debates"
-          community: "Community"
-          proposals: "Proposals"
-          polls: "Polls"
-          legislation: "Collaborative legislation"
-          budgets: "Budgets"
-          layouts: "Layouts"
-          machine_learning: "AI / Machine Learning"
-          mailers: "Emails"
-          management: "Management"
-          welcome: "Welcome"
+          basic: "การปรับแต่งพื้นฐาน"
+          debates: "การอภิปราย"
+          community: "ชุมชน"
+          proposals: "ข้อเสนอ"
+          polls: "แบบสำรวจ"
+          legislation: "กฎหมายร่วมกัน"
+          budgets: "งบประมาณ"
+          layouts: "รูปแบบ"
+          machine_learning: "AI / การเรียนรู้ของเครื่อง"
+          mailers: "อีเมล"
+          management: "การจัดการ"
+          welcome: "ยินดีต้อนรับ"
         buttons:
-          save: "Save"
+          save: "บันทึก"
           content_block:
-            update: "Update Block"
-      title_moderated_content: Moderated content
-      title_profiles: Profiles
-      title_settings: Settings
-      title_site_customization: Site content
-      title_booths: Voting booths
-      legislation: Collaborative Legislation
-      users: Users
-      dashboard: Proposals dashboard
-      administrator_tasks: Resources requested
-      dashboard_actions: Resources and actions
-      debates: "Debates"
-      comments: "Comments"
-      local_census_records: Local census
-      machine_learning: "AI / Machine learning"
-      multitenancy: Multitenancy
+            update: "อัปเดตบล็อก"
+      title_moderated_content: เนื้อหาที่ถูกกลั่นกรอง
+      title_profiles: โปรไฟล์
+      title_settings: การตั้งค่า
+      title_site_customization: เนื้อหาเว็บไซต์
+      title_booths: บูธลงคะแนน
+      legislation: กฎหมายร่วมกัน
+      users: ผู้ใช้
+      dashboard: แดชบอร์ดข้อเสนอ
+      administrator_tasks: ทรัพยากรที่ร้องขอ
+      dashboard_actions: ทรัพยากรและการดำเนินการ
+      debates: "การอภิปราย"
+      comments: "ความคิดเห็น"
+      local_census_records: สำมะโนท้องถิ่น
+      machine_learning: "AI / การเรียนรู้ของเครื่อง"
+      multitenancy: การเช่าหลายราย
     administrators:
       index:
-        title: Administrators
-        id: Administrator ID
-        no_administrators: There are no administrators.
+        title: ผู้ดูแลระบบ
+        id: ID ผู้ดูแลระบบ
+        no_administrators: ไม่มีผู้ดูแลระบบ
       administrator:
-        add: Add
-        restricted_removal: "Sorry, you can't remove yourself from the administrators"
+        add: เพิ่ม
+        restricted_removal: "ขออภัย คุณไม่สามารถลบตัวเองออกจากผู้ดูแลระบบได้"
       search:
-        title: "Administrators: User search"
+        title: "ผู้ดูแลระบบ: ค้นหาผู้ใช้"
       form:
-        edit_title: "Edit administrator"
-        updated: "Administrator updated successfully"
+        edit_title: "แก้ไขผู้ดูแลระบบ"
+        updated: "อัปเดตผู้ดูแลระบบสำเร็จแล้ว"
     moderators:
       index:
-        title: Moderators
-        no_moderators: There are no moderators.
+        title: ผู้กลั่นกรอง
+        no_moderators: ไม่มีผู้กลั่นกรอง
       moderator:
-        add: Add
+        add: เพิ่ม
       search:
-        title: "Moderators: User search"
+        title: "ผู้กลั่นกรอง: ค้นหาผู้ใช้"
     segment_recipient:
-      all_users: All users
-      administrators: Administrators
-      all_proposal_authors: Proposal authors (including archived and withdrawn)
-      proposal_authors: Proposal authors
-      investment_authors: Investment authors in the current budget
-      feasible_and_undecided_investment_authors: "Authors of some investment in the current budget that does not comply with: [valuation finished unfesasible]"
-      selected_investment_authors: Authors of selected investments in the current budget
-      winner_investment_authors: Authors of winner investments in the current budget
-      not_supported_on_current_budget: Users that haven't supported investments on current budget
-      invalid_recipients_segment: "Recipients user segment is invalid"
+      all_users: ผู้ใช้ทั้งหมด
+      administrators: ผู้ดูแลระบบ
+      all_proposal_authors: ผู้เขียนข้อเสนอทั้งหมด (รวมถึงที่เก็บถาวรและที่ถูกถอนออก)
+      proposal_authors: ผู้เขียนข้อเสนอ
+      investment_authors: ผู้เขียนการลงทุนในงบประมาณปัจจุบัน
+      feasible_and_undecided_investment_authors: "ผู้เขียนการลงทุนบางส่วนในงบประมาณปัจจุบันที่ไม่เป็นไปตามเงื่อนไข: [การประเมินค่าเสร็จสิ้นแล้วและเป็นไปไม่ได้]"
+      selected_investment_authors: ผู้เขียนการลงทุนที่ถูกเลือกในงบประมาณปัจจุบัน
+      winner_investment_authors: ผู้เขียนการลงทุนที่ชนะในงบประมาณปัจจุบัน
+      not_supported_on_current_budget: ผู้ใช้ที่ไม่ได้สนับสนุนการลงทุนในงบประมาณปัจจุบัน
+      invalid_recipients_segment: "ส่วนของผู้รับไม่ถูกต้อง"
     newsletters:
-      create_success: Newsletter created successfully
-      update_success: Newsletter updated successfully
-      send_success: Newsletter sent successfully
-      delete_success: Newsletter deleted successfully
+      create_success: สร้างจดหมายข่าวสำเร็จแล้ว
+      update_success: อัปเดตจดหมายข่าวสำเร็จแล้ว
+      send_success: ส่งจดหมายข่าวสำเร็จแล้ว
+      delete_success: ลบจดหมายข่าวสำเร็จแล้ว
       index:
-        title: Newsletters
-        new_newsletter: New newsletter
-        subject: Subject
-        segment_recipient: Recipients
-        sent: Sent
-        actions: Actions
-        draft: Draft
-        preview: Preview
-        empty_newsletters: There are no newsletters to show
+        title: จดหมายข่าว
+        new_newsletter: จดหมายข่าวใหม่
+        subject: หัวข้อ
+        segment_recipient: ผู้รับ
+        sent: ถูกส่งแล้ว
+        actions: การดำเนินการ
+        draft: ฉบับร่าง
+        preview: ดูตัวอย่าง
+        empty_newsletters: ไม่มีจดหมายข่าวให้แสดง
       new:
-        title: New newsletter
-        header_footer_help_text: "The heading and footer are the same for all emails, you can modify them on <code>app/views/layouts/mailer_header</code> and <code>app/views/layouts/mailer_footer</code>.<br>You can replace header image on %{link}."
-        image_link: "custom images"
+        title: จดหมายข่าวใหม่
+        header_footer_help_text: "ส่วนหัวและส่วนท้ายเหมือนกันสำหรับอีเมลทั้งหมด คุณสามารถแก้ไขได้ที่ <code>app/views/layouts/mailer_header</code> และ <code>app/views/layouts/mailer_footer</code><br>คุณสามารถแทนที่รูปภาพส่วนหัวได้ที่ %{link}"
+        image_link: "รูปภาพที่กำหนดเอง"
       edit:
-        title: Edit newsletter
+        title: แก้ไขจดหมายข่าว
       show:
-        title: Newsletter preview
-        send: Send
-        affected_users: (%{n} affected users)
+        title: ดูตัวอย่างจดหมายข่าว
+        send: ส่ง
+        affected_users: (ผู้ใช้ที่ได้รับผลกระทบ %{n} คน)
         sent_emails:
-          one: 1 email sent
-          other: "%{count} emails sent"
-        sent_at: Sent at
-        subject: Subject
-        segment_recipient: Recipients
-        from: E-mail address that will appear as sending the newsletter
-        body: Email content
-        body_help_text: This is how the users will see the email.
-        send_alert: Are you sure you want to send this newsletter to %{n} users?
+          one: ส่งอีเมล 1 ฉบับ
+          other: ส่งอีเมล %{count} ฉบับ
+        sent_at: ส่งเมื่อ
+        subject: หัวข้อ
+        segment_recipient: ผู้รับ
+        from: ที่อยู่อีเมลที่จะปรากฏเป็นผู้ส่งจดหมายข่าว
+        body: เนื้อหาอีเมล
+        body_help_text: นี่คือวิธีที่ผู้ใช้จะเห็นอีเมล
+        send_alert: คุณแน่ใจหรือไม่ว่าต้องการส่งจดหมายข่าวนี้ไปยังผู้ใช้ %{n} คน?
     admin_notifications:
-      create_success: Notification created successfully
-      update_success: Notification updated successfully
-      send_success: Notification sent successfully
-      delete_success: Notification deleted successfully
+      create_success: สร้างการแจ้งเตือนสำเร็จแล้ว
+      update_success: อัปเดตการแจ้งเตือนสำเร็จแล้ว
+      send_success: ส่งการแจ้งเตือนสำเร็จแล้ว
+      delete_success: ลบการแจ้งเตือนสำเร็จแล้ว
       index:
-        section_title: Notifications
-        new_notification: New notification
-        title: Title
-        segment_recipient: Recipients
-        sent: Sent
-        actions: Actions
-        draft: Draft
-        preview: Preview
-        view: View
-        empty_notifications: There are no notifications to show
+        section_title: การแจ้งเตือน
+        new_notification: การแจ้งเตือนใหม่
+        title: ชื่อเรื่อง
+        segment_recipient: ผู้รับ
+        sent: ถูกส่งแล้ว
+        actions: การดำเนินการ
+        draft: ฉบับร่าง
+        preview: ดูตัวอย่าง
+        view: ดู
+        empty_notifications: ไม่มี
       new:
-        section_title: New notification
-        submit_button: Create notification
+        section_title: การแจ้งเตือนใหม่
+        submit_button: สร้างการแจ้งเตือน
       edit:
-        section_title: Edit notification
-        submit_button: Update notification
+        section_title: แก้ไขการแจ้งเตือน
+        submit_button: อัปเดตการแจ้งเตือน
       show:
-        section_title: Notification preview
-        send: Send notification
-        will_get_notified: (%{n} users will be notified)
-        got_notified: (%{n} users got notified)
-        sent_at: Sent at
-        title: Title
-        body: Text
-        link: Link
-        segment_recipient: Recipients
-        preview_guide: "This is how the users will see the notification:"
-        sent_guide: "This is how the users see the notification:"
-        send_alert: Are you sure you want to send this notification to %{n} users?
+        section_title: ดูตัวอย่างการแจ้งเตือน
+        send: ส่งการแจ้งเตือน
+        will_get_notified: (ผู้ใช้ %{n} คนจะได้รับการแจ้งเตือน)
+        got_notified: (ผู้ใช้ %{n} คนได้รับการแจ้งเตือน)
+        sent_at: ส่งเมื่อ
+        title: ชื่อเรื่อง
+        body: ข้อความ
+        link: ลิงก์
+        segment_recipient: ผู้รับ
+        preview_guide: "นี่คือวิธีที่ผู้ใช้จะเห็นการแจ้งเตือน:"
+        sent_guide: "นี่คือวิธีที่ผู้ใช้เห็นการแจ้งเตือน:"
+        send_alert: คุณแน่ใจหรือไม่ว่าต้องการส่งการแจ้งเตือนนี้ไปยังผู้ใช้ %{n} คน?
     system_emails:
       preview_pending:
-        action: Preview Pending
-        preview_of: Preview of %{name}
-        pending_to_be_sent: This is the content pending to be sent
-        moderate_pending: Moderate notification send
-        send_pending: Send pending
-        send_pending_notification: Pending notifications sent successfully
+        action: ดูตัวอย่างที่รอดำเนินการ
+        preview_of: ดูตัวอย่างของ %{name}
+        pending_to_be_sent: นี่คือเนื้อหาที่รอดำเนินการ
+        moderate_pending: กลั่นกรองการส่งการแจ้งเตือนที่รอดำเนินการ
+        send_pending: ส่งรายการที่รอดำเนินการ
+        send_pending_notification: ส่งการแจ้งเตือนที่รอดำเนินการสำเร็จแล้ว
       proposal_notification_digest:
-        title: "Proposal notification digest"
-        description: "Gathers all proposal notifications for an user in a single message, to avoid too much emails."
-        preview_detail: "Users will only recieve notifications from the proposals they are following"
+        title: "สรุปการแจ้งเตือนข้อเสนอ"
+        description: "รวบรวมการแจ้งเตือนข้อเสนอทั้งหมดสำหรับผู้ใช้ในข้อความเดียว เพื่อหลีกเลี่ยงอีเมลที่มากเกินไป"
+        preview_detail: "ผู้ใช้จะได้รับการแจ้งเตือนจากข้อเสนอที่พวกเขากำลังติดตามเท่านั้น"
       budget_investment_created:
-        title: "Budget investment created"
-        description: "Sent when a user creates a budget investment."
+        title: "สร้างการลงทุนด้านงบประมาณแล้ว"
+        description: "ถูกส่งเมื่อผู้ใช้สร้างการลงทุนด้านงบประมาณ"
       budget_investment_selected:
-        title: "Budget investment selected"
-        description: "Sent to the author when its budget investment has been selected."
+        title: "เลือกการลงทุนด้านงบประมาณแล้ว"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อการลงทุนด้านงบประมาณของเขา/เธอถูกเลือก"
       budget_investment_unfeasible:
-        title: "Budget investment unfeasible"
-        description: "Sent to the author when its budget investment has been marked as unfeasible."
+        title: "การลงทุนด้านงบประมาณเป็นไปไม่ได้"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อการลงทุนด้านงบประมาณของเขา/เธอถูกทำเครื่องหมายว่าเป็นไปไม่ได้"
       budget_investment_unselected:
-        title: "Budget investment unselected"
-        description: "Sent to the author when its budget investment hasn't been selected for voting phase."
+        title: "การลงทุนด้านงบประมาณไม่ถูกเลือก"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อการลงทุนด้านงบประมาณของเขา/เธอไม่ถูกเลือกสำหรับขั้นตอนการโหวต"
       comment:
-        title: "Comment"
-        description: "Sent to the author when recieves a comment."
+        title: "ความคิดเห็น"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อได้รับความคิดเห็น"
       reply:
-        title: "Reply"
-        description: "Sent to the comment's author when recieves a reply."
+        title: "การตอบกลับ"
+        description: "ถูกส่งไปยังผู้เขียนความคิดเห็นเมื่อได้รับการตอบกลับ"
       direct_message_for_receiver:
-        title: "Private message receiver"
-        description: "Sent to the private message's receiver."
+        title: "ผู้รับข้อความส่วนตัว"
+        description: "ถูกส่งไปยังผู้รับข้อความส่วนตัว"
       direct_message_for_sender:
-        title: "Private message sender"
-        description: "Sent to the private message's sender."
+        title: "ผู้ส่งข้อความส่วนตัว"
+        description: "ถูกส่งไปยังผู้ส่งข้อความส่วนตัว"
       email_verification:
-        title: "Email verification"
-        description: "Sent to a new user to verify its account."
+        title: "การยืนยันอีเมล"
+        description: "ถูกส่งไปยังผู้ใช้ใหม่เพื่อยืนยันบัญชี"
       user_invite:
-        title: "User Invitation"
-        description: "Sent to the person that has been invited to register an account."
+        title: "การเชิญผู้ใช้"
+        description: "ถูกส่งไปยังผู้ที่ได้รับเชิญให้ลงทะเบียนบัญชี"
       evaluation_comment:
-        title: "New evaluation comment"
-        description: "Sent to administrators and evaluators related to commented investment"
-      edit_info: "You can edit this email in"
-      message_title: "Message's Title"
-      message_body: "This is a sample of message's content."
+        title: "ความคิดเห็นการประเมินใหม่"
+        description: "ถูกส่งไปยังผู้ดูแลระบบและผู้ประเมินที่เกี่ยวข้องกับการลงทุนที่มีการแสดงความคิดเห็น"
+      edit_info: "คุณสามารถแก้ไขอีเมลนี้ได้ใน"
+      message_title: "ชื่อเรื่องของข้อความ"
+      message_body: "นี่คือตัวอย่างเนื้อหาของข้อความ"
       alert:
-        no_investments: "There aren't any budget investment created. Some example data is needed in order to preview the email."
-        no_comments: "There aren't any comments created. Some example data is needed in order to preview the email."
-        no_replies: "There aren't any replies created. Some example data is needed in order to preview the email."
-        no_evaluation_comments: "There aren't any evaluation comments created. Some example data is needed in order to preview the email."
+        no_investments: "ไม่มีการลงทุนด้านงบประมาณที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
+        no_comments: "ไม่มีความคิดเห็นที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
+        no_replies: "ไม่มีการตอบกลับที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
+        no_evaluation_comments: "ไม่มีความคิดเห็นการประเมินที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
     emails_download:
       index:
-        title: Emails download
-        download_segment: Download email addresses
-        download_segment_help_text: Download in CSV format
-        download_emails_button: Download emails list
+        title: ดาวน์โหลดอีเมล
+        download_segment: ดาวน์โหลดที่อยู่อีเมล
+        download_segment_help_text: ดาวน์โหลดในรูปแบบ CSV
+        download_emails_button: ดาวน์โหลดรายการอีเมล
     valuators:
       index:
-        title: Valuators
-        name: Name
-        email: Email
-        description: Description
-        no_description: No description
-        no_valuators: There are no valuators.
-        valuator_groups: "Valuator Groups"
-        group: "Group"
-        no_group: "No group"
-        abilities: "Abilities"
-        can_comment: "Can comment"
-        can_edit_dossier: "Can edit dossier"
+        title: ผู้ประเมินค่า
+        name: ชื่อ
+        email: อีเมล
+        description: คำอธิบาย
+        no_description: ไม่มีคำอธิบาย
+        no_valuators: ไม่มีผู้ประเมินค่า
+        valuator_groups: "กลุ่มผู้ประเมินค่า"
+        group: "กลุ่ม"
+        no_group: "ไม่มีกลุ่ม"
+        abilities: "ความสามารถ"
+        can_comment: "สามารถแสดงความคิดเห็นได้"
+        can_edit_dossier: "สามารถแก้ไขแฟ้มข้อมูลได้"
       valuator:
-        add: Add to valuators
+        add: เพิ่มไปยังผู้ประเมินค่า
       search:
-        title: "Valuators: User search"
+        title: "ผู้ประเมินค่า: ค้นหาผู้ใช้"
       form:
-        edit_title: "Valuators: Edit valuator"
-        updated: "Valuator updated successfully"
+        edit_title: "ผู้ประเมินค่า: แก้ไขผู้ประเมินค่า"
+        updated: "อัปเดตผู้ประเมินค่าสำเร็จแล้ว"
       show:
-        description: "Description"
-        email: "Email"
-        group: "Group"
-        abilities: "Abilities"
-        no_description: "Without description"
-        no_group: "Without group"
-        no_abilities: "Without abilities"
+        description: "คำอธิบาย"
+        email: "อีเมล"
+        group: "กลุ่ม"
+        abilities: "ความสามารถ"
+        no_description: "ไม่มีคำอธิบาย"
+        no_group: "ไม่มีกลุ่ม"
+        no_abilities: "ไม่มีความสามารถ"
     valuator_groups:
       index:
-        title: "Valuator groups"
-        new: "Create valuators group"
-        name: "Name"
-        members: "Members"
-        no_groups: "There are no valuator groups"
+        title: "กลุ่มผู้ประเมินค่า"
+        new: "สร้างกลุ่มผู้ประเมินค่า"
+        name: "ชื่อ"
+        members: "สมาชิก"
+        no_groups: "ไม่มีกลุ่มผู้ประเมินค่า"
       show:
-        title: "Valuators group: %{group}"
-        no_valuators: "There are no valuators assigned to this group"
+        title: "กลุ่มผู้ประเมินค่า: %{group}"
+        no_valuators: "ไม่มีผู้ประเมินค่าที่ได้รับมอบหมายให้กลุ่มนี้"
       form:
-        new: "Create valuators group"
-        edit: "Save valuators group"
+        new: "สร้างกลุ่มผู้ประเมินค่า"
+        edit: "บันทึกกลุ่มผู้ประเมินค่า"
     poll_officers:
       index:
-        title: Poll officers
+        title: เจ้าหน้าที่เลือกตั้ง
       officer:
-        add: Add
-        delete: Delete position
-        name: Name
-        email: Email
-        entry_name: officer
+        add: เพิ่ม
+        delete: ลบตำแหน่ง
+        name: ชื่อ
+        email: อีเมล
+        entry_name: เจ้าหน้าที่
       search:
-        email_placeholder: Search user by email
-        user_not_found: User not found
-        help: "To add or remove Poll officers use the search form below."
+        email_placeholder: ค้นหาผู้ใช้ด้วยอีเมล
+        user_not_found: ไม่พบผู้ใช้
+        help: "หากต้องการเพิ่มหรือลบเจ้าหน้าที่เลือกตั้ง ให้ใช้แบบฟอร์มค้นหาด้านล่าง"
     poll_officer_assignments:
       index:
-        officers_title: "List of officers"
-        no_officers: "There are no officers assigned to this poll."
-        table_name: "Name"
-        table_email: "Email"
+        officers_title: "รายชื่อเจ้าหน้าที่"
+        no_officers: "ไม่มีเจ้าหน้าที่ที่ได้รับมอบหมายให้แบบสำรวจนี้"
+        table_name: "ชื่อ"
+        table_email: "อีเมล"
       by_officer:
-        date: "Date"
-        booth: "Booth"
-        assignments: "Officing shifts in this poll"
-        no_assignments: "This user has no officing shifts in this poll."
+        date: "วันที่"
+        booth: "บูธ"
+        assignments: "กะปฏิบัติหน้าที่ในแบบสำรวจนี้"
+        no_assignments: "ผู้ใช้นี้ไม่มีกะปฏิบัติหน้าที่ในแบบสำรวจนี้"
     poll_shifts:
       new:
-        add_shift: "Add shift"
-        shift: "Assignment"
-        shifts: "Shifts in this booth"
-        date: "Date"
-        edit_shifts: Edit shifts
-        new_shift: "New shift"
-        no_shifts: "This booth has no shifts"
-        officer: "Officer"
-        remove_shift: "Remove"
-        search_officer_button: Search
-        search_officer_placeholder: Search officer
-        search_officer_text: Search for an officer to assign a new shift
-        select_date: "Select day"
-        no_voting_days: "Voting days ended"
-        select_task: "Select task"
-        table_shift: "Shift"
-        table_email: "Email"
-        table_name: "Name"
+        add_shift: "เพิ่มกะ"
+        shift: "การมอบหมาย"
+        shifts: "กะในบูธนี้"
+        date: "วันที่"
+        edit_shifts: แก้ไขกะ
+        new_shift: "กะใหม่"
+        no_shifts: "บูธนี้ไม่มีกะ"
+        officer: "เจ้าหน้าที่"
+        remove_shift: "ลบ"
+        search_officer_button: ค้นหา
+        search_officer_placeholder: ค้นหาเจ้าหน้าที่
+        search_officer_text: ค้นหาเจ้าหน้าที่เพื่อมอบหมายกะใหม่
+        select_date: "เลือกวัน"
+        no_voting_days: "วันลงคะแนนสิ้นสุดแล้ว"
+        select_task: "เลือกงาน"
+        table_shift: "กะ"
+        table_email: "อีเมล"
+        table_name: "ชื่อ"
       flash:
-        create: "Shift added"
-        destroy: "Shift removed"
-        unable_to_destroy: "Shifts with associated results or recounts cannot be deleted"
-        date_missing: "A date must be selected"
-      vote_collection: Collect Votes
-      recount_scrutiny: Recount & Scrutiny
+        create: "เพิ่มกะแล้ว"
+        destroy: "ลบกะแล้ว"
+        unable_to_destroy: "กะที่มีผลลัพธ์หรือการนับซ้ำที่เกี่ยวข้องไม่สามารถถูกลบได้"
+        date_missing: "ต้องเลือกวันที่"
+      vote_collection: รวบรวมคะแนนโหวต
+      recount_scrutiny: การนับซ้ำและการตรวจสอบ
     booth_assignments:
-      manage_assignments: Manage assignments
+      manage_assignments: จัดการการมอบหมาย
       manage:
-        assignments_list: "Assignments for poll '%{poll}'"
+        assignments_list: "การมอบหมายสำหรับแบบสำรวจ '%{poll}'"
         status:
-          assign_status: Assignment
-          assigned: Assigned
-          unassigned: Unassigned
+          assign_status: การมอบหมาย
+          assigned: ได้รับมอบหมาย
+          unassigned: ไม่ได้มอบหมาย
         actions:
-          assign: Assign booth
-          unassign: Unassign booth
+          assign: มอบหมายบูธ
+          unassign: ยกเลิกการมอบหมายบูธ
     poll_booth_assignments:
       alert:
-        shifts: "There are shifts associated to this booth. If you remove the booth assignment, the shifts will be also deleted. Continue?"
+        shifts: "มีกะที่เกี่ยวข้องกับบูธนี้ หากคุณลบการมอบหมายบูธ กะก็จะถูกลบด้วย ดำเนินการต่อหรือไม่?"
       show:
-        location: "Location"
-        officers: "Officers"
-        officers_list: "Officer list for this booth"
-        no_officers: "There are no officers for this booth"
-        recounts: "Recounts"
-        recounts_list: "Recount list for this booth"
-        results: "Results"
-        date: "Date"
-        count_final: "Final recount (by officer)"
-        count_by_system:  "Votes (automatic)"
-        total_system: Total votes (automatic)
+        location: "ที่ตั้ง"
+        officers: "เจ้าหน้าที่"
+        officers_list: "รายชื่อเจ้าหน้าที่สำหรับบูธนี้"
+        no_officers: "ไม่มีเจ้าหน้าที่สำหรับบูธนี้"
+        recounts: "การนับซ้ำ"
+        recounts_list: "รายการการนับซ้ำสำหรับบูธนี้"
+        results: "ผลลัพธ์"
+        date: "วันที่"
+        count_final: "การนับซ้ำสุดท้าย (โดยเจ้าหน้าที่)"
+        count_by_system: "คะแนนโหวต (อัตโนมัติ)"
+        total_system: คะแนนโหวตทั้งหมด (อัตโนมัติ)
       index:
-        booths_title: "List of booths"
-        no_booths: "There are no booths assigned to this poll."
-        table_name: "Name"
-        table_location: "Location"
+        booths_title: "รายชื่อบูธ"
+        no_booths: "ไม่มีบูธที่ได้รับมอบหมายให้แบบสำรวจนี้"
+        table_name: "ชื่อ"
+        table_location: "ที่ตั้ง"
     active_polls:
       edit:
-        title: "Polls description"
+        title: "คำอธิบายแบบสำรวจ"
       form:
         description:
-          help_text: "This text will appear in the header of the polls page. It can be used to add a context to the open polls."
+          help_text: "ข้อความนี้จะปรากฏในส่วนหัวของหน้าแบบสำรวจ สามารถใช้เพื่อเพิ่มบริบทให้กับแบบสำรวจที่เปิดอยู่"
     polls:
       index:
-        title: "List of polls"
-        no_polls: "There are no polls."
-        create: "Create poll"
-        name: "Name"
-        dates: "Dates"
-        start_date: "Start Date"
-        closing_date: "Closing Date"
-        geozone_restricted: "Restricted to districts"
+        title: "รายชื่อแบบสำรวจ"
+        no_polls: "ไม่มีแบบสำรวจ"
+        create: "สร้างแบบสำรวจ"
+        name: "ชื่อ"
+        dates: "วันที่"
+        start_date: "วันที่เริ่มต้น"
+        closing_date: "วันที่สิ้นสุด"
+        geozone_restricted: "จำกัดเขตภูมิศาสตร์"
       new:
-        title: "New poll"
-        submit_button: "Create poll"
+        title: "แบบสำรวจใหม่"
+        submit_button: "สร้างแบบสำรวจ"
       edit:
-        title: "Edit poll"
-        submit_button: "Update poll"
+        title: "แก้ไขแบบสำรวจ"
+        submit_button: "อัปเดตแบบสำรวจ"
       show:
-        questions_tab: Questions
-        booths_tab: Booths
-        officers_tab: Officers
-        recounts_tab: Recounting
-        results_tab: Results
-        no_questions: "There are no questions assigned to this poll."
-        questions_title: "List of questions"
-        table_title: "Title"
-        edit_answers: Edit answers
-        see_proposal: "(See proposal)"
+        questions_tab: คำถาม
+        booths_tab: บูธ
+        officers_tab: เจ้าหน้าที่
+        recounts_tab: การนับซ้ำ
+        results_tab: ผลลัพธ์
+        no_questions: "ไม่มีคำถามที่ได้รับมอบหมายให้แบบสำรวจนี้"
+        questions_title: "รายชื่อคำถาม"
+        table_title: "ชื่อเรื่อง"
+        edit_answers: แก้ไขคำตอบ
+        see_proposal: "(ดูข้อเสนอ)"
       destroy:
-        alert: "This action will remove the poll and all its associated questions."
-        success_notice: "Poll deleted successfully"
-        unable_notice: "You cannot delete a poll that has votes"
+        alert: "การดำเนินการนี้จะลบแบบสำรวจและคำถามที่เกี่ยวข้องทั้งหมด"
+        success_notice: "ลบแบบสำรวจสำเร็จแล้ว"
+        unable_notice: "คุณไม่สามารถลบแบบสำรวจที่มีคะแนนโหวตได้"
       votation_type:
-        title: "Votation type"
-        unique_description: "It's only possible to answer one time to the question."
-        multiple_description: "Allows to choose multiple answers. It's possible to set the maximum number of answers."
+        title: "ประเภทการโหวต"
+        unique_description: "สามารถตอบคำถามได้เพียงครั้งเดียว"
+        multiple_description: "อนุญาตให้เลือกหลายคำตอบ สามารถกำหนดจำนวนคำตอบสูงสุดได้"
     questions:
       index:
-        create: "Create question"
-        select_poll: Select Poll
-        successful_proposals_tab: "Successful proposals"
-        create_question: "Create question"
-        table_proposal: "Proposal"
+        create: "สร้างคำถาม"
+        select_poll: เลือกแบบสำรวจ
+        successful_proposals_tab: "ข้อเสนอที่ประสบความสำเร็จ"
+        create_question: "สร้างคำถาม"
+        table_proposal: "ข้อเสนอ"
       edit:
-        title: "Edit Question"
+        title: "แก้ไขคำถาม"
       form:
-        poll_help: "You can only select polls that have not started yet"
+        poll_help: "คุณสามารถเลือกแบบสำรวจที่ยังไม่เริ่มต้นเท่านั้น"
       new:
-        title: "Create question to poll %{poll}"
-        title_proposal: "Create question"
+        title: "สร้างคำถามสำหรับแบบสำรวจ %{poll}"
+        title_proposal: "สร้างคำถาม"
       destroy:
-        notice: "Question deleted successfully"
+        notice: "ลบคำถามสำเร็จแล้ว"
       answers:
         images:
-          add_image: "Add image"
-          save_image: "Save image"
+          add_image: "เพิ่มรูปภาพ"
+          save_image: "บันทึกรูปภาพ"
       show:
-        proposal: Original proposal
-        author: Author
-        question: Question
-        edit_question: Edit question
-        valid_answers: Valid answers
-        add_answer: Add answer
+        proposal: ข้อเสนอเดิม
+        author: ผู้เขียน
+        question: คำถาม
+        edit_question: แก้ไขคำถาม
+        valid_answers: คำตอบที่ถูกต้อง
+        add_answer: เพิ่มคำตอบ
         answers:
-          title: Answer
-          description: Description
-          videos: Videos
-          video_list: Video list
-          images: Images
-          images_list: Images list
-          documents: Documents
-          documents_list: Documents list
-          document_title: Title
-          document_actions: Actions
-      no_edit: "Once the poll has started it will not be possible to create, edit or delete questions, answers or any content associated with the poll."
+          title: คำตอบ
+          description: คำอธิบาย
+          videos: วิดีโอ
+          video_list: รายการวิดีโอ
+          images: รูปภาพ
+          images_list: รายการรูปภาพ
+          documents: เอกสาร
+          documents_list: รายการเอกสาร
+          document_title: ชื่อเรื่อง
+          document_actions: การดำเนินการ
+      no_edit: "เมื่อแบบสำรวจเริ่มต้นแล้ว จะไม่สามารถสร้าง แก้ไข หรือลบคำถาม คำตอบ หรือเนื้อหาใด ๆ ที่เกี่ยวข้องกับแบบสำรวจได้"
     answers:
       new:
-        title: New answer
+        title: คำตอบใหม่
       edit:
-        title: Edit answer
+        title: แก้ไขคำตอบ
       destroy:
-        success_notice: "Answer deleted successfully"
+        success_notice: "ลบคำตอบสำเร็จแล้ว"
       images:
         index:
-          title: Images
+          title: รูปภาพ
       videos:
         index:
-          title: Videos
-          add_video: Add video
-          video_title: Title
-          video_url: External video
+          title: วิดีโอ
+          add_video: เพิ่มวิดีโอ
+          video_title: ชื่อเรื่องวิดีโอ
+          video_url: วิดีโอภายนอก
         new:
-          title: New video
+          title: วิดีโอใหม่
         edit:
-          title: Edit video
+          title: แก้ไขวิดีโอ
     recounts:
       index:
-        title: "Recounts"
-        no_recounts: "There is nothing to be recounted"
-        all_booths_total: "Cumulative total from all booths:"
-        total_final: "Final recounts"
-        total_system: "Votes (automatic)"
-        table_booth_name: "Booth"
-        table_total_recount: "Total recount (by officer)"
-        table_system_count: "Votes (automatic)"
+        title: "การนับซ้ำ"
+        no_recounts: "ไม่มีอะไรให้นับซ้ำ"
+        all_booths_total: "ยอดรวมสะสมจากทุกบูธ:"
+        total_final: "การนับซ้ำสุดท้าย"
+        total_system: "คะแนนโหวต (อัตโนมัติ)"
+        table_booth_name: "บูธ"
+        table_total_recount: "การนับซ้ำทั้งหมด (โดยเจ้าหน้าที่)"
+        table_system_count: "คะแนนโหวต (อัตโนมัติ)"
     results:
       index:
-        title: "Results"
-        no_results: "There are no results"
+        title: "ผลลัพธ์"
+        no_results: "ไม่มีผลลัพธ์"
       result:
-        table_whites: "Totally blank ballots"
-        table_nulls: "Invalid ballots"
-        table_total: "Valid ballots"
-        table_answer: Answer
-        table_votes: Votes
+        table_whites: "บัตรลงคะแนนว่างเปล่าทั้งหมด"
+        table_nulls: "บัตรลงคะแนนไม่ถูกต้อง"
+        table_total: "บัตรลงคะแนนที่ถูกต้อง"
+        table_answer: คำตอบ
+        table_votes: คะแนนโหวต
       results_by_booth:
-        booth: Booth
-        results: Results
-        see_results: See results
-        title: "Results by booth"
+        booth: บูธ
+        results: ผลลัพธ์
+        see_results: ดูผลลัพธ์
+        title: "ผลลัพธ์ตามบูธ"
     booths:
       index:
-        title: "List of active booths"
-        no_booths: "There are no active booths for any upcoming poll."
-        add_booth: "Add booth"
-        name: "Name"
-        location: "Location"
-        no_location: "No Location"
+        title: "รายชื่อบูธที่ใช้งานอยู่"
+        no_booths: "ไม่มีบูธที่ใช้งานอยู่สำหรับการสำรวจที่กำลังจะมาถึง"
+        add_booth: "เพิ่มบูธ"
+        name: "ชื่อ"
+        location: "ที่ตั้ง"
+        no_location: "ไม่มีที่ตั้ง"
       new:
-        title: "New booth"
-        submit_button: "Create booth"
+        title: "บูธใหม่"
+        submit_button: "สร้างบูธ"
       edit:
-        title: "Edit booth"
-        submit_button: "Update booth"
+        title: "แก้ไขบูธ"
+        submit_button: "อัปเดตบูธ"
       show:
-        location: "Location"
+        location: "ที่ตั้ง"
       booth:
-        shifts: "Shifts Assignments"
+        shifts: "การมอบหมายกะ"
     officials:
       edit:
-        destroy: Remove "Official" status
-        title: "Officials: Edit user"
+        destroy: ลบสถานะ "เจ้าหน้าที่"
+        title: "เจ้าหน้าที่: แก้ไขผู้ใช้"
       flash:
-        official_destroyed: "Details saved: the user is no longer an official"
-        official_updated: Details of official saved
+        official_destroyed: "บันทึกรายละเอียดแล้ว: ผู้ใช้ไม่ได้เป็นเจ้าหน้าที่อีกต่อไป"
+        official_updated: บันทึกรายละเอียดของเจ้าหน้าที่แล้ว
       index:
-        title: Officials
-        help: User accounts marked as officials will have their interventions on the platform highlighted. You can define the label that appears next to the user names of these accounts from most important (level 1) to least (level 5).
-        no_officials: There are no officials.
-        name: Name
-        official_position: Official position
-        official_level: Level
-      level_0: Not official
-      level_1: Level 1
-      level_2: Level 2
-      level_3: Level 3
-      level_4: Level 4
-      level_5: Level 5
+        title: เจ้าหน้าที่
+        help: บัญชีผู้ใช้ที่ถูกทำเครื่องหมายว่าเป็นเจ้าหน้าที่จะมีการเน้นการดำเนินการบนแพลตฟอร์ม คุณสามารถกำหนดป้ายกำกับที่ปรากฏถัดจากชื่อผู้ใช้ของบัญชีเหล่านี้จากระดับที่สำคัญที่สุด (ระดับ 1) ถึงระดับที่น้อยที่สุด (ระดับ 5)
+        no_officials: ไม่มีเจ้าหน้าที่
+        name: ชื่อ
+        official_position: ตำแหน่งอย่างเป็นทางการ
+        official_level: ระดับ
+      level_0: ไม่ใช่เจ้าหน้าที่
+      level_1: ระดับ 1
+      level_2: ระดับ 2
+      level_3: ระดับ 3
+      level_4: ระดับ 4
+      level_5: ระดับ 5
       search:
-        make_official: Make official
-        title: "Official positions: User search"
-        no_results: Official positions not found.
+        make_official: แต่งตั้งเป็นเจ้าหน้าที่
+        title: "ตำแหน่งอย่างเป็นทางการ: ค้นหาผู้ใช้"
+        no_results: ไม่พบตำแหน่งอย่างเป็นทางการ
     organizations:
       index:
-        filter: Filter
+        filter: ตัวกรอง
         filters:
-          all: All
-          pending: Pending
-          rejected: Rejected
-          verified: Verified
+          all: ทั้งหมด
+          pending: รอดำเนินการ
+          rejected: ถูกปฏิเสธ
+          verified: ได้รับการยืนยัน
         hidden_count:
-          one: There is also <strong>one organisation</strong> with no users or with a hidden user.
-          other: There are <strong>%{count} organisations</strong> with no users or with a hidden user.
-        name: Name
-        email: Email
-        phone_number: Phone
-        responsible_name: Responsible
-        status: Status
-        no_organizations: There are no organizations.
-        reject: Reject
-        rejected: Rejected
-        title: Organisations
-        verified: Verified
-        verify: Verify
-        pending: Pending
+          one: นอกจากนี้ยังมี **1 องค์กร** ที่ไม่มีผู้ใช้หรือมีผู้ใช้ที่ถูกซ่อน
+          other: มี **%{count} องค์กร** ที่ไม่มีผู้ใช้หรือมีผู้ใช้ที่ถูกซ่อน
+        name: ชื่อ
+        email: อีเมล
+        phone_number: หมายเลขโทรศัพท์
+        responsible_name: ผู้รับผิดชอบ
+        status: สถานะ
+        no_organizations: ไม่มีองค์กร
+        reject: ปฏิเสธ
+        rejected: ถูกปฏิเสธ
+        title: องค์กร
+        verified: ได้รับการยืนยัน
+        verify: ยืนยัน
+        pending: รอดำเนินการ
       search:
-        title: Search Organisations
-        no_results: No organizations found.
+        title: ค้นหาองค์กร
+        no_results: ไม่พบองค์กร
     proposals:
       index:
-        title: Proposals
+        title: ข้อเสนอ
         id: ID
-        author: Author
-        selected: Selected
-        milestones: Milestones
-        no_proposals: There are no proposals.
+        author: ผู้เขียน
+        selected: ถูกเลือก
+        milestones: เหตุการณ์สำคัญ
+        no_proposals: ไม่มีข้อเสนอ
       show:
-        create_question: Add this proposal to a poll to be voted
+        create_question: เพิ่มข้อเสนอนี้ในแบบสำรวจเพื่อลงคะแนน
       form:
-        update: Update proposal
+        update: อัปเดตข้อเสนอ
       update:
-        notice: Proposal updated successfully
+        notice: อัปเดตข้อเสนอสำเร็จแล้ว
     hidden_proposals:
       index:
-        filter: Filter
+        filter: ตัวกรอง
         filters:
-          all: All
-          with_confirmed_hide: Confirmed
-          without_confirmed_hide: Pending
-        title: Hidden proposals
-        no_hidden_proposals: There are no hidden proposals.
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: ข้อเสนอที่ถูกซ่อน
+        no_hidden_proposals: ไม่มีข้อเสนอที่ถูกซ่อน
     hidden_proposal_notifications:
       index:
-        filter: Filter
+        filter: ตัวกรอง
         filters:
-          all: All
-          with_confirmed_hide: Confirmed
-          without_confirmed_hide: Pending
-        title: Hidden notifications
-        no_hidden_proposals: There are no hidden notifications.
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: การแจ้งเตือนที่ถูกซ่อน
+        no_hidden_proposals: ไม่มีการแจ้งเตือนที่ถูกซ่อน
     settings:
       flash:
-        updated: Value updated
+        updated: อัปเดตค่าแล้ว
       index:
-        title: Settings
-        general: Configuration settings
-        update_setting: Update
-        participation_processes: "Participation processes"
-        images_and_documents: "Images and documents"
-        feature_flags: Features
+        title: การตั้งค่า
+        general: การตั้งค่าคอนฟิกูเรชัน
+        update_setting: อัปเดต
+        participation_processes: "กระบวนการมีส่วนร่วม"
+        images_and_documents: "รูปภาพและเอกสาร"
+        feature_flags: คุณสมบัติ
         features:
-          enabled: "Enabled"
+          enabled: "เปิดใช้งานแล้ว"
         map:
-          title: Map configuration
-          help: Here you can customize the way the map is displayed to users. Drag map marker or click anywhere over the map, set desired zoom and click button "Update".
+          title: การตั้งค่าแผนที่
+          help: ที่นี่คุณสามารถปรับแต่งวิธีการแสดงแผนที่แก่ผู้ใช้ได้ ลากเครื่องหมายแผนที่หรือคลิกที่ใดก็ได้บนแผนที่ ตั้งค่าการซูมที่ต้องการแล้วคลิกปุ่ม "อัปเดต"
           flash:
-            update: Map configuration updated successfully.
+            update: อัปเดตการตั้งค่าแผนที่สำเร็จแล้ว
           form:
-            submit: Update
-          how_to_enable: 'To show the map to users you must enable "Proposals and budget investments geolocation" on "Features" tab.'
+            submit: อัปเดต
+          how_to_enable: 'หากต้องการแสดงแผนที่แก่ผู้ใช้ คุณต้องเปิดใช้งาน "ตำแหน่งทางภูมิศาสตร์ของข้อเสนอและการลงทุนด้านงบประมาณ" ในแท็บ "คุณสมบัติ"'
         dashboard:
-          title: Proposals dashboard
+          title: แดชบอร์ดข้อเสนอ
         remote_census:
-          title: Remote Census configuration
-          how_to_enable: 'To configure remote census (SOAP) you must enable "Configure connection to remote census (SOAP)" on "Features" tab.'
+          title: การตั้งค่าสำมะโนระยะไกล
+          how_to_enable: 'หากต้องการกำหนดค่าสำมะโนระยะไกล (SOAP) คุณต้องเปิดใช้งาน "กำหนดค่าการเชื่อมต่อกับสำมะโนระยะไกล (SOAP)" ในแท็บ "คุณสมบัติ"'
         sdg:
-          title: SDG configuration
-          how_to_enable: 'To show the configuration options from Sustainable Development Goals you must enable "SDG" on "Features" tab.'
+          title: การตั้งค่า SDG
+          how_to_enable: 'หากต้องการแสดงตัวเลือกการตั้งค่าจากเป้าหมายการพัฒนาที่ยั่งยืน คุณต้องเปิดใช้งาน "SDG" ในแท็บ "คุณสมบัติ"'
         cookies_consent:
-          title: Cookies consent
+          title: การยินยอมคุกกี้
         cookies_consent_banner:
-          title: Cookies consent banner
-      remote_census_general_name: General Information
-      remote_census_request_name: Request Data
-      remote_census_response_name: Response Data
-      setting: Feature
-      setting_name: Setting
-      setting_value: Value
-      no_description: "No description"
+          title: แบนเนอร์การยินยอมคุกกี้
+      remote_census_general_name: ข้อมูลทั่วไป
+      remote_census_request_name: ข้อมูลคำขอ
+      remote_census_response_name: ข้อมูลการตอบกลับ
+      setting: คุณสมบัติ
+      setting_name: การตั้งค่า
+      setting_value: ค่า
+      no_description: "ไม่มีคำอธิบาย"
     shared:
       search:
         advanced_filters:
           sdg_goals:
-            all: "All goals"
-            label: "By goal"
+            all: "เป้าหมายทั้งหมด"
+            label: "ตามเป้าหมาย"
           sdg_targets:
-            all: "All targets"
-            label: "By target"
+            all: "เป้าหมายทั้งหมด"
+            label: "ตามเป้าหมาย"
         label:
-          booths: "Search booth by name or location"
-          budget_investments: "Search investments by title, description or heading"
-          comments: "Search comments"
-          debates: "Search debates by title or description"
-          legislation_processes: "Search processes by title or description"
-          legislation_proposals: "Search proposals by title or description"
-          local_census_records: "Search by document number"
-          organizations: "Name, email or phone number"
-          poll_officers: "Search poll officers"
-          poll_questions: "Search poll questions"
-          polls: "Search polls by name or description"
-          proposals: "Search proposals by title, code, description or question"
-          proposal_notifications: "Search notifications by title or description"
-          users: "Search user by name or email"
-        search: "Search"
-      search_results: "Search results"
-      no_search_results: "No results found."
-      actions: Actions
-      title: Title
-      description: Description
-      image: Image
-      show_image: Show image
-      moderated_content: "Check the content moderated by the moderators, and confirm if the moderation has been done correctly."
-      view: View
-      proposal: Proposal
-      author: Author
-      content: Content
-      created_at: Created at
-      color_help: Hexadecimal format
-      show_results_and_stats: "Show results and stats"
-      results_and_stats_reminder: "Marking these checkboxes the results and/or stats will be publicly available and every user will see them."
-      close_modal: Close modal
-      example_url: "For example, https://consuldemocracy.org or /help"
+          booths: "ค้นหาบูธตามชื่อหรือที่ตั้ง"
+          budget_investments: "ค้นหาการลงทุนตามชื่อเรื่อง คำอธิบาย หรือหัวข้อ"
+          comments: "ค้นหาความคิดเห็น"
+          debates: "ค้นหาการอภิปรายตามชื่อเรื่องหรือคำอธิบาย"
+          legislation_processes: "ค้นหากระบวนการตามชื่อเรื่องหรือคำอธิบาย"
+          legislation_proposals: "ค้นหาข้อเสนอตามชื่อเรื่องหรือคำอธิบาย"
+          local_census_records: "ค้นหาตามหมายเลขเอกสาร"
+          organizations: "ชื่อ อีเมล หรือหมายเลขโทรศัพท์"
+          poll_officers: "ค้นหาเจ้าหน้าที่เลือกตั้ง"
+          poll_questions: "ค้นหาคำถามแบบสำรวจ"
+          polls: "ค้นหาแบบสำรวจตามชื่อหรือคำอธิบาย"
+          proposals: "ค้นหาข้อเสนอตามชื่อเรื่อง รหัส คำอธิบาย หรือคำถาม"
+          proposal_notifications: "ค้นหาการแจ้งเตือนตามชื่อเรื่องหรือคำอธิบาย"
+          users: "ค้นหาผู้ใช้ตามชื่อหรืออีเมล"
+        search: "ค้นหา"
+      search_results: "ผลการค้นหา"
+      no_search_results: "ไม่พบผลลัพธ์"
+      actions: การดำเนินการ
+      title: ชื่อเรื่อง
+      description: คำอธิบาย
+      image: รูปภาพ
+      show_image: แสดงรูปภาพ
+      moderated_content: "ตรวจสอบเนื้อหาที่ถูกกลั่นกรองโดยผู้กลั่นกรอง และยืนยันว่าการกลั่นกรองทำถูกต้องหรือไม่"
+      view: ดู
+      proposal: ข้อเสนอ
+      author: ผู้เขียน
+      content: เนื้อหา
+      created_at: สร้างเมื่อ
+      color_help: รูปแบบเลขฐานสิบหก
+      show_results_and_stats: "แสดงผลลัพธ์และสถิติ"
+      results_and_stats_reminder: "การทำเครื่องหมายที่ช่องเหล่านี้จะทำให้ผลลัพธ์และ/หรือสถิติเผยแพร่ต่อสาธารณะและผู้ใช้ทุกคนจะเห็น"
+      close_modal: ปิดโมดัล
+      example_url: "ตัวอย่างเช่น https://consuldemocracy.org หรือ /help"
     geozones:
       index:
-        title: Geozone
-        create: Create geozone
-        geojson_map: GeoJSON Map
-        geojson_map_help: "If GeoJSON coordinates are available they will be displayed on the map below"
+        title: เขตภูมิศาสตร์
+        create: สร้างเขตภูมิศาสตร์
+        geojson_map: แผนที่ GeoJSON
+        geojson_map_help: "หากมีพิกัด GeoJSON จะแสดงบนแผนที่ด้านล่าง"
       geozone:
-        name: Name
-        external_code: External code
-        census_code: Census code
-        code_help: Response code for this geozone on the census API
-        color_help: "Color of the zone in a budget's map. %{format_help}"
-        coordinates: Coordinates available
-        coordinates_help: Coordinates that will generate a clickable area on an HTML image map
-        geojson: GeoJSON available
-        geojson_help: "Must follow the \"Polygon\" or \"MultiPolygon\" type format; on a budget's map, a polygon based on this data will appear when a heading is associated to this geozone"
+        name: ชื่อ
+        external_code: รหัสภายนอก
+        census_code: รหัสสำมะโน
+        code_help: รหัสการตอบกลับสำหรับเขตภูมิศาสตร์นี้บน API สำมะโน
+        color_help: "สีของเขตในแผนที่งบประมาณ %{format_help}"
+        coordinates: พิกัดที่มีอยู่
+        coordinates_help: พิกัดที่จะสร้างพื้นที่ที่คลิกได้บนแผนที่รูปภาพ HTML
+        geojson: GeoJSON ที่มีอยู่
+        geojson_help: "ต้องเป็นไปตามรูปแบบประเภท \"Polygon\" หรือ \"MultiPolygon\" บนแผนที่งบประมาณ โพลีกอนที่อิงตามข้อมูลนี้จะปรากฏขึ้นเมื่อหัวข้อเชื่อมโยงกับเขตภูมิศาสตร์นี้"
       create:
-        notice: "Geozone created successfully"
+        notice: "สร้างเขตภูมิศาสตร์สำเร็จแล้ว"
       edit:
         form:
-          submit_button: Save changes
-        editing: Editing geozone
-        back: Go back
+          submit_button: บันทึกการเปลี่ยนแปลง
+        editing: กำลังแก้ไขเขตภูมิศาสตร์
+        back: กลับไป
       new:
-        back: Go back
-        creating: Create district
+        back: กลับไป
+        creating: สร้างเขต
       delete:
-        success: Geozone successfully deleted
-        error: This geozone can't be deleted since there are elements attached to it
+        success: ลบเขตภูมิศาสตร์สำเร็จแล้ว
+        error: ไม่สามารถลบเขตภูมิศาสตร์นี้ได้เนื่องจากมีองค์ประกอบที่แนบมาด้วย
       update:
-        notice: "Geozone updated successfully"
+        notice: "อัปเดตเขตภูมิศาสตร์สำเร็จแล้ว"
     signature_sheets:
-      author: Author
-      created_at: Creation date
-      name: Name
-      no_signature_sheets: "There are not signature_sheets"
+      author: ผู้เขียน
+      created_at: วันที่สร้าง
+      name: ชื่อ
+      no_signature_sheets: "ไม่มีใบลงชื่อ"
       index:
-        title: Signature sheets
-        new: New signature sheets
+        title: ใบลงชื่อ
+        new: ใบลงชื่อใหม่
       new:
-        title: New signature sheets
-        document_numbers_note: "Write the numbers separated by semicolons (;)"
-        submit: Create signature sheet
+        title: ใบลงชื่อใหม่
+        document_numbers_note: "เขียนหมายเลขคั่นด้วยเครื่องหมายอัฒภาค (;)"
+        submit: สร้างใบลงชื่อ
         text_help:
-          required_fields_note: "To verify a user, your application needs: Document number"
-          date_of_birth_note: ", Day of birth (dd/mm/yyyy)"
-          postal_code_note: " and Postal Code"
-          required_fields_structure_note: "Required fields for each user must be separated by commas and each user must be separated by semicolons."
-          example_text: "Example: "
+          required_fields_note: "ในการยืนยันผู้ใช้ แอปพลิเคชันของคุณต้องการ: หมายเลขเอกสาร"
+          date_of_birth_note: ", วันเกิด (วว/ดด/ปปปป)"
+          postal_code_note: " และรหัสไปรษณีย์"
+          required_fields_structure_note: "ช่องที่จำเป็นสำหรับผู้ใช้แต่ละคนต้องคั่นด้วยเครื่องหมายจุลภาค และผู้ใช้แต่ละคนต้องคั่นด้วยเครื่องหมายอัฒภาค"
+          example_text: "ตัวอย่าง: "
       show:
-        created_at: Created
-        author: Author
-        users: Users
-        signature_count: "Number of signatures:"
+        created_at: สร้างเมื่อ
+        author: ผู้เขียน
+        users: ผู้ใช้
+        signature_count: "จำนวนลายเซ็น:"
         verified:
-          one: "There is %{count} valid signature"
-          other: "There are %{count} valid signatures"
+          one: "มีลายเซ็นที่ถูกต้อง %{count} รายการ"
+          other: "มีลายเซ็นที่ถูกต้อง %{count} รายการ"
         unverified:
-          one: "There is %{count} invalid signature"
-          other: "There are %{count} invalid signatures"
-        unverified_error: (Not verified by Census)
+          one: "มีลายเซ็นที่ไม่ถูกต้อง %{count} รายการ"
+          other: "มีลายเซ็นที่ไม่ถูกต้อง %{count} รายการ"
+        unverified_error: (ไม่ได้รับการยืนยันโดยสำมะโน)
         voted:
-          zero: "There are no votes created from the verified signatures."
-          one: "There is %{count} vote created from the verified signatures."
-          other: "There is %{count} votes created from verified signatures."
-        loading: "There are still signatures that are being verified by the Census, please refresh the page in a few moments"
+          zero: "ไม่มีคะแนนโหวตที่สร้างจากลายเซ็นที่ได้รับการยืนยัน"
+          one: "มีคะแนนโหวต %{count} รายการที่สร้างจากลายเซ็นที่ได้รับการยืนยัน"
+          other: "มีคะแนนโหวต %{count} รายการที่สร้างจากลายเซ็นที่ได้รับการยืนยัน"
+        loading: "ยังมีลายเซ็นที่กำลังได้รับการยืนยันโดยสำมะโน โปรดรีเฟรชหน้าในอีกสักครู่"
     stats:
       show:
-        stats_title: Stats
+        stats_title: สถิติ
         summary:
-          comment_votes: Comment votes
-          comments: Comments
-          debate_votes: Debate votes
-          debates: Debates
-          proposal_votes: Proposal votes
-          proposals: Proposals
-          budgets: Open budgets
-          budget_investments: Investment projects
-          unverified_users: Unverified users
-          user_level_three: Level three users
-          user_level_two: Level two users
-          users: Total users
-          verified_users: Verified users
-          verified_users_who_didnt_vote_proposals: Verified users who didn't votes proposals
-          visits: Visits
-          votes: Total votes
-        participatory_budgets: Participatory Budgets
-        direct_messages: Direct messages
-        proposal_notifications: Proposal notifications
-        incomplete_verifications: Incomplete verifications
-        polls: Polls
+          comment_votes: คะแนนโหวตความคิดเห็น
+          comments: ความคิดเห็น
+          debate_votes: คะแนนโหวตการอภิปราย
+          debates: การอภิปราย
+          proposal_votes: คะแนนโหวตข้อเสนอ
+          proposals: ข้อเสนอ
+          budgets: งบประมาณที่เปิดอยู่
+          budget_investments: โครงการลงทุน
+          unverified_users: ผู้ใช้ที่ยังไม่ได้รับการยืนยัน
+          user_level_three: ผู้ใช้ระดับสาม
+          user_level_two: ผู้ใช้ระดับสอง
+          users: ผู้ใช้ทั้งหมด
+          verified_users: ผู้ใช้ที่ได้รับการยืนยัน
+          verified_users_who_didnt_vote_proposals: ผู้ใช้ที่ได้รับการยืนยันที่ไม่ได้โหวตข้อเสนอ
+          visits: การเข้าชม
+          votes: คะแนนโหวตทั้งหมด
+        participatory_budgets: งบประมาณแบบมีส่วนร่วม
+        direct_messages: ข้อความส่วนตัว
+        proposal_notifications: การแจ้งเตือนข้อเสนอ
+        incomplete_verifications: การยืนยันที่ไม่สมบูรณ์
+        polls: แบบสำรวจ
         sdg: SDG
       graph:
-        budget_investment_created: Budget investments created
-        budget_investment_supported: Budget investments supported
-        debate_created: Debates created
-        legislation_annotation_created: Legislation annotations created
-        legislation_answer_created: Legislation answers created
-        level_3_user: Level 3 users verified
-        proposal_created: Citizen proposals created
-        title: Graphs
-        visits: Visits
+        budget_investment_created: สร้างการลงทุนด้านงบประมาณแล้ว
+        budget_investment_supported: การลงทุนด้านงบประมาณที่ได้รับการสนับสนุน
+        debate_created: สร้างการอภิปรายแล้ว
+        legislation_annotation_created: สร้างคำอธิบายประกอบกฎหมายแล้ว
+        legislation_answer_created: สร้างคำตอบของกฎหมายแล้ว
+        level_3_user: ผู้ใช้ระดับ 3 ที่ได้รับการยืนยัน
+        proposal_created: สร้างข้อเสนอของพลเมืองแล้ว
+        title: กราฟ
+        visits: การเข้าชม
       budgets:
-        no_data_before_balloting_phase: "There isn't any data to show before the balloting phase."
-        title: "Participatory Budgets - Participation stats"
-        supporting_phase: Supporting phase
-        balloting_phase: Final voting
+        no_data_before_balloting_phase: "ไม่มีข้อมูลให้แสดงก่อนระยะการลงคะแนน"
+        title: "งบประมาณแบบมีส่วนร่วม - สถิติการมีส่วนร่วม"
+        supporting_phase: ระยะการสนับสนุน
+        balloting_phase: การลงคะแนนสุดท้าย
       budget_balloting:
-        title: "Final voting stats"
-        vote_count: Votes
-        participant_count: Participants
-        votes_per_heading: Votes per heading
-        participants_per_district: Participants per district
+        title: "สถิติการลงคะแนนสุดท้าย"
+        vote_count: คะแนนโหวต
+        participant_count: ผู้เข้าร่วม
+        votes_per_heading: คะแนนโหวตต่อหัวข้อ
+        participants_per_district: ผู้เข้าร่วมต่อเขต
       budget_supporting:
-        title: "Supporting phase stats"
-        headings: Headings
-        users: Users
-        vote_count: Votes
-        participant_count: Participants
+        title: "สถิติระยะการสนับสนุน"
+        headings: หัวข้อ
+        users: ผู้ใช้
+        vote_count: คะแนนโหวต
+        participant_count: ผู้เข้าร่วม
       direct_messages:
-        title: Direct messages
-        total: Total
-        users_who_have_sent_message: Users that have sent a private message
+        title: ข้อความส่วนตัว
+        total: ทั้งหมด
+        users_who_have_sent_message: ผู้ใช้ที่ส่งข้อความส่วนตัว
       proposal_notifications:
-        title: Proposal notifications
-        total: Total
-        proposals_with_notifications: Proposals with notifications
-        not_available: "Proposal not available"
+        title: การแจ้งเตือนข้อเสนอ
+        total: ทั้งหมด
+        proposals_with_notifications: ข้อเสนอที่มีการแจ้งเตือน
+        not_available: "ข้อเสนอไม่พร้อมใช้งาน"
       polls:
-        title: Poll Stats
-        all: Polls
-        web_participants: Web participants
-        total_participants: Total Participants
-        poll_questions: "Questions from poll: %{poll}"
+        title: สถิติแบบสำรวจ
+        all: แบบสำรวจ
+        web_participants: ผู้เข้าร่วมเว็บ
+        total_participants: ผู้เข้าร่วมทั้งหมด
+        poll_questions: "คำถามจากแบบสำรวจ: %{poll}"
         table:
-          poll_name: Poll
-          question_name: Question
-          origin_web: Web participants
-          origin_total: Total participants
+          poll_name: แบบสำรวจ
+          question_name: คำถาม
+          origin_web: ผู้เข้าร่วมเว็บ
+          origin_total: ผู้เข้าร่วมทั้งหมด
       sdg:
         budget_investments:
-          amount: "Approved amount"
-          winners: "Winner investment projects"
-          sent: "Investment projects sent"
-        debates: "Debates"
-        polls: "Polls"
-        proposals: "Proposals"
-        title: "Sustainable Development Goals - Stats"
+          amount: "จำนวนเงินที่ได้รับอนุมัติ"
+          winners: "โครงการลงทุนที่ชนะ"
+          sent: "โครงการลงทุนที่ถูกส่ง"
+        debates: "การอภิปราย"
+        polls: "แบบสำรวจ"
+        proposals: "ข้อเสนอ"
+        title: "เป้าหมายการพัฒนาที่ยั่งยืน - สถิติ"
     tags:
-      create: Create topic
+      create: สร้างหัวข้อ
       index:
-        add_tag: Add a new proposal topic
-        title: Proposal topics
-        topic: Topic
-        help: "When a user creates a proposal, the following topics are suggested as default tags."
+        add_tag: เพิ่มหัวข้อข้อเสนอใหม่
+        title: หัวข้อข้อเสนอ
+        topic: หัวข้อ
+        help: "เมื่อผู้ใช้สร้างข้อเสนอ หัวข้อต่อไปนี้จะถูกแนะนำเป็นแท็กเริ่มต้น"
     users:
       columns:
         id: ID
-        erase_reason: Erase reason
-        name: Name
-        email: Email
-        document_number: Document number
-        roles: Roles
-        verification_level: Verification level
-        activation_status: Activation Status
+        erase_reason: เหตุผลในการลบ
+        name: ชื่อ
+        email: อีเมล
+        document_number: หมายเลขเอกสาร
+        roles: บทบาท
+        verification_level: ระดับการยืนยัน
+        activation_status: สถานะการเปิดใช้งาน
       account:
-        active_status: Account activated
-        inactive_status: Account not activated
+        active_status: บัญชีเปิดใช้งานแล้ว
+        inactive_status: บัญชีไม่ได้เปิดใช้งาน
       index:
-        title: User
-        no_users: There are no users.
-        filter: Filter
+        title: ผู้ใช้
+        no_users: ไม่มีผู้ใช้
+        filter: ตัวกรอง
         filters:
-          active: Active
-          erased: Erased
+          active: ใช้งานอยู่
+          erased: ถูกลบ
       search:
-        placeholder: Search user by email, name or document number
-    verifications:
-      index:
-        phone_not_given: Phone not given
-        sms_code_not_confirmed: Has not confirmed the sms code
-        title: Incomplete verifications
+        placeholder: ค้นหาผู้ใช้ด้วยอีเมล ชื่อ หรือหมายเลขเอกสาร
+      verifications:
+        index:
+          phone_not_given: ไม่ได้ให้หมายเลขโทรศัพท์
+          sms_code_not_confirmed: ไม่ได้ยืนยันรหัส sms
+          title: การยืนยันที่ไม่สมบูรณ์
     site_customization:
       content_blocks:
-        information: Information about content blocks
-        about: "You can create HTML content blocks that can be inserted in different places of your website."
-        html_format: "A content block is a group of links, and it must have the following format:"
-        no_blocks: "There are no content blocks."
+        information: ข้อมูลเกี่ยวกับบล็อกเนื้อหา
+        about: "คุณสามารถสร้างบล็อกเนื้อหา HTML ที่สามารถแทรกในที่ต่าง ๆ บนเว็บไซต์ของคุณได้"
+        html_format: "บล็อกเนื้อหาคือกลุ่มของลิงก์ และต้องมีรูปแบบดังต่อไปนี้:"
+        no_blocks: "ไม่มีบล็อกเนื้อหา"
         create:
-          notice: Content block created successfully
-          error: Content block couldn't be created
+          notice: สร้างบล็อกเนื้อหาสำเร็จแล้ว
+          error: ไม่สามารถสร้างบล็อกเนื้อหาได้
         update:
-          notice: Content block updated successfully
-          error: Content block couldn't be updated
+          notice: อัปเดตบล็อกเนื้อหาสำเร็จแล้ว
+          error: ไม่สามารถอัปเดตบล็อกเนื้อหาได้
         destroy:
-          notice: Content block deleted successfully
+          notice: ลบบล็อกเนื้อหาสำเร็จแล้ว
         edit:
-          title: Editing content block
+          title: กำลังแก้ไขบล็อกเนื้อหา
         index:
-          create: Create new content block
-          delete: Delete block
-          title: Content blocks
+          create: สร้างบล็อกเนื้อหาใหม่
+          delete: ลบบล็อก
+          title: บล็อกเนื้อหา
         new:
-          title: Create new content block
+          title: สร้างบล็อกเนื้อหาใหม่
         content_block:
-          body: Body
-          name: Name
+          body: เนื้อหา
+          name: ชื่อ
           names:
-            top_links: Top Links
-            footer: Footer (social media)
-            footer_legal: Footer (legal terms)
-            subnavigation_left: Main Navigation Left
-            subnavigation_right: Main Navigation Right
+            top_links: ลิงก์ยอดนิยม
+            footer: ส่วนท้าย (โซเชียลมีเดีย)
+            footer_legal: ส่วนท้าย (ข้อกำหนดทางกฎหมาย)
+            subnavigation_left: การนำทางหลักด้านซ้าย
+            subnavigation_right: การนำทางหลักด้านขวา
       images:
         index:
           dimensions: "(%{width}x%{height})"
-          title: Custom images
-          update: Update
-          image: Image
+          title: รูปภาพที่กำหนดเอง
+          update: อัปเดต
+          image: รูปภาพ
         update:
-          notice: Image updated successfully
-          error: Image couldn't be updated
+          notice: อัปเดตรูปภาพสำเร็จแล้ว
+          error: ไม่สามารถอัปเดตรูปภาพได้
         destroy:
-          notice: Image deleted successfully
-          error: Image couldn't be deleted
+          notice: ลบรูปภาพสำเร็จแล้ว
+          error: ไม่สามารถลบรูปภาพได้
       pages:
         create:
-          notice: Page created successfully
-          error: Page couldn't be created
+          notice: สร้างหน้าสำเร็จแล้ว
+          error: ไม่สามารถสร้างหน้าได้
         update:
-          notice: Page updated successfully
-          error: Page couldn't be updated
+          notice: อัปเดตหน้าสำเร็จแล้ว
+          error: ไม่สามารถอัปเดตหน้าได้
         destroy:
-          notice: Page deleted successfully
+          notice: ลบหน้าสำเร็จแล้ว
         edit:
-          title: Editing %{page_title}
+          title: กำลังแก้ไข %{page_title}
         form:
-          options: Options
+          options: ตัวเลือก
         index:
-          create: Create new page
-          delete: Delete page
-          title: Custom Pages
-          see_page: View
+          create: สร้างหน้าใหม่
+          delete: ลบหน้า
+          title: หน้าที่กำหนดเอง
+          see_page: ดู
         new:
-          title: Create new custom page
-          slug_help: "Text to identify this page on URL, for example <code>https://consuldemocracy.org/page-slug</code>"
+          title: สร้างหน้ากำหนดเองใหม่
+          slug_help: "ข้อความเพื่อระบุหน้านี้บน URL ตัวอย่างเช่น <code>https://consuldemocracy.org/page-slug</code>"
         page:
-          created_at: Created at
-          status: Status
-          updated_at: Updated at
-          title: Title
+          created_at: สร้างเมื่อ
+          status: สถานะ
+          updated_at: อัปเดตเมื่อ
+          title: ชื่อเรื่อง
           slug: Slug
-          see_cards: Manage cards
+          see_cards: จัดการการ์ด
         cards:
-          cards_title: cards
-          create_card: Create card
-          no_cards: There are no cards.
-          columns_help: "Width of the card in number of columns. On mobile screens it's always a width of 100%."
-          order_help: "You can enter the position where this card will be shown."
+          cards_title: การ์ด
+          create_card: สร้างการ์ด
+          no_cards: ไม่มี
+          columns_help: "ความกว้างของการ์ดเป็นจำนวนคอลัมน์ บนหน้าจอมือถือจะมีความกว้าง 100% เสมอ"
+          order_help: "คุณสามารถใส่ตำแหน่งที่จะแสดงการ์ดนี้ได้"
           create:
-            notice: "Card created successfully!"
+            notice: "สร้างการ์ดสำเร็จแล้ว!"
           update:
-            notice: "Card updated successfully"
+            notice: "อัปเดตการ์ดสำเร็จแล้ว"
           destroy:
-            notice: "Card removed successfully"
+            notice: "ลบการ์ดสำเร็จแล้ว"
     tenants:
       create:
-        notice: Tenant created successfully
+        notice: สร้างผู้เช่าสำเร็จแล้ว
       form:
-        use_subdomain: "Use a subdomain in the %{domain} domain to access this tenant"
-        use_domain: "Use a different domain to access this tenant"
+        use_subdomain: "ใช้โดเมนย่อยในโดเมน %{domain} เพื่อเข้าถึงผู้เช่านี้"
+        use_domain: "ใช้โดเมนอื่นเพื่อเข้าถึงผู้เช่านี้"
       hide:
-        notice: Tenant disabled successfully
+        notice: ปิดใช้งานผู้เช่าสำเร็จแล้ว
       index:
-        create: Create tenant
-        enable: "Enable tenant %{tenant}"
-        enabled: Enabled
+        create: สร้างผู้เช่า
+        enable: "เปิดใช้งานผู้เช่า %{tenant}"
+        enabled: เปิดใช้งานแล้ว
       new:
-        admin_information: "When you create a tenant, your current user <strong>\"%{username}\"</strong> with the email <strong>\"%{email}\"</strong> and your password will be copied into the new tenant's database and will be automatically granted administration permissions. Note that these user accounts are stored in completely separate databases, so if you change the password of your user in one tenant, your accounts in other tenants will remain intact."
-        title: New tenant
+        admin_information: "เมื่อคุณสร้างผู้เช่า ผู้ใช้ปัจจุบันของคุณ **\"%{username}\"** ที่มีอีเมล **\"%{email}\"** และรหัสผ่านของคุณจะถูกคัดลอกไปยังฐานข้อมูลของผู้เช่าใหม่และจะได้รับอนุญาตให้เป็นผู้ดูแลระบบโดยอัตโนมัติ โปรดทราบว่าบัญชีผู้ใช้เหล่านี้จะถูกเก็บไว้ในฐานข้อมูลที่แยกจากกันโดยสมบูรณ์ ดังนั้นหากคุณเปลี่ยนรหัสผ่านของผู้ใช้ในผู้เช่ารายหนึ่ง บัญชีของคุณในผู้เช่ารายอื่นจะยังคงไม่เปลี่ยนแปลง"
+        title: ผู้เช่าใหม่
       restore:
-        notice: Tenant enabled successfully
+        notice: เปิดใช้งานผู้เช่าสำเร็จแล้ว
       update:
-        notice: Tenant updated successfully
+        notice: อัปเดตผู้เช่าสำเร็จแล้ว
     homepage:
-      title: Homepage
-      description: The active modules appear in the homepage in the same order as here.
-      header_title: Header
-      no_header: There are no headers.
-      create_header: Create header
-      cards_title: Cards
-      create_card: Create card
-      no_cards: There are no cards.
+      title: หน้าแรก
+      description: โมดูลที่ใช้งานอยู่จะปรากฏในหน้าแรกตามลำดับเดียวกับที่นี่
+      header_title: ส่วนหัว
+      no_header: ไม่มีส่วนหัว
+      create_header: สร้างส่วนหัว
+      cards_title: การ์ด
+      create_card: สร้างการ์ด
+      no_cards: ไม่มี
       feeds:
-        proposals: Proposals
-        debates: Debates
-        processes: Processes
+        proposals: ข้อเสนอ
+        debates: การอภิปราย
+        processes: กระบวนการ
       new:
-        header_title: New header
-        submit_header: Create header
-        card_title: New card
-        submit_card: Create card
+        header_title: ส่วนหัวใหม่
+        submit_header: สร้างส่วนหัว
+        card_title: การ์ดใหม่
+        submit_card: สร้างการ์ด
       edit:
-        header_title: Edit header
-        submit_header: Save header
-        card_title: Edit card
-        submit_card: Save card
+        header_title: แก้ไขส่วนหัว
+        submit_header: บันทึกส่วนหัว
+        card_title: แก้ไขการ์ด
+        submit_card: บันทึกการ์ด
     audits:
-      title: "Change Log"
-      changes: "List of changes"
+      title: "บันทึกการเปลี่ยนแปลง"
+      changes: "รายการการเปลี่ยนแปลง"
       id: "ID"
-      field: "Field"
-      new_value: "New Value"
-      old_value: "Old Value"
-      edited_at: "Edited at"
-      edited_by: "Edited by"
-      actions: "Actions"
-      empty: "There are no changes logged"
+      field: "ฟิลด์"
+      new_value: "ค่าใหม่"
+      old_value: "ค่าเก่า"
+      edited_at: "แก้ไขเมื่อ"
+      edited_by: "แก้ไขโดย"
+      actions: "การดำเนินการ"
+      empty: "ไม่มีการเปลี่ยนแปลงที่ถูกบันทึก"
     local_census_records:
       index:
-        title: Local census
-        create: Create new local census record
-        no_local_census_records: There are no local census records.
-        document_type: Document type
-        document_number: Document number
-        date_of_birth: Date of birth
-        postal_code: Postal code
-        import: Import CSV
+        title: สำมะโนท้องถิ่น
+        create: สร้างบันทึกสำมะโนท้องถิ่นใหม่
+        no_local_census_records: ไม่มีบันทึกสำมะโนท้องถิ่น
+        document_type: ประเภทเอกสาร
+        document_number: หมายเลขเอกสาร
+        date_of_birth: วันเกิด
+        postal_code: รหัสไปรษณีย์
+        import: นำเข้า CSV
       new:
-        creating: Creating new local census record
+        creating: กำลังสร้างบันทึกสำมะโนท้องถิ่นใหม่
       create:
-        notice: New local census record created successfully!
+        notice: สร้างบันทึกสำมะโนท้องถิ่นใหม่สำเร็จแล้ว!
       edit:
-        editing: Editing local census record
+        editing: กำลังแก้ไขบันทึกสำมะโนท้องถิ่น
       update:
-        notice: Local census record updated successfully!
+        notice: อัปเดตบันทึกสำมะโนท้องถิ่นสำเร็จแล้ว!
       destroy:
-        notice: Local census record removed successfully!
+        notice: ลบบันทึกสำมะโนท้องถิ่นสำเร็จแล้ว!
       imports:
         new:
-          title: Local census records
-          subtitle: Import CSV file
+          title: บันทึกสำมะโนท้องถิ่น
+          subtitle: นำเข้าไฟล์ CSV
         create:
-          notice: Local census records import process executed successfully!
+          notice: ดำเนินการนำเข้าบันทึกสำมะโนท้องถิ่นสำเร็จแล้ว!
         show:
-          title: Local census
-          subtitle: Import process results
-          import: Import again
-          errored: Errored rows
-          created: Created records
+          title: สำมะโนท้องถิ่น
+          subtitle: ผลลัพธ์กระบวนการนำเข้า
+          import: นำเข้าอีกครั้ง
+          errored: แถวที่มีข้อผิดพลาด
+          created: บันทึกที่สร้างแล้ว
         local_census_records:
-          no_records_found: No records found.
+          no_records_found: ไม่พบ
     machine_learning:
-      cancel: "Cancel operation"
-      cancel_alert: "This action will cancel the current script and it will be necessary to run the script again."
-      comments_summary: "Comments summary"
-      comments_summary_description: "Displays an automatically generated comment summary on all items that can be commented on."
-      data_folder_content: "Data folder content"
-      error: "Error:"
-      execute_script: "Execute script"
-      executed_by: "Executed by:"
-      executed_script: "Executed script:"
-      feature_disabled: "This feature is disabled. To use Machine Learning you can enable it from the %{link}."
-      feature_disabled_link: "settings page"
+      cancel: "ยกเลิกการดำเนินการ"
+      cancel_alert: "การดำเนินการนี้จะยกเลิกสคริปต์ปัจจุบัน และจะต้องรันสคริปต์อีกครั้ง"
+      comments_summary: "สรุปความคิดเห็น"
+      comments_summary_description: "แสดงสรุปความคิดเห็นที่สร้างโดยอัตโนมัติในทุกรายการที่สามารถแสดงความคิดเห็นได้"
+      data_folder_content: "เนื้อหาโฟลเดอร์ข้อมูล"
+      error: "ข้อผิดพลาด:"
+      execute_script: "รันสคริปต์"
+      executed_by: "รันโดย:"
+      executed_script: "สคริปต์ที่รัน:"
+      feature_disabled: "คุณสมบัตินี้ถูกปิดใช้งาน หากต้องการใช้ Machine Learning คุณสามารถเปิดใช้งานได้จาก %{link}"
+      feature_disabled_link: "หน้าการตั้งค่า"
       help:
-        title_1: "What is AI / Machine Learning?"
-        description_1: "Traditionally, computer programs are designed by establishing precise rules about what the program should do in each situation, and how to process the available information at each moment. What is commonly known as AI/Machine Learning is a type of programs for which what is precisely established is what the task to be performed is and how it is assessed whether the task is better or worse performed. But unlike the former, the system discovers or learns what would be the most suitable method to perform the task."
-        title_2: "What does the AI / Machine Learning module in CONSUL DEMOCRACY?"
-        description_2: "This module allows any type of AI/Machine Learning programs to be implemented in CONSUL DEMOCRACY. The programs can process the information available in CONSUL DEMOCRACY and produce results that help both users and administrators to carry out more effective and intelligent citizen participation. The module has been developed to make it easy to implement and run new programs, keeping the general code of CONSUL DEMOCRACY and the code of these new programs independent from each other."
-        title_3: "How to use this module"
-        description_3: "To use it for the first time it is necessary to follow the instructions available in the CONSUL DEMOCRACY documentation to properly activate this module. Once the module is correctly activated, the programs are executed from the \"Execute scripts\" tab. Before executing it, we can see in the same tab an estimation of the execution time and other relevant information. At the end of the execution, we can activate the content that will be shown in CONSUL DEMOCRACY from the \"Settings\" tab, as well as download other generated files that may be useful to us."
-        title_4: "How to implement new AI / Machine Learning scripts"
-        description_4: "Please use previous scripts as examples."
-        description_4b: "The new scripts should be located in the folder <code>public/machine_learning/scripts</code>"
-        description_4c: "The input data to be used by the script will be created as JSON files in the folder <code>../data</code>"
-        description_4d: "Any generated output should be placed in the folder <code>../data</code>"
-        description_4e: "It is recommended to create an independent <code>.ini</code> text file with the settings of the script, with the same name of the script and readable by configparser. This file will facilitate settings change by the administrators."
-        description_4f: "It is recommended to include as the first line of the script an initial triple-quote string with some brief information about it and links to any relevant information. This string will be automatically shown in the Administration interface."
-        description_4g: "It is recommended to log the relevant information of the script in a <code>.log</code> text file, with the same name of the script."
-        title_5: "To use AI / Machine Learning scripts you need to have Python installed on your server"
-        description_5: "Here you can see the example instructions for an Ubuntu 18.04 server:"
-      help_text: "This functionality is experimental."
-      last_execution: "Last execution"
-      no_content: "No content generated yet."
+        title_1: "AI / Machine Learning คืออะไร?"
+        description_1: "ตามปกติแล้ว โปรแกรมคอมพิวเตอร์ถูกออกแบบโดยการกำหนดกฎที่แม่นยำเกี่ยวกับสิ่งที่โปรแกรมควรทำในแต่ละสถานการณ์ และวิธีการประมวลผลข้อมูลที่มีอยู่ในแต่ละขณะ สิ่งที่เรียกกันทั่วไปว่า AI/Machine Learning คือประเภทของโปรแกรมที่กำหนดสิ่งที่ต้องทำอย่างแม่นยำและวิธีการประเมินว่างานนั้นทำได้ดีหรือไม่ดี แต่แตกต่างจากโปรแกรมประเภทแรกคือ ระบบจะค้นพบหรือเรียนรู้ว่าวิธีการใดที่เหมาะสมที่สุดในการทำงานนั้น"
+        title_2: "โมดูล AI / Machine Learning ใน CONSUL DEMOCRACY ทำอะไรได้บ้าง?"
+        description_2: "โมดูลนี้อนุญาตให้ใช้งานโปรแกรม AI/Machine Learning ทุกประเภทใน CONSUL DEMOCRACY โปรแกรมสามารถประมวลผลข้อมูลที่มีอยู่ใน CONSUL DEMOCRACY และสร้างผลลัพธ์ที่ช่วยให้ทั้งผู้ใช้และผู้ดูแลระบบดำเนินการมีส่วนร่วมของพลเมืองได้อย่างมีประสิทธิภาพและชาญฉลาดมากขึ้น โมดูลนี้ได้รับการพัฒนาเพื่อให้ง่ายต่อการนำไปใช้และรันโปรแกรมใหม่ โดยที่โค้ดทั่วไปของ CONSUL DEMOCRACY และโค้ดของโปรแกรมใหม่เหล่านี้เป็นอิสระจากกัน"
+        title_3: "วิธีการใช้โมดูลนี้"
+        description_3: "ในการใช้งานครั้งแรก จำเป็นต้องปฏิบัติตามคำแนะนำที่มีอยู่ในเอกสาร CONSUL DEMOCRACY เพื่อเปิดใช้งานโมดูลนี้อย่างถูกต้อง เมื่อโมดูลเปิดใช้งานอย่างถูกต้องแล้ว โปรแกรมจะถูกรันจากแท็บ \"รันสคริปต์\" ก่อนรัน เราสามารถดูการประมาณเวลาการรันและข้อมูลอื่น ๆ ที่เกี่ยวข้องในแท็บเดียวกันได้ เมื่อสิ้นสุดการรัน เราสามารถเปิดใช้งานเนื้อหาที่จะแสดงใน CONSUL DEMOCRACY จากแท็บ \"การตั้งค่า\" รวมถึงดาวน์โหลดไฟล์เอาต์พุตที่สร้างขึ้นซึ่งอาจเป็นประโยชน์ต่อเรา"
+        title_4: "วิธีการนำสคริปต์ AI / Machine Learning ใหม่มาใช้"
+        description_4: "โปรดใช้สคริปต์ก่อนหน้าเป็นตัวอย่าง"
+        description_4b: "สคริปต์ใหม่ควรอยู่ในโฟลเดอร์ <code>public/machine_learning/scripts</code>"
+        description_4c: "ข้อมูลอินพุตที่จะใช้โดยสคริปต์จะถูกสร้างเป็นไฟล์ JSON ในโฟลเดอร์ <code>../data</code>"
+        description_4d: "ควรวางเอาต์พุตที่สร้างขึ้นในโฟลเดอร์ <code>../data</code>"
+        description_4e: "ขอแนะนำให้สร้างไฟล์ข้อความ <code>.ini</code> ที่เป็นอิสระพร้อมการตั้งค่าของสคริปต์ โดยมีชื่อเดียวกับสคริปต์และสามารถอ่านได้โดย configparser ไฟล์นี้จะช่วยให้ผู้ดูแลระบบสามารถเปลี่ยนการตั้งค่าได้ง่ายขึ้น"
+        description_4f: "ขอแนะนำให้รวมสตริงสามเครื่องหมายอัญประกาศเริ่มต้นพร้อมข้อมูลสรุปสั้น ๆ เกี่ยวกับสคริปต์และลิงก์ไปยังข้อมูลที่เกี่ยวข้องเป็นบรรทัดแรกของสคริปต์ สตริงนี้จะแสดงโดยอัตโนมัติในส่วนต่อประสานผู้ดูแลระบบ"
+        description_4g: "ขอแนะนำให้บันทึกข้อมูลที่เกี่ยวข้องของสคริปต์ในไฟล์ข้อความ <code>.log</code> โดยมีชื่อเดียวกับสคริปต์"
+        title_5: "ในการใช้สคริปต์ AI / Machine Learning คุณต้องติดตั้ง Python บนเซิร์ฟเวอร์ของคุณ"
+        description_5: "ที่นี่คุณสามารถดูคำแนะนำตัวอย่างสำหรับเซิร์ฟเวอร์ Ubuntu 18.04 ได้:"
+        help_text: "ฟังก์ชันนี้เป็นแบบทดลอง"
+      last_execution: "การรันครั้งล่าสุด"
+      no_content: "ยังไม่มีเนื้อหาที่สร้าง"
       notice:
-        success: "The last script has been executed successfully."
-        error: "An error has occurred. You can see the details below."
-        working: "The script is running. The administrator who executed it will receive an email when it is finished."
-        delete_generated_content: "Generated content has been successfully deleted."
-      output_files: "Output files:"
-      related_content: "Related content"
-      related_content_description: "Adds automatically generated related content to proposals and participatory budget projects."
-      script_info: "You will receive an email in %{email} when the script finishes running."
-      script_name: "Script name:"
-      select_script: "Select python script to execute"
-      started_at: "Started at:"
-      tab_help: "Help"
-      tab_scripts: "Execute script"
-      tab_settings: "Settings / Generated content"
-      tags: "Tags"
-      tags_description: "Generates automatic tags on all items that can be tagged on."
+        success: "รันสคริปต์ล่าสุดสำเร็จแล้ว"
+        error: "เกิดข้อผิดพลาด คุณสามารถดูรายละเอียดด้านล่าง"
+        working: "สคริปต์กำลังทำงาน ผู้ดูแลระบบที่รันจะได้รับอีเมลเมื่อเสร็จสิ้น"
+        delete_generated_content: "ลบเนื้อหาที่สร้างสำเร็จแล้ว"
+      output_files: "ไฟล์เอาต์พุต:"
+      related_content: "เนื้อหาที่เกี่ยวข้อง"
+      related_content_description: "เพิ่มเนื้อหาที่เกี่ยวข้องที่สร้างโดยอัตโนมัติไปยังข้อเสนอและโครงการงบประมาณแบบมีส่วนร่วม"
+      script_info: "คุณจะได้รับอีเมลที่ %{email} เมื่อสคริปต์รันเสร็จสิ้น"
+      script_name: "ชื่อสคริปต์:"
+      select_script: "เลือกสคริปต์ python ที่จะรัน"
+      started_at: "เริ่มต้นเมื่อ:"
+      tab_help: "ความช่วยเหลือ"
+      tab_scripts: "รันสคริปต์"
+      tab_settings: "การตั้งค่า / เนื้อหาที่สร้าง"
+      tags: "แท็ก"
+      tags_description: "สร้างแท็กอัตโนมัติในทุกรายการที่สามารถติดแท็กได้"
       title: "AI / Machine learning"
     cookies:
       vendors:
-        empty: No vendors found
-        third_party_cookies: Third party cookies
-        create_button: Create cookie vendor
+        empty: ไม่พบผู้ให้บริการ
+        third_party_cookies: คุกกี้ของบุคคลที่สาม
+        create_button: สร้างผู้ให้บริการคุกกี้
         create:
-          notice: Cookie vendor created successfully
+          notice: สร้างผู้ให้บริการคุกกี้สำเร็จแล้ว
         new:
-          title: New cookie vendor
+          title: ผู้ให้บริการคุกกี้ใหม่
         edit:
-          title: Edit cookie vendor
+          title: แก้ไขผู้ให้บริการคุกกี้
         update:
-          notice: Cookie vendor updated successfully
+          notice: อัปเดตผู้ให้บริการคุกกี้สำเร็จแล้ว
         destroy:
-          notice: Cookie vendor deleted successfully
+          notice: ลบผู้ให้บริการคุกกี้สำเร็จแล้ว
         form:
           name:
-            help_text: This information will be publicly visible.
+            help_text: ข้อมูลนี้จะเผยแพร่ต่อสาธารณะ
           cookie:
-            help_text: This information will be used internally. The cookie name must be unique, and it can only contain letters, digits and underscores.
+            help_text: ข้อมูลนี้จะใช้ภายใน ชื่อคุกกี้ต้องไม่ซ้ำกัน และสามารถมีได้เฉพาะตัวอักษร ตัวเลข และเครื่องหมายขีดล่างเท่านั้น
           description:
-            help_text: This information will be publicly visible.
+            help_text: ข้อมูลนี้จะเผยแพร่ต่อสาธารณะ
           script:
-            help_text: This is the script to run when this cookie is accepted by the user. You can enter vanilla Javascript code here and introduce references to other application javascript.
+            help_text: นี่คือสคริปต์ที่จะรันเมื่อผู้ใช้ยอมรับคุกกี้นี้ คุณสามารถใส่โค้ด Javascript ธรรมดาที่นี่และแนะนำการอ้างอิงถึง javascript ของแอปพลิเคชันอื่นได้

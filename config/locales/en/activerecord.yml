@@ -1,175 +1,175 @@
 en:
   attributes:
-    geozone_id: "Scope of operation"
-    results_enabled: "Show results"
-    stats_enabled: "Show stats"
-    advanced_stats_enabled: "Show advanced stats"
-    name: Name
-    email: Email
-    description: Description
-    related_sdg_list: Goals and Targets
+    geozone_id: "ขอบเขตการดำเนินงาน"
+    results_enabled: "แสดงผลลัพธ์"
+    stats_enabled: "แสดงสถิติ"
+    advanced_stats_enabled: "แสดงสถิติขั้นสูง"
+    name: "ชื่อ"
+    email: "อีเมล"
+    description: "คำอธิบาย"
+    related_sdg_list: "เป้าหมายและตัวชี้วัด"
   activerecord:
     models:
       activity:
-        one: "activity"
-        other: "activities"
+        one: "กิจกรรม"
+        other: "กิจกรรม"
       budget:
-        one: "Budget"
-        other: "Budgets"
+        one: "งบประมาณ"
+        other: "งบประมาณ"
       budget/investment:
-        one: "Investment"
-        other: "Investments"
+        one: "การลงทุน"
+        other: "โครงการลงทุน"
       milestone:
-        one: "milestone"
-        other: "milestones"
+        one: "เหตุการณ์สำคัญ"
+        other: "เหตุการณ์สำคัญ"
       milestone/status:
-        one: "Milestone Status"
-        other: "Milestone Statuses"
+        one: "สถานะเหตุการณ์สำคัญ"
+        other: "สถานะเหตุการณ์สำคัญ"
       progress_bar:
-        one: "Progress bar"
-        other: "Progress bars"
+        one: "แถบความคืบหน้า"
+        other: "แถบความคืบหน้า"
       comment:
-        one: "Comment"
-        other: "Comments"
+        one: "ความคิดเห็น"
+        other: "ความคิดเห็น"
       debate:
-        one: "Debate"
-        other: "Debates"
+        one: "การอภิปราย"
+        other: "การอภิปราย"
       tag:
-        one: "Tag"
-        other: "Tags"
+        one: "แท็ก"
+        other: "แท็ก"
       user:
-        one: "User"
-        other: "Users"
+        one: "ผู้ใช้"
+        other: "ผู้ใช้"
       moderator:
-        one: "Moderator"
-        other: "Moderators"
+        one: "ผู้ควบคุม"
+        other: "ผู้ควบคุม"
       administrator:
-        one: "Administrator"
-        other: "Administrators"
+        one: "ผู้ดูแลระบบ"
+        other: "ผู้ดูแลระบบ"
       valuator:
-        one: "Valuator"
-        other: "Valuators"
+        one: "ผู้ประเมิน"
+        other: "ผู้ประเมิน"
       valuator_group:
-        one: "Valuator group"
-        other: "Valuator groups"
+        one: "กลุ่มผู้ประเมิน"
+        other: "กลุ่มผู้ประเมิน"
       manager:
-        one: "Manager"
-        other: "Managers"
+        one: "ผู้จัดการ"
+        other: "ผู้จัดการ"
       newsletter:
-        one: "Newsletter"
-        other: "Newsletters"
+        one: "จดหมายข่าว"
+        other: "จดหมายข่าว"
       vote:
-        one: "Vote"
-        other: "Votes"
+        one: "การลงคะแนน"
+        other: "การลงคะแนน"
       organization:
-        one: "Organisation"
-        other: "Organisations"
+        one: "องค์กร"
+        other: "องค์กร"
       poll/booth:
-        one: "booth"
-        other: "booths"
+        one: "คูหา"
+        other: "คูหา"
       poll/officer:
-        one: "officer"
-        other: "officers"
+        one: "เจ้าหน้าที่"
+        other: "เจ้าหน้าที่"
       poll/ballot_sheet:
-        one: Ballot sheet
-        other: Ballot sheets
+        one: "กระดาษลงคะแนน"
+        other: "กระดาษลงคะแนน"
       proposal:
-        one: "Citizen proposal"
-        other: "Citizen proposals"
+        one: "ข้อเสนอประชาชน"
+        other: "ข้อเสนอประชาชน"
       sdg/goal:
-        one: "goal"
-        other: "goals"
+        one: "เป้าหมาย"
+        other: "เป้าหมาย"
       sdg/local_target:
-        one: "local target"
-        other: "local targets"
+        one: "เป้าหมายท้องถิ่น"
+        other: "เป้าหมายท้องถิ่น"
       sdg/manager:
-        one: "SDG manager"
-        other: "SDG managers"
+        one: "ผู้จัดการ SDG"
+        other: "ผู้จัดการ SDG"
       sdg/target:
-        one: "target"
-        other: "targets"
+        one: "เป้าหมาย"
+        other: "เป้าหมาย"
       site_customization/page:
-        one: Custom page
-        other: Custom pages
+        one: "เพจปรับแต่ง"
+        other: "เพจปรับแต่ง"
       site_customization/image:
-        one: Custom image
-        other: Custom images
+        one: "รูปภาพปรับแต่ง"
+        other: "รูปภาพปรับแต่ง"
       site_customization/content_block:
-        one: Custom content block
-        other: Custom content blocks
+        one: "บล็อกเนื้อหา"
+        other: "บล็อกเนื้อหา"
       document:
-        one: Document
-        other: Documents
+        one: "เอกสาร"
+        other: "เอกสาร"
       legislation/process:
-        one: "Process"
-        other: "Processes"
+        one: "กระบวนการ"
+        other: "กระบวนการ"
       legislation/proposal:
-        one: "Proposal"
-        other: "Proposals"
+        one: "ข้อเสนอ"
+        other: "ข้อเสนอ"
       legislation/draft_versions:
-        one: "Draft version"
-        other: "Draft versions"
+        one: "ร่างเวอร์ชัน"
+        other: "ร่างเวอร์ชัน"
       legislation/questions:
-        one: "Question"
-        other: "Questions"
+        one: "คำถาม"
+        other: "คำถาม"
       legislation/question_options:
-        one: "Question option"
-        other: "Question options"
+        one: "ตัวเลือกคำถาม"
+        other: "ตัวเลือกคำถาม"
       legislation/answers:
-        one: "Answer"
-        other: "Answers"
+        one: "คำตอบ"
+        other: "คำตอบ"
       documents:
-        one: "Document"
-        other: "Documents"
+        one: "เอกสาร"
+        other: "เอกสาร"
       images:
-        one: "Image"
-        other: "Images"
+        one: "รูปภาพ"
+        other: "รูปภาพ"
       tenant:
-        one: "tenant"
-        other: "tenants"
+        one: "ผู้เช่า"
+        other: "ผู้เช่า"
       topic:
-        one: "Topic"
-        other: "Topics"
+        one: "หัวข้อ"
+        other: "หัวข้อ"
       poll:
-        one: "Poll"
-        other: "Polls"
+        one: "แบบสำรวจ"
+        other: "แบบสำรวจ"
       proposal_notification:
-        one: "Proposal notification"
-        other: "Proposal notifications"
+        one: "การแจ้งข้อเสนอ"
+        other: "การแจ้งข้อเสนอ"
       dashboard/action:
-        one: Proposal dashboard action
-        other: Proposal dashboard actions
+        one: "การกระทำบนแดชบอร์ด"
+        other: "การกระทำบนแดชบอร์ด"
       dashboard/administrator_task:
-        one: Task
-        other: Tasks
+        one: "งาน"
+        other: "งาน"
       link:
-        one: Link
-        other: Links
+        one: "ลิงก์"
+        other: "ลิงก์"
       local_census_record:
-        one: Local census record
-        other: Local census records
+        one: "บันทึกสำมะโนท้องถิ่น"
+        other: "บันทึกสำมะโนท้องถิ่น"
       votation_type:
-        one: Votation type
-        other: Votation types
+        one: "ประเภทการลงคะแนน"
+        other: "ประเภทการลงคะแนน"
       cookies/vendor:
-        one: cookie vendor
-        other: cookie vendors
+        one: "ผู้ให้บริการคุกกี้"
+        other: "ผู้ให้บริการคุกกี้"
     attributes:
       budget:
-        name: "Name"
-        description_accepting: "Description during Accepting phase"
-        description_reviewing: "Description during Reviewing phase"
-        description_selecting: "Description during Selecting phase"
-        description_valuating: "Description during Valuating phase"
-        description_balloting: "Description during Balloting phase"
-        description_reviewing_ballots: "Description during Reviewing Ballots phase"
-        description_finished: "Description when the budget is finished"
-        phase: "Active phase"
-        currency_symbol: "Currency"
-        voting_style: "Final voting style"
+        name: "ชื่อ"
+        description_accepting: "คำอธิบายในระยะยอมรับ"
+        description_reviewing: "คำอธิบายในระยะตรวจสอบ"
+        description_selecting: "คำอธิบายในระยะคัดเลือก"
+        description_valuating: "คำอธิบายในระยะประเมิน"
+        description_balloting: "คำอธิบายในระยะลงคะแนน"
+        description_reviewing_ballots: "คำอธิบายในระยะตรวจสอบบัตรลงคะแนน"
+        description_finished: "คำอธิบายเมื่อโครงการงบประมาณเสร็จสิ้น"
+        phase: "ระยะที่ใช้งาน"
+        currency_symbol: "สัญลักษณ์สกุลเงิน"
+        voting_style: "รูปแบบการลงคะแนนขั้นสุดท้าย"
         voting_style_knapsack: "Knapsack"
-        voting_style_approval: "Approval"
-        hide_money: "Hide money amount for this budget"
+        voting_style_approval: "อนุมัติ"
+        hide_money: "ซ่อนจำนวนเงินสำหรับงบนี้"
       budget/translation:
         main_link_text: "Text on the link"
         main_link_url: "The link takes you to (add a link)"

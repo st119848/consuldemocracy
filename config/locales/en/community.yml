@@ -1,49 +1,49 @@
 en:
   community:
     sidebar:
-      title: Community
+      title: ชุมชน
       description:
-        proposal: Participate in the user community of this proposal.
-        investment: Participate in the user community of this investment.
-      button_to_access: Access the community
+        proposal: มีส่วนร่วมในชุมชนผู้ใช้ของข้อเสนอนี้
+        investment: มีส่วนร่วมในชุมชนผู้ใช้ของการลงทุนนี้
+      button_to_access: เข้าถึงชุมชน
     show:
       title:
-        proposal: Proposal community
-        investment: Budget Investment community
+        proposal: ชุมชนข้อเสนอ
+        investment: ชุมชนการลงทุนด้านงบประมาณ
       description:
-        proposal: Participate in the community of this proposal. An active community can help to improve the content of the proposal and boost its dissemination to get more support.
-        investment: Participate in the community of this budget investment. An active community can help to improve the content of the budget investment and boost its dissemination to get more support.
+        proposal: มีส่วนร่วมในชุมชนของข้อเสนอนี้ ชุมชนที่มีความเคลื่อนไหวสามารถช่วยปรับปรุงเนื้อหาของข้อเสนอและส่งเสริมการเผยแพร่เพื่อให้ได้รับการสนับสนุนมากขึ้น
+        investment: มีส่วนร่วมในชุมชนของการลงทุนด้านงบประมาณนี้ ชุมชนที่มีความเคลื่อนไหวสามารถช่วยปรับปรุงเนื้อหาของการลงทุนด้านงบประมาณและส่งเสริมการเผยแพร่เพื่อให้ได้รับการสนับสนุนมากขึ้น
       create_first_community_topic:
-        first_theme_not_logged_in: No issue available, participate creating the first one.
-        first_theme: Create the first community topic
-        sub_first_theme: "To create a theme you must %{sign_in} or %{sign_up}."
+        first_theme_not_logged_in: ไม่มีประเด็นให้ใช้งาน มีส่วนร่วมโดยการสร้างประเด็นแรก
+        first_theme: สร้างหัวข้อชุมชนแรก
+        sub_first_theme: "ในการสร้างหัวข้อ คุณต้อง %{sign_in} หรือ %{sign_up}"
       tab:
-        participants: Participants
+        participants: ผู้เข้าร่วม
       sidebar:
-        participate: Participate
-        new_topic: Create topic
+        participate: มีส่วนร่วม
+        new_topic: สร้างหัวข้อ
       topic:
-        edit: Edit topic
-        destroy: Delete topic
-      author: Author
-      back: Back to %{community} %{proposal}
+        edit: แก้ไขหัวข้อ
+        destroy: ลบหัวข้อ
+      author: ผู้เขียน
+      back: กลับไปที่ %{community} %{proposal}
     topic:
-      create: Create a topic
-      edit: Edit Topic
+      create: สร้างหัวข้อ
+      edit: แก้ไขหัวข้อ
       form:
         new:
-          submit_button: Create topic
+          submit_button: สร้างหัวข้อ
         edit:
-          submit_button: Edit topic
+          submit_button: แก้ไขหัวข้อ
         create:
-          submit_button: Create topic
+          submit_button: สร้างหัวข้อ
         update:
-          submit_button: Update topic
+          submit_button: อัปเดตหัวข้อ
       show:
         tab:
-          comments_tab: Comments
-      sidebar:
-        recommendations_title: Recommendations to create a topic
-        recommendation_one: Do not write the topic title or whole sentences in capital letters. On the internet that is considered shouting. And no one likes to be yelled at.
-        recommendation_two: Any topic or comment that implies an illegal action will be eliminated, also those that intend to sabotage the spaces of the subject, everything else is allowed.
-        recommendation_three: Enjoy this space, the voices that fill it, it's yours too.
+          comments_tab: ความคิดเห็น
+        sidebar:
+          recommendations_title: คำแนะนำในการสร้างหัวข้อ
+          recommendation_one: อย่าเขียนชื่อหัวข้อหรือประโยคทั้งหมดด้วยตัวพิมพ์ใหญ่ บนอินเทอร์เน็ตถือเป็นการตะโกน และไม่มีใครชอบถูกตะโกนใส่
+          recommendation_two: หัวข้อหรือความคิดเห็นใด ๆ ที่สื่อถึงการกระทำที่ผิดกฎหมายจะถูกลบออก รวมถึงหัวข้อที่ตั้งใจจะก่อวินาศกรรมในพื้นที่ของหัวข้อนั้น ๆ ส่วนอื่น ๆ อนุญาตทั้งหมด
+          recommendation_three: สนุกกับพื้นที่นี้ เสียงที่เติมเต็มพื้นที่นี้ เป็นของคุณด้วยเช่นกัน

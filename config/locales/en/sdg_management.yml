@@ -1,50 +1,50 @@
 en:
   sdg_management:
     actions:
-      edit: "Manage goals and targets"
+      edit: "จัดการเป้าหมายและเป้าประสงค์"
     header:
-      title: "SDG content"
+      title: "เนื้อหา SDG"
     homepage:
-      title: "Homepage configuration"
+      title: "การกำหนดค่าหน้าแรก"
       header:
-        create: "Create header"
-        no_cards: "There is no header"
-        title: "Header"
-      create_card: "Create %{phase} card"
-      no_cards: "There are no cards for this phase"
+        create: "สร้างส่วนหัว"
+        no_cards: "ไม่มีส่วนหัว"
+        title: "ส่วนหัว"
+      create_card: "สร้างการ์ด %{phase}"
+      no_cards: "ไม่มีการ์ดสำหรับระยะนี้"
     menu:
-      budget_investments: "Participatory budgets"
-      debates: "Debates"
-      legislation_processes: "Legislation processes"
-      legislation_proposals: "Legislation proposals"
-      polls: "Polls"
-      proposals: "Proposals"
-      sdg_content: "Goals and Targets"
-      sdg_homepage: "SDG homepage"
+      budget_investments: "งบประมาณแบบมีส่วนร่วม"
+      debates: "การอภิปราย"
+      legislation_processes: "กระบวนการกฎหมาย"
+      legislation_proposals: "ข้อเสนอกฎหมาย"
+      polls: "แบบสำรวจ"
+      proposals: "ข้อเสนอ"
+      sdg_content: "เป้าหมายและเป้าประสงค์"
+      sdg_homepage: "หน้าแรก SDG"
     local_targets:
       create:
-        notice: "Local target created successfully"
+        notice: "สร้างเป้าประสงค์ท้องถิ่นสำเร็จแล้ว"
       destroy:
-        notice: "Local target deleted successfully"
+        notice: "ลบเป้าประสงค์ท้องถิ่นสำเร็จแล้ว"
       edit:
-        title: "Edit local target"
+        title: "แก้ไขเป้าประสงค์ท้องถิ่น"
       form:
-        code: "Code must start with the selected target code followed by a dot"
-        description: "This description will be shown as help to users."
+        code: "รหัสต้องเริ่มต้นด้วยรหัสเป้าประสงค์ที่เลือกตามด้วยจุด"
+        description: "คำอธิบายนี้จะแสดงเป็นความช่วยเหลือแก่ผู้ใช้"
       index:
-        new: "Create local target"
+        new: "สร้างเป้าประสงค์ท้องถิ่น"
       new:
-        title: "New local target"
+        title: "เป้าประสงค์ท้องถิ่นใหม่"
       update:
-        notice: "Local target updated successfully"
+        notice: "อัปเดตเป้าประสงค์ท้องถิ่นสำเร็จแล้ว"
     relations:
       index:
-        filter: "Filter"
+        filter: "ตัวกรอง"
         filters:
-          all: "All"
-          pending_sdg_review: "Pending"
-          sdg_reviewed: "Marked as reviewed"
+          all: "ทั้งหมด"
+          pending_sdg_review: "รอดำเนินการ"
+          sdg_reviewed: "ทำเครื่องหมายว่าตรวจสอบแล้ว"
       update:
-        notice: "%{relatable} updated successfully"
+        notice: "%{relatable} อัปเดตสำเร็จแล้ว"
       update_and_review:
-        notice: "%{relatable} updated successfully and marked as reviewed"
+        notice: "%{relatable} อัปเดตสำเร็จแล้วและทำเครื่องหมายว่าตรวจสอบแล้ว"

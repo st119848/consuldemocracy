@@ -2,113 +2,113 @@ en:
   devise_views:
     confirmations:
       new:
-        submit: Re-send instructions
-        title: Re-send confirmation instructions
+        submit: "ส่งคำแนะนำอีกครั้ง"
+        title: "ส่งคำแนะนำการยืนยันอีกครั้ง"
       show:
-        instructions: Confirming the account with email %{email}
-        new_password_confirmation_label: Repeat access password
-        new_password_label: New access password
-        please_set_password: Please choose your new pasword (it will allow you to login with the email above)
-        submit: Confirm
-        title: Confirm my account
+        instructions: "กำลังยืนยันบัญชีที่อีเมล %{email}"
+        new_password_confirmation_label: "ยืนยันรหัสผ่าน"
+        new_password_label: "รหัสผ่านใหม่"
+        please_set_password: "กรุณาเลือกรหัสผ่านใหม่ (จะใช้ล็อกอินด้วยอีเมลด้านบน)"
+        submit: "ยืนยัน"
+        title: "ยืนยันบัญชีของฉัน"
     mailer:
       confirmation_instructions:
-        confirm_link: Confirm my account
-        text: "You can confirm your email account at the following link:"
-        title: Welcome
-        welcome: Welcome
+        confirm_link: "ยืนยันบัญชีของฉัน"
+        text: "คุณสามารถยืนยันอีเมลได้ที่ลิงก์ต่อไปนี้:"
+        title: "ยินดีต้อนรับ"
+        welcome: "ยินดีต้อนรับ"
       reset_password_instructions:
-        change_link: Change my password
-        hello: Hello
-        ignore_text: If you did not request a password change, you can ignore this email.
-        info_text: Your password will not be changed unless you access the link and edit it.
-        text: "We have received a request to change your password. You can do this at the following link:"
-        title: Change your password
+        change_link: "เปลี่ยนรหัสผ่านของฉัน"
+        hello: "สวัสดี"
+        ignore_text: "หากคุณไม่ได้ขอเปลี่ยนรหัสผ่าน ให้ละเลยอีเมลนี้"
+        info_text: "รหัสผ่านจะไม่ถูกเปลี่ยนจนกว่าคุณจะเข้าไปที่ลิงก์และแก้ไขมัน"
+        text: "เราได้รับคำขอเปลี่ยนรหัสผ่าน คุณสามารถทำได้ที่ลิงก์ต่อไปนี้:"
+        title: "เปลี่ยนรหัสผ่านของคุณ"
       unlock_instructions:
-        hello: Hello
-        info_text: Your account has been blocked due to an excessive number of failed sign-in attempts.
-        instructions_text: "Please click on this link to unlock your account:"
-        title: Your account has been locked
-        unlock_link: Unlock my account
+        hello: "สวัสดี"
+        info_text: "บัญชีของคุณถูกล็อกเนื่องจากพยายามเข้าสู่ระบบผิดบ่อยครั้ง"
+        instructions_text: "กรุณาคลิกที่ลิงก์นี้เพื่อปลดล็อกบัญชีของคุณ:"
+        title: "บัญชีของคุณถูกล็อก"
+        unlock_link: "ปลดล็อกบัญชีของฉัน"
     menu:
       login_items:
-        login: Sign in
-        logout: Sign out
-        signup: Register
+        login: "เข้าสู่ระบบ"
+        logout: "ออกจากระบบ"
+        signup: "ลงทะเบียน"
     organizations:
       registrations:
         new:
-          password_confirmation_label: Confirm password
-          responsible_name_note: This would be the person representing the association/collective in whose name the proposals are presented
-          submit: Register
-          title: Register as an organisation or collective
+          password_confirmation_label: "ยืนยันรหัสผ่าน"
+          responsible_name_note: "นี่คือผู้ที่เป็นตัวแทนของสมาคม/กลุ่มที่ยื่นข้อเสนอ"
+          submit: "ลงทะเบียน"
+          title: "ลงทะเบียนเป็นองค์กรหรือกลุ่ม"
         success:
-          back_to_index: I understand; go back to main page
-          instructions_1: "<strong>We will contact you soon</strong> to verify that you do in fact represent this collective."
-          instructions_2: While your <strong>email is reviewed</strong>, we have sent you a <strong>link to confirm your account</strong>.
-          instructions_3: Once confirmed, you may begin to participate as an unverified collective.
-          thank_you: Thank you for registering your collective on the website. It is now <strong>pending verification</strong>.
-          title: Registration of organisation / collective
+          back_to_index: "ฉันเข้าใจ; กลับไปหน้าหลัก"
+          instructions_1: "<strong>เราจะติดต่อคุณเร็วๆ นี้</strong> เพื่อยืนยันว่าคุณเป็นตัวแทนของกลุ่มดังกล่าว"
+          instructions_2: "ระหว่างที่ <strong>กำลังตรวจสอบอีเมล</strong> เราได้ส่ง <strong>ลิงก์ยืนยันบัญชี</strong> ให้คุณ"
+          instructions_3: "เมื่อยืนยันแล้ว คุณสามารถเริ่มมีส่วนร่วมในฐานะกลุ่มที่ยังไม่ยืนยันได้"
+          thank_you: "ขอบคุณที่ลงทะเบียนกลุ่มของคุณ ระบบกำลัง <strong>รอการตรวจสอบ</strong>"
+          title: "การลงทะเบียนองค์กร / กลุ่ม"
     passwords:
       edit:
-        change_submit: Change my password
-        password_confirmation_label: Confirm new password
-        password_label: New password
-        title: Change your password
+        change_submit: "เปลี่ยนรหัสผ่านของฉัน"
+        password_confirmation_label: "ยืนยันรหัสผ่านใหม่"
+        password_label: "รหัสผ่านใหม่"
+        title: "เปลี่ยนรหัสผ่าน"
       new:
-        send_submit: Send instructions
-        title: Forgotten password?
+        send_submit: "ส่งคำแนะนำ"
+        title: "ลืมรหัสผ่าน?"
     sessions:
       new:
-        remember_me: Remember me
-        submit: Enter
-        title: Sign in
+        remember_me: "จดจำฉัน"
+        submit: "เข้าสู่ระบบ"
+        title: "เข้าสู่ระบบ"
     shared:
       links:
-        login: Enter
-        new_confirmation: Haven't received instructions to activate your account?
-        new_password: Forgotten your password?
-        new_unlock: Haven't received unlocking instructions?
-        signup: Don't have an account? %{signup_link}
-        signup_link: Sign up
+        login: "เข้าสู่ระบบ"
+        new_confirmation: "ยังไม่ได้รับคำแนะนำการเปิดใช้งานบัญชี?"
+        new_password: "ลืมรหัสผ่านของคุณ?"
+        new_unlock: "ยังไม่ได้รับคำแนะนำการปลดล็อก?"
+        signup: "ยังไม่มีบัญชี? %{signup_link}"
+        signup_link: "สมัครสมาชิก"
     unlocks:
       new:
-        email_label: Email
-        submit: Re-send unlocking instructions
-        title: Re-sent unlocking instructions
+        email_label: "อีเมล"
+        submit: "ส่งคำแนะนำการปลดล็อกอีกครั้ง"
+        title: "ส่งคำแนะนำการปลดล็อกแล้ว"
     users:
       registrations:
         delete_form:
-          erase_reason_label: Reason
-          info: This action can not be undone. Please make sure this is what you want.
-          info_reason: If you want, leave us a reason (optional)
-          submit: Erase my account
-          title: Erase account
+          erase_reason_label: "สาเหตุ"
+          info: "การกระทำนี้ไม่สามารถย้อนกลับได้ กรุณาตรวจสอบให้แน่ใจ"
+          info_reason: "หากต้องการ ให้ระบุเหตุผล (ไม่บังคับ)"
+          submit: "ลบบัญชีของฉัน"
+          title: "ลบบัญชี"
         edit:
-          current_password_label: Current password
-          edit: Edit
-          email_label: Email
-          leave_blank: Leave blank if you do not wish to modify
-          need_current: We need your current password to confirm the changes
-          password_confirmation_label: Confirm new password
-          password_label: New password
-          update_submit: Update
-          waiting_for: "Awaiting confirmation of:"
+          current_password_label: "รหัสผ่านปัจจุบัน"
+          edit: "แก้ไข"
+          email_label: "อีเมล"
+          leave_blank: "ปล่อยว่างหากไม่ต้องการแก้ไข"
+          need_current: "เราต้องการรหัสผ่านปัจจุบันเพื่อยืนยันการเปลี่ยนแปลง"
+          password_confirmation_label: "ยืนยันรหัสผ่านใหม่"
+          password_label: "รหัสผ่านใหม่"
+          update_submit: "อัปเดต"
+          waiting_for: "รอการยืนยันของ:"
         new:
-          cancel: Cancel login
-          organization_signup: Do you represent an organisation or collective? %{signup_link}
-          organization_signup_link: Sign up here
-          password_confirmation_label: Confirm password
-          submit: Register
-          terms: By registering you accept the %{terms}
-          terms_link: terms and conditions of use
-          title: Register
-          username_is_available: Username available
-          username_is_not_available: Username already in use
-          username_note: Name that appears next to your posts
+          cancel: "ยกเลิก"
+          organization_signup: "คุณเป็นตัวแทนองค์กรหรือกลุ่ม? %{signup_link}"
+          organization_signup_link: "สมัครที่นี่"
+          password_confirmation_label: "ยืนยันรหัสผ่าน"
+          submit: "ลงทะเบียน"
+          terms: "โดยการลงทะเบียนคุณยอมรับ %{terms}"
+          terms_link: "ข้อกำหนดและเงื่อนไขการใช้งาน"
+          title: "ลงทะเบียน"
+          username_is_available: "ชื่อผู้ใช้สามารถใช้งานได้"
+          username_is_not_available: "ชื่อผู้ใช้นี้ถูกใช้งานแล้ว"
+          username_note: "ชื่อที่จะแสดงถัดจากโพสต์ของคุณ"
         success:
-          back_to_index: I understand; go back to main page
-          instructions_1: Please <b>check your email</b> - we have sent you a <b>link to confirm your account</b>.
-          instructions_2: Once confirmed, you may begin participation.
-          thank_you: Thank you for registering for the website. You must now <b>confirm your email address</b>.
-          title: Confirm your email address
+          back_to_index: "ฉันเข้าใจ; กลับไปหน้าหลัก"
+          instructions_1: "กรุณา <b>ตรวจสอบอีเมลของคุณ</b> - เราได้ส่ง <b>ลิงก์ยืนยันบัญชี</b> ให้คุณ"
+          instructions_2: "เมื่อยืนยันแล้ว คุณสามารถเริ่มมีส่วนร่วมได้"
+          thank_you: "ขอบคุณที่ลงทะเบียน คุณต้อง <b>ยืนยันที่อยู่อีเมล</b> ของคุณ"
+          title: "ยืนยันที่อยู่อีเมลของคุณ"

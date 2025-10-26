@@ -2,49 +2,49 @@ en:
   activemodel:
     models:
       verification:
-        residence: "Residence"
+        residence: "ที่พักอาศัย"
         sms: "SMS"
       local_census_records/import:
-        one: Local census record import
-        other: Local census records imports
+        one: "นำเข้าบันทึกสำมะโนท้องถิ่น"
+        other: "นำเข้าบันทึกสำมะโนท้องถิ่น (หลายรายการ)"
     attributes:
       verification:
         residence:
-          document_type: "Document type"
-          document_number: "Document number (including letters)"
-          date_of_birth: "Date of birth"
-          postal_code: "Postcode"
+          document_type: "ประเภทเอกสาร"
+          document_number: "หมายเลขเอกสาร (รวมตัวอักษร)"
+          date_of_birth: "วันเกิด"
+          postal_code: "รหัสไปรษณีย์"
         sms:
-          phone: "Telephone"
-          confirmation_code: "Confirmation code"
+          phone: "โทรศัพท์"
+          confirmation_code: "รหัสยืนยัน"
         email:
-          recipient: "Email"
+          recipient: "อีเมล"
       verification/letter:
-        email: "Email"
-        password: "Password"
-        verification_code: "Code you received in letter"
+        email: "อีเมล"
+        password: "รหัสผ่าน"
+        verification_code: "รหัสที่คุณได้รับทางจดหมาย"
       verification/management/document:
-        document_type: "Document type:"
-        document_number: "Document number"
+        document_type: "ประเภทเอกสาร:"
+        document_number: "หมายเลขเอกสาร"
       verification/residence:
-        date_of_birth: "Date of birth"
-        document_type: "Document type"
-        postal_code: "Postcode"
+        date_of_birth: "วันเกิด"
+        document_type: "ประเภทเอกสาร"
+        postal_code: "รหัสไปรษณีย์"
       verification/sms:
-        confirmation_code: "Enter the code you received on your mobile"
+        confirmation_code: "กรอกรหัสที่คุณได้รับทางมือถือ"
       officing/residence:
-        document_type: "Document type"
-        document_number: "Document number (including letters)"
-        year_of_birth: "Year born"
+        document_type: "ประเภทเอกสาร"
+        document_number: "หมายเลขเอกสาร (รวมตัวอักษร)"
+        year_of_birth: "ปีเกิด"
       local_census_records/import:
-        file: File
+        file: "ไฟล์"
       setting/locales_settings:
-        default: Default language
-        enabled: Enabled languages
+        default: "ภาษาปริยาย"
+        enabled: "ภาษาที่เปิดใช้งาน"
     errors:
       models:
         local_census_records/import:
           attributes:
             file:
-              extension: "Given file format is wrong. The allowed file format is: %{valid_extensions}."
-              headers: "Given file headers are wrong. The file headers must have the following names: %{required_headers}."
+              extension: "รูปแบบไฟล์ไม่ถูกต้อง รูปแบบที่อนุญาตคือ: %{valid_extensions}."
+              headers: "หัวตารางไฟล์ไม่ถูกต้อง หัวตารางต้องมีชื่อดังต่อไปนี้: %{required_headers}."
