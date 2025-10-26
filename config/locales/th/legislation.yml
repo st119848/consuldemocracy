@@ -1,0 +1,134 @@
+th:
+  legislation:
+    annotations:
+      comments:
+        see_all: ดูทั้งหมด
+        see_complete: ดูฉบับสมบูรณ์
+        replies_count:
+          one: "%{count} การตอบกลับ"
+          other: "%{count} การตอบกลับ"
+        cancel: ยกเลิก
+        publish_comment: เผยแพร่ความคิดเห็น
+      form:
+        phase_not_open: ระยะนี้ยังไม่เปิด
+      index:
+        title: ความคิดเห็น
+        comments_about: ความคิดเห็นเกี่ยวกับ
+        see_in_context: ดูในบริบท
+      show:
+        title: ความคิดเห็น
+      version_chooser:
+        seeing_version: ความคิดเห็นสำหรับฉบับ
+        see_text: ดูฉบับร่าง
+    draft_versions:
+      changes:
+        title: การเปลี่ยนแปลง
+        seeing_changelog_version: สรุปการเปลี่ยนแปลงการแก้ไข
+        see_text: ดูฉบับร่าง
+      show:
+        loading_comments: กำลังโหลดความคิดเห็น
+        seeing_version: คุณกำลังดูฉบับร่าง
+        select_draft_version: เลือกฉบับร่าง
+        select_version_submit: ดู
+        updated_at: อัปเดตเมื่อ %{date}
+        see_changes: ดูสรุปการเปลี่ยนแปลง
+        see_comments: ดูความคิดเห็นทั้งหมด
+        text_toc: สารบัญ
+        text_body: ข้อความ
+        text_comments: ความคิดเห็น
+    processes:
+      header:
+        additional_info: ข้อมูลเพิ่มเติม
+        description: คำอธิบาย
+        more_info: ข้อมูลและบริบทเพิ่มเติม
+      proposals:
+        empty_proposals: ไม่มีข้อเสนอ
+        filters:
+          random: สุ่ม
+          winners: ถูกเลือก
+      debate:
+        empty_questions: ไม่มีคำถาม
+      index:
+        filter: ตัวกรอง
+        filters:
+          open: กระบวนการที่เปิดอยู่
+          past: ที่ผ่านมา
+        no_open_processes: ไม่มีกระบวนการที่เปิดอยู่
+        no_past_processes: ไม่มีกระบวนการที่ผ่านมา
+        section_header:
+          icon_alt: ไอคอนกฎหมายร่วมกัน
+          title: กฎหมายร่วมกัน
+          help: ความช่วยเหลือเกี่ยวกับกฎหมายร่วมกัน
+        section_footer:
+          title: ความช่วยเหลือเกี่ยวกับกฎหมายร่วมกัน
+          description: มีส่วนร่วมในการอภิปรายและกระบวนการก่อนการอนุมัติกฎระเบียบหรือกลยุทธ์ใหม่ ความคิดเห็นของคุณจะถูกนำมาพิจารณา
+      phase_not_open:
+        not_open: ระยะนี้ยังไม่เปิด
+      phase_empty:
+        empty: ยังไม่มีการเผยแพร่
+      process:
+        see_latest_comments: ดูความคิดเห็นล่าสุด
+        see_latest_comments_title: แสดงความคิดเห็นในกระบวนการนี้
+      shared:
+        key_dates: ระยะการมีส่วนร่วม
+        homepage: หน้าแรก
+        debate_dates: การอภิปราย
+        draft_publication_date: การเผยแพร่ฉบับร่าง
+        allegations_dates: ความคิดเห็น
+        result_publication_date: การเผยแพร่ผลลัพธ์สุดท้าย
+        milestones_date: การติดตาม
+        proposals_dates: ข้อเสนอ
+    questions:
+      comments:
+        comment_button: เผยแพร่คำตอบ
+        comments_title: คำตอบแบบเปิด
+        comments_closed: ปิดระยะ
+        form:
+          leave_comment: แสดงคำตอบของคุณ
+      question:
+        debate: การอภิปราย
+      show:
+        answer_question: ส่งคำตอบ
+        next_question: คำถามถัดไป
+        first_question: คำถามแรก
+        share: แชร์
+        title: กระบวนการกฎหมายร่วมกัน
+      participation:
+        phase_not_open: ระยะนี้ยังไม่เปิด
+        organizations: องค์กรไม่ได้รับอนุญาตให้เข้าร่วมในการอภิปราย
+        unauthenticated: คุณต้อง %{signin} หรือ %{signup} เพื่อเข้าร่วม
+        verified_only: เฉพาะผู้ใช้ที่ได้รับการยืนยันเท่านั้นที่สามารถเข้าร่วมได้; %{verify_account}
+        debate_phase_not_open: ระยะการอภิปรายสิ้นสุดลงแล้วและไม่รับคำตอบอีกต่อไป
+    shared:
+      share: แชร์
+      share_comment: แสดงความคิดเห็นใน %{version_name} จากฉบับร่างของกระบวนการ %{process_name}
+    proposals:
+      form:
+        tags_label: "หมวดหมู่"
+      not_verified: "สำหรับการโหวตข้อเสนอ %{verify_account}"
+      process_title: กระบวนการกฎหมายร่วมกัน
+    summary:
+      title: "สรุป"
+      votes:
+        zero: "%{count} คะแนนโหวต"
+        one: "%{count} คะแนนโหวต"
+        other: "%{count} คะแนนโหวต"
+      debate_phase: "ระยะการอภิปราย"
+      proposals_phase: "ระยะข้อเสนอ"
+      allegations_phase: "ระยะความคิดเห็น"
+      debates:
+        zero: "ไม่มีการอภิปราย"
+        one: "%{count} การอภิปราย"
+        other: "%{count} การอภิปราย"
+      proposals:
+        zero: "ไม่มีข้อเสนอ"
+        one: "%{count} ข้อเสนอ"
+        other: "%{count} ข้อเสนอ"
+      download: "ดาวน์โหลดสรุป"
+      top_comments:
+        zero: "ไม่มีความคิดเห็น"
+        one: "%{count} ความคิดเห็น"
+        other: "ความคิดเห็นยอดนิยม"
+      most_voted_comments: "ความคิดเห็นที่มีผู้โหวตสูงสุด"
+      no_allegation: "ไม่มีความคิดเห็น"
+      process_empty: "กระบวนการนี้ไม่มีระยะการมีส่วนร่วม"

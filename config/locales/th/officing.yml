@@ -1,0 +1,86 @@
+th:
+  officing:
+    header:
+      title: การลงคะแนน
+    dashboard:
+      index:
+        title: การปฏิบัติหน้าที่ลงคะแนน
+        info: ที่นี่คุณสามารถตรวจสอบความถูกต้องของเอกสารผู้ใช้และจัดเก็บผลการลงคะแนนได้
+        no_shifts: วันนี้คุณไม่มีกะปฏิบัติหน้าที่
+    menu:
+      voters: ตรวจสอบความถูกต้องของเอกสาร
+      total_recounts: การนับซ้ำและผลลัพธ์ทั้งหมด
+    polls:
+      final:
+        title: แบบสำรวจพร้อมสำหรับการนับซ้ำครั้งสุดท้าย
+        no_polls: คุณไม่ได้ปฏิบัติหน้าที่นับซ้ำครั้งสุดท้ายในแบบสำรวจที่เปิดใช้งานอยู่
+        select_poll: เลือกแบบสำรวจ
+        add_results: เพิ่มผลลัพธ์
+    poll_budgets:
+      see_ballot_sheets: ดูรายการบัตรลงคะแนน
+      index:
+        title: "%{poll_budget} - รายการบัตรลงคะแนน"
+        ballot_sheet: "บัตรลงคะแนน %{id}"
+        ballot_sheet_name: ชื่อ
+        ballot_sheet_author: ผู้เขียน
+        ballot_sheet_creation_date: วันที่สร้าง
+        empty_results: ยังไม่มีบัตรลงคะแนนสำหรับแบบสำรวจนี้
+      new:
+        title: "%{poll_budget} - บัตรลงคะแนนใหม่"
+        booth: บูธ
+        select_booth: เลือกบูธ
+        csv_data: ข้อมูล CSV
+        submit: บันทึก
+      show:
+        created_at: วันที่สร้าง
+        author: ผู้เขียน
+        data: ข้อมูล CSV
+    booth:
+      new:
+        title: "เลือกบูธของคุณ"
+    results:
+      flash:
+        create: "บันทึกผลลัพธ์แล้ว"
+        error_wrong_booth: "บูธไม่ถูกต้อง **ไม่ได้** บันทึกผลลัพธ์"
+      new:
+        title: "%{poll} - เพิ่มผลลัพธ์"
+        not_allowed: "คุณไม่ได้รับอนุญาตให้เพิ่มผลลัพธ์สำหรับแบบสำรวจนี้"
+        booth: "บูธ"
+        date: "วันที่"
+        select_booth: "เลือกบูธ"
+        ballots_white: "บัตรลงคะแนนว่างเปล่าทั้งหมด"
+        ballots_null: "บัตรลงคะแนนไม่ถูกต้อง"
+        ballots_total: "บัตรลงคะแนนที่ถูกต้อง"
+        submit: "บันทึก"
+        results_list: "ผลลัพธ์ของคุณ"
+        see_results: "ดูผลลัพธ์"
+      index:
+        no_results: "ไม่มีผลลัพธ์"
+        results: ผลลัพธ์
+        table_whites: "บัตรลงคะแนนว่างเปล่าทั้งหมด"
+        table_nulls: "บัตรลงคะแนนไม่ถูกต้อง"
+        table_total: "บัตรลงคะแนนที่ถูกต้อง"
+    residence:
+      flash:
+        create: "ตรวจสอบความถูกต้องของเอกสารด้วยสำมะโนแล้ว"
+        not_allowed: "วันนี้คุณไม่มีกะปฏิบัติหน้าที่"
+      new:
+        title: ตรวจสอบความถูกต้องของเอกสาร
+        submit: ตรวจสอบความถูกต้องของเอกสาร
+        error_verifying_census: "สำมะโนไม่สามารถตรวจสอบความถูกต้องของเอกสารนี้ได้"
+        form_errors: ป้องกันการตรวจสอบความถูกต้องของเอกสารนี้
+    voters:
+      new:
+        title: แบบสำรวจ
+        table_poll: แบบสำรวจ
+        table_status: สถานะแบบสำรวจ
+        table_actions: การดำเนินการ
+        not_to_vote: บุคคลนั้นตัดสินใจที่จะไม่โหวตในตอนนี้
+      show:
+        can_vote: สามารถโหวตได้
+        cannot_vote: บุคคลนั้นไม่สามารถโหวตได้เนื่องจากไม่ได้ลงทะเบียนในเขตที่ทำการโหวต
+        error_already_voted: เข้าร่วมในแบบสำรวจนี้แล้ว
+        submit: ยืนยันการโหวต
+        success: "บันทึกคะแนนโหวตแล้ว!"
+      can_vote:
+        submit_disable_with: "รอสักครู่ กำลังยืนยันการโหวต..."

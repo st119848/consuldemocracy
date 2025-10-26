@@ -1,0 +1,114 @@
+th:
+  devise_views:
+    confirmations:
+      new:
+        submit: "ส่งคำแนะนำอีกครั้ง"
+        title: "ส่งคำแนะนำการยืนยันอีกครั้ง"
+      show:
+        instructions: "กำลังยืนยันบัญชีที่อีเมล %{email}"
+        new_password_confirmation_label: "ยืนยันรหัสผ่าน"
+        new_password_label: "รหัสผ่านใหม่"
+        please_set_password: "กรุณาเลือกรหัสผ่านใหม่ (จะใช้ล็อกอินด้วยอีเมลด้านบน)"
+        submit: "ยืนยัน"
+        title: "ยืนยันบัญชีของฉัน"
+    mailer:
+      confirmation_instructions:
+        confirm_link: "ยืนยันบัญชีของฉัน"
+        text: "คุณสามารถยืนยันอีเมลได้ที่ลิงก์ต่อไปนี้:"
+        title: "ยินดีต้อนรับ"
+        welcome: "ยินดีต้อนรับ"
+      reset_password_instructions:
+        change_link: "เปลี่ยนรหัสผ่านของฉัน"
+        hello: "สวัสดี"
+        ignore_text: "หากคุณไม่ได้ขอเปลี่ยนรหัสผ่าน ให้ละเลยอีเมลนี้"
+        info_text: "รหัสผ่านจะไม่ถูกเปลี่ยนจนกว่าคุณจะเข้าไปที่ลิงก์และแก้ไขมัน"
+        text: "เราได้รับคำขอเปลี่ยนรหัสผ่าน คุณสามารถทำได้ที่ลิงก์ต่อไปนี้:"
+        title: "เปลี่ยนรหัสผ่านของคุณ"
+      unlock_instructions:
+        hello: "สวัสดี"
+        info_text: "บัญชีของคุณถูกล็อกเนื่องจากพยายามเข้าสู่ระบบผิดบ่อยครั้ง"
+        instructions_text: "กรุณาคลิกที่ลิงก์นี้เพื่อปลดล็อกบัญชีของคุณ:"
+        title: "บัญชีของคุณถูกล็อก"
+        unlock_link: "ปลดล็อกบัญชีของฉัน"
+    menu:
+      login_items:
+        login: "เข้าสู่ระบบ"
+        logout: "ออกจากระบบ"
+        signup: "ลงทะเบียน"
+    organizations:
+      registrations:
+        new:
+          password_confirmation_label: "ยืนยันรหัสผ่าน"
+          responsible_name_note: "นี่คือผู้ที่เป็นตัวแทนของสมาคม/กลุ่มที่ยื่นข้อเสนอ"
+          submit: "ลงทะเบียน"
+          title: "ลงทะเบียนเป็นองค์กรหรือกลุ่ม"
+        success:
+          back_to_index: "ฉันเข้าใจ; กลับไปหน้าหลัก"
+          instructions_1: "<strong>เราจะติดต่อคุณเร็วๆ นี้</strong> เพื่อยืนยันว่าคุณเป็นตัวแทนของกลุ่มดังกล่าว"
+          instructions_2: "ระหว่างที่ <strong>กำลังตรวจสอบอีเมล</strong> เราได้ส่ง <strong>ลิงก์ยืนยันบัญชี</strong> ให้คุณ"
+          instructions_3: "เมื่อยืนยันแล้ว คุณสามารถเริ่มมีส่วนร่วมในฐานะกลุ่มที่ยังไม่ยืนยันได้"
+          thank_you: "ขอบคุณที่ลงทะเบียนกลุ่มของคุณ ระบบกำลัง <strong>รอการตรวจสอบ</strong>"
+          title: "การลงทะเบียนองค์กร / กลุ่ม"
+    passwords:
+      edit:
+        change_submit: "เปลี่ยนรหัสผ่านของฉัน"
+        password_confirmation_label: "ยืนยันรหัสผ่านใหม่"
+        password_label: "รหัสผ่านใหม่"
+        title: "เปลี่ยนรหัสผ่าน"
+      new:
+        send_submit: "ส่งคำแนะนำ"
+        title: "ลืมรหัสผ่าน?"
+    sessions:
+      new:
+        remember_me: "จดจำฉัน"
+        submit: "เข้าสู่ระบบ"
+        title: "เข้าสู่ระบบ"
+    shared:
+      links:
+        login: "เข้าสู่ระบบ"
+        new_confirmation: "ยังไม่ได้รับคำแนะนำการเปิดใช้งานบัญชี?"
+        new_password: "ลืมรหัสผ่านของคุณ?"
+        new_unlock: "ยังไม่ได้รับคำแนะนำการปลดล็อก?"
+        signup: "ยังไม่มีบัญชี? %{signup_link}"
+        signup_link: "สมัครสมาชิก"
+    unlocks:
+      new:
+        email_label: "อีเมล"
+        submit: "ส่งคำแนะนำการปลดล็อกอีกครั้ง"
+        title: "ส่งคำแนะนำการปลดล็อกแล้ว"
+    users:
+      registrations:
+        delete_form:
+          erase_reason_label: "สาเหตุ"
+          info: "การกระทำนี้ไม่สามารถย้อนกลับได้ กรุณาตรวจสอบให้แน่ใจ"
+          info_reason: "หากต้องการ ให้ระบุเหตุผล (ไม่บังคับ)"
+          submit: "ลบบัญชีของฉัน"
+          title: "ลบบัญชี"
+        edit:
+          current_password_label: "รหัสผ่านปัจจุบัน"
+          edit: "แก้ไข"
+          email_label: "อีเมล"
+          leave_blank: "ปล่อยว่างหากไม่ต้องการแก้ไข"
+          need_current: "เราต้องการรหัสผ่านปัจจุบันเพื่อยืนยันการเปลี่ยนแปลง"
+          password_confirmation_label: "ยืนยันรหัสผ่านใหม่"
+          password_label: "รหัสผ่านใหม่"
+          update_submit: "อัปเดต"
+          waiting_for: "รอการยืนยันของ:"
+        new:
+          cancel: "ยกเลิก"
+          organization_signup: "คุณเป็นตัวแทนองค์กรหรือกลุ่ม? %{signup_link}"
+          organization_signup_link: "สมัครที่นี่"
+          password_confirmation_label: "ยืนยันรหัสผ่าน"
+          submit: "ลงทะเบียน"
+          terms: "โดยการลงทะเบียนคุณยอมรับ %{terms}"
+          terms_link: "ข้อกำหนดและเงื่อนไขการใช้งาน"
+          title: "ลงทะเบียน"
+          username_is_available: "ชื่อผู้ใช้สามารถใช้งานได้"
+          username_is_not_available: "ชื่อผู้ใช้นี้ถูกใช้งานแล้ว"
+          username_note: "ชื่อที่จะแสดงถัดจากโพสต์ของคุณ"
+        success:
+          back_to_index: "ฉันเข้าใจ; กลับไปหน้าหลัก"
+          instructions_1: "กรุณา <b>ตรวจสอบอีเมลของคุณ</b> - เราได้ส่ง <b>ลิงก์ยืนยันบัญชี</b> ให้คุณ"
+          instructions_2: "เมื่อยืนยันแล้ว คุณสามารถเริ่มมีส่วนร่วมได้"
+          thank_you: "ขอบคุณที่ลงทะเบียน คุณต้อง <b>ยืนยันที่อยู่อีเมล</b> ของคุณ"
+          title: "ยืนยันที่อยู่อีเมลของคุณ"

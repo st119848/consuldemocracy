@@ -1,0 +1,23 @@
+th:
+  documents:
+    title: "เอกสาร"
+    max_documents_allowed_reached: "คุณได้อัปโหลดเอกสารถึงจำนวนสูงสุดแล้ว! <strong>คุณต้องลบไฟล์หนึ่งก่อนจึงจะสามารถอัปโหลดไฟล์ใหม่ได้</strong>"
+    additional: "เอกสารเพิ่มเติม"
+    form:
+      title: "เอกสาร"
+      delete_button: "ลบเอกสาร"
+      cancel_button: "ยกเลิก"
+      note: "คุณสามารถอัปโหลดได้สูงสุด %{max_documents_allowed} ไฟล์ ประเภทไฟล์ที่อนุญาต: %{accepted_content_types}, สูงสุด %{max_file_size} MB ต่อไฟล์."
+      add_new_document: "เพิ่มเอกสารใหม่"
+    actions:
+      destroy:
+        notice: "ลบเอกสารเรียบร้อยแล้ว"
+        alert: "ไม่สามารถลบเอกสารได้"
+        confirm: "แน่ใจหรือไม่ว่าต้องการลบเอกสารนี้? การกระทำนี้ไม่สามารถย้อนกลับได้!"
+    buttons:
+      download_document: "ดาวน์โหลดไฟล์"
+      destroy_document: "ลบเอกสาร"
+    errors:
+      messages:
+        in_between: "ต้องอยู่ระหว่าง %{min} และ %{max}"
+        wrong_content_type: "ประเภทไฟล์ %{content_type} ไม่ตรงกับประเภทที่ยอมรับ %{accepted_content_types}"

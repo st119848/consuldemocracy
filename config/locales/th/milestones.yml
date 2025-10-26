@@ -1,0 +1,8 @@
+th:
+  milestones:
+    index:
+      no_milestones: ไม่มีเหตุการณ์สำคัญที่กำหนดไว้
+      progress: ความคืบหน้า
+    show:
+      publication_date: "เผยแพร่เมื่อ %{publication_date}"
+      status_changed: เปลี่ยนสถานะเป็น

@@ -1,0 +1,155 @@
+th:
+  pages:
+    census_terms:
+      title: "ข้อกำหนดและเงื่อนไขการเข้าถึงข้อมูลสำมะโน"
+      description: "หน้าข้อมูลเกี่ยวกับข้อกำหนดและเงื่อนไขการเข้าถึงข้อมูลสำมะโน"
+    conditions:
+      title: "ข้อกำหนดและเงื่อนไขการใช้งาน"
+      subtitle: "ข้อกำหนดทางกฎหมายเกี่ยวกับการใช้งาน ความเป็นส่วนตัว และการคุ้มครองข้อมูลส่วนบุคคลของพอร์ทัลรัฐบาลเปิด"
+      description: "หน้าข้อมูลเกี่ยวกับข้อกำหนดการใช้งาน ความเป็นส่วนตัว และการคุ้มครองข้อมูลส่วนบุคคล"
+    help:
+      title: "%{org} คือแพลตฟอร์มสำหรับการมีส่วนร่วมของประชาชน"
+      guide: "คู่มือนี้อธิบายว่าแต่ละส่วนของ %{org} มีไว้เพื่ออะไรและทำงานอย่างไร"
+      menu:
+        debates: "การอภิปราย"
+        proposals: "ข้อเสนอ"
+        budgets: "งบประมาณมีส่วนร่วม"
+        polls: "แบบสำรวจ"
+        other: "ข้อมูลอื่นที่น่าสนใจ"
+        processes: "กระบวนการ"
+      debates:
+        title: "การอภิปราย"
+        description: "ในส่วน %{link} คุณสามารถนำเสนอและแลกเปลี่ยนความคิดเห็นกับผู้อื่นเกี่ยวกับประเด็นที่คุณสนใจเกี่ยวกับเมือง นอกจากนี้ยังเป็นที่สร้างไอเดียที่ผ่านส่วนอื่น ๆ ของ %{org} ไปสู่การปฏิบัติของสภาเมือง"
+        link: "การอภิปรายของประชาชน"
+        feature: "คุณสามารถเปิดการอภิปราย แสดงความคิดเห็น และประเมินด้วยปุ่ม <strong>เห็นด้วย</strong> หรือ <strong>ไม่เห็นด้วย</strong> โดยต้อง %{link}"
+        feature_link: "ลงทะเบียนใน %{org}"
+        image_alt: "ปุ่มให้คะแนนการอภิปราย"
+        figcaption: 'ปุ่ม "เห็นด้วย" และ "ไม่เห็นด้วย" เพื่อให้คะแนนการอภิปราย.'
+      proposals:
+        title: "ข้อเสนอ"
+        description: "ในส่วน %{link} คุณสามารถเสนอแนวคิดให้สภาเมืองดำเนินการ ข้อเสนอจะต้องได้รับการสนับสนุน และหากได้รับการสนับสนุนเพียงพอ จะนำไปสู่การลงคะแนนสาธารณะ ข้อเสนอที่ผ่านการลงคะแนนของประชาชนจะถูกสภาเมืองยอมรับและนำไปปฏิบัติ"
+        link: "ข้อเสนอของประชาชน"
+        image_alt: "ปุ่มสนับสนุนข้อเสนอ"
+        figcaption: 'ปุ่ม "สนับสนุน" สำหรับข้อเสนอ.'
+      budgets:
+        title: "งบประมาณแบบมีส่วนร่วม"
+        description: "ส่วน %{link} ช่วยให้ประชาชนตัดสินใจโดยตรงเกี่ยวกับการใช้งบประมาณส่วนหนึ่งของเทศบาล"
+        link: "งบประมาณมีส่วนร่วม"
+        image_alt: "ขั้นตอนต่าง ๆ ของงบประมาณมีส่วนร่วม"
+        figcaption: 'ขั้นตอน "สนับสนุน" และ "ลงคะแนน" ของงบประมาณมีส่วนร่วม.'
+      polls:
+        title: "แบบสำรวจ"
+        description: "ส่วน %{link} จะถูกเปิดใช้งานเมื่อข้อเสนอได้รับการสนับสนุน 1% และเข้าสู่การลงคะแนน หรือเมื่อสภาเมืองเสนอประเด็นให้ประชาชนตัดสินใจ"
+        link: "แบบสำรวจ"
+        feature_1: "เพื่อมีส่วนร่วมในการลงคะแนน คุณต้อง %{link} และยืนยันบัญชี"
+        feature_1_link: "ลงทะเบียนใน %{org_name}"
+      processes:
+        title: "กระบวนการ"
+        description: "ในส่วน %{link} ประชาชนมีส่วนร่วมในการร่างและแก้ไขข้อบังคับที่มีผลต่อเมือง และสามารถแสดงความคิดเห็นเกี่ยวกับนโยบายเทศบาลจากการอภิปรายก่อนหน้า"
+        link: "กระบวนการ"
+        feature: "เพื่อมีส่วนร่วมในกระบวนการ คุณต้อง %{link} และยืนยันบัญชี"
+        feature_link: "ลงทะเบียนใน %{org_name}"
+      faq:
+        title: "ปัญหาทางเทคนิค?"
+        description: "อ่านคำถามที่พบบ่อยเพื่อแก้ไขปัญหาของคุณ"
+        button: "ดูคำถามที่พบบ่อย"
+        page:
+          title: "คำถามที่พบบ่อย"
+          description: "ใช้หน้านี้เพื่อแก้ไขคำถามที่พบบ่อยของผู้ใช้เว็บไซต์"
+      other:
+        title: "ข้อมูลอื่นที่น่าสนใจ"
+        how_to_use: "ใช้ %{org_name} ในเมืองของคุณ"
+        sdg: "ความช่วยเหลือเกี่ยวกับเป้าหมายการพัฒนาที่ยั่งยืน"
+      how_to_use:
+        text: |-
+          ใช้งานได้กับหน่วยงานท้องถิ่นของคุณ หรือช่วยเราปรับปรุงมันได้ มันเป็นซอฟต์แวร์เสรี
+
+          พอร์ทัลรัฐบาลเปิดนี้ใช้แอป [CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') ซึ่งเป็นซอฟต์แวร์เสรี ภายใต้ [สิทธิ์ใช้งาน AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu') ซึ่งหมายความว่าใครก็สามารถใช้ รัน ดู แก้ไข และแจกจ่ายซอฟต์แวร์พร้อมการดัดแปลงของตนได้
+
+          หากคุณเป็นนักพัฒนา คุณสามารถดูซอร์สและช่วยปรับปรุงได้ที่ [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github')
+      titles:
+        how_to_use: Use it in your local government
+    privacy:
+      title: "นโยบายความเป็นส่วนตัว"
+      subtitle: "หน้าข้อมูลเกี่ยวกับความเป็นส่วนตัว"
+    accessibility:
+      title: "การเข้าถึง"
+      description: |-
+        การเข้าถึงเว็บหมายถึงความสามารถในการเข้าถึงเว็บและเนื้อหาโดยทุกคน ไม่ว่าจะมีความบกพร่องทางร่างกาย สติปัญญา หรือทางเทคนิค หรือข้อจำกัดจากสภาพแวดล้อม
+
+        เมื่อเว็บไซต์ออกแบบโดยคำนึงถึงการเข้าถึง ผู้ใช้ทุกคนจะสามารถเข้าถึงเนื้อหาในสภาพที่เท่าเทียมกัน เช่น:
+      examples:
+        - Providing alternative text to the images, blind or visually impaired users can use special readers to access the information.
+        - When videos have subtitles, users with hearing difficulties can fully understand them.
+        - If the contents are written in a simple and illustrated language, users with learning problems are better able to understand them.
+        - If the user has mobility problems and it is difficult to use the mouse, the alternatives with the keyboard help in navigation.
+      keyboard_shortcuts:
+        title: Keyboard shortcuts
+        navigation_table:
+          description: To be able to navigate through this website in an accessible way, a group of quick access keys has been programmed that gather the main sections of general interest in which the site is organized.
+          caption: Keyboard shortcuts for the navigation menu
+          key_header: Key
+          page_header: Page
+          rows:
+            - key_column: 0
+              page_column: Home
+            - key_column: 1
+              page_column: Debates
+            - key_column: 2
+              page_column: Proposals
+            - key_column: 3
+              page_column: Votes
+            - key_column: 4
+              page_column: Participatory budgets
+            - key_column: 5
+              page_column: Legislative processes
+        browser_table:
+          description: "Depending on the operating system and the browser used, the key combination will be as follows:"
+          caption: Key combination depending on the operating system and browser
+          browser_header: Browser
+          key_header: Key combination
+          rows:
+            - browser_column: Explorer
+              key_column: ALT + shortcut then ENTER
+            - browser_column: Firefox
+              key_column: ALT + CAPS + shortcut
+            - browser_column: Chrome
+              key_column: ALT + shortcut (CTRL + ALT + shortcuts for MAC)
+            - browser_column: Safari
+              key_column: ALT + shortcut (CMD + shortcut for MAC)
+            - browser_column: Opera
+              key_column: CAPS + ESC + shortcut
+      textsize:
+        title: Text size
+        browser_settings_table:
+          description: The accessible design of this website allows the user to choose the size of the text that suits him. This action can be carried out in different ways depending on the browser used.
+          browser_header: Browser
+          action_header: Action to be taken
+          rows:
+            - browser_column: Explorer
+              action_column: View > Text size
+            - browser_column: Firefox
+              action_column: View > Size
+            - browser_column: Chrome
+              action_column: Settings (icon) > Options > Advanced > Web Content > Text size
+            - browser_column: Safari
+              action_column: View > Zoom In/Zoom out
+            - browser_column: Opera
+              action_column: View > scale
+        browser_shortcuts_table:
+          description: "Another way to modify the text size is to use the keyboard shortcuts defined in browsers, in particular the key combination:"
+          rows:
+            - shortcut_column: CTRL and + (CMD and + on MAC)
+              description_column: Increases text size
+            - shortcut_column: CTRL and - (CMD and - on MAC)
+              description_column: Decreases text size
+      compatibility:
+        title: Compatibility with standards and visual design
+        description: 'All pages of this website comply with the <strong>Accessibility Guidelines</strong> or General Principles of Accessible Design established by the Working Group <abbr title="Web Accessibility Initiative" lang="en">WAI</abbr> belonging to W3C.'
+    titles:
+      help: "%{org} คืออะไร? - การมีส่วนร่วมของพลเมือง"
+    verify:
+      info: "เพื่อยืนยันบัญชี ให้กรอกข้อมูลการเข้าถึงของคุณ:"
+      info_code: "ตอนนี้กรอกรหัสที่คุณได้รับทางจดหมาย:"
+      submit: "ยืนยันบัญชีของฉัน"
+      title: "ยืนยันบัญชีของคุณ"

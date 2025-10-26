@@ -1,0 +1,90 @@
+th:
+  seeds:
+    admin_notifications:
+      budget:
+        title: "เรากำลังจะปิดงบประมาณแบบมีส่วนร่วมแล้ว!"
+        body: "รีบสร้างข้อเสนอก่อนจะสิ้นสุดในอีกไม่กี่วันข้างหน้า!"
+      help:
+        title: "ช่วยเราแปล Consul Democracy"
+        body: "หากคุณเชี่ยวชาญภาษาใดภาษาหนึ่ง โปรดช่วยเราแปล Consul Democracy!"
+      map:
+        title: "ตอนนี้คุณสามารถระบุตำแหน่งทางภูมิศาสตร์ของข้อเสนอและการลงทุนได้แล้ว"
+        body: "เมื่อคุณสร้างข้อเสนอหรือการลงทุน ตอนนี้คุณสามารถระบุจุดบนแผนที่ได้แล้ว"
+      proposal:
+        title: "คุณมีข้อเสนอหรือไม่?"
+        body: "จำไว้ว่าคุณสามารถสร้างข้อเสนอด้วยแนวคิดของคุณ และผู้คนจะอภิปรายและสนับสนุนได้"
+    settings:
+      official_level_1_name: ตำแหน่งทางการ 1
+      official_level_2_name: ตำแหน่งทางการ 2
+      official_level_3_name: ตำแหน่งทางการ 3
+      official_level_4_name: ตำแหน่งทางการ 4
+      official_level_5_name: ตำแหน่งทางการ 5
+    geozones:
+      north_district: เขตเหนือ
+      west_district: เขตตะวันตก
+      east_district: เขตตะวันออก
+      central_district: เขตกลาง
+    organizations:
+      human_rights: สิทธิมนุษยชน
+      neighborhood_association: สมาคมเพื่อนบ้าน
+    cards:
+      budget:
+        title: "งบประมาณแบบมีส่วนร่วมทำงานอย่างไร?"
+        description: "งบประมาณแบบมีส่วนร่วมช่วยให้พลเมืองสามารถเสนอและตัดสินใจโดยตรงว่าจะใช้จ่ายงบประมาณส่วนใด โดยมีการติดตามและประเมินข้อเสนออย่างเข้มงวดโดยสถาบัน ประสิทธิภาพและการควบคุมสูงสุดพร้อมความพึงพอใจสำหรับทุกคน"
+        link_text: "เพิ่มเติมเกี่ยวกับงบประมาณแบบมีส่วนร่วม"
+        label: "งบประมาณแบบมีส่วนร่วม"
+      debate:
+        title: "การอภิปรายทำงานอย่างไร?"
+        description: "ทุกคนสามารถเปิดหัวข้อเกี่ยวกับเรื่องใดก็ได้ สร้างพื้นที่แยกต่างหากที่ผู้คนสามารถอภิปรายหัวข้อที่เสนอได้ การอภิปรายได้รับการประเมินจากทุกคนเพื่อเน้นประเด็นที่สำคัญที่สุด"
+        link_text: "เพิ่มเติมเกี่ยวกับการอภิปราย"
+        label: "การอภิปราย"
+      header:
+        title: "CONSUL DEMOCRACY"
+        description: "ซอฟต์แวร์ฟรีสำหรับการมีส่วนร่วมของพลเมือง"
+        link_text: "ข้อมูลเพิ่มเติม"
+        label: "ยินดีต้อนรับสู่"
+      proposal:
+        title: "ข้อเสนอของพลเมืองทำงานอย่างไร?"
+        description: "พื้นที่สำหรับทุกคนในการสร้างข้อเสนอของพลเมืองและแสวงหาการสนับสนุน ข้อเสนอที่ได้รับการสนับสนุนเพียงพอจะถูกลงคะแนน และด้วยเหตุนี้ เราจึงสามารถตัดสินใจประเด็นที่สำคัญต่อเราได้"
+        link_text: "เพิ่มเติมเกี่ยวกับข้อเสนอ"
+        label: "ข้อเสนอของพลเมือง"
+    categories:
+      associations: สมาคม
+      culture: วัฒนธรรม
+      sports: กีฬา
+      social_rights: สิทธิทางสังคม
+      economy: เศรษฐกิจ
+      employment: การจ้างงาน
+      equity: ความเท่าเทียม
+      sustainability: ความยั่งยืน
+      participation: การมีส่วนร่วม
+      mobility: การเคลื่อนที่
+      media: สื่อ
+      health: สุขภาพ
+      transparency: ความโปร่งใส
+      security_emergencies: ความปลอดภัยและเหตุฉุกเฉิน
+      environment: สิ่งแวดล้อม
+    budgets:
+      budget: งบประมาณแบบมีส่วนร่วม
+      currency: €
+      groups:
+        all_city: ทั้งเมือง
+        districts: เขต
+      phases:
+        description: "คำอธิบายใน %{language}"
+        summary: "สรุปใน %{language}"
+      statuses:
+        studying_project: กำลังศึกษาโครงการ
+        bidding: กำลังประมูล
+        executing_project: กำลังดำเนินการโครงการ
+        executed: ดำเนินการแล้ว
+    legislation:
+      draft_versions:
+        title: "ฉบับที่ %{number}"
+        body: "ฉบับร่างใน %{language}"
+    polls:
+      current_poll: "แบบสำรวจปัจจุบัน"
+      current_poll_geozone_restricted: "แบบสำรวจปัจจุบันที่จำกัดเขตภูมิศาสตร์"
+      recounting_poll: "แบบสำรวจการนับซ้ำ"
+      expired_poll_without_stats: "แบบสำรวจหมดอายุที่ไม่มีสถิติและผลลัพธ์"
+      expired_poll_with_stats: "แบบสำรวจหมดอายุที่มีสถิติและผลลัพธ์"

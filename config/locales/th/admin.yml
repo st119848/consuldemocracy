@@ -1,0 +1,1824 @@
+th:
+  admin:
+    header:
+      title: การบริหาร
+    actions:
+      actions: การดำเนินการ
+      block_author: "บล็อกผู้เขียน"
+      confirm_action: "คุณแน่ใจหรือไม่? %{action} \"%{name}\""
+      confirm_delete: "คุณแน่ใจหรือไม่? การดำเนินการนี้จะลบ \"%{name}\" และไม่สามารถยกเลิกได้"
+      confirm_hide: ยืนยันการกลั่นกรอง
+      delete: "ลบ"
+      hide: ซ่อน
+      label: "%{action} %{name}"
+      restore: กู้คืน
+      mark_featured: แนะนำ
+      unmark_featured: ยกเลิกการแนะนำ
+      edit: แก้ไข
+      configure: กำหนดค่า
+      select: เลือก
+      show_to_valuators: "แสดง %{name} แก่ผู้ประเมินค่า"
+    officing_booth:
+      title: "คุณกำลังปฏิบัติหน้าที่ในบูธที่ตั้งอยู่ที่ %{booth} หากไม่ถูกต้อง โปรดอย่าดำเนินการต่อและโทรศัพท์แจ้งเบอร์โทรศัพท์ช่วยเหลือ ขอบคุณ"
+    banners:
+      index:
+        title: แบนเนอร์
+        create: สร้างแบนเนอร์
+        filters:
+          all: ทั้งหมด
+          with_active: ใช้งานอยู่
+          with_inactive: ไม่ใช้งาน
+        preview: ดูตัวอย่าง
+      banner:
+        sections_label: ส่วนที่จะปรากฏ
+        sections:
+          homepage: หน้าแรก
+          debates: การอภิปราย
+          proposals: ข้อเสนอ
+          budgets: การจัดทำงบประมาณแบบมีส่วนร่วม
+          help_page: หน้าช่วยเหลือ
+          sdg: SDG
+        create:
+          notice: "สร้างแบนเนอร์สำเร็จแล้ว"
+        destroy:
+          notice: "ลบแบนเนอร์สำเร็จแล้ว"
+        edit:
+          editing: แก้ไขแบนเนอร์
+          form:
+            submit_button: บันทึกการเปลี่ยนแปลง
+        new:
+          creating: สร้างแบนเนอร์
+        update:
+          notice: "อัปเดตแบนเนอร์สำเร็จแล้ว"
+    activity:
+      show:
+        action: การดำเนินการ
+        actions:
+          block: ถูกบล็อก
+          hide: ถูกซ่อน
+          restore: ถูกกู้คืน
+        by: กลั่นกรองโดย
+        content: เนื้อหา
+        filter: แสดง
+        filters:
+          all: ทั้งหมด
+          on_comments: ความคิดเห็น
+          on_debates: การอภิปราย
+          on_proposals: ข้อเสนอ
+          on_users: ผู้ใช้
+          on_system_emails: อีเมลระบบ
+        title: กิจกรรมการกลั่นกรอง
+        type: ประเภท
+        no_activity: ไม่มีกิจกรรมการกลั่นกรอง
+    budgets:
+      actions:
+        ballots: "สร้างบูธ"
+        confirm:
+          ballots: "คุณแน่ใจหรือไม่? การดำเนินการนี้จำเป็นเฉพาะเมื่อคุณจะใช้บูธจริงในระหว่างขั้นตอนการลงคะแนนสุดท้ายเท่านั้น พลเมืองยังคงสามารถโหวตผ่านเว็บได้โดยมีหรือไม่มีบูธจริง"
+          destroy: "คุณแน่ใจหรือไม่? การดำเนินการนี้จะลบงบประมาณและกลุ่มและหัวข้อที่เกี่ยวข้องทั้งหมด การดำเนินการนี้ไม่สามารถยกเลิกได้"
+        descriptions:
+          ballots: "การดำเนินการนี้จะช่วยให้คุณจัดการบัตรลงคะแนนจริงได้ ใช้ตัวเลือกนี้ก็ต่อเมื่อคุณจะใช้บูธจริงเพื่อรวบรวมบัตรลงคะแนนในระหว่างขั้นตอนการลงคะแนนสุดท้ายเท่านั้น"
+          calculate_winners: 'หลังจากคำนวณผลลัพธ์แล้ว เฉพาะผู้ดูแลระบบเท่านั้นที่จะสามารถเข้าถึงได้ ผลลัพธ์จะเผยแพร่ต่อสาธารณะเมื่อโครงการถึงขั้นตอน "%{phase}" <strong>หากเปิดใช้งานตัวเลือก "แสดงผลลัพธ์"</strong> เมื่อแก้ไขงบประมาณ'
+          destroy: "การดำเนินการนี้จะลบงบประมาณและกลุ่มและหัวข้อที่เกี่ยวข้องทั้งหมด การดำเนินการนี้ไม่สามารถยกเลิกได้"
+        edit: "แก้ไขงบประมาณ"
+        preview: "ดูตัวอย่าง"
+        preview_results: "ดูตัวอย่างผลลัพธ์"
+      index:
+        title: งบประมาณแบบมีส่วนร่วม
+        new_link: สร้างงบประมาณใหม่
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          open: เปิดอยู่
+          finished: เสร็จสิ้น
+        budget_investments: โครงการลงทุน
+        table_budget_type: "ประเภท"
+        table_completed: เสร็จสมบูรณ์
+        table_draft: "ฉบับร่าง"
+        table_duration: "ระยะเวลา"
+        table_name: ชื่อ
+        table_phase: ระยะ
+        table_phase_progress: "(%{current_phase_number}/%{total_phases})"
+        type_multiple: "หลายหัวข้อ"
+        type_pending: "รอดำเนินการ: ยังไม่มีหัวข้อ"
+        type_single: "หัวข้อเดียว"
+        admin_ballots: บัตรลงคะแนน
+        no_budgets: "ไม่มีงบประมาณ"
+      create:
+        notice: สร้างงบประมาณแบบมีส่วนร่วมใหม่สำเร็จแล้ว!
+      update:
+        notice: อัปเดตงบประมาณแบบมีส่วนร่วมสำเร็จแล้ว
+      publish:
+        notice: "เผยแพร่งบประมาณแบบมีส่วนร่วมสำเร็จแล้ว"
+      edit:
+        title: แก้ไขงบประมาณแบบมีส่วนร่วม
+        drafting: "งบประมาณแบบมีส่วนร่วมนี้อยู่ในโหมดร่าง มีเพียงผู้ดูแลระบบเท่านั้นที่สามารถเห็นได้ในเว็บไซต์สาธารณะ เมื่อเผยแพร่แล้วจะไม่สามารถเปลี่ยนกลับเป็นโหมดร่างได้อีก"
+        publish: "เผยแพร่งบประมาณ"
+        delete: ลบงบประมาณ
+        phase: ระยะ
+        phases_caption: "ระยะ"
+        phases_table_help_text: "การกำหนดค่าของระยะเหล่านี้ใช้สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น ฟังก์ชันของมันคือการกำหนดข้อมูลระยะที่แสดงบนหน้าสาธารณะของงบประมาณแบบมีส่วนร่วม"
+        duration: "ระยะเวลา"
+        enabled: เปิดใช้งาน
+        actions: การดำเนินการ
+        enable_phase: "เปิดใช้งานระยะ %{phase}"
+        active: ใช้งานอยู่
+        blank_dates: วันที่ว่างเปล่า
+        administrators:
+          zero: "เลือกผู้ดูแลระบบ"
+          one: "เลือกผู้ดูแลระบบ 1 คน"
+          other: "เลือกผู้ดูแลระบบ %{count} คน"
+        valuators:
+          zero: "เลือกผู้ประเมินค่า"
+          one: "เลือกผู้ประเมินค่า 1 คน"
+          other: "เลือกผู้ประเมินค่า %{count} คน"
+        empty_administrators: "ไม่มีผู้ดูแลระบบ"
+        empty_valuators: "ไม่มีผู้ประเมินค่า"
+        name_description: "นี่คือชื่อของงบประมาณแบบมีส่วนร่วมที่ใช้บนส่วนหัวและการ์ดเมื่อใดก็ตามที่เปิดใช้งาน"
+        image_description: "หากอัปโหลดรูปภาพ จะถูกใช้เป็นแบนเนอร์ด้านบนของงบประมาณแบบมีส่วนร่วมนี้ มิฉะนั้นจะใช้สีเริ่มต้นสำหรับงบประมาณ"
+        main_call_to_action: "คำกระตุ้นการตัดสินใจหลัก (ทางเลือก)"
+        main_call_to_action_description: "ลิงก์นี้จะปรากฏบนแบนเนอร์หลักของงบประมาณแบบมีส่วนร่วมนี้ และสนับสนุนให้ผู้ใช้ดำเนินการเฉพาะ เช่น การสร้างข้อเสนอ การโหวตข้อเสนอที่มีอยู่ หรือเรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการ"
+        info:
+          budget_settings: "การตั้งค่าทั่วไปของงบประมาณแบบมีส่วนร่วม"
+          staff_settings: "ผู้ดูแลระบบและผู้ประเมินค่าที่ได้รับมอบหมายให้ดูแลงบประมาณ"
+        hide_money: "ซ่อนจำนวนเงิน"
+        hide_money_help_text: "หากเลือกตัวเลือกนี้ ช่องทั้งหมดที่แสดงจำนวนเงินจะถูกซ่อนตลอดกระบวนการ"
+      destroy:
+        success_notice: ลบงบประมาณสำเร็จแล้ว
+        unable_notice: คุณไม่สามารถลบงบประมาณที่มีการลงทุนที่เกี่ยวข้องได้
+        unable_notice_polls: คุณไม่สามารถลบงบประมาณที่มีแบบสำรวจที่เกี่ยวข้องได้
+      new:
+        title_multiple: งบประมาณหลายหัวข้อใหม่
+        title_single: งบประมาณหัวข้อเดียวใหม่
+      help:
+        budgets: "งบประมาณแบบมีส่วนร่วมช่วยให้พลเมืองสามารถเสนอและตัดสินใจโดยตรงว่าจะใช้จ่ายงบประมาณส่วนใด โดยมีการติดตามและประเมินข้อเสนออย่างเข้มงวดโดยสถาบัน"
+        groups:
+          multiple: "กลุ่มมีไว้สำหรับจัดระเบียบหัวข้อ หลังจากสร้างกลุ่มและมีหัวข้อแล้ว เป็นไปได้ที่จะกำหนดว่าผู้ใช้สามารถโหวตได้กี่หัวข้อต่อกลุ่ม"
+          single: "กลุ่มมีไว้สำหรับจัดระเบียบหัวข้อ เนื่องจากงบประมาณนี้จะมีเพียงหัวข้อเดียว จึงสามารถใช้ชื่อเดียวกันได้เนื่องจากจะไม่ปรากฏที่ใด คุณสามารถดำเนินการต่อในขั้นตอนถัดไปได้"
+        headings:
+          multiple: "หัวข้อมีไว้สำหรับแบ่งจำนวนเงินของงบประมาณแบบมีส่วนร่วม ที่นี่คุณสามารถเพิ่มหัวข้อสำหรับกลุ่มนี้และกำหนดจำนวนเงินที่จะใช้สำหรับแต่ละหัวข้อ"
+          single: "หัวข้อมีไว้สำหรับแบ่งจำนวนเงินของงบประมาณแบบมีส่วนร่วม เนื่องจากงบประมาณนี้จะมีเพียงหัวข้อเดียว นี่คือที่ที่คุณกำหนดจำนวนเงินที่จะใช้จ่ายในงบประมาณแบบมีส่วนร่วมนี้"
+        phases: "งบประมาณแบบมีส่วนร่วมมีหลายระยะ ที่นี่คุณสามารถเปิดหรือปิดระยะต่าง ๆ และปรับแต่งแต่ละระยะได้ การกำหนดค่าของระยะเหล่านี้ใช้สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น และจะแสดงบนหน้าสาธารณะของงบประมาณแบบมีส่วนร่วม"
+      show:
+        add_group: "เพิ่มกลุ่ม"
+        add_heading: "เพิ่มหัวข้อ"
+        groups_and_headings: "กลุ่มหัวข้อ"
+        headings_caption: "หัวข้อใน %{group}"
+      winners:
+        calculate: คำนวณโครงการลงทุนที่ชนะ
+        calculated: กำลังคำนวณผู้ชนะ อาจใช้เวลาสักครู่
+        recalculate: คำนวณโครงการลงทุนที่ชนะซ้ำ
+      ballots:
+        feature_disabled: 'คุณลักษณะ <strong>แบบสำรวจ</strong> ต้องเปิดใช้งานเพื่อสร้างบูธ คุณสามารถเปิดใช้งานได้จากหน้า <a href="%{link}">การตั้งค่า</a>'
+    budget_groups:
+      name: "ชื่อ"
+      headings_name: "หัวข้อ"
+      headings_manage: "จัดการหัวข้อ"
+      no_groups: "ไม่มีกลุ่ม"
+      amount:
+        one: "มี 1 กลุ่ม"
+        other: "มี %{count} กลุ่ม"
+      create:
+        notice: "สร้างกลุ่มสำเร็จแล้ว!"
+      update:
+        notice: "อัปเดตกลุ่มสำเร็จแล้ว"
+      destroy:
+        success_notice: "ลบกลุ่มสำเร็จแล้ว"
+        unable_notice: "คุณไม่สามารถลบกลุ่มที่มีหัวข้อที่เกี่ยวข้องได้"
+      form:
+        create: "สร้างกลุ่มใหม่"
+        edit: "แก้ไขกลุ่ม"
+        max_votable_headings_info: "ใช้ได้เฉพาะกับขั้นตอนการเลือกโครงการเท่านั้น ในระหว่างขั้นตอนการโหวตโครงการ ผู้ใช้สามารถโหวตได้เพียงหัวข้อเดียวต่อกลุ่ม"
+        submit: "บันทึกกลุ่ม"
+      index:
+        new_button: "เพิ่มกลุ่มใหม่"
+    budget_headings:
+      no_headings: "ไม่มีหัวข้อในกลุ่ม <strong>%{group}</strong>"
+      create:
+        notice: "สร้างหัวข้อสำเร็จแล้ว!"
+      update:
+        notice: "อัปเดตหัวข้อสำเร็จแล้ว"
+      destroy:
+        success_notice: "ลบหัวข้อสำเร็จแล้ว"
+        unable_notice: "คุณไม่สามารถลบหัวข้อที่มีการลงทุนที่เกี่ยวข้องได้"
+      form:
+        geozone_info: "เมื่อหัวข้อเชื่อมโยงกับเขตภูมิศาสตร์ เขตภูมิศาสตร์จะปรากฏบนแผนที่ของงบประมาณนี้ หากเขตภูมิศาสตร์นั้นมีข้อมูล GeoJSON"
+        max_ballot_lines_info: 'จำนวนโครงการสูงสุดที่ผู้ใช้สามารถโหวตได้ในหัวข้อนี้ระหว่างขั้นตอน "การโหวตโครงการ" เฉพาะสำหรับงบประมาณที่ใช้การโหวตแบบเห็นชอบเท่านั้น'
+        population_info: "ช่องข้อมูลประชากรของหัวข้องบประมาณใช้สำหรับวัตถุประสงค์ทางสถิติเมื่อสิ้นสุดงบประมาณเพื่อแสดงว่าแต่ละหัวข้อที่แสดงถึงพื้นที่ที่มีประชากรลงคะแนนกี่เปอร์เซ็นต์ ช่องนี้เป็นทางเลือก ดังนั้นคุณสามารถเว้นว่างไว้ได้หากไม่เกี่ยวข้อง"
+        coordinates_info: "หากมีการระบุละติจูดและลองจิจูด หน้าการลงทุนสำหรับหัวข้อนี้จะมีแผนที่ แผนที่นี้จะถูกจัดให้อยู่ตรงกลางโดยใช้พิกัดเหล่านั้น"
+        content_blocks_info: "หากเลือกอนุญาตบล็อกเนื้อหา คุณจะสามารถสร้างเนื้อหาที่กำหนดเองที่เกี่ยวข้องกับหัวข้อนี้ได้จากส่วน เนื้อหาเว็บไซต์ > บล็อกเนื้อหาที่กำหนดเอง เนื้อหานี้จะปรากฏบนหน้าการลงทุนสำหรับหัวข้อนี้"
+        create: "สร้างหัวข้อใหม่"
+        edit: "แก้ไขหัวข้อ"
+        submit: "บันทึกหัวข้อ"
+      group_switcher:
+        currently_showing: "กำลังแสดงหัวข้อจากกลุ่ม <strong>%{group}</strong>"
+        the_other_group: "จัดการหัวข้อจากกลุ่ม %{group}"
+      index:
+        back: "กลับไปที่กลุ่ม"
+        new_button: "เพิ่มหัวข้อใหม่"
+        title: "%{budget} / หัวข้อ %{group}"
+    budget_phases:
+      edit:
+        title: "แก้ไขระยะ"
+        dates_help_text: "สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น"
+        description_help_text: ข้อความนี้จะปรากฏในส่วนหัวเมื่อระยะใช้งานอยู่
+        duration: "ระยะเวลาของระยะ"
+        duration_description: "ช่องเหล่านี้ใช้สำหรับวัตถุประสงค์ด้านข้อมูลเท่านั้น และ **ไม่กระตุ้นการอัปเดตระยะที่ใช้งานอยู่โดยอัตโนมัติ** ในการอัปเดต โปรดแก้ไขงบประมาณและเลือกระยะที่ใช้งานอยู่"
+        enabled_help_text: ระยะนี้จะเผยแพร่ต่อสาธารณะในไทม์ไลน์ระยะของงบประมาณ
+        image_description: "หากอัปโหลดรูปภาพ รูปภาพจะแสดงถัดจากคำอธิบายของระยะนี้"
+        main_call_to_action: "คำกระตุ้นการตัดสินใจหลัก (ทางเลือก)"
+        main_call_to_action_description: "ลิงก์นี้จะปรากฏบนแบนเนอร์หลักของงบประมาณแบบมีส่วนร่วมนี้เมื่อเปิดใช้งานระยะนี้ และสนับสนุนให้ผู้ใช้ดำเนินการเฉพาะ เช่น การสร้างข้อเสนอ การโหวตข้อเสนอที่มีอยู่ หรือเรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการ"
+        name_help_text: "นี่คือชื่อของระยะที่ผู้ใช้จะอ่านบนส่วนหัวเมื่อใดก็ตามที่ระยะนี้ใช้งานอยู่"
+        save_changes: บันทึกการเปลี่ยนแปลง
+      index:
+        title: "ระยะ %{budget}"
+    budget_investments:
+      index:
+        basic_filters:
+          valuator_or_group: ผู้ประเมินค่าหรือกลุ่ม
+          title_or_id: ชื่อหรือ ID
+        heading_filter_all: หัวข้อทั้งหมด
+        administrator_filter_all: ผู้ดูแลระบบทั้งหมด
+        valuator_filter_all: ผู้ประเมินค่าทั้งหมด
+        tags_filter_all: แท็กทั้งหมด
+        advanced_filters: ตัวกรองขั้นสูง
+        filters:
+          all: ทั้งหมด
+          without_admin: ไม่มีผู้ดูแลระบบที่ได้รับมอบหมาย
+          without_valuator: ไม่มีผู้ประเมินค่าที่ได้รับมอบหมาย
+          under_valuation: อยู่ระหว่างการประเมินค่า
+          valuation_finished: การประเมินค่าเสร็จสิ้นแล้ว
+          feasible: เป็นไปได้
+          selected: ถูกเลือก
+          undecided: ยังไม่ตัดสินใจ
+          unfeasible: เป็นไปไม่ได้
+          min_total_supports: การสนับสนุนขั้นต่ำ
+          max_total_supports: การสนับสนุนสูงสุด
+          winners: ผู้ชนะ
+          one_filter: "ตัวกรองที่ใช้ในปัจจุบัน: <b><em>%{filter}</em></b>"
+          two_filters: "ตัวกรองที่ใช้ในปัจจุบัน: <b><em>%{filter}, %{advanced_filters}</em></b>"
+        buttons:
+          filter: ตัวกรอง
+        download_current_selection: "ดาวน์โหลดสิ่งที่เลือกในปัจจุบัน"
+        no_budget_investments: "ไม่มีโครงการลงทุน"
+        title: โครงการลงทุน
+        columns: คอลัมน์
+        assigned_admin: ผู้ดูแลระบบที่ได้รับมอบหมาย
+        no_admin_assigned: ไม่มีผู้ดูแลระบบที่ได้รับมอบหมาย
+        no_valuators_assigned: ไม่มีผู้ประเมินค่าที่ได้รับมอบหมาย
+        feasibility:
+          feasible: "เป็นไปได้"
+          unfeasible: "เป็นไปไม่ได้"
+          undecided: "ยังไม่ตัดสินใจ"
+        selected: "ถูกเลือก"
+        list:
+          id: ID
+          title: ชื่อเรื่อง
+          supports: การสนับสนุน
+          admin: ผู้ดูแลระบบ
+          valuator: ผู้ประเมินค่า
+          valuation_group: กลุ่มผู้ประเมินค่า
+          geozone: ขอบเขตการดำเนินงาน
+          feasibility: ความเป็นไปได้
+          valuation_finished: ประเมินเสร็จสิ้น
+          selected: ถูกเลือก
+          visible_to_valuators: แสดงต่อผู้ประเมินค่า
+          author_username: ชื่อผู้ใช้ของผู้เขียน
+          incompatible: ไม่เข้ากัน
+          price: ราคา
+          author: ผู้เขียน
+        cannot_calculate_winners: งบประมาณต้องอยู่ในระยะ "%{phase}" เพื่อคำนวณโครงการที่ชนะ
+        see_results: "ดูผลลัพธ์"
+        milestone_tags_filter_all: "แท็กเหตุการณ์สำคัญทั้งหมด"
+      show:
+        assigned_admin: ผู้ดูแลระบบที่ได้รับมอบหมาย
+        assigned_valuators: ผู้ประเมินค่าที่ได้รับมอบหมาย
+        classification: การจำแนก
+        info: "%{budget_name} - กลุ่ม: %{group_name} - โครงการลงทุน %{id}"
+        edit: แก้ไข
+        edit_classification: แก้ไขการจำแนก
+        by: โดย
+        sent: ถูกส่งแล้ว
+        group: กลุ่ม
+        heading: หัวข้อ
+        dossier: แฟ้มข้อมูล
+        edit_dossier: แก้ไขแฟ้มข้อมูล
+        tags: แท็ก
+        undefined: ไม่ได้กำหนด
+        compatibility:
+          title: ความเข้ากันได้
+          "true": ไม่เข้ากัน
+          "false": เข้ากันได้
+        selection:
+          title: การเลือก
+        winner:
+          title: ผู้ชนะ
+          "true": "ใช่"
+          "false": "ไม่"
+        valuator_groups: "กลุ่มผู้ประเมินค่า"
+        preview: ดูตัวอย่างการลงทุน
+      edit:
+        classification: การจำแนก
+        compatibility: ความเข้ากันได้
+        selection: การเลือก
+        assigned_valuators: ผู้ประเมินค่า
+        select_heading: เลือกหัวข้อ
+        submit_button: อัปเดต
+        user_tags: แท็กที่ผู้ใช้กำหนด
+        tags_placeholder: "เขียนแท็กที่คุณต้องการคั่นด้วยเครื่องหมายจุลภาค (,)"
+        undefined: ไม่ได้กำหนด
+      search_unfeasible: ค้นหาสิ่งที่เป็นไปไม่ได้
+    budgets_wizard:
+      creation_timeline:
+        budget: งบประมาณ
+        groups: กลุ่ม
+        headings: หัวข้อ
+        phases: ระยะ
+      budgets:
+        continue: "ดำเนินการต่อเพื่อกลุ่ม"
+      groups:
+        back: "กลับไปแก้ไขงบประมาณ"
+        continue: "ดำเนินการต่อเพื่อหัวข้อ"
+      headings:
+        continue: "ดำเนินการต่อเพื่อระยะ"
+        single:
+          back: "กลับไปแก้ไขกลุ่ม"
+      heading_mode:
+        multiple:
+          description: "สร้างกระบวนการที่มีหลายกลุ่ม เขต หรือหัวข้อ คุณมีสิ่งที่คล้ายกับถุงเงินหลายใบ ตัวอย่างเช่น 25,000 ยูโรสำหรับ \"เขตเหนือ\", 30,000 ยูโรสำหรับ \"เขตกลาง\", 28,000 ยูโรสำหรับ \"เขตใต้\" และทั้งเมือง หรือสำหรับหลายหัวข้อ เช่น กีฬา วัฒนธรรม หรือสุขภาพ"
+          link: "สร้างงบประมาณหลายหัวข้อ"
+          title: "งบประมาณ <strong>หลายหัวข้อ</strong>"
+        single:
+          description: "สร้างกระบวนการที่มีกลุ่ม เขต หรือหัวข้อเดียว คุณมีสิ่งที่คล้ายกับถุงเงินใบเดียว ตัวอย่างเช่น 25,000 ยูโรสำหรับเขต หรือ 10,000 ยูโรสำหรับวัฒนธรรม"
+          link: "สร้างงบประมาณหัวข้อเดียว"
+          title: "งบประมาณ <strong>หัวข้อเดียว</strong>"
+        title: "ประเภทงบประมาณแบบมีส่วนร่วม"
+      phases:
+        continue: "เสร็จสิ้น"
+        multiple:
+          back: "กลับไปที่หัวข้อ"
+        single:
+          back: "กลับไปแก้ไขหัวข้อ"
+    milestones:
+      index:
+        table_id: "ID"
+        table_title: "ชื่อเรื่อง"
+        table_description: "คำอธิบาย"
+        table_publication_date: "วันที่เผยแพร่"
+        table_status: สถานะ
+        table_actions: "การดำเนินการ"
+        no_milestones: "ไม่มีเหตุการณ์สำคัญที่กำหนดไว้"
+        image: "รูปภาพ"
+        show_image: "แสดงรูปภาพ"
+        documents: "เอกสาร"
+        milestone: เหตุการณ์สำคัญ
+        new_milestone: สร้างเหตุการณ์สำคัญใหม่
+        milestone_tags: แท็กเหตุการณ์สำคัญ
+      form:
+        admin_statuses: จัดการสถานะ
+        no_statuses_defined: ยังไม่มีสถานะที่กำหนดไว้
+      new:
+        creating: สร้างเหตุการณ์สำคัญ
+      edit:
+        title: แก้ไขเหตุการณ์สำคัญ
+      create:
+        notice: สร้างเหตุการณ์สำคัญใหม่สำเร็จแล้ว!
+      update:
+        notice: อัปเดตเหตุการณ์สำคัญสำเร็จแล้ว
+      delete:
+        notice: ลบเหตุการณ์สำคัญสำเร็จแล้ว
+    statuses:
+      index:
+        title: สถานะเหตุการณ์สำคัญ
+        empty_statuses: ไม่มีสถานะเหตุการณ์สำคัญที่สร้างขึ้น
+        new_status: สร้างสถานะเหตุการณ์สำคัญใหม่
+        table_name: ชื่อ
+        table_description: คำอธิบาย
+        table_actions: การดำเนินการ
+      edit:
+        title: แก้ไขสถานะเหตุการณ์สำคัญ
+      update:
+        notice: อัปเดตสถานะเหตุการณ์สำคัญสำเร็จแล้ว
+      new:
+        title: สร้างสถานะเหตุการณ์สำคัญ
+      create:
+        notice: สร้างสถานะเหตุการณ์สำคัญสำเร็จแล้ว
+      delete:
+        notice: ลบสถานะเหตุการณ์สำคัญสำเร็จแล้ว
+    progress_bars:
+      manage: "จัดการแถบความคืบหน้า"
+      index:
+        title: "แถบความคืบหน้า"
+        no_progress_bars: "ไม่มีแถบความคืบหน้า"
+        new_progress_bar: "สร้างแถบความคืบหน้าใหม่"
+        primary: "แถบความคืบหน้าหลัก"
+        table_id: "ID"
+        table_kind: "ประเภท"
+        table_title: "ชื่อเรื่อง"
+        table_percentage: "ความคืบหน้าปัจจุบัน"
+      new:
+        creating: "สร้างแถบความคืบหน้า"
+      edit:
+        title:
+          primary: "แก้ไขแถบความคืบหน้าหลัก"
+          secondary: "แก้ไขแถบความคืบหน้า %{title}"
+      create:
+        notice: "สร้างแถบความคืบหน้าสำเร็จแล้ว!"
+      update:
+        notice: "อัปเดตแถบความคืบหน้าสำเร็จแล้ว"
+      delete:
+        notice: "ลบแถบความคืบหน้าสำเร็จแล้ว"
+    comments:
+      index:
+        id: "ID"
+        content: "เนื้อหา"
+        author: "ผู้เขียน"
+        commentable_type: "ประเภท"
+        title: ความคิดเห็น
+        no_comments: ไม่มี
+        table_link: "ลิงก์"
+    hidden_comments:
+      index:
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        hidden_debate: การอภิปรายที่ถูกซ่อน
+        hidden_proposal: ข้อเสนอที่ถูกซ่อน
+        title: ความคิดเห็นที่ถูกซ่อน
+        no_hidden_comments: ไม่มีความคิดเห็นที่ถูกซ่อน
+    dashboard:
+      index:
+        back: กลับไปที่ %{org}
+        title: การบริหาร
+        description: ยินดีต้อนรับสู่แผงผู้ดูแลระบบ %{org}
+        info: |-
+          <p>ที่นี่คือสถานที่ที่คุณในฐานะผู้ดูแลระบบจะดำเนินการและกำกับดูแลกระบวนการมีส่วนร่วมของพลเมืองในเมืองหรือภูมิภาคของคุณ</p>
+
+          <p>ตอนนี้คุณเป็นหนึ่งในรัฐบาลและเทศบาลหลายร้อยแห่งทั่วโลกที่กำลังใช้แพลตฟอร์ม CONSUL DEMOCRACY เพื่อนำการมีส่วนร่วมของพลเมืองไปปฏิบัติ ขอแสดงความยินดีด้วย!</p>
+
+          <p>มูลนิธิ CONSUL DEMOCRACY เป็นหัวใจของชุมชนผู้ใช้ทั่วโลก เราขอให้คุณติดต่อเราเพื่อที่เราจะเข้าใจว่าใครใช้ซอฟต์แวร์และดูว่าเราจะสามารถช่วยเหลือในการนำไปใช้หรือการใช้งานได้อย่างไร เราแทบรอไม่ไหวที่จะต้อนรับคุณเข้าสู่ชุมชน</p>
+
+          <p>ขอให้บริหารอย่างมีความสุข!</p>
+
+          <p>คำทักทายจากทีมงานมูลนิธิ CONSUL DEMOCRACY</p>
+      actions:
+        index:
+          description: "เมื่อผู้ใช้สร้างข้อเสนอ พวกเขาสามารถเข้าถึงแดชบอร์ดของข้อเสนอได้ ซึ่งคุณสามารถเสนอทรัพยากรและคำแนะนำเพื่อรับการสนับสนุนสำหรับแนวคิดของพวกเขา"
+          create: สร้างทรัพยากรหรือการดำเนินการ
+          active: 'ใช่'
+          inactive: 'ไม่'
+          title: ทรัพยากรและการดำเนินการ
+          action_title: ชื่อเรื่อง
+          action_type: ประเภท
+          required_supports: การสนับสนุนที่จำเป็น
+          day_offset: วันที่จำเป็น
+          action_active: ใช้งานอยู่
+          order: ลำดับ
+          published_proposal: ข้อเสนอที่เผยแพร่แล้ว
+          default:
+            email: อีเมล
+            polls: แบบสำรวจ
+            poster: โปสเตอร์
+        new:
+          creating: การดำเนินการใหม่สำหรับแดชบอร์ดข้อเสนอ
+          back: กลับไปที่รายการ
+        create:
+          notice: สร้างการดำเนินการสำเร็จแล้ว
+        edit:
+          editing: แก้ไขการดำเนินการสำหรับแดชบอร์ดข้อเสนอ
+          back: กลับไปที่รายการ
+        delete:
+          success: ลบการดำเนินการสำเร็จแล้ว
+        form:
+          submit_button: บันทึก
+          help_text: ใส่ 0 เพื่อไม่ให้คำนึงถึงค่านั้น
+          published_proposal_help_text: ทำเครื่องหมายที่ช่องนี้เพื่อสร้างการดำเนินการสำหรับข้อเสนอที่เผยแพร่แล้วเท่านั้น
+        administrator_tasks:
+          index:
+            description: "ทรัพยากรที่เผยแพร่ในแดชบอร์ดของข้อเสนออาจมีปุ่มให้ร้องขอไปยังผู้ดูแลระบบ คำขอของผู้ใช้จะแสดงอยู่ด้านล่าง"
+            title: ทรัพยากรที่ร้องขอ
+            solve: แก้ไข
+            no_records: ไม่มีบันทึกการร้องขอทรัพยากร
+            source: แหล่งที่มา
+            resource: ทรัพยากรที่ร้องขอ
+            filter: ตัวกรอง
+            filters:
+              pending: รอดำเนินการ
+              done: แก้ไขแล้ว
+          edit:
+            back: กลับไปที่รายการงานที่รอดำเนินการ
+            solving: แก้ไขงานที่รอดำเนินการ
+          form:
+            solve: ทำเครื่องหมายว่าแก้ไขแล้ว
+            proposal: ข้อเสนอ
+            request: ทรัพยากรที่ร้องขอ
+          update:
+            success: งานถูกทำเครื่องหมายว่าแก้ไขแล้ว
+    debates:
+      index:
+        id: ID
+        author: ผู้เขียน
+        title: การอภิปราย
+        no_debates: ไม่มี
+    hidden_debates:
+      index:
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: การอภิปรายที่ถูกซ่อน
+        no_hidden_debates: ไม่มีการอภิปรายที่ถูกซ่อน
+    documents:
+      new:
+        title: "อัปโหลดเอกสาร"
+        submit_button: "อัปโหลด"
+      index:
+        new_link: "เพิ่มเอกสารใหม่"
+        no_documents: "ไม่มีเอกสาร"
+        title: "เอกสาร"
+        format: "รูปแบบ"
+        size: "ขนาด"
+      create:
+        success_notice: "อัปโหลดเอกสารสำเร็จแล้ว"
+        unable_notice: "เอกสารไม่ถูกต้อง"
+      destroy:
+        success_notice: "ลบเอกสารสำเร็จแล้ว"
+    hidden_users:
+      index:
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: ผู้ใช้ที่ถูกซ่อน
+        user: ผู้ใช้
+        no_hidden_users: ไม่มีผู้ใช้ที่ถูกซ่อน
+      show:
+        email: "อีเมล:"
+        hidden_at: "ซ่อนเมื่อ:"
+        registered_at: "ลงทะเบียนเมื่อ:"
+        title: กิจกรรมของผู้ใช้ (%{user})
+    hidden_budget_investments:
+      index:
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: การลงทุนด้านงบประมาณที่ถูกซ่อน
+        no_hidden_budget_investments: ไม่มีการลงทุนด้านงบประมาณที่ถูกซ่อน
+    legislation:
+      processes:
+        create:
+          notice: 'สร้างกระบวนการสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+          error: ไม่สามารถสร้างกระบวนการได้
+        update:
+          notice: 'อัปเดตกระบวนการสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+          error: ไม่สามารถอัปเดตกระบวนการได้
+        destroy:
+          notice: ลบกระบวนการสำเร็จแล้ว
+        edit:
+          back: กลับ
+          submit_button: บันทึกการเปลี่ยนแปลง
+        form:
+          enabled: เปิดใช้งาน
+          process: กระบวนการ
+          debate_phase: ระยะการอภิปราย
+          draft_phase: ระยะฉบับร่าง
+          draft_phase_description: หากระยะนี้ใช้งานอยู่ กระบวนการจะไม่แสดงในดัชนีกระบวนการ อนุญาตให้ดูตัวอย่างกระบวนการและสร้างเนื้อหาก่อนเริ่ม
+          allegations_phase: ระยะความคิดเห็น
+          proposals_phase: ระยะข้อเสนอ
+          use_markdown: ใช้ Markdown เพื่อจัดรูปแบบข้อความ
+          homepage_description: ที่นี่คุณสามารถอธิบายเนื้อหาของกระบวนการได้
+          banner_title: สีส่วนหัว
+        index:
+          create: กระบวนการใหม่
+          title: กฎหมายร่วมกัน
+          filters:
+            active: ใช้งานอยู่
+            all: ทั้งหมด
+        new:
+          back: กลับ
+          title: สร้างกระบวนการกฎหมายร่วมกันใหม่
+          submit_button: สร้างกระบวนการ
+        proposals:
+          orders:
+            id: "เรียงตาม ID"
+            title: "เรียงตามชื่อเรื่อง"
+            supports: "เรียงตามการสนับสนุนทั้งหมด"
+        process:
+          title: กระบวนการ
+          comments: ความคิดเห็น
+          status: สถานะ
+          start_date: วันที่เริ่มต้น
+          end_date: วันที่สิ้นสุด
+          status_open: เปิดอยู่
+          status_closed: ปิดแล้ว
+          status_planned: วางแผน
+        subnav:
+          info: ข้อมูล
+          homepage: หน้าแรก
+          draft_versions: การร่าง
+          questions: การอภิปราย
+          proposals: ข้อเสนอ
+          milestones: การติดตาม
+        homepage:
+          edit:
+            title: กำหนดค่าหน้าแรกของกระบวนการของคุณ
+        proposals:
+          index:
+            title: ข้อเสนอ
+            back: กลับ
+            id: Id
+            supports: การสนับสนุนทั้งหมด
+          form:
+            custom_categories: หมวดหมู่
+            custom_categories_description: หมวดหมู่ที่ผู้ใช้สามารถเลือกสร้างข้อเสนอได้ สูงสุด 160 ตัวอักษร
+            custom_categories_placeholder: ใส่แท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (,) และอยู่ระหว่างเครื่องหมายอัญประกาศคู่ ("")
+        draft_versions:
+          create:
+            notice: 'สร้างฉบับร่างสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถสร้างฉบับร่างได้
+          update:
+            notice: 'อัปเดตฉบับร่างสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถอัปเดตฉบับร่างได้
+          destroy:
+            notice: ลบฉบับร่างสำเร็จแล้ว
+          edit:
+            back: กลับ
+            submit_button: บันทึกการเปลี่ยนแปลง
+            warning: คุณแก้ไขข้อความแล้ว อย่าลืมคลิกที่บันทึกเพื่อบันทึกการเปลี่ยนแปลงอย่างถาวร
+            markdown_changes_message: "คุณแก้ไขข้อความโดยไม่ได้บันทึก คุณยืนยันที่จะออกจากหน้านี้หรือไม่?"
+          form:
+            title: 'กำลังแก้ไข <span class="strong">%{draft_version_title}</span> จากกระบวนการ <span class="strong">%{process_title}</span>'
+            launch_text_editor: เปิดตัวแก้ไขข้อความ
+            close_text_editor: ปิดตัวแก้ไขข้อความ
+            use_markdown: ใช้ Markdown เพื่อจัดรูปแบบข้อความ
+            hints:
+              final_version: ฉบับนี้จะถูกเผยแพร่เป็นผลลัพธ์สุดท้ายสำหรับกระบวนการนี้ ไม่อนุญาตให้แสดงความคิดเห็นในฉบับนี้
+              status:
+                draft: คุณสามารถดูตัวอย่างในฐานะผู้ดูแลระบบได้ ไม่มีใครสามารถเห็นได้
+                published: เผยแพร่แล้ว ผู้ใช้ทุกคนสามารถมองเห็นได้
+            changelog_placeholder: เพิ่มการเปลี่ยนแปลงหลักจากเวอร์ชันก่อนหน้า
+          index:
+            title: ฉบับร่าง
+            create: สร้างฉบับ
+            preview: ดูตัวอย่าง
+          new:
+            back: กลับ
+            title: สร้างฉบับใหม่
+            submit_button: สร้างฉบับ
+          table:
+            title: ชื่อเรื่อง
+            created_at: สร้างเมื่อ
+            comments: ความคิดเห็น
+            final_version: ฉบับสุดท้าย
+            status: สถานะ
+        questions:
+          create:
+            notice: 'สร้างคำถามสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถสร้างคำถามได้
+          update:
+            notice: 'อัปเดตคำถามสำเร็จแล้ว <a href="%{link}">คลิกเพื่อดู</a>'
+            error: ไม่สามารถอัปเดตคำถามได้
+          destroy:
+            notice: ลบคำถามสำเร็จแล้ว
+          edit:
+            back: กลับ
+            title: "แก้ไข “%{question_title}”"
+            submit_button: บันทึกการเปลี่ยนแปลง
+          form:
+            add_option: เพิ่มตัวเลือก
+            value_placeholder: เพิ่มคำตอบแบบปิด
+            question_options: "ตัวเลือกคำตอบ (ทางเลือก ตามค่าเริ่มต้นคือคำตอบแบบเปิด)"
+          index:
+            back: กลับ
+            title: คำถามที่เกี่ยวข้องกับกระบวนการนี้
+            create: สร้างคำถาม
+          new:
+            back: กลับ
+            title: สร้างคำถามใหม่
+            submit_button: สร้างคำถาม
+          table:
+            title: ชื่อเรื่อง
+            question_options: ตัวเลือกคำถาม
+            answers_count: จำนวนคำตอบ
+            comments_count: จำนวนความคิดเห็น
+          question_option_fields:
+            remove_option: ลบตัวเลือก
+          milestones:
+            index:
+              title: การติดตาม
+    locales:
+      default_help_text: "นี่คือภาษาเริ่มต้นของแอปพลิเคชัน และการเปลี่ยนแปลงจะมี **ผลกระทบต่อผู้ใช้ทุกคน** ที่เยี่ยมชมเว็บไซต์เป็นครั้งแรก"
+      enabled_help_text: ภาษาเริ่มต้นที่เลือกไว้ด้านบน จะถูกรวมโดยอัตโนมัติ
+      update:
+        notice: อัปเดตภาษาสำเร็จแล้ว
+    managers:
+      index:
+        title: ผู้จัดการ
+        no_managers: ไม่มีผู้จัดการ
+      manager:
+        add: เพิ่ม
+      search:
+        title: "ผู้จัดการ: ค้นหาผู้ใช้"
+    sdg_managers:
+      index:
+        no_sdg_managers: ไม่มีผู้ใช้
+    sdg/managers:
+      sdg/manager:
+        add: เพิ่ม
+    menu:
+      activity: กิจกรรมการกลั่นกรอง
+      admin: เมนูผู้ดูแลระบบ
+      banner: แบนเนอร์
+      proposals: ข้อเสนอ
+      proposals_topics: หัวข้อข้อเสนอ
+      budgets: งบประมาณแบบมีส่วนร่วม
+      geozones: เขตภูมิศาสตร์
+      locales: ภาษา
+      hidden_comments: ความคิดเห็นที่ถูกซ่อน
+      hidden_debates: การอภิปรายที่ถูกซ่อน
+      hidden_proposals: ข้อเสนอที่ถูกซ่อน
+      hidden_budget_investments: การลงทุนด้านงบประมาณที่ถูกซ่อน
+      hidden_proposal_notifications: การแจ้งเตือนข้อเสนอที่ถูกซ่อน
+      hidden_users: ผู้ใช้ที่ถูกซ่อน
+      administrators: ผู้ดูแลระบบ
+      managers: ผู้จัดการ
+      sdg_managers: ผู้จัดการ SDG
+      moderators: ผู้กลั่นกรอง
+      messaging_users: ข้อความถึงผู้ใช้
+      newsletters: จดหมายข่าว
+      admin_notifications: การแจ้งเตือน
+      system_emails: อีเมลระบบ
+      emails_download: ดาวน์โหลดอีเมล
+      valuators: ผู้ประเมินค่า
+      poll_officers: เจ้าหน้าที่เลือกตั้ง
+      poll_booths: ที่ตั้งบูธ
+      poll_booth_assignments: การมอบหมายบูธ
+      poll_shifts: การมอบหมายกะ
+      officials: เจ้าหน้าที่
+      organizations: องค์กร
+      settings: การตั้งค่าทั่วโลก
+      stats: สถิติ
+      signature_sheets: ใบลงชื่อ
+      site_customization:
+        documents: เอกสารที่กำหนดเอง
+        homepage: หน้าแรก
+        pages: หน้าที่กำหนดเอง
+        images: รูปภาพที่กำหนดเอง
+        content_blocks: บล็อกเนื้อหาที่กำหนดเอง
+        information_texts: ข้อความข้อมูลที่กำหนดเอง
+        information_texts_menu:
+          basic: "การปรับแต่งพื้นฐาน"
+          debates: "การอภิปราย"
+          community: "ชุมชน"
+          proposals: "ข้อเสนอ"
+          polls: "แบบสำรวจ"
+          legislation: "กฎหมายร่วมกัน"
+          budgets: "งบประมาณ"
+          layouts: "รูปแบบ"
+          machine_learning: "AI / การเรียนรู้ของเครื่อง"
+          mailers: "อีเมล"
+          management: "การจัดการ"
+          welcome: "ยินดีต้อนรับ"
+        buttons:
+          save: "บันทึก"
+          content_block:
+            update: "อัปเดตบล็อก"
+      title_moderated_content: เนื้อหาที่ถูกกลั่นกรอง
+      title_profiles: โปรไฟล์
+      title_settings: การตั้งค่า
+      title_site_customization: เนื้อหาเว็บไซต์
+      title_booths: บูธลงคะแนน
+      legislation: กฎหมายร่วมกัน
+      users: ผู้ใช้
+      dashboard: แดชบอร์ดข้อเสนอ
+      administrator_tasks: ทรัพยากรที่ร้องขอ
+      dashboard_actions: ทรัพยากรและการดำเนินการ
+      debates: "การอภิปราย"
+      comments: "ความคิดเห็น"
+      local_census_records: สำมะโนท้องถิ่น
+      machine_learning: "AI / การเรียนรู้ของเครื่อง"
+      multitenancy: การเช่าหลายราย
+    administrators:
+      index:
+        title: ผู้ดูแลระบบ
+        id: ID ผู้ดูแลระบบ
+        no_administrators: ไม่มีผู้ดูแลระบบ
+      administrator:
+        add: เพิ่ม
+        restricted_removal: "ขออภัย คุณไม่สามารถลบตัวเองออกจากผู้ดูแลระบบได้"
+      search:
+        title: "ผู้ดูแลระบบ: ค้นหาผู้ใช้"
+      form:
+        edit_title: "แก้ไขผู้ดูแลระบบ"
+        updated: "อัปเดตผู้ดูแลระบบสำเร็จแล้ว"
+    moderators:
+      index:
+        title: ผู้กลั่นกรอง
+        no_moderators: ไม่มีผู้กลั่นกรอง
+      moderator:
+        add: เพิ่ม
+      search:
+        title: "ผู้กลั่นกรอง: ค้นหาผู้ใช้"
+    segment_recipient:
+      all_users: ผู้ใช้ทั้งหมด
+      administrators: ผู้ดูแลระบบ
+      all_proposal_authors: ผู้เขียนข้อเสนอทั้งหมด (รวมถึงที่เก็บถาวรและที่ถูกถอนออก)
+      proposal_authors: ผู้เขียนข้อเสนอ
+      investment_authors: ผู้เขียนการลงทุนในงบประมาณปัจจุบัน
+      feasible_and_undecided_investment_authors: "ผู้เขียนการลงทุนบางส่วนในงบประมาณปัจจุบันที่ไม่เป็นไปตามเงื่อนไข: [การประเมินค่าเสร็จสิ้นแล้วและเป็นไปไม่ได้]"
+      selected_investment_authors: ผู้เขียนการลงทุนที่ถูกเลือกในงบประมาณปัจจุบัน
+      winner_investment_authors: ผู้เขียนการลงทุนที่ชนะในงบประมาณปัจจุบัน
+      not_supported_on_current_budget: ผู้ใช้ที่ไม่ได้สนับสนุนการลงทุนในงบประมาณปัจจุบัน
+      invalid_recipients_segment: "ส่วนของผู้รับไม่ถูกต้อง"
+    newsletters:
+      create_success: สร้างจดหมายข่าวสำเร็จแล้ว
+      update_success: อัปเดตจดหมายข่าวสำเร็จแล้ว
+      send_success: ส่งจดหมายข่าวสำเร็จแล้ว
+      delete_success: ลบจดหมายข่าวสำเร็จแล้ว
+      index:
+        title: จดหมายข่าว
+        new_newsletter: จดหมายข่าวใหม่
+        subject: หัวข้อ
+        segment_recipient: ผู้รับ
+        sent: ถูกส่งแล้ว
+        actions: การดำเนินการ
+        draft: ฉบับร่าง
+        preview: ดูตัวอย่าง
+        empty_newsletters: ไม่มีจดหมายข่าวให้แสดง
+      new:
+        title: จดหมายข่าวใหม่
+        header_footer_help_text: "ส่วนหัวและส่วนท้ายเหมือนกันสำหรับอีเมลทั้งหมด คุณสามารถแก้ไขได้ที่ <code>app/views/layouts/mailer_header</code> และ <code>app/views/layouts/mailer_footer</code><br>คุณสามารถแทนที่รูปภาพส่วนหัวได้ที่ %{link}"
+        image_link: "รูปภาพที่กำหนดเอง"
+      edit:
+        title: แก้ไขจดหมายข่าว
+      show:
+        title: ดูตัวอย่างจดหมายข่าว
+        send: ส่ง
+        affected_users: (ผู้ใช้ที่ได้รับผลกระทบ %{n} คน)
+        sent_emails:
+          one: ส่งอีเมล 1 ฉบับ
+          other: ส่งอีเมล %{count} ฉบับ
+        sent_at: ส่งเมื่อ
+        subject: หัวข้อ
+        segment_recipient: ผู้รับ
+        from: ที่อยู่อีเมลที่จะปรากฏเป็นผู้ส่งจดหมายข่าว
+        body: เนื้อหาอีเมล
+        body_help_text: นี่คือวิธีที่ผู้ใช้จะเห็นอีเมล
+        send_alert: คุณแน่ใจหรือไม่ว่าต้องการส่งจดหมายข่าวนี้ไปยังผู้ใช้ %{n} คน?
+    admin_notifications:
+      create_success: สร้างการแจ้งเตือนสำเร็จแล้ว
+      update_success: อัปเดตการแจ้งเตือนสำเร็จแล้ว
+      send_success: ส่งการแจ้งเตือนสำเร็จแล้ว
+      delete_success: ลบการแจ้งเตือนสำเร็จแล้ว
+      index:
+        section_title: การแจ้งเตือน
+        new_notification: การแจ้งเตือนใหม่
+        title: ชื่อเรื่อง
+        segment_recipient: ผู้รับ
+        sent: ถูกส่งแล้ว
+        actions: การดำเนินการ
+        draft: ฉบับร่าง
+        preview: ดูตัวอย่าง
+        view: ดู
+        empty_notifications: ไม่มี
+      new:
+        section_title: การแจ้งเตือนใหม่
+        submit_button: สร้างการแจ้งเตือน
+      edit:
+        section_title: แก้ไขการแจ้งเตือน
+        submit_button: อัปเดตการแจ้งเตือน
+      show:
+        section_title: ดูตัวอย่างการแจ้งเตือน
+        send: ส่งการแจ้งเตือน
+        will_get_notified: (ผู้ใช้ %{n} คนจะได้รับการแจ้งเตือน)
+        got_notified: (ผู้ใช้ %{n} คนได้รับการแจ้งเตือน)
+        sent_at: ส่งเมื่อ
+        title: ชื่อเรื่อง
+        body: ข้อความ
+        link: ลิงก์
+        segment_recipient: ผู้รับ
+        preview_guide: "นี่คือวิธีที่ผู้ใช้จะเห็นการแจ้งเตือน:"
+        sent_guide: "นี่คือวิธีที่ผู้ใช้เห็นการแจ้งเตือน:"
+        send_alert: คุณแน่ใจหรือไม่ว่าต้องการส่งการแจ้งเตือนนี้ไปยังผู้ใช้ %{n} คน?
+    system_emails:
+      preview_pending:
+        action: ดูตัวอย่างที่รอดำเนินการ
+        preview_of: ดูตัวอย่างของ %{name}
+        pending_to_be_sent: นี่คือเนื้อหาที่รอดำเนินการ
+        moderate_pending: กลั่นกรองการส่งการแจ้งเตือนที่รอดำเนินการ
+        send_pending: ส่งรายการที่รอดำเนินการ
+        send_pending_notification: ส่งการแจ้งเตือนที่รอดำเนินการสำเร็จแล้ว
+      proposal_notification_digest:
+        title: "สรุปการแจ้งเตือนข้อเสนอ"
+        description: "รวบรวมการแจ้งเตือนข้อเสนอทั้งหมดสำหรับผู้ใช้ในข้อความเดียว เพื่อหลีกเลี่ยงอีเมลที่มากเกินไป"
+        preview_detail: "ผู้ใช้จะได้รับการแจ้งเตือนจากข้อเสนอที่พวกเขากำลังติดตามเท่านั้น"
+      budget_investment_created:
+        title: "สร้างการลงทุนด้านงบประมาณแล้ว"
+        description: "ถูกส่งเมื่อผู้ใช้สร้างการลงทุนด้านงบประมาณ"
+      budget_investment_selected:
+        title: "เลือกการลงทุนด้านงบประมาณแล้ว"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อการลงทุนด้านงบประมาณของเขา/เธอถูกเลือก"
+      budget_investment_unfeasible:
+        title: "การลงทุนด้านงบประมาณเป็นไปไม่ได้"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อการลงทุนด้านงบประมาณของเขา/เธอถูกทำเครื่องหมายว่าเป็นไปไม่ได้"
+      budget_investment_unselected:
+        title: "การลงทุนด้านงบประมาณไม่ถูกเลือก"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อการลงทุนด้านงบประมาณของเขา/เธอไม่ถูกเลือกสำหรับขั้นตอนการโหวต"
+      comment:
+        title: "ความคิดเห็น"
+        description: "ถูกส่งไปยังผู้เขียนเมื่อได้รับความคิดเห็น"
+      reply:
+        title: "การตอบกลับ"
+        description: "ถูกส่งไปยังผู้เขียนความคิดเห็นเมื่อได้รับการตอบกลับ"
+      direct_message_for_receiver:
+        title: "ผู้รับข้อความส่วนตัว"
+        description: "ถูกส่งไปยังผู้รับข้อความส่วนตัว"
+      direct_message_for_sender:
+        title: "ผู้ส่งข้อความส่วนตัว"
+        description: "ถูกส่งไปยังผู้ส่งข้อความส่วนตัว"
+      email_verification:
+        title: "การยืนยันอีเมล"
+        description: "ถูกส่งไปยังผู้ใช้ใหม่เพื่อยืนยันบัญชี"
+      user_invite:
+        title: "การเชิญผู้ใช้"
+        description: "ถูกส่งไปยังผู้ที่ได้รับเชิญให้ลงทะเบียนบัญชี"
+      evaluation_comment:
+        title: "ความคิดเห็นการประเมินใหม่"
+        description: "ถูกส่งไปยังผู้ดูแลระบบและผู้ประเมินที่เกี่ยวข้องกับการลงทุนที่มีการแสดงความคิดเห็น"
+      edit_info: "คุณสามารถแก้ไขอีเมลนี้ได้ใน"
+      message_title: "ชื่อเรื่องของข้อความ"
+      message_body: "นี่คือตัวอย่างเนื้อหาของข้อความ"
+      alert:
+        no_investments: "ไม่มีการลงทุนด้านงบประมาณที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
+        no_comments: "ไม่มีความคิดเห็นที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
+        no_replies: "ไม่มีการตอบกลับที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
+        no_evaluation_comments: "ไม่มีความคิดเห็นการประเมินที่สร้างขึ้น จำเป็นต้องมีข้อมูลตัวอย่างเพื่อดูตัวอย่างอีเมล"
+    emails_download:
+      index:
+        title: ดาวน์โหลดอีเมล
+        download_segment: ดาวน์โหลดที่อยู่อีเมล
+        download_segment_help_text: ดาวน์โหลดในรูปแบบ CSV
+        download_emails_button: ดาวน์โหลดรายการอีเมล
+    valuators:
+      index:
+        title: ผู้ประเมินค่า
+        name: ชื่อ
+        email: อีเมล
+        description: คำอธิบาย
+        no_description: ไม่มีคำอธิบาย
+        no_valuators: ไม่มีผู้ประเมินค่า
+        valuator_groups: "กลุ่มผู้ประเมินค่า"
+        group: "กลุ่ม"
+        no_group: "ไม่มีกลุ่ม"
+        abilities: "ความสามารถ"
+        can_comment: "สามารถแสดงความคิดเห็นได้"
+        can_edit_dossier: "สามารถแก้ไขแฟ้มข้อมูลได้"
+      valuator:
+        add: เพิ่มไปยังผู้ประเมินค่า
+      search:
+        title: "ผู้ประเมินค่า: ค้นหาผู้ใช้"
+      form:
+        edit_title: "ผู้ประเมินค่า: แก้ไขผู้ประเมินค่า"
+        updated: "อัปเดตผู้ประเมินค่าสำเร็จแล้ว"
+      show:
+        description: "คำอธิบาย"
+        email: "อีเมล"
+        group: "กลุ่ม"
+        abilities: "ความสามารถ"
+        no_description: "ไม่มีคำอธิบาย"
+        no_group: "ไม่มีกลุ่ม"
+        no_abilities: "ไม่มีความสามารถ"
+    valuator_groups:
+      index:
+        title: "กลุ่มผู้ประเมินค่า"
+        new: "สร้างกลุ่มผู้ประเมินค่า"
+        name: "ชื่อ"
+        members: "สมาชิก"
+        no_groups: "ไม่มีกลุ่มผู้ประเมินค่า"
+      show:
+        title: "กลุ่มผู้ประเมินค่า: %{group}"
+        no_valuators: "ไม่มีผู้ประเมินค่าที่ได้รับมอบหมายให้กลุ่มนี้"
+      form:
+        new: "สร้างกลุ่มผู้ประเมินค่า"
+        edit: "บันทึกกลุ่มผู้ประเมินค่า"
+    poll_officers:
+      index:
+        title: เจ้าหน้าที่เลือกตั้ง
+      officer:
+        add: เพิ่ม
+        delete: ลบตำแหน่ง
+        name: ชื่อ
+        email: อีเมล
+        entry_name: เจ้าหน้าที่
+      search:
+        email_placeholder: ค้นหาผู้ใช้ด้วยอีเมล
+        user_not_found: ไม่พบผู้ใช้
+        help: "หากต้องการเพิ่มหรือลบเจ้าหน้าที่เลือกตั้ง ให้ใช้แบบฟอร์มค้นหาด้านล่าง"
+    poll_officer_assignments:
+      index:
+        officers_title: "รายชื่อเจ้าหน้าที่"
+        no_officers: "ไม่มีเจ้าหน้าที่ที่ได้รับมอบหมายให้แบบสำรวจนี้"
+        table_name: "ชื่อ"
+        table_email: "อีเมล"
+      by_officer:
+        date: "วันที่"
+        booth: "บูธ"
+        assignments: "กะปฏิบัติหน้าที่ในแบบสำรวจนี้"
+        no_assignments: "ผู้ใช้นี้ไม่มีกะปฏิบัติหน้าที่ในแบบสำรวจนี้"
+    poll_shifts:
+      new:
+        add_shift: "เพิ่มกะ"
+        shift: "การมอบหมาย"
+        shifts: "กะในบูธนี้"
+        date: "วันที่"
+        edit_shifts: แก้ไขกะ
+        new_shift: "กะใหม่"
+        no_shifts: "บูธนี้ไม่มีกะ"
+        officer: "เจ้าหน้าที่"
+        remove_shift: "ลบ"
+        search_officer_button: ค้นหา
+        search_officer_placeholder: ค้นหาเจ้าหน้าที่
+        search_officer_text: ค้นหาเจ้าหน้าที่เพื่อมอบหมายกะใหม่
+        select_date: "เลือกวัน"
+        no_voting_days: "วันลงคะแนนสิ้นสุดแล้ว"
+        select_task: "เลือกงาน"
+        table_shift: "กะ"
+        table_email: "อีเมล"
+        table_name: "ชื่อ"
+      flash:
+        create: "เพิ่มกะแล้ว"
+        destroy: "ลบกะแล้ว"
+        unable_to_destroy: "กะที่มีผลลัพธ์หรือการนับซ้ำที่เกี่ยวข้องไม่สามารถถูกลบได้"
+        date_missing: "ต้องเลือกวันที่"
+      vote_collection: รวบรวมคะแนนโหวต
+      recount_scrutiny: การนับซ้ำและการตรวจสอบ
+    booth_assignments:
+      manage_assignments: จัดการการมอบหมาย
+      manage:
+        assignments_list: "การมอบหมายสำหรับแบบสำรวจ '%{poll}'"
+        status:
+          assign_status: การมอบหมาย
+          assigned: ได้รับมอบหมาย
+          unassigned: ไม่ได้มอบหมาย
+        actions:
+          assign: มอบหมายบูธ
+          unassign: ยกเลิกการมอบหมายบูธ
+    poll_booth_assignments:
+      alert:
+        shifts: "มีกะที่เกี่ยวข้องกับบูธนี้ หากคุณลบการมอบหมายบูธ กะก็จะถูกลบด้วย ดำเนินการต่อหรือไม่?"
+      show:
+        location: "ที่ตั้ง"
+        officers: "เจ้าหน้าที่"
+        officers_list: "รายชื่อเจ้าหน้าที่สำหรับบูธนี้"
+        no_officers: "ไม่มีเจ้าหน้าที่สำหรับบูธนี้"
+        recounts: "การนับซ้ำ"
+        recounts_list: "รายการการนับซ้ำสำหรับบูธนี้"
+        results: "ผลลัพธ์"
+        date: "วันที่"
+        count_final: "การนับซ้ำสุดท้าย (โดยเจ้าหน้าที่)"
+        count_by_system: "คะแนนโหวต (อัตโนมัติ)"
+        total_system: คะแนนโหวตทั้งหมด (อัตโนมัติ)
+      index:
+        booths_title: "รายชื่อบูธ"
+        no_booths: "ไม่มีบูธที่ได้รับมอบหมายให้แบบสำรวจนี้"
+        table_name: "ชื่อ"
+        table_location: "ที่ตั้ง"
+    active_polls:
+      edit:
+        title: "คำอธิบายแบบสำรวจ"
+      form:
+        description:
+          help_text: "ข้อความนี้จะปรากฏในส่วนหัวของหน้าแบบสำรวจ สามารถใช้เพื่อเพิ่มบริบทให้กับแบบสำรวจที่เปิดอยู่"
+    polls:
+      index:
+        title: "รายชื่อแบบสำรวจ"
+        no_polls: "ไม่มีแบบสำรวจ"
+        create: "สร้างแบบสำรวจ"
+        name: "ชื่อ"
+        dates: "วันที่"
+        start_date: "วันที่เริ่มต้น"
+        closing_date: "วันที่สิ้นสุด"
+        geozone_restricted: "จำกัดเขตภูมิศาสตร์"
+      new:
+        title: "แบบสำรวจใหม่"
+        submit_button: "สร้างแบบสำรวจ"
+      edit:
+        title: "แก้ไขแบบสำรวจ"
+        submit_button: "อัปเดตแบบสำรวจ"
+      show:
+        questions_tab: คำถาม
+        booths_tab: บูธ
+        officers_tab: เจ้าหน้าที่
+        recounts_tab: การนับซ้ำ
+        results_tab: ผลลัพธ์
+        no_questions: "ไม่มีคำถามที่ได้รับมอบหมายให้แบบสำรวจนี้"
+        questions_title: "รายชื่อคำถาม"
+        table_title: "ชื่อเรื่อง"
+        edit_answers: แก้ไขคำตอบ
+        see_proposal: "(ดูข้อเสนอ)"
+      destroy:
+        alert: "การดำเนินการนี้จะลบแบบสำรวจและคำถามที่เกี่ยวข้องทั้งหมด"
+        success_notice: "ลบแบบสำรวจสำเร็จแล้ว"
+        unable_notice: "คุณไม่สามารถลบแบบสำรวจที่มีคะแนนโหวตได้"
+      votation_type:
+        title: "ประเภทการโหวต"
+        unique_description: "สามารถตอบคำถามได้เพียงครั้งเดียว"
+        multiple_description: "อนุญาตให้เลือกหลายคำตอบ สามารถกำหนดจำนวนคำตอบสูงสุดได้"
+    questions:
+      index:
+        create: "สร้างคำถาม"
+        select_poll: เลือกแบบสำรวจ
+        successful_proposals_tab: "ข้อเสนอที่ประสบความสำเร็จ"
+        create_question: "สร้างคำถาม"
+        table_proposal: "ข้อเสนอ"
+      edit:
+        title: "แก้ไขคำถาม"
+      form:
+        poll_help: "คุณสามารถเลือกแบบสำรวจที่ยังไม่เริ่มต้นเท่านั้น"
+      new:
+        title: "สร้างคำถามสำหรับแบบสำรวจ %{poll}"
+        title_proposal: "สร้างคำถาม"
+      destroy:
+        notice: "ลบคำถามสำเร็จแล้ว"
+      answers:
+        images:
+          add_image: "เพิ่มรูปภาพ"
+          save_image: "บันทึกรูปภาพ"
+      show:
+        proposal: ข้อเสนอเดิม
+        author: ผู้เขียน
+        question: คำถาม
+        edit_question: แก้ไขคำถาม
+        valid_answers: คำตอบที่ถูกต้อง
+        add_answer: เพิ่มคำตอบ
+        answers:
+          title: คำตอบ
+          description: คำอธิบาย
+          videos: วิดีโอ
+          video_list: รายการวิดีโอ
+          images: รูปภาพ
+          images_list: รายการรูปภาพ
+          documents: เอกสาร
+          documents_list: รายการเอกสาร
+          document_title: ชื่อเรื่อง
+          document_actions: การดำเนินการ
+      no_edit: "เมื่อแบบสำรวจเริ่มต้นแล้ว จะไม่สามารถสร้าง แก้ไข หรือลบคำถาม คำตอบ หรือเนื้อหาใด ๆ ที่เกี่ยวข้องกับแบบสำรวจได้"
+    answers:
+      new:
+        title: คำตอบใหม่
+      edit:
+        title: แก้ไขคำตอบ
+      destroy:
+        success_notice: "ลบคำตอบสำเร็จแล้ว"
+      images:
+        index:
+          title: รูปภาพ
+      videos:
+        index:
+          title: วิดีโอ
+          add_video: เพิ่มวิดีโอ
+          video_title: ชื่อเรื่องวิดีโอ
+          video_url: วิดีโอภายนอก
+        new:
+          title: วิดีโอใหม่
+        edit:
+          title: แก้ไขวิดีโอ
+    recounts:
+      index:
+        title: "การนับซ้ำ"
+        no_recounts: "ไม่มีอะไรให้นับซ้ำ"
+        all_booths_total: "ยอดรวมสะสมจากทุกบูธ:"
+        total_final: "การนับซ้ำสุดท้าย"
+        total_system: "คะแนนโหวต (อัตโนมัติ)"
+        table_booth_name: "บูธ"
+        table_total_recount: "การนับซ้ำทั้งหมด (โดยเจ้าหน้าที่)"
+        table_system_count: "คะแนนโหวต (อัตโนมัติ)"
+    results:
+      index:
+        title: "ผลลัพธ์"
+        no_results: "ไม่มีผลลัพธ์"
+      result:
+        table_whites: "บัตรลงคะแนนว่างเปล่าทั้งหมด"
+        table_nulls: "บัตรลงคะแนนไม่ถูกต้อง"
+        table_total: "บัตรลงคะแนนที่ถูกต้อง"
+        table_answer: คำตอบ
+        table_votes: คะแนนโหวต
+      results_by_booth:
+        booth: บูธ
+        results: ผลลัพธ์
+        see_results: ดูผลลัพธ์
+        title: "ผลลัพธ์ตามบูธ"
+    booths:
+      index:
+        title: "รายชื่อบูธที่ใช้งานอยู่"
+        no_booths: "ไม่มีบูธที่ใช้งานอยู่สำหรับการสำรวจที่กำลังจะมาถึง"
+        add_booth: "เพิ่มบูธ"
+        name: "ชื่อ"
+        location: "ที่ตั้ง"
+        no_location: "ไม่มีที่ตั้ง"
+      new:
+        title: "บูธใหม่"
+        submit_button: "สร้างบูธ"
+      edit:
+        title: "แก้ไขบูธ"
+        submit_button: "อัปเดตบูธ"
+      show:
+        location: "ที่ตั้ง"
+      booth:
+        shifts: "การมอบหมายกะ"
+    officials:
+      edit:
+        destroy: ลบสถานะ "เจ้าหน้าที่"
+        title: "เจ้าหน้าที่: แก้ไขผู้ใช้"
+      flash:
+        official_destroyed: "บันทึกรายละเอียดแล้ว: ผู้ใช้ไม่ได้เป็นเจ้าหน้าที่อีกต่อไป"
+        official_updated: บันทึกรายละเอียดของเจ้าหน้าที่แล้ว
+      index:
+        title: เจ้าหน้าที่
+        help: บัญชีผู้ใช้ที่ถูกทำเครื่องหมายว่าเป็นเจ้าหน้าที่จะมีการเน้นการดำเนินการบนแพลตฟอร์ม คุณสามารถกำหนดป้ายกำกับที่ปรากฏถัดจากชื่อผู้ใช้ของบัญชีเหล่านี้จากระดับที่สำคัญที่สุด (ระดับ 1) ถึงระดับที่น้อยที่สุด (ระดับ 5)
+        no_officials: ไม่มีเจ้าหน้าที่
+        name: ชื่อ
+        official_position: ตำแหน่งอย่างเป็นทางการ
+        official_level: ระดับ
+      level_0: ไม่ใช่เจ้าหน้าที่
+      level_1: ระดับ 1
+      level_2: ระดับ 2
+      level_3: ระดับ 3
+      level_4: ระดับ 4
+      level_5: ระดับ 5
+      search:
+        make_official: แต่งตั้งเป็นเจ้าหน้าที่
+        title: "ตำแหน่งอย่างเป็นทางการ: ค้นหาผู้ใช้"
+        no_results: ไม่พบตำแหน่งอย่างเป็นทางการ
+    organizations:
+      index:
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          pending: รอดำเนินการ
+          rejected: ถูกปฏิเสธ
+          verified: ได้รับการยืนยัน
+        hidden_count:
+          one: นอกจากนี้ยังมี **1 องค์กร** ที่ไม่มีผู้ใช้หรือมีผู้ใช้ที่ถูกซ่อน
+          other: มี **%{count} องค์กร** ที่ไม่มีผู้ใช้หรือมีผู้ใช้ที่ถูกซ่อน
+        name: ชื่อ
+        email: อีเมล
+        phone_number: หมายเลขโทรศัพท์
+        responsible_name: ผู้รับผิดชอบ
+        status: สถานะ
+        no_organizations: ไม่มีองค์กร
+        reject: ปฏิเสธ
+        rejected: ถูกปฏิเสธ
+        title: องค์กร
+        verified: ได้รับการยืนยัน
+        verify: ยืนยัน
+        pending: รอดำเนินการ
+      search:
+        title: ค้นหาองค์กร
+        no_results: ไม่พบองค์กร
+    proposals:
+      index:
+        title: ข้อเสนอ
+        id: ID
+        author: ผู้เขียน
+        selected: ถูกเลือก
+        milestones: เหตุการณ์สำคัญ
+        no_proposals: ไม่มีข้อเสนอ
+      show:
+        create_question: เพิ่มข้อเสนอนี้ในแบบสำรวจเพื่อลงคะแนน
+      form:
+        update: อัปเดตข้อเสนอ
+      update:
+        notice: อัปเดตข้อเสนอสำเร็จแล้ว
+    hidden_proposals:
+      index:
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: ข้อเสนอที่ถูกซ่อน
+        no_hidden_proposals: ไม่มีข้อเสนอที่ถูกซ่อน
+    hidden_proposal_notifications:
+      index:
+        filter: ตัวกรอง
+        filters:
+          all: ทั้งหมด
+          with_confirmed_hide: ยืนยันแล้ว
+          without_confirmed_hide: รอดำเนินการ
+        title: การแจ้งเตือนที่ถูกซ่อน
+        no_hidden_proposals: ไม่มีการแจ้งเตือนที่ถูกซ่อน
+    settings:
+      flash:
+        updated: อัปเดตค่าแล้ว
+      index:
+        title: การตั้งค่า
+        general: การตั้งค่าคอนฟิกูเรชัน
+        update_setting: อัปเดต
+        participation_processes: "กระบวนการมีส่วนร่วม"
+        images_and_documents: "รูปภาพและเอกสาร"
+        feature_flags: คุณสมบัติ
+        features:
+          enabled: "เปิดใช้งานแล้ว"
+        map:
+          title: การตั้งค่าแผนที่
+          help: ที่นี่คุณสามารถปรับแต่งวิธีการแสดงแผนที่แก่ผู้ใช้ได้ ลากเครื่องหมายแผนที่หรือคลิกที่ใดก็ได้บนแผนที่ ตั้งค่าการซูมที่ต้องการแล้วคลิกปุ่ม "อัปเดต"
+          flash:
+            update: อัปเดตการตั้งค่าแผนที่สำเร็จแล้ว
+          form:
+            submit: อัปเดต
+          how_to_enable: 'หากต้องการแสดงแผนที่แก่ผู้ใช้ คุณต้องเปิดใช้งาน "ตำแหน่งทางภูมิศาสตร์ของข้อเสนอและการลงทุนด้านงบประมาณ" ในแท็บ "คุณสมบัติ"'
+        dashboard:
+          title: แดชบอร์ดข้อเสนอ
+        remote_census:
+          title: การตั้งค่าสำมะโนระยะไกล
+          how_to_enable: 'หากต้องการกำหนดค่าสำมะโนระยะไกล (SOAP) คุณต้องเปิดใช้งาน "กำหนดค่าการเชื่อมต่อกับสำมะโนระยะไกล (SOAP)" ในแท็บ "คุณสมบัติ"'
+        sdg:
+          title: การตั้งค่า SDG
+          how_to_enable: 'หากต้องการแสดงตัวเลือกการตั้งค่าจากเป้าหมายการพัฒนาที่ยั่งยืน คุณต้องเปิดใช้งาน "SDG" ในแท็บ "คุณสมบัติ"'
+        cookies_consent:
+          title: การยินยอมคุกกี้
+        cookies_consent_banner:
+          title: แบนเนอร์การยินยอมคุกกี้
+      remote_census_general_name: ข้อมูลทั่วไป
+      remote_census_request_name: ข้อมูลคำขอ
+      remote_census_response_name: ข้อมูลการตอบกลับ
+      setting: คุณสมบัติ
+      setting_name: การตั้งค่า
+      setting_value: ค่า
+      no_description: "ไม่มีคำอธิบาย"
+    shared:
+      search:
+        advanced_filters:
+          sdg_goals:
+            all: "เป้าหมายทั้งหมด"
+            label: "ตามเป้าหมาย"
+          sdg_targets:
+            all: "เป้าหมายทั้งหมด"
+            label: "ตามเป้าหมาย"
+        label:
+          booths: "ค้นหาบูธตามชื่อหรือที่ตั้ง"
+          budget_investments: "ค้นหาการลงทุนตามชื่อเรื่อง คำอธิบาย หรือหัวข้อ"
+          comments: "ค้นหาความคิดเห็น"
+          debates: "ค้นหาการอภิปรายตามชื่อเรื่องหรือคำอธิบาย"
+          legislation_processes: "ค้นหากระบวนการตามชื่อเรื่องหรือคำอธิบาย"
+          legislation_proposals: "ค้นหาข้อเสนอตามชื่อเรื่องหรือคำอธิบาย"
+          local_census_records: "ค้นหาตามหมายเลขเอกสาร"
+          organizations: "ชื่อ อีเมล หรือหมายเลขโทรศัพท์"
+          poll_officers: "ค้นหาเจ้าหน้าที่เลือกตั้ง"
+          poll_questions: "ค้นหาคำถามแบบสำรวจ"
+          polls: "ค้นหาแบบสำรวจตามชื่อหรือคำอธิบาย"
+          proposals: "ค้นหาข้อเสนอตามชื่อเรื่อง รหัส คำอธิบาย หรือคำถาม"
+          proposal_notifications: "ค้นหาการแจ้งเตือนตามชื่อเรื่องหรือคำอธิบาย"
+          users: "ค้นหาผู้ใช้ตามชื่อหรืออีเมล"
+        search: "ค้นหา"
+      search_results: "ผลการค้นหา"
+      no_search_results: "ไม่พบผลลัพธ์"
+      actions: การดำเนินการ
+      title: ชื่อเรื่อง
+      description: คำอธิบาย
+      image: รูปภาพ
+      show_image: แสดงรูปภาพ
+      moderated_content: "ตรวจสอบเนื้อหาที่ถูกกลั่นกรองโดยผู้กลั่นกรอง และยืนยันว่าการกลั่นกรองทำถูกต้องหรือไม่"
+      view: ดู
+      proposal: ข้อเสนอ
+      author: ผู้เขียน
+      content: เนื้อหา
+      created_at: สร้างเมื่อ
+      color_help: รูปแบบเลขฐานสิบหก
+      show_results_and_stats: "แสดงผลลัพธ์และสถิติ"
+      results_and_stats_reminder: "การทำเครื่องหมายที่ช่องเหล่านี้จะทำให้ผลลัพธ์และ/หรือสถิติเผยแพร่ต่อสาธารณะและผู้ใช้ทุกคนจะเห็น"
+      close_modal: ปิดโมดัล
+      example_url: "ตัวอย่างเช่น https://consuldemocracy.org หรือ /help"
+    geozones:
+      index:
+        title: เขตภูมิศาสตร์
+        create: สร้างเขตภูมิศาสตร์
+        geojson_map: แผนที่ GeoJSON
+        geojson_map_help: "หากมีพิกัด GeoJSON จะแสดงบนแผนที่ด้านล่าง"
+      geozone:
+        name: ชื่อ
+        external_code: รหัสภายนอก
+        census_code: รหัสสำมะโน
+        code_help: รหัสการตอบกลับสำหรับเขตภูมิศาสตร์นี้บน API สำมะโน
+        color_help: "สีของเขตในแผนที่งบประมาณ %{format_help}"
+        coordinates: พิกัดที่มีอยู่
+        coordinates_help: พิกัดที่จะสร้างพื้นที่ที่คลิกได้บนแผนที่รูปภาพ HTML
+        geojson: GeoJSON ที่มีอยู่
+        geojson_help: "ต้องเป็นไปตามรูปแบบประเภท \"Polygon\" หรือ \"MultiPolygon\" บนแผนที่งบประมาณ โพลีกอนที่อิงตามข้อมูลนี้จะปรากฏขึ้นเมื่อหัวข้อเชื่อมโยงกับเขตภูมิศาสตร์นี้"
+      create:
+        notice: "สร้างเขตภูมิศาสตร์สำเร็จแล้ว"
+      edit:
+        form:
+          submit_button: บันทึกการเปลี่ยนแปลง
+        editing: กำลังแก้ไขเขตภูมิศาสตร์
+        back: กลับไป
+      new:
+        back: กลับไป
+        creating: สร้างเขต
+      delete:
+        success: ลบเขตภูมิศาสตร์สำเร็จแล้ว
+        error: ไม่สามารถลบเขตภูมิศาสตร์นี้ได้เนื่องจากมีองค์ประกอบที่แนบมาด้วย
+      update:
+        notice: "อัปเดตเขตภูมิศาสตร์สำเร็จแล้ว"
+    signature_sheets:
+      author: ผู้เขียน
+      created_at: วันที่สร้าง
+      name: ชื่อ
+      no_signature_sheets: "ไม่มีใบลงชื่อ"
+      index:
+        title: ใบลงชื่อ
+        new: ใบลงชื่อใหม่
+      new:
+        title: ใบลงชื่อใหม่
+        document_numbers_note: "เขียนหมายเลขคั่นด้วยเครื่องหมายอัฒภาค (;)"
+        submit: สร้างใบลงชื่อ
+        text_help:
+          required_fields_note: "ในการยืนยันผู้ใช้ แอปพลิเคชันของคุณต้องการ: หมายเลขเอกสาร"
+          date_of_birth_note: ", วันเกิด (วว/ดด/ปปปป)"
+          postal_code_note: " และรหัสไปรษณีย์"
+          required_fields_structure_note: "ช่องที่จำเป็นสำหรับผู้ใช้แต่ละคนต้องคั่นด้วยเครื่องหมายจุลภาค และผู้ใช้แต่ละคนต้องคั่นด้วยเครื่องหมายอัฒภาค"
+          example_text: "ตัวอย่าง: "
+      show:
+        created_at: สร้างเมื่อ
+        author: ผู้เขียน
+        users: ผู้ใช้
+        signature_count: "จำนวนลายเซ็น:"
+        verified:
+          one: "มีลายเซ็นที่ถูกต้อง %{count} รายการ"
+          other: "มีลายเซ็นที่ถูกต้อง %{count} รายการ"
+        unverified:
+          one: "มีลายเซ็นที่ไม่ถูกต้อง %{count} รายการ"
+          other: "มีลายเซ็นที่ไม่ถูกต้อง %{count} รายการ"
+        unverified_error: (ไม่ได้รับการยืนยันโดยสำมะโน)
+        voted:
+          zero: "ไม่มีคะแนนโหวตที่สร้างจากลายเซ็นที่ได้รับการยืนยัน"
+          one: "มีคะแนนโหวต %{count} รายการที่สร้างจากลายเซ็นที่ได้รับการยืนยัน"
+          other: "มีคะแนนโหวต %{count} รายการที่สร้างจากลายเซ็นที่ได้รับการยืนยัน"
+        loading: "ยังมีลายเซ็นที่กำลังได้รับการยืนยันโดยสำมะโน โปรดรีเฟรชหน้าในอีกสักครู่"
+    stats:
+      show:
+        stats_title: สถิติ
+        summary:
+          comment_votes: คะแนนโหวตความคิดเห็น
+          comments: ความคิดเห็น
+          debate_votes: คะแนนโหวตการอภิปราย
+          debates: การอภิปราย
+          proposal_votes: คะแนนโหวตข้อเสนอ
+          proposals: ข้อเสนอ
+          budgets: งบประมาณที่เปิดอยู่
+          budget_investments: โครงการลงทุน
+          unverified_users: ผู้ใช้ที่ยังไม่ได้รับการยืนยัน
+          user_level_three: ผู้ใช้ระดับสาม
+          user_level_two: ผู้ใช้ระดับสอง
+          users: ผู้ใช้ทั้งหมด
+          verified_users: ผู้ใช้ที่ได้รับการยืนยัน
+          verified_users_who_didnt_vote_proposals: ผู้ใช้ที่ได้รับการยืนยันที่ไม่ได้โหวตข้อเสนอ
+          visits: การเข้าชม
+          votes: คะแนนโหวตทั้งหมด
+        participatory_budgets: งบประมาณแบบมีส่วนร่วม
+        direct_messages: ข้อความส่วนตัว
+        proposal_notifications: การแจ้งเตือนข้อเสนอ
+        incomplete_verifications: การยืนยันที่ไม่สมบูรณ์
+        polls: แบบสำรวจ
+        sdg: SDG
+      graph:
+        budget_investment_created: สร้างการลงทุนด้านงบประมาณแล้ว
+        budget_investment_supported: การลงทุนด้านงบประมาณที่ได้รับการสนับสนุน
+        debate_created: สร้างการอภิปรายแล้ว
+        legislation_annotation_created: สร้างคำอธิบายประกอบกฎหมายแล้ว
+        legislation_answer_created: สร้างคำตอบของกฎหมายแล้ว
+        level_3_user: ผู้ใช้ระดับ 3 ที่ได้รับการยืนยัน
+        proposal_created: สร้างข้อเสนอของพลเมืองแล้ว
+        title: กราฟ
+        visits: การเข้าชม
+      budgets:
+        no_data_before_balloting_phase: "ไม่มีข้อมูลให้แสดงก่อนระยะการลงคะแนน"
+        title: "งบประมาณแบบมีส่วนร่วม - สถิติการมีส่วนร่วม"
+        supporting_phase: ระยะการสนับสนุน
+        balloting_phase: การลงคะแนนสุดท้าย
+      budget_balloting:
+        title: "สถิติการลงคะแนนสุดท้าย"
+        vote_count: คะแนนโหวต
+        participant_count: ผู้เข้าร่วม
+        votes_per_heading: คะแนนโหวตต่อหัวข้อ
+        participants_per_district: ผู้เข้าร่วมต่อเขต
+      budget_supporting:
+        title: "สถิติระยะการสนับสนุน"
+        headings: หัวข้อ
+        users: ผู้ใช้
+        vote_count: คะแนนโหวต
+        participant_count: ผู้เข้าร่วม
+      direct_messages:
+        title: ข้อความส่วนตัว
+        total: ทั้งหมด
+        users_who_have_sent_message: ผู้ใช้ที่ส่งข้อความส่วนตัว
+      proposal_notifications:
+        title: การแจ้งเตือนข้อเสนอ
+        total: ทั้งหมด
+        proposals_with_notifications: ข้อเสนอที่มีการแจ้งเตือน
+        not_available: "ข้อเสนอไม่พร้อมใช้งาน"
+      polls:
+        title: สถิติแบบสำรวจ
+        all: แบบสำรวจ
+        web_participants: ผู้เข้าร่วมเว็บ
+        total_participants: ผู้เข้าร่วมทั้งหมด
+        poll_questions: "คำถามจากแบบสำรวจ: %{poll}"
+        table:
+          poll_name: แบบสำรวจ
+          question_name: คำถาม
+          origin_web: ผู้เข้าร่วมเว็บ
+          origin_total: ผู้เข้าร่วมทั้งหมด
+      sdg:
+        budget_investments:
+          amount: "จำนวนเงินที่ได้รับอนุมัติ"
+          winners: "โครงการลงทุนที่ชนะ"
+          sent: "โครงการลงทุนที่ถูกส่ง"
+        debates: "การอภิปราย"
+        polls: "แบบสำรวจ"
+        proposals: "ข้อเสนอ"
+        title: "เป้าหมายการพัฒนาที่ยั่งยืน - สถิติ"
+    tags:
+      create: สร้างหัวข้อ
+      index:
+        add_tag: เพิ่มหัวข้อข้อเสนอใหม่
+        title: หัวข้อข้อเสนอ
+        topic: หัวข้อ
+        help: "เมื่อผู้ใช้สร้างข้อเสนอ หัวข้อต่อไปนี้จะถูกแนะนำเป็นแท็กเริ่มต้น"
+    users:
+      columns:
+        id: ID
+        erase_reason: เหตุผลในการลบ
+        name: ชื่อ
+        email: อีเมล
+        document_number: หมายเลขเอกสาร
+        roles: บทบาท
+        verification_level: ระดับการยืนยัน
+        activation_status: สถานะการเปิดใช้งาน
+      account:
+        active_status: บัญชีเปิดใช้งานแล้ว
+        inactive_status: บัญชีไม่ได้เปิดใช้งาน
+      index:
+        title: ผู้ใช้
+        no_users: ไม่มีผู้ใช้
+        filter: ตัวกรอง
+        filters:
+          active: ใช้งานอยู่
+          erased: ถูกลบ
+      search:
+        placeholder: ค้นหาผู้ใช้ด้วยอีเมล ชื่อ หรือหมายเลขเอกสาร
+      verifications:
+        index:
+          phone_not_given: ไม่ได้ให้หมายเลขโทรศัพท์
+          sms_code_not_confirmed: ไม่ได้ยืนยันรหัส sms
+          title: การยืนยันที่ไม่สมบูรณ์
+    site_customization:
+      content_blocks:
+        information: ข้อมูลเกี่ยวกับบล็อกเนื้อหา
+        about: "คุณสามารถสร้างบล็อกเนื้อหา HTML ที่สามารถแทรกในที่ต่าง ๆ บนเว็บไซต์ของคุณได้"
+        html_format: "บล็อกเนื้อหาคือกลุ่มของลิงก์ และต้องมีรูปแบบดังต่อไปนี้:"
+        no_blocks: "ไม่มีบล็อกเนื้อหา"
+        create:
+          notice: สร้างบล็อกเนื้อหาสำเร็จแล้ว
+          error: ไม่สามารถสร้างบล็อกเนื้อหาได้
+        update:
+          notice: อัปเดตบล็อกเนื้อหาสำเร็จแล้ว
+          error: ไม่สามารถอัปเดตบล็อกเนื้อหาได้
+        destroy:
+          notice: ลบบล็อกเนื้อหาสำเร็จแล้ว
+        edit:
+          title: กำลังแก้ไขบล็อกเนื้อหา
+        index:
+          create: สร้างบล็อกเนื้อหาใหม่
+          delete: ลบบล็อก
+          title: บล็อกเนื้อหา
+        new:
+          title: สร้างบล็อกเนื้อหาใหม่
+        content_block:
+          body: เนื้อหา
+          name: ชื่อ
+          names:
+            top_links: ลิงก์ยอดนิยม
+            footer: ส่วนท้าย (โซเชียลมีเดีย)
+            footer_legal: ส่วนท้าย (ข้อกำหนดทางกฎหมาย)
+            subnavigation_left: การนำทางหลักด้านซ้าย
+            subnavigation_right: การนำทางหลักด้านขวา
+      images:
+        index:
+          dimensions: "(%{width}x%{height})"
+          title: รูปภาพที่กำหนดเอง
+          update: อัปเดต
+          image: รูปภาพ
+        update:
+          notice: อัปเดตรูปภาพสำเร็จแล้ว
+          error: ไม่สามารถอัปเดตรูปภาพได้
+        destroy:
+          notice: ลบรูปภาพสำเร็จแล้ว
+          error: ไม่สามารถลบรูปภาพได้
+      pages:
+        create:
+          notice: สร้างหน้าสำเร็จแล้ว
+          error: ไม่สามารถสร้างหน้าได้
+        update:
+          notice: อัปเดตหน้าสำเร็จแล้ว
+          error: ไม่สามารถอัปเดตหน้าได้
+        destroy:
+          notice: ลบหน้าสำเร็จแล้ว
+        edit:
+          title: กำลังแก้ไข %{page_title}
+        form:
+          options: ตัวเลือก
+        index:
+          create: สร้างหน้าใหม่
+          delete: ลบหน้า
+          title: หน้าที่กำหนดเอง
+          see_page: ดู
+        new:
+          title: สร้างหน้ากำหนดเองใหม่
+          slug_help: "ข้อความเพื่อระบุหน้านี้บน URL ตัวอย่างเช่น <code>https://consuldemocracy.org/page-slug</code>"
+        page:
+          created_at: สร้างเมื่อ
+          status: สถานะ
+          updated_at: อัปเดตเมื่อ
+          title: ชื่อเรื่อง
+          slug: Slug
+          see_cards: จัดการการ์ด
+        cards:
+          cards_title: การ์ด
+          create_card: สร้างการ์ด
+          no_cards: ไม่มี
+          columns_help: "ความกว้างของการ์ดเป็นจำนวนคอลัมน์ บนหน้าจอมือถือจะมีความกว้าง 100% เสมอ"
+          order_help: "คุณสามารถใส่ตำแหน่งที่จะแสดงการ์ดนี้ได้"
+          create:
+            notice: "สร้างการ์ดสำเร็จแล้ว!"
+          update:
+            notice: "อัปเดตการ์ดสำเร็จแล้ว"
+          destroy:
+            notice: "ลบการ์ดสำเร็จแล้ว"
+    tenants:
+      create:
+        notice: สร้างผู้เช่าสำเร็จแล้ว
+      form:
+        use_subdomain: "ใช้โดเมนย่อยในโดเมน %{domain} เพื่อเข้าถึงผู้เช่านี้"
+        use_domain: "ใช้โดเมนอื่นเพื่อเข้าถึงผู้เช่านี้"
+      hide:
+        notice: ปิดใช้งานผู้เช่าสำเร็จแล้ว
+      index:
+        create: สร้างผู้เช่า
+        enable: "เปิดใช้งานผู้เช่า %{tenant}"
+        enabled: เปิดใช้งานแล้ว
+      new:
+        admin_information: "เมื่อคุณสร้างผู้เช่า ผู้ใช้ปัจจุบันของคุณ **\"%{username}\"** ที่มีอีเมล **\"%{email}\"** และรหัสผ่านของคุณจะถูกคัดลอกไปยังฐานข้อมูลของผู้เช่าใหม่และจะได้รับอนุญาตให้เป็นผู้ดูแลระบบโดยอัตโนมัติ โปรดทราบว่าบัญชีผู้ใช้เหล่านี้จะถูกเก็บไว้ในฐานข้อมูลที่แยกจากกันโดยสมบูรณ์ ดังนั้นหากคุณเปลี่ยนรหัสผ่านของผู้ใช้ในผู้เช่ารายหนึ่ง บัญชีของคุณในผู้เช่ารายอื่นจะยังคงไม่เปลี่ยนแปลง"
+        title: ผู้เช่าใหม่
+      restore:
+        notice: เปิดใช้งานผู้เช่าสำเร็จแล้ว
+      update:
+        notice: อัปเดตผู้เช่าสำเร็จแล้ว
+    homepage:
+      title: หน้าแรก
+      description: โมดูลที่ใช้งานอยู่จะปรากฏในหน้าแรกตามลำดับเดียวกับที่นี่
+      header_title: ส่วนหัว
+      no_header: ไม่มีส่วนหัว
+      create_header: สร้างส่วนหัว
+      cards_title: การ์ด
+      create_card: สร้างการ์ด
+      no_cards: ไม่มี
+      feeds:
+        proposals: ข้อเสนอ
+        debates: การอภิปราย
+        processes: กระบวนการ
+      new:
+        header_title: ส่วนหัวใหม่
+        submit_header: สร้างส่วนหัว
+        card_title: การ์ดใหม่
+        submit_card: สร้างการ์ด
+      edit:
+        header_title: แก้ไขส่วนหัว
+        submit_header: บันทึกส่วนหัว
+        card_title: แก้ไขการ์ด
+        submit_card: บันทึกการ์ด
+    audits:
+      title: "บันทึกการเปลี่ยนแปลง"
+      changes: "รายการการเปลี่ยนแปลง"
+      id: "ID"
+      field: "ฟิลด์"
+      new_value: "ค่าใหม่"
+      old_value: "ค่าเก่า"
+      edited_at: "แก้ไขเมื่อ"
+      edited_by: "แก้ไขโดย"
+      actions: "การดำเนินการ"
+      empty: "ไม่มีการเปลี่ยนแปลงที่ถูกบันทึก"
+    local_census_records:
+      index:
+        title: สำมะโนท้องถิ่น
+        create: สร้างบันทึกสำมะโนท้องถิ่นใหม่
+        no_local_census_records: ไม่มีบันทึกสำมะโนท้องถิ่น
+        document_type: ประเภทเอกสาร
+        document_number: หมายเลขเอกสาร
+        date_of_birth: วันเกิด
+        postal_code: รหัสไปรษณีย์
+        import: นำเข้า CSV
+      new:
+        creating: กำลังสร้างบันทึกสำมะโนท้องถิ่นใหม่
+      create:
+        notice: สร้างบันทึกสำมะโนท้องถิ่นใหม่สำเร็จแล้ว!
+      edit:
+        editing: กำลังแก้ไขบันทึกสำมะโนท้องถิ่น
+      update:
+        notice: อัปเดตบันทึกสำมะโนท้องถิ่นสำเร็จแล้ว!
+      destroy:
+        notice: ลบบันทึกสำมะโนท้องถิ่นสำเร็จแล้ว!
+      imports:
+        new:
+          title: บันทึกสำมะโนท้องถิ่น
+          subtitle: นำเข้าไฟล์ CSV
+        create:
+          notice: ดำเนินการนำเข้าบันทึกสำมะโนท้องถิ่นสำเร็จแล้ว!
+        show:
+          title: สำมะโนท้องถิ่น
+          subtitle: ผลลัพธ์กระบวนการนำเข้า
+          import: นำเข้าอีกครั้ง
+          errored: แถวที่มีข้อผิดพลาด
+          created: บันทึกที่สร้างแล้ว
+        local_census_records:
+          no_records_found: ไม่พบ
+    machine_learning:
+      cancel: "ยกเลิกการดำเนินการ"
+      cancel_alert: "การดำเนินการนี้จะยกเลิกสคริปต์ปัจจุบัน และจะต้องรันสคริปต์อีกครั้ง"
+      comments_summary: "สรุปความคิดเห็น"
+      comments_summary_description: "แสดงสรุปความคิดเห็นที่สร้างโดยอัตโนมัติในทุกรายการที่สามารถแสดงความคิดเห็นได้"
+      data_folder_content: "เนื้อหาโฟลเดอร์ข้อมูล"
+      error: "ข้อผิดพลาด:"
+      execute_script: "รันสคริปต์"
+      executed_by: "รันโดย:"
+      executed_script: "สคริปต์ที่รัน:"
+      feature_disabled: "คุณสมบัตินี้ถูกปิดใช้งาน หากต้องการใช้ Machine Learning คุณสามารถเปิดใช้งานได้จาก %{link}"
+      feature_disabled_link: "หน้าการตั้งค่า"
+      help:
+        title_1: "AI / Machine Learning คืออะไร?"
+        description_1: "ตามปกติแล้ว โปรแกรมคอมพิวเตอร์ถูกออกแบบโดยการกำหนดกฎที่แม่นยำเกี่ยวกับสิ่งที่โปรแกรมควรทำในแต่ละสถานการณ์ และวิธีการประมวลผลข้อมูลที่มีอยู่ในแต่ละขณะ สิ่งที่เรียกกันทั่วไปว่า AI/Machine Learning คือประเภทของโปรแกรมที่กำหนดสิ่งที่ต้องทำอย่างแม่นยำและวิธีการประเมินว่างานนั้นทำได้ดีหรือไม่ดี แต่แตกต่างจากโปรแกรมประเภทแรกคือ ระบบจะค้นพบหรือเรียนรู้ว่าวิธีการใดที่เหมาะสมที่สุดในการทำงานนั้น"
+        title_2: "โมดูล AI / Machine Learning ใน CONSUL DEMOCRACY ทำอะไรได้บ้าง?"
+        description_2: "โมดูลนี้อนุญาตให้ใช้งานโปรแกรม AI/Machine Learning ทุกประเภทใน CONSUL DEMOCRACY โปรแกรมสามารถประมวลผลข้อมูลที่มีอยู่ใน CONSUL DEMOCRACY และสร้างผลลัพธ์ที่ช่วยให้ทั้งผู้ใช้และผู้ดูแลระบบดำเนินการมีส่วนร่วมของพลเมืองได้อย่างมีประสิทธิภาพและชาญฉลาดมากขึ้น โมดูลนี้ได้รับการพัฒนาเพื่อให้ง่ายต่อการนำไปใช้และรันโปรแกรมใหม่ โดยที่โค้ดทั่วไปของ CONSUL DEMOCRACY และโค้ดของโปรแกรมใหม่เหล่านี้เป็นอิสระจากกัน"
+        title_3: "วิธีการใช้โมดูลนี้"
+        description_3: "ในการใช้งานครั้งแรก จำเป็นต้องปฏิบัติตามคำแนะนำที่มีอยู่ในเอกสาร CONSUL DEMOCRACY เพื่อเปิดใช้งานโมดูลนี้อย่างถูกต้อง เมื่อโมดูลเปิดใช้งานอย่างถูกต้องแล้ว โปรแกรมจะถูกรันจากแท็บ \"รันสคริปต์\" ก่อนรัน เราสามารถดูการประมาณเวลาการรันและข้อมูลอื่น ๆ ที่เกี่ยวข้องในแท็บเดียวกันได้ เมื่อสิ้นสุดการรัน เราสามารถเปิดใช้งานเนื้อหาที่จะแสดงใน CONSUL DEMOCRACY จากแท็บ \"การตั้งค่า\" รวมถึงดาวน์โหลดไฟล์เอาต์พุตที่สร้างขึ้นซึ่งอาจเป็นประโยชน์ต่อเรา"
+        title_4: "วิธีการนำสคริปต์ AI / Machine Learning ใหม่มาใช้"
+        description_4: "โปรดใช้สคริปต์ก่อนหน้าเป็นตัวอย่าง"
+        description_4b: "สคริปต์ใหม่ควรอยู่ในโฟลเดอร์ <code>public/machine_learning/scripts</code>"
+        description_4c: "ข้อมูลอินพุตที่จะใช้โดยสคริปต์จะถูกสร้างเป็นไฟล์ JSON ในโฟลเดอร์ <code>../data</code>"
+        description_4d: "ควรวางเอาต์พุตที่สร้างขึ้นในโฟลเดอร์ <code>../data</code>"
+        description_4e: "ขอแนะนำให้สร้างไฟล์ข้อความ <code>.ini</code> ที่เป็นอิสระพร้อมการตั้งค่าของสคริปต์ โดยมีชื่อเดียวกับสคริปต์และสามารถอ่านได้โดย configparser ไฟล์นี้จะช่วยให้ผู้ดูแลระบบสามารถเปลี่ยนการตั้งค่าได้ง่ายขึ้น"
+        description_4f: "ขอแนะนำให้รวมสตริงสามเครื่องหมายอัญประกาศเริ่มต้นพร้อมข้อมูลสรุปสั้น ๆ เกี่ยวกับสคริปต์และลิงก์ไปยังข้อมูลที่เกี่ยวข้องเป็นบรรทัดแรกของสคริปต์ สตริงนี้จะแสดงโดยอัตโนมัติในส่วนต่อประสานผู้ดูแลระบบ"
+        description_4g: "ขอแนะนำให้บันทึกข้อมูลที่เกี่ยวข้องของสคริปต์ในไฟล์ข้อความ <code>.log</code> โดยมีชื่อเดียวกับสคริปต์"
+        title_5: "ในการใช้สคริปต์ AI / Machine Learning คุณต้องติดตั้ง Python บนเซิร์ฟเวอร์ของคุณ"
+        description_5: "ที่นี่คุณสามารถดูคำแนะนำตัวอย่างสำหรับเซิร์ฟเวอร์ Ubuntu 18.04 ได้:"
+        help_text: "ฟังก์ชันนี้เป็นแบบทดลอง"
+      last_execution: "การรันครั้งล่าสุด"
+      no_content: "ยังไม่มีเนื้อหาที่สร้าง"
+      notice:
+        success: "รันสคริปต์ล่าสุดสำเร็จแล้ว"
+        error: "เกิดข้อผิดพลาด คุณสามารถดูรายละเอียดด้านล่าง"
+        working: "สคริปต์กำลังทำงาน ผู้ดูแลระบบที่รันจะได้รับอีเมลเมื่อเสร็จสิ้น"
+        delete_generated_content: "ลบเนื้อหาที่สร้างสำเร็จแล้ว"
+      output_files: "ไฟล์เอาต์พุต:"
+      related_content: "เนื้อหาที่เกี่ยวข้อง"
+      related_content_description: "เพิ่มเนื้อหาที่เกี่ยวข้องที่สร้างโดยอัตโนมัติไปยังข้อเสนอและโครงการงบประมาณแบบมีส่วนร่วม"
+      script_info: "คุณจะได้รับอีเมลที่ %{email} เมื่อสคริปต์รันเสร็จสิ้น"
+      script_name: "ชื่อสคริปต์:"
+      select_script: "เลือกสคริปต์ python ที่จะรัน"
+      started_at: "เริ่มต้นเมื่อ:"
+      tab_help: "ความช่วยเหลือ"
+      tab_scripts: "รันสคริปต์"
+      tab_settings: "การตั้งค่า / เนื้อหาที่สร้าง"
+      tags: "แท็ก"
+      tags_description: "สร้างแท็กอัตโนมัติในทุกรายการที่สามารถติดแท็กได้"
+      title: "AI / Machine learning"
+    cookies:
+      vendors:
+        empty: ไม่พบผู้ให้บริการ
+        third_party_cookies: คุกกี้ของบุคคลที่สาม
+        create_button: สร้างผู้ให้บริการคุกกี้
+        create:
+          notice: สร้างผู้ให้บริการคุกกี้สำเร็จแล้ว
+        new:
+          title: ผู้ให้บริการคุกกี้ใหม่
+        edit:
+          title: แก้ไขผู้ให้บริการคุกกี้
+        update:
+          notice: อัปเดตผู้ให้บริการคุกกี้สำเร็จแล้ว
+        destroy:
+          notice: ลบผู้ให้บริการคุกกี้สำเร็จแล้ว
+        form:
+          name:
+            help_text: ข้อมูลนี้จะเผยแพร่ต่อสาธารณะ
+          cookie:
+            help_text: ข้อมูลนี้จะใช้ภายใน ชื่อคุกกี้ต้องไม่ซ้ำกัน และสามารถมีได้เฉพาะตัวอักษร ตัวเลข และเครื่องหมายขีดล่างเท่านั้น
+          description:
+            help_text: ข้อมูลนี้จะเผยแพร่ต่อสาธารณะ
+          script:
+            help_text: นี่คือสคริปต์ที่จะรันเมื่อผู้ใช้ยอมรับคุกกี้นี้ คุณสามารถใส่โค้ด Javascript ธรรมดาที่นี่และแนะนำการอ้างอิงถึง javascript ของแอปพลิเคชันอื่นได้

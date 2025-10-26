@@ -1,0 +1,242 @@
+th:
+  settings:
+    comments_body_max_length: "ความยาวสูงสุดของความคิดเห็น"
+    comments_body_max_length_description: "จำนวนตัวอักษรสูงสุด"
+    official_level_1_name: "เจ้าหน้าที่ระดับ 1"
+    official_level_1_name_description: "ป้ายที่แสดงในผู้ใช้ที่ถูกทำเครื่องหมายเป็นเจ้าหน้าที่ระดับ 1"
+    official_level_2_name: "เจ้าหน้าที่ระดับ 2"
+    official_level_2_name_description: "ป้ายที่แสดงในผู้ใช้ที่ถูกทำเครื่องหมายเป็นเจ้าหน้าที่ระดับ 2"
+    official_level_3_name: "เจ้าหน้าที่ระดับ 3"
+    official_level_3_name_description: "ป้ายที่แสดงในผู้ใช้ที่ถูกทำเครื่องหมายเป็นเจ้าหน้าที่ระดับ 3"
+    official_level_4_name: "เจ้าหน้าที่ระดับ 4"
+    official_level_4_name_description: "ป้ายที่แสดงในผู้ใช้ที่ถูกทำเครื่องหมายเป็นเจ้าหน้าที่ระดับ 4"
+    official_level_5_name: "เจ้าหน้าที่ระดับ 5"
+    official_level_5_name_description: "ป้ายที่แสดงในผู้ใช้ที่ถูกทำเครื่องหมายเป็นเจ้าหน้าที่ระดับ 5"
+    max_ratio_anon_votes_on_debates: "สัดส่วนสูงสุดของการลงคะแนนนิรนามต่อการอภิปราย"
+    max_ratio_anon_votes_on_debates_description: "การลงคะแนนนิรนามมาจากผู้ใช้ที่ลงทะเบียนแต่ยังไม่ยืนยันบัญชี"
+    max_votes_for_proposal_edit: "จำนวนการสนับสนุนที่ทำให้ข้อเสนอไม่สามารถแก้ไขได้"
+    max_votes_for_proposal_edit_description: "เมื่อข้อเสนอได้รับการสนับสนุนถึงจำนวนนี้ ผู้เขียนจะไม่สามารถแก้ไขได้"
+    max_votes_for_debate_edit: "จำนวนคะแนนที่ทำให้การอภิปรายไม่สามารถแก้ไขได้"
+    max_votes_for_debate_edit_description: "เมื่อได้จำนวนคะแนนนี้แล้ว การอภิปรายจะไม่สามารถแก้ไขได้"
+    proposal_code_prefix: "คำนำหน้ารหัสข้อเสนอ"
+    proposal_code_prefix_description: "คำนำหน้านี้จะแสดงในข้อเสนอก่อนวันที่สร้างและ ID"
+    featured_proposals_number: "จำนวนข้อเสนอเด่น"
+    featured_proposals_number_description: "จำนวนข้อเสนอเด่นที่จะแสดงเมื่อฟีเจอร์เปิดใช้งาน"
+    votes_for_proposal_success: "จำนวนการสนับสนุนที่ต้องการให้ข้อเสนอสำเร็จ"
+    votes_for_proposal_success_description: "เมื่อข้อเสนอได้รับการสนับสนุนครบจำนวนนี้ จะถือว่าสำเร็จและไม่รับการสนับสนุนเพิ่ม"
+    months_to_archive_proposals: "เดือนก่อนเก็บข้อเสนอเข้าคลัง"
+    months_to_archive_proposals_description: "หลังจากจำนวนเดือนนี้ ข้อเสนอจะถูกเก็บเข้าคลังและไม่สามารถรับการสนับสนุนได้"
+    email_domain_for_officials: "โดเมนอีเมลสำหรับเจ้าหน้าที่รัฐ"
+    email_domain_for_officials_description: "ผู้ใช้ที่ลงทะเบียนด้วยโดเมนนี้จะได้รับการยืนยันบัญชีอัตโนมัติ"
+    twitter_handle: "บัญชี Twitter"
+    twitter_handle_description: "หากระบุ จะปรากฏที่ส่วนท้าย"
+    twitter_hashtag: "แฮชแท็ก Twitter"
+    twitter_hashtag_description: "แฮชแท็กที่จะปรากฏเมื่อแชร์บน Twitter"
+    facebook_handle: "บัญชี Facebook"
+    facebook_handle_description: "หากระบุ จะปรากฏที่ส่วนท้าย"
+    youtube_handle: "บัญชี Youtube"
+    youtube_handle_description: "หากระบุ จะปรากฏที่ส่วนท้าย"
+    telegram_handle: "บัญชี Telegram"
+    telegram_handle_description: "หากระบุ จะปรากฏที่ส่วนท้าย"
+    instagram_handle: "บัญชี Instagram"
+    instagram_handle_description: "หากระบุ จะปรากฏที่ส่วนท้าย"
+    org_name: "ชื่อเว็บไซต์"
+    org_name_description: "ชื่อนี้จะปรากฏในหัวอีเมล หน้าช่วยเหลือ ..."
+    related_content_score_threshold: "เกณฑ์คะแนนเนื้อหาที่เกี่ยวข้อง"
+    related_content_score_threshold_description: "ตามการให้คะแนนจากการโหวตในเนื้อหาที่เกี่ยวข้อง จะซ่อนเนื้อหาที่ผู้ใช้ทำเครื่องหมายว่าไม่เกี่ยวข้อง"
+    hot_score_period_in_days: "ช่วงเวลา (วัน) สำหรับตัวกรอง 'กิจกรรมมากที่สุด'"
+    hot_score_period_in_days_description: "ตัวกรอง 'กิจกรรมมากที่สุด' จะอิงจากการโหวตในช่วง X วันที่ผ่านมา"
+    mailer_from_name: "ชื่อผู้ส่งอีเมล"
+    mailer_from_name_description: "ชื่อนี้จะปรากฏเป็นชื่อผู้ส่งในอีเมลที่ส่งจากแอป"
+    mailer_from_address: "ที่อยู่อีเมลผู้ส่ง"
+    mailer_from_address_description: "ที่อยู่อีเมลนี้จะปรากฏในอีเมลที่ส่งจากแอป"
+    meta_title: "หัวข้อเว็บไซต์ (SEO)"
+    meta_title_description: "หัวข้อสำหรับแท็ก <title> ของไซต์ ใช้เพื่อปรับปรุง SEO"
+    meta_description: "คำอธิบายเว็บไซต์ (SEO)"
+    meta_description_description: "คำอธิบายเว็บไซต์ <meta name=\"description\"> ใช้เพื่อปรับปรุง SEO"
+    meta_keywords: "คำค้นหา (SEO)"
+    meta_keywords_description: "คำค้นหา <meta name=\"keywords\"> ใช้เพื่อปรับปรุง SEO"
+    min_age_to_participate: "อายุขั้นต่ำเพื่อเข้าร่วม"
+    min_age_to_participate_description: "ผู้ใช้ที่มีอายุมากกว่านี้สามารถเข้าร่วมในกระบวนการที่ต้องการบัญชียืนยันได้"
+    postal_codes: "รหัสไปรษณีย์"
+    postal_codes_description: "รายการรหัสไปรษณีย์ที่ถูกต้อง แยกด้วยคอมม่า สามารถระบุช่วงด้วยเครื่องหมาย ':' ตัวอย่าง: 00001:00010,00024,AB3 45FG,00031:00035 หากปล่อยว่าง จะยอมรับรหัสทั้งหมด"
+    proposals:
+      successful_proposal_id: ข้อเสนอที่ประสบความสำเร็จ
+      successful_proposal_id_description: ข้อเสนอนี้ใช้เป็นข้อมูลอ้างอิงสำหรับข้อเสนอที่ประสบความสำเร็จในจำนวนการสนับสนุนและจะแสดงในกราฟแดชบอร์ด
+      poll_short_title: แบบสำรวจ
+      poll_short_title_description: คำอธิบายสั้น ๆ ของคุณสมบัติแบบสำรวจ อนุญาตให้ผู้ใช้สร้างแบบสำรวจในข้อเสนอ
+      poll_description: คำอธิบายแบบสำรวจ
+      poll_description_description: คำอธิบายโดยละเอียดของคุณสมบัติแบบสำรวจ
+      poll_link: ลิงก์ข้อมูลเพิ่มเติม
+      poll_link_description: เพิ่มลิงก์ข้อมูลเพิ่มเติมให้กับคุณสมบัติแบบสำรวจ
+      email_short_title: อีเมล
+      email_short_title_description: "คำอธิบายสั้น ๆ ของคุณสมบัติอีเมล อนุญาตให้ผู้ใช้ส่งอีเมลเพื่อโปรโมตข้อเสนอของตน เนื้อหาทั้งหมดของอีเมลนี้สามารถพบได้ใน \"/app/views/dashboard/mailer/forward.html.erb\""
+      email_description: คำอธิบายอีเมล
+      email_description_description: คำอธิบายโดยละเอียดของคุณสมบัติอีเมล
+      poster_short_title: โปสเตอร์
+      poster_short_title_description: "คำอธิบายสั้น ๆ ของคุณสมบัติโปสเตอร์ อนุญาตให้ผู้ใช้ดาวน์โหลดโปสเตอร์ในรูปแบบ PDF เพื่อโปรโมตข้อเสนอของตน เนื้อหาทั้งหมดของโปสเตอร์นี้สามารถพบได้ใน \"/app/views/dashboard/poster/index.pdf.erb\""
+      poster_description: คำอธิบายโปสเตอร์
+      poster_description_description: คำอธิบายโดยละเอียดของคุณสมบัติโปสเตอร์
+    analytics_url: "URL การวิเคราะห์"
+    proposal_notification_minimum_interval_in_days: "ช่วงเวลาขั้นต่ำ (เป็นวัน) สำหรับผู้เขียนข้อเสนอในการส่งการแจ้งเตือนข้อเสนอใหม่"
+    proposal_notification_minimum_interval_in_days_description: "จำนวนวันที่ผู้ใช้สามารถส่งการแจ้งเตือนสำหรับผู้ติดตามข้อเสนอทั้งหมดของตน"
+    direct_message_max_per_day: "จำนวนข้อความส่วนตัวสูงสุดต่อวัน"
+    direct_message_max_per_day_description: "จำนวนสูงสุดของข้อความส่วนตัวที่ผู้ใช้หนึ่งคนสามารถส่งได้ต่อวัน"
+    feature:
+      twitter_login: "การเข้าสู่ระบบด้วย Twitter"
+      twitter_login_description: "อนุญาตให้ผู้ใช้ลงทะเบียนด้วยบัญชี Twitter ของตน"
+      facebook_login: "การเข้าสู่ระบบด้วย Facebook"
+      facebook_login_description: "อนุญาตให้ผู้ใช้ลงทะเบียนด้วยบัญชี Facebook ของตน"
+      google_login: "การเข้าสู่ระบบด้วย Google"
+      google_login_description: "อนุญาตให้ผู้ใช้ลงทะเบียนด้วยบัญชี Google ของตน"
+      wordpress_login: "การเข้าสู่ระบบด้วย Wordpress"
+      wordpress_login_description: "อนุญาตให้ผู้ใช้ลงทะเบียนด้วยบัญชี Wordpress ของตน"
+      oidc_login: "การเข้าสู่ระบบด้วย OpenID Connect"
+      oidc_login_description: "อนุญาตให้ผู้ใช้ลงทะเบียนด้วย OpenID Connect (OIDC)"
+      saml_login: "การเข้าสู่ระบบด้วย SAML"
+      saml_login_description: "อนุญาตให้ผู้ใช้ลงทะเบียนด้วย SAML"
+      featured_proposals: "ข้อเสนอเด่น"
+      featured_proposals_description: "แสดงข้อเสนอเด่นในหน้าดัชนีข้อเสนอ"
+      signature_sheets: "ใบลงชื่อ"
+      signature_sheets_description: "อนุญาตให้เพิ่มลายเซ็นที่รวบรวมในสถานที่จริงไปยังข้อเสนอและโครงการลงทุนของงบประมาณแบบมีส่วนร่วมจากแผงผู้ดูแลระบบ"
+      user:
+        recommendations: "คำแนะนำ"
+        recommendations_description: "แสดงคำแนะนำผู้ใช้ในหน้าแรกตามแท็กของรายการที่ติดตาม"
+        skip_verification: "ข้ามการยืนยันผู้ใช้"
+        skip_verification_description: "สิ่งนี้จะปิดใช้งานการยืนยันผู้ใช้ และผู้ใช้ที่ลงทะเบียนทั้งหมดจะสามารถเข้าร่วมในทุกกระบวนการได้"
+        recommendations_on_debates: "คำแนะนำในการอภิปราย"
+        recommendations_on_debates_description: "แสดงคำแนะนำผู้ใช้ในหน้าการอภิปรายตามแท็กของรายการที่ติดตาม"
+        recommendations_on_proposals: "คำแนะนำในข้อเสนอ"
+        recommendations_on_proposals_description: "แสดงคำแนะนำผู้ใช้ในหน้าข้อเสนอตามแท็กของรายการที่ติดตาม"
+      community: "ชุมชนในข้อเสนอและการลงทุน"
+      community_description: "เปิดใช้งานส่วนชุมชนในข้อเสนอและโครงการลงทุนของงบประมาณแบบมีส่วนร่วม"
+      machine_learning: "AI / การเรียนรู้ของเครื่อง"
+      machine_learning_description: "เปิดใช้งานส่วน AI / การเรียนรู้ของเครื่องเพื่อรันสคริปต์ python และเพิ่มเนื้อหาโดยอัตโนมัติ"
+      map: "ตำแหน่งทางภูมิศาสตร์ของข้อเสนอและการลงทุนด้านงบประมาณ"
+      map_description: "เปิดใช้งานการระบุตำแหน่งทางภูมิศาสตร์ของข้อเสนอและโครงการลงทุน"
+      allow_images: "อนุญาตให้อัปโหลดและแสดงรูปภาพ"
+      allow_images_description: "อนุญาตให้ผู้ใช้อัปโหลดรูปภาพเมื่อสร้างข้อเสนอและโครงการลงทุนจากงบประมาณแบบมีส่วนร่วม"
+      allow_attached_documents: "อนุญาตให้อัปโหลดและแสดงเอกสารแนบ"
+      allow_attached_documents_description: "อนุญาตให้ผู้ใช้อัปโหลดเอกสารเมื่อสร้างข้อเสนอและโครงการลงทุนจากงบประมาณแบบมีส่วนร่วม"
+      guides: "คู่มือการสร้างข้อเสนอหรือโครงการลงทุน"
+      guides_description: "แสดงคู่มือความแตกต่างระหว่างข้อเสนอและโครงการลงทุนหากมีงบประมาณแบบมีส่วนร่วมที่ใช้งานอยู่"
+      help_page: "หน้าช่วยเหลือ"
+      help_page_description: "แสดงเมนูช่วยเหลือที่มีหน้าพร้อมส่วนข้อมูลเกี่ยวกับแต่ละคุณสมบัติที่เปิดใช้งาน นอกจากนี้ยังสามารถสร้างหน้าและเมนูที่กำหนดเองได้ในส่วน \"หน้าที่กำหนดเอง\" และ \"บล็อกเนื้อหาที่กำหนดเอง\""
+      remote_translations: "การแปลระยะไกล"
+      remote_translations_description: "แสดงปุ่มที่อนุญาตให้ผู้ใช้ขอการแปลเมื่อไม่มีเนื้อหาในภาษาของตน"
+      translation_interface: "ส่วนต่อประสานการแปล"
+      translation_interface_description: "แสดงส่วนต่อประสานการแปลด้วยตนเองที่อนุญาตให้ผู้ใช้ใส่เนื้อหาของตนในทุกภาษาที่มีในแอปพลิเคชัน ตัวเลือกนี้ส่งผลกระทบเฉพาะต่อแบบฟอร์มใบสมัครของผู้ใช้และจะใช้งานได้เสมอในแผงผู้ดูแลระบบ"
+      remote_census: "กำหนดค่าการเชื่อมต่อกับสำมะโนระยะไกล (SOAP)"
+      remote_census_description: "อนุญาตให้กำหนดค่าการเชื่อมต่อกับสำมะโนระยะไกลของแต่ละสถาบัน"
+      valuation_comment_notification: "การแจ้งเตือนความคิดเห็นการประเมินค่า"
+      valuation_comment_notification_description: "ส่งอีเมลไปยังผู้ใช้ที่เกี่ยวข้องทั้งหมด ยกเว้นผู้แสดงความคิดเห็นการประเมินค่า เพื่อแจ้งการลงทุนด้านงบประมาณเมื่อมีการสร้างความคิดเห็นการประเมินค่าใหม่"
+      graphql_api: "GraphQL API"
+      dashboard:
+        notification_emails: "อีเมลแจ้งเตือนแดชบอร์ด"
+        notification_emails_description: "เปิดใช้งานการส่งอีเมลแจ้งเตือนแดชบอร์ดไปยังผู้เขียนข้อเสนอ"
+      remove_investments_supports: "อนุญาตให้ลบการสนับสนุนในการลงทุนด้านงบประมาณ"
+      remove_investments_supports_description: "อนุญาตให้ผู้ใช้ลบการสนับสนุนในการลงทุนด้านงบประมาณแบบมีส่วนร่วมในระหว่างระยะการเลือกโครงการ"
+      sdg: SDG
+      sdg_description: เปิดใช้งานส่วนเป้าหมายการพัฒนาที่ยั่งยืนในเมนูผู้ดูแลระบบและในการตั้งค่าทั่วโลก
+      cookies_consent: แบนเนอร์การยินยอมคุกกี้
+      cookies_consent_description: เปิดใช้งานแบนเนอร์การยินยอมคุกกี้เพื่อแจ้งให้ผู้ใช้ทราบเกี่ยวกับคุกกี้ที่แอปพลิเคชันใช้
+      gdpr:
+        require_consent_for_notifications: ความยินยอมโดยชัดแจ้งสำหรับการแจ้งเตือน
+        require_consent_for_notifications_description: ต้องได้รับความยินยอมโดยชัดแจ้งจากผู้ใช้เพื่อส่งจดหมายข่าวและข้อมูลที่คล้ายกันตามที่กำหนดโดยกฎระเบียบการคุ้มครองข้อมูลส่วนบุคคลทั่วไป (GDPR)
+    remote_census:
+      general:
+        endpoint: "จุดสิ้นสุด"
+        endpoint_description: "ชื่อโฮสต์ที่บริการสำมะโนพร้อมใช้งาน (wsdl)"
+      request:
+        method_name: "ชื่อวิธีการร้องขอ"
+        method_name_description: "ชื่อวิธีการร้องขอที่บริการเว็บสำมะโนเมืองยอมรับ"
+        structure: "โครงสร้างคำขอ"
+        structure_description: "โครงสร้างของคำขอที่จะส่งไปยังบริการเว็บสำมะโนของสภาเมือง ค่า \"คงที่\" ของคำขอนี้ควรถูกกรอก ค่าที่เกี่ยวข้องกับประเภทเอกสาร หมายเลขเอกสาร วันเกิด และรหัสไปรษณีย์ควรเป็น null ตัวอย่างรูปแบบที่ถูกต้อง: { \"request\": { \"codigo_institucion\": 1, \"codigo_portal\": 1, \"codigo_usuario\": 1, \"documento\": null, \"tipo_documento\": null, \"codigo_idioma\": 102, \"nivel\": 3 } }"
+        document_type: "เส้นทางสำหรับประเภทเอกสาร"
+        document_type_description: "เส้นทางในโครงสร้างคำขอที่ส่งประเภทเอกสาร **อย่ากรอก** หากบริการเว็บไม่ต้องการประเภทเอกสารเพื่อยืนยันผู้ใช้"
+        document_number: "เส้นทางสำหรับหมายเลขเอกสาร"
+        document_number_description: "เส้นทางในโครงสร้างคำขอที่ส่งหมายเลขเอกสาร **อย่ากรอก** หากบริการเว็บไม่ต้องการหมายเลขเอกสารเพื่อยืนยันผู้ใช้"
+        date_of_birth: "เส้นทางสำหรับวันเกิด"
+        date_of_birth_description: "เส้นทางในโครงสร้างคำขอที่ส่งวันเกิด **อย่ากรอก** หากบริการเว็บไม่ต้องการวันเกิดเพื่อยืนยันผู้ใช้"
+        postal_code: "เส้นทางสำหรับรหัสไปรษณีย์"
+        postal_code_description: "เส้นทางในโครงสร้างคำขอที่ส่งรหัสไปรษณีย์ **อย่ากรอก** หากบริการเว็บไม่ต้องการรหัสไปรษณีย์เพื่อยืนยันผู้ใช้"
+      response:
+        date_of_birth: "เส้นทางสำหรับวันเกิด"
+        date_of_birth_description: "วันเกิดของผู้ใช้อยู่ในเส้นทางใดของการตอบกลับ?"
+        postal_code: "เส้นทางสำหรับรหัสไปรษณีย์"
+        postal_code_description: "รหัสไปรษณีย์ของผู้ใช้อยู่ในเส้นทางใดของการตอบกลับ?"
+        district: "เส้นทางสำหรับเขต"
+        district_description: "เขตของผู้ใช้อยู่ในเส้นทางใดของการตอบกลับ?"
+        gender: "เส้นทางสำหรับเพศ"
+        gender_description: "เพศของผู้ใช้อยู่ในเส้นทางใดของการตอบกลับ?"
+        name: "เส้นทางสำหรับชื่อ"
+        name_description: "ชื่อของผู้ใช้อยู่ในเส้นทางใดของการตอบกลับ?"
+        surname: "เส้นทางสำหรับนามสกุล"
+        surname_description: "นามสกุลของผู้ใช้อยู่ในเส้นทางใดของการตอบกลับ?"
+        valid: "เงื่อนไขสำหรับการตรวจจับการตอบกลับที่ถูกต้อง"
+        valid_description: "เส้นทางการตอบกลับใดที่ต้องได้รับการแจ้งเพื่อให้ถือว่าเป็นการตอบกลับที่ถูกต้องและผู้ใช้ได้รับการยืนยัน"
+    map:
+      feature:
+        marker_clustering: "การจัดกลุ่มเครื่องหมาย"
+        marker_clustering_description: "เปิดใช้งานการจัดกลุ่มเครื่องหมายแผนที่ มีประโยชน์เมื่อมีเครื่องหมายจำนวนมากที่จะแสดง"
+      latitude: "ละติจูด"
+      latitude_description: "ละติจูดเพื่อแสดงตำแหน่งแผนที่"
+      longitude: "ลองจิจูด"
+      longitude_description: "ลองจิจูดเพื่อแสดงตำแหน่งของแผนที่"
+      zoom: "การซูม"
+      zoom_description: "การซูมเพื่อแสดงตำแหน่งแผนที่"
+    process:
+      debates: "การอภิปราย"
+      debates_description: "พื้นที่การอภิปรายของพลเมืองมีไว้สำหรับทุกคนที่สามารถนำเสนอประเด็นที่ตนสนใจและต้องการแบ่งปันความคิดเห็นกับผู้อื่น"
+      proposals: "ข้อเสนอ"
+      proposals_description: "ข้อเสนอของพลเมืองเป็นโอกาสสำหรับเพื่อนบ้านและกลุ่มต่าง ๆ ในการตัดสินใจโดยตรงว่าพวกเขาต้องการให้สังคมของพวกเขาเป็นอย่างไร หลังจากได้รับการสนับสนุนที่เพียงพอและส่งเข้าร่วมการโหวตของพลเมือง"
+      polls: "แบบสำรวจ"
+      polls_description: "แบบสำรวจของพลเมืองเป็นกลไกการมีส่วนร่วมที่พลเมืองที่มีสิทธิ์ลงคะแนนสามารถตัดสินใจโดยตรงได้"
+      budgets: "งบประมาณแบบมีส่วนร่วม"
+      budgets_description: "ด้วยงบประมาณแบบมีส่วนร่วม พลเมืองจะตัดสินใจว่าโครงการที่เพื่อนบ้านนำเสนอจะได้รับส่วนหนึ่งของงบประมาณ"
+      legislation: "กฎหมายร่วมกัน"
+      legislation_description: "ในกระบวนการมีส่วนร่วม พลเมืองจะได้รับโอกาสในการเข้าร่วมในการร่างและการแก้ไขกฎระเบียบที่ส่งผลกระทบต่อสังคม และแสดงความคิดเห็นเกี่ยวกับการดำเนินการบางอย่างที่วางแผนไว้"
+    html:
+      per_page_code_head: "โค้ดที่จะรวมในทุกหน้า (<head>)"
+      per_page_code_head_description: "โค้ดนี้จะปรากฏภายในแท็ก <head> มีประโยชน์สำหรับการใส่สคริปต์ที่กำหนดเอง การวิเคราะห์..."
+      per_page_code_body: "โค้ดที่จะรวมในทุกหน้า (<body>)"
+      per_page_code_body_description: "โค้ดนี้จะปรากฏภายในแท็ก <body> มีประโยชน์สำหรับการใส่สคริปต์ที่กำหนดเอง การวิเคราะห์..."
+    uploads:
+      images:
+        min_width: "ความกว้างขั้นต่ำของรูปภาพ"
+        min_width_description: "ความกว้างขั้นต่ำที่อนุญาตสำหรับรูปภาพที่อัปโหลด (เป็นพิกเซล)"
+        min_height: "ความสูงขั้นต่ำของรูปภาพ"
+        min_height_description: "ความสูงขั้นต่ำที่อนุญาตสำหรับรูปภาพที่อัปโหลด (เป็นพิกเซล)"
+        max_size: "ขนาดสูงสุดของรูปภาพ"
+        max_size_description: "ขนาดสูงสุดที่อนุญาตสำหรับรูปภาพที่อัปโหลด (เป็นเมกะไบต์/MB)"
+        content_types: "ประเภทเนื้อหาที่ยอมรับสำหรับรูปภาพ"
+        content_types_description: "เลือกประเภทเนื้อหาทั้งหมดที่อนุญาตสำหรับรูปภาพที่อัปโหลด"
+        title:
+          min_length: "ความยาวขั้นต่ำของชื่อรูปภาพ"
+          min_length_description: "ชื่อที่ผู้ใช้ให้เมื่ออัปโหลดรูปภาพ (ใช้เป็นแอตทริบิวต์ alt HTML)"
+          max_length: "ความยาวสูงสุดของชื่อรูปภาพ"
+          max_length_description: "ชื่อที่ผู้ใช้ให้เมื่ออัปโหลดรูปภาพ (ใช้เป็นแอตทริบิวต์ alt HTML)"
+      documents:
+        max_amount: "จำนวนเอกสารสูงสุด"
+        max_amount_description: "จำนวนเอกสารสูงสุดที่สามารถแนบกับข้อเสนอ การลงทุน..."
+        max_size: "ขนาดสูงสุดของเอกสาร"
+        max_size_description: "ขนาดสูงสุดที่อนุญาตสำหรับเอกสารที่อัปโหลด (เป็นเมกะไบต์/MB)"
+        content_types: "ประเภทเนื้อหาที่ยอมรับสำหรับเอกสาร"
+        content_types_description: "เลือกประเภทเนื้อหาทั้งหมดที่อนุญาตสำหรับเอกสารที่อัปโหลด"
+    sdg:
+      process:
+        debates: SDG ที่เกี่ยวข้องในการอภิปราย
+        debates_description: อนุญาตให้การอภิปรายเชื่อมโยงกับเป้าหมายการพัฒนาที่ยั่งยืน
+        proposals: SDG ที่เกี่ยวข้องในข้อเสนอ
+        proposals_description: อนุญาตให้ข้อเสนอเชื่อมโยงกับเป้าหมายการพัฒนาที่ยั่งยืน
+        polls: SDG ที่เกี่ยวข้องในแบบสำรวจ
+        polls_description: อนุญาตให้แบบสำรวจเชื่อมโยงกับเป้าหมายการพัฒนาที่ยั่งยืน
+        budgets: SDG ที่เกี่ยวข้องในงบประมาณแบบมีส่วนร่วม
+        budgets_description: อนุญาตให้งบประมาณแบบมีส่วนร่วมเชื่อมโยงกับเป้าหมายการพัฒนาที่ยั่งยืน
+        legislation: SDG ที่เกี่ยวข้องในกฎหมายร่วมกัน
+        legislation_description: อนุญาตให้กฎหมายร่วมกันเชื่อมโยงกับเป้าหมายการพัฒนาที่ยั่งยืน
+    cookies_consent:
+      more_info_link: ลิงก์ไปยังนโยบายคุกกี้
+      more_info_link_description: ลิงก์ที่แสดงในแบนเนอร์ความยินยอมไปยังหน้าจอนโยบายคุกกี้
+      version_name: ชื่อเวอร์ชัน
+      version_name_description: เปลี่ยนชื่อเวอร์ชันเพื่อบังคับให้ผู้ใช้ทุกคนเข้าสู่กระบวนการยินยอมคุกกี้อีกครั้ง คุณสมบัตินี้มีประโยชน์เมื่อมีการเปลี่ยนแปลงนโยบายคุกกี้อย่างรุนแรงซึ่งต้องได้รับการยอมรับจากผู้ใช้ใหม่

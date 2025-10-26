@@ -1,0 +1,50 @@
+th:
+  sdg_management:
+    actions:
+      edit: "จัดการเป้าหมายและเป้าประสงค์"
+    header:
+      title: "เนื้อหา SDG"
+    homepage:
+      title: "การกำหนดค่าหน้าแรก"
+      header:
+        create: "สร้างส่วนหัว"
+        no_cards: "ไม่มีส่วนหัว"
+        title: "ส่วนหัว"
+      create_card: "สร้างการ์ด %{phase}"
+      no_cards: "ไม่มีการ์ดสำหรับระยะนี้"
+    menu:
+      budget_investments: "งบประมาณแบบมีส่วนร่วม"
+      debates: "การอภิปราย"
+      legislation_processes: "กระบวนการกฎหมาย"
+      legislation_proposals: "ข้อเสนอกฎหมาย"
+      polls: "แบบสำรวจ"
+      proposals: "ข้อเสนอ"
+      sdg_content: "เป้าหมายและเป้าประสงค์"
+      sdg_homepage: "หน้าแรก SDG"
+    local_targets:
+      create:
+        notice: "สร้างเป้าประสงค์ท้องถิ่นสำเร็จแล้ว"
+      destroy:
+        notice: "ลบเป้าประสงค์ท้องถิ่นสำเร็จแล้ว"
+      edit:
+        title: "แก้ไขเป้าประสงค์ท้องถิ่น"
+      form:
+        code: "รหัสต้องเริ่มต้นด้วยรหัสเป้าประสงค์ที่เลือกตามด้วยจุด"
+        description: "คำอธิบายนี้จะแสดงเป็นความช่วยเหลือแก่ผู้ใช้"
+      index:
+        new: "สร้างเป้าประสงค์ท้องถิ่น"
+      new:
+        title: "เป้าประสงค์ท้องถิ่นใหม่"
+      update:
+        notice: "อัปเดตเป้าประสงค์ท้องถิ่นสำเร็จแล้ว"
+    relations:
+      index:
+        filter: "ตัวกรอง"
+        filters:
+          all: "ทั้งหมด"
+          pending_sdg_review: "รอดำเนินการ"
+          sdg_reviewed: "ทำเครื่องหมายว่าตรวจสอบแล้ว"
+      update:
+        notice: "%{relatable} อัปเดตสำเร็จแล้ว"
+      update_and_review:
+        notice: "%{relatable} อัปเดตสำเร็จแล้วและทำเครื่องหมายว่าตรวจสอบแล้ว"

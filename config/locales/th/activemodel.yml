@@ -1,0 +1,50 @@
+th:
+  activemodel:
+    models:
+      verification:
+        residence: "ที่พักอาศัย"
+        sms: "SMS"
+      local_census_records/import:
+        one: "นำเข้าบันทึกสำมะโนท้องถิ่น"
+        other: "นำเข้าบันทึกสำมะโนท้องถิ่น (หลายรายการ)"
+    attributes:
+      verification:
+        residence:
+          document_type: "ประเภทเอกสาร"
+          document_number: "หมายเลขเอกสาร (รวมตัวอักษร)"
+          date_of_birth: "วันเกิด"
+          postal_code: "รหัสไปรษณีย์"
+        sms:
+          phone: "โทรศัพท์"
+          confirmation_code: "รหัสยืนยัน"
+        email:
+          recipient: "อีเมล"
+      verification/letter:
+        email: "อีเมล"
+        password: "รหัสผ่าน"
+        verification_code: "รหัสที่คุณได้รับทางจดหมาย"
+      verification/management/document:
+        document_type: "ประเภทเอกสาร:"
+        document_number: "หมายเลขเอกสาร"
+      verification/residence:
+        date_of_birth: "วันเกิด"
+        document_type: "ประเภทเอกสาร"
+        postal_code: "รหัสไปรษณีย์"
+      verification/sms:
+        confirmation_code: "กรอกรหัสที่คุณได้รับทางมือถือ"
+      officing/residence:
+        document_type: "ประเภทเอกสาร"
+        document_number: "หมายเลขเอกสาร (รวมตัวอักษร)"
+        year_of_birth: "ปีเกิด"
+      local_census_records/import:
+        file: "ไฟล์"
+      setting/locales_settings:
+        default: "ภาษาปริยาย"
+        enabled: "ภาษาที่เปิดใช้งาน"
+    errors:
+      models:
+        local_census_records/import:
+          attributes:
+            file:
+              extension: "รูปแบบไฟล์ไม่ถูกต้อง รูปแบบที่อนุญาตคือ: %{valid_extensions}."
+              headers: "หัวตารางไฟล์ไม่ถูกต้อง หัวตารางต้องมีชื่อดังต่อไปนี้: %{required_headers}."

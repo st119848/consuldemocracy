@@ -1,0 +1,16 @@
+th:
+  images:
+    remove_image: ลบรูปภาพ
+    form:
+      title: รูปภาพเชิงพรรณนา
+      delete_button: ลบรูปภาพ
+      note: "คุณสามารถอัปโหลดรูปภาพหนึ่งภาพที่มีประเภทเนื้อหาดังต่อไปนี้: %{accepted_content_types} ขนาดสูงสุดไม่เกิน %{max_file_size} MB"
+      add_new_image: เพิ่มรูปภาพ
+    actions:
+      destroy:
+        notice: ลบรูปภาพสำเร็จแล้ว
+        alert: ไม่สามารถลบรูปภาพได้
+    errors:
+      messages:
+        in_between: ต้องอยู่ระหว่าง %{min} และ %{max}
+        wrong_content_type: ประเภทเนื้อหา %{content_type} ไม่ตรงกับประเภทเนื้อหาที่ยอมรับ %{accepted_content_types}
